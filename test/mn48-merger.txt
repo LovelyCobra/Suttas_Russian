@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние </b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Ссо́ра мона́хов из Косамби</a><br/> <a href="#a2">Шесть достопа́мятных ка́честв</a><br/> <a href="#a3">Семь сверхмирски́х зна́ний вступи́вшего в пото́к</a> </font>

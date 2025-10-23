@@ -1,0 +1,31 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b> Содержа́ние </b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a0">Бу́дда навеща́ет Ануруддху</a><br/> <a href="#a1">Джханы</a><br/> <a href="#a2">Бесфо́рменные сфе́ры</a><br/> <a href="#a3">Прекраще́ние восприя́тия и чу́вствования</a><br/> <a href="#a4">Бла́го и сча́стье для ми́ра</a><br/> </font>
+
+<font color="#996633" face="Times New Roman, Times, serif" size="5"><b><br/> <a name="a0"></a>Т</b></font>
+
+<font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал. Одна́жды Благослове́нный прожива́л в Надике, в Кирпи́чном до́ме.</font>
+
+<div class="a"><font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Thus have I heard. On one occasion the Blessed One was living at Nādikā in the Brick House.</i></font></div>
+
+<div class="a"> <font face="Arial, Helvetica, sans-serif" size="2">И тогда́, ве́чером, вы́йдя из медита́ции, Благослове́нный отпра́вился в лес Саловых Дере́вьев Госи́нги. Лесни́чий уви́дел Благослове́нного и́здали|изда́ли и сказа́л ему́: <br/> – Не входи́ в э́тот парк, отше́льник. Здесь тро́е представи́телей кла́на и́щут своего́ бла́га. Не беспоко́й их.</font> </div>
+
+<div class="a"><font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Then, when it was evening, the Blessed One rose from meditation and went to the Park of the Gosinga Sāla-tree Wood. The park keeper saw the Blessed One coming in the distance and told him: "Do not enter this park, recluse. There are three clansmen here seeking their own good. Do not disturb them."</i></font></div>
+
+<div class="a"> <font face="Arial, Helvetica, sans-serif" size="2">И достопочте́нный Ануруддха, услы́шав, как лесни́чий бесе́дует с Благослове́нным, сказа́л ему́: <br/> – Друг лесни́чий, не выдворя́й Благослове́нного. Э́то наш Учи́тель, Благослове́нный, пришёл». И зате́м достопочте́нный Ануруддха отпра́вился к достопочте́нному Нандии и достопочте́нному Кимбиле и сказа́л им:<br/> – Выхо́дите|Выходи́те, достопочте́нные, выхо́дите|выходи́те! Наш Учи́тель, Благослове́нный, пришёл.</font> </div>
+
+<div class="a"><font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> The venerable Anuruddha heard the park keeper speaking to the Blessed One and told him: "Friend park keeper, do not keep the Blessed One out. It is our Teacher, the Blessed One, who has come." Then the venerable Anuruddha went to the venerable Nandiya and the venerable Kimbila and said: "Come out, venerable sirs, come out! Our Teacher, the Blessed One, has come."</i></font></div>
+
+<div class="a"> <font face="Arial, Helvetica, sans-serif" size="2">И тогда́ все тро́е вы́шли встреча́ть Благослове́нного. Оди́н взял ча́шу и вне́шнее одея́ние, друго́й пригото́вил сиде́нье, тре́тий вы́ставил во́ду для мытья́ ног. Благослове́нный сел на подгото́вленное сиде́нье и вы́мыл но́ги|ноги́. Зате́м э́ти тро́е достопочте́нных поклони́лись Благослове́нному и се́ли ря́дом. Когда́ они́ се́ли ря́дом, Благослове́нный сказа́л им:</font> </div>
+
+<div class="a"><font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Then all three went to meet the Blessed One. One took his bowl and outer robe, one prepared a seat, and one set out water for washing the feet. The Blessed One sat down on the seat made ready and washed his feet. Then those three venerable ones paid homage to the Blessed One and sat down at one side. When they were seated, the Blessed One said to them:</i></font></div>
+
+<div class="a"> <font face="Arial, Helvetica, sans-serif" size="2"> – Я наде́юсь, Ануруддха, у вас всё в поря́дке, наде́юсь, вы живёте споко́йно, наде́юсь, что у вас нет пробле́м с собира́нием еды́ с подая́ний. </font> </div>
+
+<div class="a"><font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "I hope you are all keeping well, Anuruddha, I hope you are all comfortable, I hope you are not having any trouble getting almsfood."</i></font></div>
+
+<div class="a"> <font face="Arial, Helvetica, sans-serif" size="2"> – У нас всё в поря́дке, Благослове́нный, мы живём споко́йно, у нас нет пробле́м с собира́нием еды́ с подая́ний.</font> </div>
+
+<div class="a"><font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"We are keeping well, Blessed One, we are comfortable, and we are not having any trouble getting almsfood."</i></font></div>
+
+
