@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"><a href="#a1"><br/> Нра́вственность и сре́дства к жи́зни</a><br/> <a href="#a2">Охра́на двере́й чувств</a><br/> <a href="#a3">Уме́ренность в еде́</a><br/> <a href="#a4">Бо́дрствование</a><br/> <a href="#a5">Осо́знанность и бди́тельность</a><br/> <a href="#a6">Затво́рничество</a><br/> <a href="#a7">Джханы</a><br/> <a href="#a8">Вопро́с о достиже́нии ниббаны</a> </font>

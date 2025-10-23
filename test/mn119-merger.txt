@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Осо́знанность к дыха́нию</a><br/> <a href="#a2">Четы́ре по́зы</a><br/> <a href="#a3">Бди́тельность</a><br/> <a href="#a4">Ча́сти те́ла</a><br/> <a href="#a5">Элеме́нты</a><br/> <a href="#a6">Кладби́щенские созерца́ния</a><br/> <a href="#a7">Четы́ре джханы</a><br/> <a href="#a8">Разви́тие осо́знанности к те́лу</a><br/> <a href="#a9">По́льза от разви́тия осо́знанности к те́лу</a> </font>

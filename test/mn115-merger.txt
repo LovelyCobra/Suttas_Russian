@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Элеме́нты</a><br/> <a href="#a2">Сфе́ры</a><br/> <a href="#a3">Зави́симое возникнове́ние</a><br/> <a href="#a4">Возмо́жное и невозмо́жное|невозможно́е</a> </font>
