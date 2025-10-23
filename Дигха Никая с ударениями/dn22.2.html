@@ -1,0 +1,1347 @@
+<html>
+
+<head>
+    <title>Махасатипаттхана сутта: Большая сутта об основах памятования :: Дигха Никая 22</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        } catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                } catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat="" text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+                        
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+                        
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        .a {
+                            TEXT-INDENT: 2em
+                        }
+                        
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+                        
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+                        
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+                        
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                         <i>
+                                                <font face="Georgia, Times New Roman, Times, serif" size="2"><b>  
+                                                        Учение Старцев</b></font>
+                                            </i> </b>
+                                </font>
+                                </i>
+                            </td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td>
+                                            <a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%">
+                                <a href="../digha.htm#maha" style="border:0px;" title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a>
+                                <a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная лекция">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a>
+                            </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span></td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'>
+                                    <div align="right" class="a,">
+                                        <div style='font-size:17.0pt;font-family:"Arial"'> <a href="dn22-mahasatipatthansa-sutta-01-ivahnenko.htm" style="border:0px;" title="к предыдущей странице">←</a>       <i>
+                                                <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">
+                                                </font>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.</font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">
+                                            Махасатипаттхана сутта:<br /> Большая сутта об основах памятования<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="3">ДН 22</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%">
+                                    <div align="right"><i>
+                                            <font color="#996633">
+                                                <span style="font-size:8pt;font-family:Arial;">
+                                                    Перевод с английского: Д. А. Ивахненко<br />
+                                                    на основе перевода с пали Тханиссаро Бхиккху<br />
+                                                    источник: <br />
+                                                    <a href="http://www.dhamma.ru/canon/dn22.htm"
+                                                        target="_blank">www.dhamma.ru</a>
+                                                </span>
+                                            </font>
+                                        </i></div>
+                                </td>
+                                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                            </tr>
+                        </table>
+                        <br /><br />
+                        <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+                            <tr>
+                                <td style="text-align: justify" valign="top">
+                                </td>
+                                <td style="text-align: justify" valign="top"> </td>
+                                <td style="text-align: justify" valign="top">
+
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p12"></a>Семь
+                                                        фа́кторов Пробужде́ния</b><br />
+                                                    (Дхамманупассана бодджжхангапабба) </i></font>
+                                    </p>
+                                    <div>
+                                        <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>И</b>
+                                        </font>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"> да́лее, мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ семи́ фа́кторов Пробужде́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Каки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ семи́ фа́кторов Пробужде́ния?
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том,
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Па́мятование</i></font>
+                                    </p>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ в нём прису́тствует просветля́ющий фа́ктор па́мятования (сати́), мона́х распозна́ет|распознаёт, что в нём есть просветля́ющий фа́ктор па́мятования,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>ли́бо, когда́ в нём отсу́тствует просветля́ющий фа́ктор па́мятования, он распозна́ет|распознаёт, что в нём нет просветля́ющего фа́ктора па́мятования;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>и он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего просветля́ющего фа́ктора па́мятования;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>и как прихо́дит соверше́нство в разви́тии возни́кшего просветля́ющего фа́ктора па́мятования.
+                                        </font>
+                                    </ul>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Различе́ние ка́честв
+                                                    ума́</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует просветля́ющий фа́ктор различе́ния ка́честв ума́ (дха́мма-вичая), мона́х распозна́ет|распознаёт, что в нём есть просветля́ющий фа́ктор различе́ния ка́честв ума́, ли́бо, когда́ в нём отсу́тствует
+                                            просветля́ющий фа́ктор различе́ния ка́честв ума́, он распозна́ет|распознаёт, что в нём нет просветля́ющего фа́ктора различе́ния ка́честв ума́; и он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего
+                                            просветля́ющего фа́ктора различе́ния ка́честв ума́; и как прихо́дит соверше́нство в разви́тии возни́кшего просветля́ющего фа́ктора различе́ния ка́честв ума́.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Насто́йчивость</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует просветля́ющий фа́ктор насто́йчивости (вирья), мона́х распозна́ет|распознаёт, что в нём есть просветля́ющий фа́ктор насто́йчивости, ли́бо, когда́ в нём отсу́тствует просветля́ющий фа́ктор
+                                            насто́йчивости, он распозна́ет|распознаёт, что в нём нет просветля́ющего фа́ктора насто́йчивости; и он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего просветля́ющего фа́ктора насто́йчивости;
+                                            и как прихо́дит соверше́нство в разви́тии возни́кшего просветля́ющего фа́ктора насто́йчивости.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Восто́рг</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует просветля́ющий фа́ктор восто́рга (пити́), мона́х распозна́ет|распознаёт, что в нём есть просветля́ющий фа́ктор восто́рга, ли́бо, когда́ в нём отсу́тствует просветля́ющий фа́ктор восто́рга,
+                                            он распозна́ет|распознаёт, что в нём нет просветля́ющего фа́ктора восто́рга ; и он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего просветля́ющего фа́ктора восто́рга; и как прихо́дит соверше́нство
+                                            в разви́тии возни́кшего просветля́ющего фа́ктора восто́рга.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Безмяте́жность</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует просветля́ющий фа́ктор безмяте́жности (пассадхи), мона́х распозна́ет|распознаёт, что в нём есть просветля́ющий фа́ктор безмяте́жности, ли́бо, когда́ в нём отсу́тствует просветля́ющий фа́ктор
+                                            безмяте́жности, он распозна́ет|распознаёт, что в нём нет просветля́ющего фа́ктора безмяте́жности ; и он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего просветля́ющего фа́ктора безмяте́жности;
+                                            и как прихо́дит соверше́нство в разви́тии возни́кшего просветля́ющего фа́ктора безмяте́жности.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Сосредото́чение</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует просветля́ющий фа́ктор сосредото́чения (самадхи), мона́х распозна́ет|распознаёт, что в нём есть просветля́ющий фа́ктор сосредото́чения, ли́бо, когда́ в нём отсу́тствует просветля́ющий
+                                            фа́ктор сосредото́чения, он распозна́ет|распознаёт, что в нём нет просветля́ющего фа́ктора сосредото́чения; и он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего просветля́ющего фа́ктора сосредото́чения;
+                                            и как прихо́дит соверше́нство в разви́тии возни́кшего просветля́ющего фа́ктора сосредото́чения.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Равностность</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует просветля́ющий фа́ктор безмяте́жного наблюде́ния (упеккха), мона́х распозна́ет|распознаёт, что в нём есть просветля́ющий фа́ктор безмяте́жного наблюде́ния, ли́бо, когда́ в нём отсу́тствует
+                                            просветля́ющий фа́ктор безмяте́жного наблюде́ния, он распозна́ет|распознаёт, что в нём нет просветля́ющего фа́ктора безмяте́жного наблюде́ния; и он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего
+                                            просветля́ющего фа́ктора безмяте́жного наблюде́ния; и как прихо́дит соверше́нство в разви́тии возни́кшего просветля́ющего фа́ктора безмяте́жного наблюде́ния.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вне́шне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне и вне́шне.
+                                            Он отсле́живает фа́кторы возникнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы исчезнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в ка́чествах ума́.
+                                            <sup><a name="25"></a><a href="#link25">25</a></sup></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Ка́чества ума́ существу́ют» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ семи́ фа́кторов Пробужде́ния.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p13"></a>Четы́ре
+                                                        благоро́дные и́стины</b><br />
+                                                    (Дхамманупассана саччапабба)
+                                                </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ четырёх благоро́дных и́стин.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Каки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ четырёх благоро́дных и́стин? При э́том,</font>
+                                    </div>
+                                    <ul>
+                                        <div align="left">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                1.  мона́х распозна́ет|распознаёт: «Э́то – страда́ние (дуккха)
+                                                <sup><a name="26"></a><a href="#link26">26</a></sup>» согла́сно действи́тельности;<br /> 2.  он распозна́ет|распознаёт: «Э́то – происхожде́ние страда́ния» согла́сно действи́тельности;<br /> 3.  он распозна́ет|распознаёт:
+                                                «Э́то – прекраще́ние страда́ния» согла́сно действи́тельности;
+                                                <br /> 4.  он распозна́ет|распознаёт: «Э́то – путь, веду́щий к прекраще́нию страда́ний» согла́сно действи́тельности. </font>
+                                        </div>
+                                    </ul>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Пе́рвая Благоро́дная
+                                                    И́стина</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А в чём состои́т благоро́дная и́стина о страда́нии? Рожде́ние – э́то страда́ние, старе́ние – э́то страда́ние, смерть – э́то страда́ние; печа́ль, слезы́|слёзы, боль, грусть и отча́яние – э́то страда́ние; связь с
+                                            неприя́тным – э́то страда́ние, разлу́ка с прия́тным – э́то страда́ние, неполуче́ние жела́емого – э́то страда́ние. Коро́че говоря́, путь групп привя́занности (упадана кхандха) – э́то страда́ние.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е рожде́ние? Любо́е рожде́ние, зарожде́ние, происхожде́ние, возникнове́ние, прихо́д, появле́ние групп (привя́занности), и приобрете́ние сфер (чувств), – разнообра́зными существа́ми из той и́ли ино́й гру́ппы
+                                            суще́ств, – вот что называ́ется рожде́нием.</font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е старе́ние?
+                                    </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Любо́е старе́ние, одряхле́ние, ухудше́ние здоро́вья, появле́ние седины́ и морщи́н, упа́док жи́зненной си́лы, ослабле́ние спосо́бностей суще́ств из той и́ли ино́й гру́ппы суще́ств, – вот что называ́ется старе́нием.</font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е смерть? </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Умира́ние, ухо́д, разруше́ние, исчезнове́ние, кончи́на, смерть, разруше́ние групп, покида́ние те́ла, прекраще́ние жи́зненной спосо́бности, – вот что называ́ется сме́ртью.
+                                        </font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е печа́ль? </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Печа́ль, сомне́ние, грусть, вну́тренняя печа́ль, вну́тренняя грусть любо́го, кто страда́ет от несча́стья, столкну́вшегося с чем-то боле́зненным, – вот что называ́ется печа́лью.
+                                        </font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е слезы́|слёзы?
+                                    </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Плач, скорбь, жа́лобный крик, опла́кивание, рыда́ние любо́го, кто страда́ет от несча́стья, столкну́вшегося с чем-то боле́зненным, – вот что называ́ется слеза́ми.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е боль? Всё, что пережива́ется как теле́сная боль, теле́сное неудо́бство, боль и́ли неудо́бство, вы́званные теле́сным конта́ктом, – вот что называ́ется бо́лью.
+                                        </font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е го́ре? </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Всё, что пережива́ется как психи́ческая (душе́вная) боль, психи́ческое неудо́бство, боль и́ли неудо́бство, вы́званные конта́ктом интелле́кта, – вот что называ́ется го́рем.
+                                        </font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е отча́яние?
+                                    </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Любо́е отча́яние, уны́ние, безысхо́дность любо́го, кто страда́ет от несча́стья, кто соприкосну́лся с чем-то мучи́тельным, – вот что называ́ется отча́янием.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е страда́ние от свя́зи с неприя́тным? При э́том происхо́дят нежела́тельные, нелюби́мые, непривлека́тельные зри́тельные о́бразы, зву́ки, за́пахи, вку́сы и осяза́емые ве́щи; и́ли происхо́дит связь, конта́кт,
+                                            взаимоотноше́ния, взаимоде́йствие с те́ми, кто жела́ет тебе́ зла, кто жела́ет нанести́ вред, кто жела́ет тебе́ неудо́бства, кто жела́ет тебе́ не дости́чь поко́я от привя́занностей. Вот что называ́ется страда́нием
+                                            от свя́зи с неприя́тным.</font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е страда́ние от разлу́ки с прия́тным? </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, 
+sans-serif" size="2">При э́том не происхо́дят жела́тельные, люби́мые, привлека́тельные зри́тельные о́бразы, зву́ки, за́пахи, вку́сы и осяза́емые ве́щи; и́ли не происхо́дит свя́зи, конта́кта, взаимоотноше́ний, взаимоде́йствия с те́ми,
+                                            кто жела́ет тебе́ добра́, кто жела́ет принести́ по́льзу, кто жела́ет тебе́ удо́бства, кто жела́ет тебе́ дости́чь поко́я от привя́занностей, с ма́терью, отцо́м, бра́том, сестро́й, друзья́ми, колле́гами и́ли ро́дственниками.
+                                            Вот что называ́ется страда́нием от разлу́ки с прия́тным.</font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А что тако́е страда́ние неполуче́ния жела́емого? </font>
+                                    <div class="a">
+                                        <font face="Arial, 
+Helvetica, sans-serif" size="2">У суще́ств, подве́рженных рожде́нию, возника́ет жела́ние: «О, пусть мы не бу́дем подве́ржены рожде́нию, и пусть рожде́ние с на́ми не происхо́дит». </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">У суще́ств, подве́рженных старе́нию возника́ет жела́ние: «О, пусть мы не бу́дем подве́ржены старе́нию, и пусть старе́ние с на́ми не происхо́дит».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">У суще́ств, подве́рженных боле́зням возника́ет жела́ние: «О, пусть мы не бу́дем подве́ржены боле́зням, и пусть боле́зни с на́ми не происхо́дят». </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">У суще́ств, подве́рженных сме́рти возника́ет жела́ние: «О, пусть мы не бу́дем подве́ржены сме́рти, и пусть смерть с на́ми не происхо́дит».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">У суще́ств, подве́рженных печа́ли, слеза́м, бо́ли, го́рю|горю́ и отча́янию, возника́ет жела́ние: «О, пусть мы не бу́дем подве́ржены печа́ли, слеза́м, бо́ли, го́рю|горю́ и отча́янию, и пусть печа́ль, слезы́|слёзы,
+                                            боль, грусть и отча́яние с на́ми не происхо́дят». Но э́то не достига́ется жела́нием. В э́том состои́т страда́ние неполуче́ния жела́емого.
+                                        </font>
+                                    </div>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">А каковы́ пять групп привя́занности, кото́рые, коро́че говоря́, явля́ются страда́нием? </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Фо́рма как гру́ппа привя́занности, чу́вство как гру́ппа привя́занности, распознава́ние как гру́ппа привя́занности, наме́рение как гру́ппа привя́занности, созна́ние как гру́ппа привя́занности: и́менно они́ называ́ются
+                                            гру́ппами привя́занности, кото́рые, коро́че говоря́, явля́ются страда́нием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вот что называ́ется благоро́дной и́стиной о страда́нии.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Втора́я Благоро́дная
+                                                    И́стина</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А в чём состои́т благоро́дная и́стина о происхожде́нии страда́ния? Жа́жда (танха), кото́рая приво́дит к повто́рному рожде́нию, – сопровожда́емая наслажде́нием и стра́стью, находя́щая удово́льствие то в одно́м, то
+                                            в друго́м, – то́ есть жа́жда чу́вственности, жа́жда становле́ния, жа́жда не-становле́ния.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И где э́та возника́ющая жа́жда возника́ет и где э́та обита́ющая жа́жда обита́ет? Что бы в ми́ре ни каза́лось прия́тным и ми́лым, здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А что же в ми́ре ка́жется прия́тным и ми́лым? </font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Глаз в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">У́хо в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Нос в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Язы́к в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Те́ло в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Интелле́кт (мано)в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Фо́рмы в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Зву́ки в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">За́пахи в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вку́сы в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Такти́льные ощуще́ния в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Иде́и (дха́мма)в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние (виннья́на) гла́за|глаза́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние у́ха в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние но́са в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние языка́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние те́ла в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние интелле́кта в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт (сампхассо) гла́за|глаза́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт у́ха в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт но́са в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт языка́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт те́ла в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт интелле́кта в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство (ве́дана), рождённое конта́ктом гла́за в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом у́ха в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом но́са в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом языка́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом те́ла в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом интелле́кта в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие (саннья) форм в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие зву́ков в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие за́пахов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие вку́сов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие осяза́емых веще́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие иде́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение (саньчетана) по отноше́нию к фо́рмам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к зву́кам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к за́пахам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к вку́сам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к осяза́емым веща́м в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к иде́ям в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда (танха) форм в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда зву́ков в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда за́пахов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда вку́сов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда осяза́емых веще́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда иде́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние (витакка) о фо́рмах в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о зву́ках в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о за́пахах в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о вку́сах в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о такти́льных ощуще́ниях в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние об иде́ях в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние (вичара) форм в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние зву́ков в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние за́пахов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние вку́сов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние осяза́емых веще́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние иде́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та возника́ющая жа́жда возника́ет и здесь обита́ющая обита́ет.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вот что называ́ется благоро́дной и́стиной о происхожде́нии страда́ния.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Тре́тья Благоро́дная
+                                                    И́стина</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А в чём состои́т благоро́дная и́стина о прекраще́нии страда́ния? По́лное угаса́ние и прекраще́ние, покида́ние и отбра́сывание, освобожде́ние и избавле́ние от э́той вот жа́жды (танха).
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А где э́та отбра́сываемая жа́жда отбра́сывается, и где э́та прекраща́емая жа́жда прекраща́ется? Что бы в ми́ре ни каза́лось прия́тным и ми́лым, здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая
+                                            прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А что же в ми́ре ка́жется прия́тным и ми́лым? </font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Глаз в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">У́хо в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Нос в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Язы́к в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Те́ло в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Интелле́кт (мано)в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Фо́рмы в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Зву́ки в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">За́пахи в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вку́сы в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Такти́льные ощуще́ния в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Иде́и (дха́мма)в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние (виннья́на) гла́за|глаза́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние у́ха в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние но́са в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние языка́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние те́ла в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Созна́ние интелле́кта в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт (сампхассо) гла́за|глаза́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт у́ха в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт но́са в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт языка́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт те́ла в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Конта́кт интелле́кта в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство (ве́дана), рождённое конта́ктом гла́за в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом у́ха в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом но́са в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом языка́ в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом те́ла в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Чу́вство, рождённое конта́ктом интелле́кта в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие (саннья) форм в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие зву́ков в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие за́пахов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие вку́сов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие осяза́емых веще́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Восприя́тие иде́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение (саньчетана) по отноше́нию к фо́рмам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к зву́кам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к за́пахам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к вку́сам в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к осяза́емым веща́м в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Наме́рение по отноше́нию к иде́ям в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.
+                                        </font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда (танха) форм в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда зву́ков в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда за́пахов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда вку́сов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда осяза́емых веще́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Жа́жда иде́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние (витакка) о фо́рмах в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о зву́ках в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о за́пахах в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о вку́сах в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние о такти́льных ощуще́ниях в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Рассужде́ние об иде́ях в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние (вичара) форм в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние зву́ков в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние за́пахов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние вку́сов в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние осяза́емых веще́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Изуче́ние иде́й в ми́ре ка́жется прия́тным и ми́лым: здесь э́та отбра́сываемая жа́жда отбра́сывается, и здесь прекраща́емая прекраща́ется.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вот что называ́ется благоро́дной и́стиной о прекраще́нии страда́ния.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Четвёртая Благоро́дная
+                                                    И́стина</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">А в чём состои́т благоро́дная и́стина о пути́ пра́ктики, веду́щем к прекраще́нию страда́ний? И́менно э́тот Благоро́дный восьмери́чный путь: </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            1.  пра́вильное понима́ние (диттхи),
+                                            <br /> 2.  пра́вильная реши́мость (санкаппа), <br /> 3.  пра́вильная речь (ва́ча), <br /> 4.  пра́вильное де́йствие (камманта),
+                                            <br /> 5.  пра́вильный о́браз жи́зни (аджива), <br /> 6.  пра́вильное уси́лие (ваяма), <br /> 7.  пра́вильное па́мятование (сати́),
+                                            <br /> 8.  пра́вильное сосредото́чение (самадхи).
+                                        </font>
+                                    </ul>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильное
+                                                        понима́ние?</u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2">Зна́ние о страда́нии, зна́ние о происхожде́нии страда́ния, зна́ние о прекраще́нии страда́ния. Зна́ние о пути́ пра́ктики, веду́щем к прекраще́нию страда́ния: </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">вот что называ́ется пра́вильным понима́нием.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильная реши́мость?</u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Реши́мость, напра́вленная на отрече́ние, на свобо́ду от зла, на непричинение вреда́: вот что называ́ется пра́вильной реши́мостью.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильная речь? </u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2">Воздержа́ние от лжи, от вызыва́ющей рознь, от оскорбля́ющей ре́чи, и от пусто́й болтовни́: вот что называ́ется пра́вильной ре́чью.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильное
+                                                        де́йствие?</u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2">Воздержа́ние от лише́ния жи́зни, от воровства́, и от половы́х сноше́ний: вот что называ́ется пра́вильным де́йствием.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильный
+                                                        о́браз жи́зни? </u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том благоро́дный приве́рженец, оста́вив нече́стный о́браз жи́зни, ведёт свою́ жизнь в соотве́тствии с пра́вильным о́бразом жи́зни: вот что называ́ется пра́вильным о́бразом жи́зни.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильное
+                                                        уси́лие?</u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том мона́х вызыва́ет у себя́ жела́ние (чханда), прилага́ет все|всё си́лы, выраба́тывает насто́йчивость (вирья), подде́рживает и проявля́ет своё наме́рение (читта) ра́ди предотвраще́ния ещё невозникших неуме́лых
+                                            у́мственных ка́честв (акусала-дха́мма) </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Он вызыва́ет у себя́ жела́ние, прилага́ет все|всё си́лы, выраба́тывает насто́йчивость, подде́рживает и проявля́ет своё наме́рение ра́ди устране́ния уже́ возни́кших неуме́лых у́мственных ка́честв.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Он вызыва́ет у себя́ жела́ние, прилага́ет все|всё си́лы, выраба́тывает насто́йчивость, подде́рживает и проявля́ет своё наме́рение ра́ди разви́тия ещё невозникших уме́лых у́мственных ка́честв (куса́ла-дха́мма).</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Он вызыва́ет у себя́ жела́ние, прилага́ет все|всё си́лы, выраба́тывает насто́йчивость, подде́рживает и проявля́ет своё наме́рение ра́ди подержа́ния, сохране́ния, увеличе́ния, оби́лия, разви́тия и соверше́нства уже́
+                                            возни́кших уме́лых у́мственных ка́честв.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильное
+                                                        па́мятование?</u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2">При э́том мона́х живёт, отсле́живая те́ло в те́ле, пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́;
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Он живёт, отсле́живая чу́вства в чу́вствах, пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́;</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Он живёт, отсле́живая ум в уме́, пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́;</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Он живёт, отсле́живая ка́чества ума́ (дха́мма) в ка́чествах ума́, пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́:
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">вот что называ́ется пра́вильным па́мятованием.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Times New Roman, Times, serif" size="2"><i><u>А что тако́е
+                                                        пра́вильное
+                                                        сосредото́чение? </u></i> </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2">При э́том мона́х, – соверше́нно непривязанный к чу́вственности (ка́ма), непривязанный к неиску́сным ка́чествам (акусала-дха́мма), – вхо́дит и остаётся в пе́рвой джхане: восто́рг (пити́) и удово́льствие (сукха),
+                                            рождённые непривязанностью, сопровожда́емые рассужде́нием (витакка) и изуче́нием (вичара).
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">С остано́вкой рассужде́ния и изуче́ния, он вхо́дит и остаётся во второ́й джхане: восто́рг и удово́льствие, рождённые сосредото́чением (самадхи-джам), объедине́ние созна́ния (четасо экодибхавам), свобо́дным от рассужде́ния
+                                            и изуче́ния, вну́тренняя уве́ренность (аджджхаттам-сампасаданам).</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">С угаса́нием восто́рга (пити́), он пребыва́ет в безмяте́жном наблюде́нии (упекха), с па́мятованием (сати́) и осо́знанностью (сампаджання); и испы́тывает физи́ческое удово́льствие (сукха). Он вхо́дит и остаётся в
+                                            тре́тьей джхане, и о нём благоро́дные говоря́т: «В удово́льствии живёт тот, кто безмяте́жно наблюда́ет и распозна́ет|распознаёт».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">С отбра́сыванием удово́льствия и страда́ния, – так же, как пе́ред э́тим исче́зли ра́дость и го́ре|горе́, – он вхо́дит и остаётся в четвёртой джхане: па́мятовании, очи́щенном безмяте́жным наблюде́нием (упекха-сати́-париcуддхи),
+                                            ни удово́льствии, ни страда́нии (адуккхам-асукха): вот что называ́ется пра́вильным сосредото́чением.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вот что называ́ется благоро́дной и́стиной о пути́ пра́ктики, веду́щем к прекраще́нию страда́ний.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вне́шне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне и вне́шне.<sup><a name="27"></a><a
+                                                        href="#link27">27</a></sup> Он отсле́живает фа́кторы возникнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы исчезнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы происхожде́ния
+                                            и исчезнове́ния в ка́чествах ума́.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Ка́чества ума́ существу́ют» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ четырёх благоро́дных и́стин.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><a
+                                                        name="p14"></a>Плоды́
+                                                    пра́ктики четырёх осно́в па́мятования.</b></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И любо́й, кто бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние семи́ лет, смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние» («Арахантство»), здесь и сейча́с,
+                                            ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».<sup><a name="28"></a><a
+                                                        href="#link28">28</a></sup></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру семь лет. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние шести́ лет смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру шесть лет. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние пяти́ лет смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру пять лет. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние четырёх лет смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру четы́ре го́да. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние трёх лет смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру три го́да. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние двух лет смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру два го́да. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние одного́ го́да, тогда́ он смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее
+                                            зна́ние» («Арахантство»), здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру оди́н год. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние семи́ ме́сяцев смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру семь ме́сяцев. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние шести́ ме́сяцев смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее
+                                            зна́ние», здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру шесть ме́сяцев. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние пяти́ ме́сяцев смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее
+                                            зна́ние», здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру пять ме́сяцев. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние четырёх ме́сяцев смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее
+                                            зна́ние», здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру четы́ре ме́сяца. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние трёх ме́сяцев смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее
+                                            зна́ние», здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру три ме́сяца. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние двух ме́сяцев смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру два ме́сяца. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние ме́сяца смо́жет получи́ть оди́н из сле́дующих двух плодо́в: «вы́сшее зна́ние»,
+                                            здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру ме́сяц. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние полови́ны ме́сяца, тогда́ он смо́жет получи́ть оди́н из сле́дующих двух плодо́в:
+                                            «вы́сшее зна́ние», здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">О, не принима́йте за ме́ру полови́ну ме́сяца. Е́сли кто-то бу́дет таки́м о́бразом практикова́ть э́ти четы́ре осно́вы па́мятования в тече́ние неде́ли, тогда́ он смо́жет получи́ть оди́н из сле́дующих двух плодо́в:
+                                            «вы́сшее зна́ние», здесь и сейча́с, ли́бо, е́сли оста́ток привя́занности всё ещё сохраня́ется, состоя́ние «невозвраще́ния».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">'Э́то веду́щий пря́мо к це́ли путь очище́ния суще́ств, преодоле́ния печа́ли и слез|слёз, устране́ния страда́ний и бед, вы́хода на пра́вильный путь, достиже́ния Ниббаны, а и́менно, четы́ре осно́вы па́мятования'.
+                                            Так бы́ло ска́зано, и в связи́ с э́тим так бы́ло ска́зано».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Так сказа́л Благослове́нный. Ра́достные се́рдцем, мона́хи восхи́тились|восхити́лись его́ слова́м.
+                                        </font>
+                                    </div>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <div class="a"><br />
+                                                    <div style='font-size:17.0pt;font-family:"Arial"'> <a href="dn22-mahasatipatthansa-sutta-01-ivahnenko.htm" style="border:0px;" title="к предыду́щей страни́це">←</a>
+                                                        <i>
+                                                                <font color="#999966"
+                                                                    face="Arial, Helvetica, sans-serif" size="2"></font>
+                                                            </i>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td><br />
+                                                <div align="right">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                                <font color="#999933" size="1">
+                                                                    страни́ца 2 / 2 </font>
+                                                            </i></font>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#25" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">25</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link25"></a>
+                                            Здесь факторы происхождения и исчезновения состоят только из условий,
+                                            способствующих происхождению и исчезновению факторов Пробуждения
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#26" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">26</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link26"></a>
+                                            Дуккха: буквально, "то, что трудно выносить, что тяжело терпеть". Можно
+                                            перевести это слово как "стресс".
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#27" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">27</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link27"></a>
+                                            Факторы происхождения и исчезновения истин нужно понимать как происхождение
+                                            и исчезновение страдания, жажды, и пути; истина о прекращении не включается
+                                            в это созерцание, так как это ни возникновение, ни исчезновение
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#28" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">28</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link28"></a>
+                                            То есть не-возвращения в мир чувственности. Это последний этап перед
+                                            достижением конечной цели Арахантства
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr bgcolor="#F4EFBD">
+                                <td class="bottom" colspan="4" height="2">
+                                    <div align="center">
+                                        <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                            <tr>
+                                <td class="bottom" height="2" valign="middle" width="1%">
+                                    <a href="../digha.htm#maha" style="border:0px;" title="вернуться к разделу">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                    </a>
+                                </td>
+                                <td class="bottom" height="2" valign="middle" width="1%">
+                                    <a href="#" style="border:0px;" title="вернуться наверх">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="32%">
+                                    <div align="center">
+                                        <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                            <noindex>
+                                                <!--LiveInternet counter-->
+                                                <script type="text/javascript">
+                                                    new Image().src = "//counter.yadro.ru/hit?r" +
+                                                        escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                                                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                        ";h" + escape(document.title.substring(0, 150)) +
+                                                        ";" + Math.random();
+                                                </script>
+                                                <!--/LiveInternet-->
+                                                <!--LiveInternet logo-->
+                                                <a href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1" src="//counter.yadro.ru/logo?42.6" title="LiveInternet" width="1" /></a>
+                                                <!--/LiveInternet-->
+                                                <!--SpyLOG-->
+                                                <span id="spylog2031418"></span>
+                                                <script type="text/javascript">
+                                                    var spylog = {
+                                                        counter: 2031418,
+                                                        image: undefined,
+                                                        next: spylog
+                                                    };
+                                                    document.write(unescape("%3Cscript src=%22http" +
+                                                        (("https:" == document.location.protocol) ? "s" : "") +
+                                                        "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E"));
+                                                </script>
+                                                <!--SpyLOG-->
+                                            </noindex>
+                                        </font>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="19%">
+                                    <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="37%">
+                                    <div align="right">
+                                        <font color="#C8C16C" face="Arial, Helvetica, sans-serif" style="font-size:7pt; font-family: Arial;">© theravada.ru – при копировании материалов<br /> просьба ставить прямую ссылку на наш сайт.<br />
+                                            <a href="../../../Books/Cittaviveka/canon.htm" style="border:0px solid #FFFFCC;background:none;font:9" title="Будда и Буддизм">
+                                                <font color="#DAD694">Палийский Канон
+                                                </font>
+                                            </a>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div align="center"></div>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window,
+                a = 'inner';
+            if (!('innerWidth' in window)) {
+                a = 'client';
+                e = document.documentElement || document.body;
+            }
+            return {
+                width: e[a + 'Width'],
+                height: e[a + 'Height']
+            }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                item.setAttribute("width", "95%");
+            });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                item.setAttribute("width", "85%");
+            });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            document.querySelectorAll("font[size='3']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function(item) {
+                item.setAttribute("size", "6");
+            });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                document.querySelectorAll("font[size='3']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function(item) {
+                    item.setAttribute("size", "4");
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1766 @@
+<html>
+
+<head>
+    <title>Махасатипаттхана сутта: Большая сутта об основах памятования :: Дигха Никая 22</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        } catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                } catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+    <link href="p1" />
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat="" text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+                        
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+                        
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        .a {
+                            TEXT-INDENT: 2em
+                        }
+                        
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+                        
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+                        
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+                        
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                         <i>
+                                                <font face="Georgia, Times New Roman, Times, serif" size="2"><b>  
+                                                        Учение Старцев</b></font>
+                                            </i> </b>
+                                </font>
+                                </i>
+                            </td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td>
+                                            <a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%">
+                                <a href="../digha.htm#maha" style="border:0px;" title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a>
+                                <a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная лекция">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a>
+                            </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span>
+                            </td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'>
+                                    <div align="right" class="a,">
+                                        <div style='font-size:17.0pt;font-family:"Arial"'> <a href="dn22-mahasatipatthansa-sutta-02-ivahnenko.htm" style="border:0px;" title="к следующей странице">→</a>
+                                            <i>
+                                                <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">
+                                                </font>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                                    </font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">
+                                            Махасатипаттхана сутта:<br /> Большая сутта об основах памятования<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="3">ДН 22</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%">
+                                    <div align="right"><i>
+                                            <font color="#996633"> <span style="font-size:8pt;font-family:Arial;">
+                                                    Перевод с английского: Д. А. Ивахненко<br />
+                                                    на основе перевода с пали Тханиссаро Бхиккху<br />
+                                                    источник: <br />
+                                                    <a href="http://www.dhamma.ru/canon/dn22.htm"
+                                                        target="_blank">www.dhamma.ru</a>
+                                                </span> </font> <br />
+                                            <font color="#996633"><span style="font-size:8pt;font-family:Arial;"><br />
+                                                    <a href="http://dhamma.ru/copyright.htm" target="_blank">Только для
+                                                        бесплатного распространения</a></span></font>
+                                        </i></div>
+                                </td>
+                                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                            </tr>
+                        </table>
+                        <br /><br />
+                        <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+                            <tr>
+                                <td style="text-align: justify" valign="top">
+                                </td>
+                                <td style="text-align: justify" valign="top"> </td>
+                                <td style="text-align: justify" valign="top">
+                                    <b>
+                                            <font face="Georgia, Times New Roman, Times, serif" size="2">Содержа́ние:
+                                            </font>
+                                        </b><br />
+                                    <br />
+                                    <font ,="" color="#999966" face="Arial, Helvetica, sans-serif" size="2">
+                                        <b><a href="#p1">1. Созерца́ние те́ла</a></b><br />
+                                        <a href="#p1">1.1. Па́мятование дыха́ния</a><br />
+                                        <a href="#p2">1.2. Четы́ре положе́ния те́ла</a><br />
+                                        <a href="#p3">1.3. Па́мятование че́рез осо́знанность</a><br />
+                                        <a href="#p4">1.4. Созерца́ние нечистоты́ те́ла</a><br />
+                                        <a href="#p5">1.5. Созерца́ние стихи́й</a><br />
+                                        <a href="#p6">1.6. Де́вять созерца́ний на кла́дбище</a><br />
+                                        <br />
+                                        <b><a href="#p7">2. Созерца́ние чувств</a></b><br />
+                                        <br />
+                                        <b><a href="#p8">3. Созерца́ние ума́</a></b><br />
+                                        <br />
+                                        <b><a href="#p9">4. Созерца́ние ка́честв ума́</a></b><br />
+                                        <a href="#p9">4.1. Пять препя́тствий</a><br />
+                                        <a href="#p10">4.2. Пять групп привя́занности</a><br />
+                                        <a href="#p11">4.3. Шесть вну́тренних и вне́шних опо́р</a><br />
+                                        <a href="dn22-mahasatipatthansa-sutta-02-ivahnenko.htm#p12">4.4. Семь
+                                                фа́кторов Пробужде́ния</a><br />
+                                        <a href="dn22-mahasatipatthansa-sutta-02-ivahnenko.htm#p13">4.5. Четы́ре
+                                                благоро́дные и́стины</a><br />
+                                        <br />
+                                        <b><a href="dn22-mahasatipatthansa-sutta-02-ivahnenko.htm#p14">5. Плоды́
+                                                    пра́ктики четырёх осно́в
+                                                    па́мятования</a></b><br />
+                                    </font>
+                                    <br />
+                                    <div align="center">
+                                        <font color="#996633" face="Times New Roman, Times, serif" size="6">٭٭٭
+                                        </font>
+                                    </div>
+                                    <div>
+                                        <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>Т</b>
+                                        </font>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Одна́жды Благослове́нный жил среди́ ку́ру в Камасадхамме – ры́ночном го́роде наро́да ку́ру. Благослове́нный обраща́лся там к бхиккху сле́дующим о́бразом: «Мона́хи», а те отвеча́ли ему́: «Почте́нный|Почтённый господи́н».
+                                            Благослове́нный говори́л сле́дующее:
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи, существу́ет веду́щий пря́мо к це́ли путь очище́ния суще́ств, преодоле́ния печа́ли и слез|слёз, устране́ния страда́ний и бед, вы́хода на пра́вильный путь, достиже́ния Ниббаны, а и́менно – четы́ре осно́вы
+                                            па́мятования. Каковы́ э́ти четы́ре осно́вы?
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"> 1.   При э́том мона́х отсле́живает те́ло в те́ле,
+                                            <sup><a name="1"></a><a href="#link1">1</a></sup> пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́;
+                                            <br /> 2.   он отсле́живает чу́вства в чу́вствах, пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́;
+                                            <br /> 3.   он отсле́живает ум в уме́, пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́;
+                                            <br /> 4.   он отсле́живает ка́чества ума́ в ка́чествах ума́,<sup><a name="2"></a><a
+                                                        href="#link2">2</a></sup> пы́лко, осо́знанно и с па́мятованием, суме́в преодоле́ть в э́том ми́ре коры́сть и го́ре|горе́.
+                                        </font>
+                                    </ul>
+                                    <p>
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><a
+                                                        name="p1"></a>I.
+                                                    Созерца́ние те́ла</b><br />
+                                            <i>(Кайанупассана)</i>
+                                        </font>
+                                    </p>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b>Па́мятование
+                                                        дыха́ния </b><br />
+                                                    (Кайанупассана анапанапабба)
+                                                </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом живёт мона́х, отсле́живая те́ло в те́ле?
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том мона́х ухо́дит в лес, под кро́ну де́рева, и́ли в пусто́е жили́ще, сади́тся, скрести́в но́ги|ноги́, де́ржит те́ло пря́мо и устана́вливает па́мятование во́зле рта. То́лько па́мятуя он вдыха́ет, и па́мятуя
+                                            он выдыха́ет.</font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Де́лая дли́тельный вдох, он распозна́ет|распознаёт, что де́лает дли́тельный вдох; де́лая дли́тельный вы́дох, он распозна́ет|распознаёт, что де́лает дли́тельный вы́дох;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>де́лая коро́ткий вдох, он распозна́ет|распознаёт, что де́лает коро́ткий вдох; де́лая коро́ткий вы́дох, он распозна́ет|распознаёт, что де́лает коро́ткий вы́дох.<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Он трениру́ется вдыха́ть, восприи́мчивый ко всему́ те́лу, и выдыха́ть, восприи́мчивый ко всему́ те́лу.<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Он трениру́ется вдыха́ть, успока́ивая теле́сное конструи́рование, и выдыха́ть, успока́ивая теле́сное конструи́рование.
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Как о́пытный гонча́р и́ли его́ подмасте́рье, де́лая большо́й оборо́т, распозна́ет|распознаёт, что он де́лает большо́й оборо́т, и́ли, де́лая ма́лый оборо́т, распозна́ет|распознаёт, что он де́лает ма́лый оборо́т,
+                                            так и мона́х, де́лая дли́тельный вдох, распозна́ет|распознаёт, что он де́лает дли́тельный вдох; де́лая дли́тельный вы́дох, он распозна́ет|распознаёт, что де́лает дли́тельный вы́дох; де́лая коро́ткий вдох, он
+                                            распозна́ет|распознаёт, что де́лает коро́ткий вдох; де́лая коро́ткий вы́дох, он распозна́ет|распознаёт, что де́лает коро́ткий вы́дох. Он трениру́ется вдыха́ть, восприи́мчивый ко всему́ те́лу, и выдыха́ть, восприи́мчивый
+                                            ко всему́ те́лу. Он трениру́ется вдыха́ть, успока́ивая теле́сное конструи́рование, и выдыха́ть, успока́ивая теле́сное конструи́рование.
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне,
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>ли́бо он отсле́живает те́ло в те́ле вне́шне,
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне.
+                                            <sup><a name="3"></a><a href="#link3">3</a></sup><br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Он отсле́живает фа́кторы возникнове́ния в те́ле,
+                                            <sup><a name="4"></a><a href="#link4">4</a></sup><br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>ли́бо он отсле́живает фа́кторы исчезнове́ния в те́ле,
+                                            <sup><a name="5"></a><a href="#link5">5</a></sup><br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                            <a name="6"></a><sup><a href="#link6">6</a></sup><br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет»
+                                            <a name="7"></a><sup><a href="#link7">7</a></sup> по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо
+                                            <a name="8"></a><sup><a href="#link8">8</a></sup> и ни к чему́ не привя́зан в ми́ре.
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p2"></a>Четы́ре
+                                                        положе́ния те́ла</b><br />
+                                                    (Кайанупассана ирийапатхапабба) </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Кро́ме того́,
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ мона́х идёт, он распозна́ет|распознаёт, что он идёт;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он сто́ит|стои́т, он распозна́ет|распознаёт, что он сто́ит|стои́т;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он сиди́т, он распозна́ет|распознаёт, что он сиди́т;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он лежи́т, он распозна́ет|распознаёт, что он лежи́т;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>како́е бы положе́ние ни занима́ло те́ло, он распозна́ет|распознаёт э́то.
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле
+                                            <a name="9"></a><sup><a href="#link9">9</a></sup>, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p3"></a>Па́мятование
+                                                        че́рез осо́знанность</b><br />
+                                                    (Кайанупассана сампаджанапабба) </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Кро́ме того́,
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ мона́х шага́ет вперёд и наза́д, он осозна́ет|осознаёт э́то;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он смо́трит пря́мо и в сто́рону, он осозна́ет|осознаёт э́то;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он сгиба́ет и разгиба́ет коне́чности, он осозна́ет|осознаёт э́то;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он но́сит наки́дку, ма́нтию и ча́шу,
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он осозна́ет|осознаёт э́то;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он ест, пьёт, жуёт, про́бует на вкус,
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он осозна́ет|осознаёт э́то;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он мо́чится и испражня́ется,
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он осозна́ет|осознаёт э́то;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ он идёт, сто́ит|стои́т, сиди́т, засыпа́ет, пробужда́ется, разгова́ривает и молчи́т, он осозна́ет|осознаёт э́то.
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p4"></a>Созерца́ние
+                                                        нечистоты́ те́ла</b><br />
+                                                    (Кайанупассана патикуламанасикарапабба) </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, мона́х созерца́ет само́ э́то покры́тое ко́жей|коже́й и заключа́ющее в себе́ мно́жество нечисто́т те́ле, сни́зу вверх, начина́я со стоп, и све́рху вниз, начина́я с воло́с головы́: «В э́том те́ле есть во́лосы
+                                            головы́, во́лосы те́ла, но́гти, зу́бы, ко́жа; мы́шцы, сухожи́лия, ко́сти|кости́, ко́стный мозг; по́чки, се́рдце, пе́чень, диафра́гма, селезёнка, лёгкие; кишки́, брыже́йка, содержи́мое желу́дка, фека́лии; жёлчь,
+                                            слизь, гной, кровь, са́ло, пот, жир; слезы́|слёзы, слюна́, носова́я слизь, синовиа́льная жи́дкость, моча́».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Как е́сли бы была́ су́мка для пи́щи, напо́лненная разли́чными сорта́ми зерна́ ти́па го́рного ри́са, неочи́щенного ри́са, зелёного горо́шка, ди́кого|дико́го горо́ха, кунжу́та и очи́щенного ри́са, и е́сли челове́к
+                                            с намётанным гла́зом откры́л бы су́мку и стал выбира́ть её содержи́мое сле́дующим о́бразом: «Э́то – го́рный рис, э́то – неочи́щенный рис, э́то – зелёный горо́шек, э́то – ди́кий горо́х, э́то – кунжу́т, э́то –
+                                            очи́щенный рис».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Так и мона́х созерца́ет само́ э́то покры́тое ко́жей|коже́й и заключа́ющее в себе́ мно́жество нечисто́т те́ле, сни́зу вверх, начина́я со стоп, и све́рху вниз, начина́я с воло́с головы́: «В э́том те́ле есть во́лосы
+                                            головы́, во́лосы те́ла, но́гти, зу́бы, ко́жа; мы́шцы, сухожи́лия, ко́сти|кости́, ко́стный мозг; по́чки, се́рдце, пе́чень, диафра́гма, селезёнка, лёгкие; кишки́, брыже́йка, содержи́мое желу́дка, фека́лии; жёлчь,
+                                            слизь, гной, кровь, са́ло, пот, жир; слезы́|слёзы, слюна́, носова́я слизь, синовиа́льная жи́дкость, моча́».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p5"></a>Созерца́ние
+                                                        стихи́й</b><br />
+                                                    (Кайанупассана дхатуманасикарапабба) </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, мона́х созерца́ет само́ э́то те́ло, вне зави́симости от его́ положе́ния, посре́дством стихи́й: «В э́том те́ле есть стихи́я земли́, стихи́я воды́, стихи́я огня́, стихи́я во́здуха».
+                                            <sup><a name="10"></a><a href="#link10">10</a></sup>
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Как е́сли бы, о мона́хи, му́дрый мясни́к ли́бо его́ учени́к, заре́зав коро́ву и разде́лав её по частя́м, сел бы на перекрёсток четырёх столбовы́х доро́г, так и мона́х созерца́ет само́ э́то те́ло, вне зави́симости
+                                            от его́ положе́ния, посре́дством стихи́й: «В э́том те́ле есть стихи́я земли́, стихи́я воды́, стихи́я огня́, стихи́я во́здуха».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p6"></a>Де́вять
+                                                        созерца́ний на кла́дбище</b><br />
+                                                    (Кайанупассана навасиватхикапабба) </i></font>
+                                    </p>
+                                    <p>
+                                        <font face="Arial, Helvetica, 
+sans-serif" size="2"><i>Гнию́щий труп</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло челове́ка, уме́ршего оди́н, два и́ли три дня наза́д, вспу́хшее, си́не и гнию́щее, бро́шенное в моги́лу, перено́сит уви́денное на своё со́бственно те́ло сле́дующим о́бразом:
+                                            «Действи́тельно, и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Изъе́денный
+                                                    труп</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу, съеда́емое воро́ньем|вороньём, я́стребами|ястреба́ми, гри́фами, пса́ми, шака́лами ли́бо разли́чными ви́дами черве́й, перено́сит уви́денное на своё
+                                            со́бственное те́ло сле́дующим о́бразом: «Действи́тельно, и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом, он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле,
+                                            ли́бо он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Труп с оста́тками
+                                                    пло́ти</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу и ста́вшее скеле́том с оста́тками пло́ти и кро́ви|крови́ на ко́стях|костя́х, соединя́емых сухожи́лиями перено́сит уви́денное на своё со́бственное
+                                            те́ло сле́дующим о́бразом: «Действи́тельно, и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Окрова́вленный
+                                                    скеле́т</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу и ста́вшее скеле́том со следа́ми кро́ви без пло́ти на ко́стях|костя́х, соединя́емых сухожи́лиями перено́сит уви́денное на своё со́бственное те́ло
+                                            сле́дующим о́бразом: «Действи́тельно, и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Скеле́т без
+                                                    пло́ти</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу и ста́вшее скеле́том без пло́ти и кро́ви|крови́ на ко́стях|костя́х, соединя́емых сухожи́лиями перено́сит уви́денное на своё со́бственное те́ло сле́дующим
+                                            о́бразом: «Действи́тельно, и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Разбро́санный
+                                                    скеле́т</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу и ста́вшее гру́дой косте́й, размётанных по сторона́м: там – ко́сти|кости́ ки́сти, здесь – ко́сти|кости́ стопы́, берцо́вая кость, бе́дренная кость,
+                                            та́зовая кость, позвоно́чный столб и че́реп перено́сит уви́денное на своё со́бственное те́ло сле́дующим о́бразом: «Действи́тельно, и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому
+                                            и не избежи́т э́того».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Вы́беленные
+                                                    ко́сти</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу, ста́вшее вы́беленными костя́ми цве́та ра́кушки|раку́шки перено́сит уви́денное на своё со́бственное те́ло сле́дующим о́бразом: «Действи́тельно,
+                                            и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Гру́да
+                                                    косте́й</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу, ста́вшее костя́ми, пролежа́вшими гру́дой бо́лее го́да|года́ перено́сит уви́денное на своё со́бственное те́ло сле́дующим о́бразом: «Действи́тельно,
+                                            и моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Прах</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, как е́сли бы мона́х, уви́дев те́ло, бро́шенное в моги́лу, ста́вшее костя́ми, что сгни́ли и преврати́лись в пыль, перено́сит уви́денное на своё со́бственное те́ло сле́дующим о́бразом: «Действи́тельно, и
+                                            моё те́ло тако́го же ро́да|рода́, поэ́тому оно́ бу́дет подве́ржено э́тому и не избежи́т э́того».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает те́ло в те́ле вну́тренне, ли́бо он отсле́живает те́ло в те́ле вне́шне, ли́бо он отсле́живает те́ло в те́ле вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в те́ле, ли́бо
+                                            он отсле́живает фа́кторы исчезнове́ния в те́ле, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в те́ле.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Те́ло существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает те́ло в те́ле.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><a
+                                                        name="p7"></a>II.
+                                                    Созерца́ние чувств</b><br />
+                                            <i>(Ведананупассана)</i>
+                                        </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом живёт мона́х, отсле́живая чу́вства в чу́вствах?
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том,
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ мона́х испы́тывает чу́вство сча́стья, он распозна́ет|распознаёт: «Испы́тываю прия́тное чу́вство»;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает чу́вство страда́ния, он распозна́ет|распознаёт: «Испы́тываю мучи́тельное чу́вство»;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает чу́вство ни сча́стья, ни страда́ния, он распозна́ет|распознаёт: «Испы́тываю ни прия́тное, ни мучи́тельное чу́вство»;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает пло́тское чу́вство сча́стья, он распозна́ет|распознаёт: «Испы́тываю прия́тное пло́тское чу́вство»;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает не-пло́тское чу́вство сча́стья, он распозна́ет|распознаёт: «Испы́тываю прия́тное не-пло́тское чу́вство»;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает пло́тское чу́вство страда́ния, он распозна́ет|распознаёт: «Испы́тываю мучи́тельное пло́тское чу́вство»;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает не-пло́тское чу́вство страда́ния, он распозна́ет|распознаёт: «Испы́тываю мучи́тельное не-пло́тское чу́вство»;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает пло́тское чу́вство ни сча́стья, ни страда́ния, он распозна́ет|распознаёт: «Испы́тываю ни прия́тное, ни мучи́тельное пло́тское чу́вство»;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>когда́ испы́тывает не-пло́тское чу́вство ни сча́стья, ни страда́ния, он распозна́ет|распознаёт: «Испы́тываю ни прия́тное, ни мучи́тельное не-пло́тское чу́вство».
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает чу́вства в чу́вствах вну́тренне, ли́бо он отсле́живает чу́вства в чу́вствах вне́шне, ли́бо он отсле́живает чу́вства в чу́вствах вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния
+                                            в чу́вствах, ли́бо он отсле́живает фа́кторы исчезнове́ния в чу́вствах,
+                                            <a name="11"></a><sup><a href="#link11">11</a></sup> ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в чу́вствах.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Чу́вство существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает чу́вства в чу́вствах.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><a
+                                                        name="p8"></a>III.
+                                                    Созерца́ние ума́</b><br />
+                                            <i>(Читтанупассана)</i>
+                                        </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом мона́х отсле́живает ум в уме́?
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том мона́х распозна́ет|распознаёт
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Ум со стра́стью, как ум со стра́стью; ум без стра́сти, как ум без стра́сти;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Ум с отвраще́нием, как ум с отвраще́нием; ум без отвраще́ния, как ум без отвраще́ния;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Ум с заблужде́нием, как с заблужде́нием; ум без заблужде́ния, как без заблужде́ния;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Су́женное состоя́ние ума́, как су́женное состоя́ние ума́;<sup><a name="12"></a><a href="#link12">12</a></sup> рассе́янное состоя́ние ума́, как рассе́янное состоя́ние ума́;
+                                            <a name="13"></a><sup><a href="#link13">13</a></sup><br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Просто́рное состоя́ние ума́, как просто́рное состоя́ние ума́;
+                                            <a name="14"></a><sup><a href="#link14">14</a></sup> не просто́рное состоя́ние ума́, как не просто́рное состоя́ние ума́;
+                                            <a name="15"></a><sup><a href="#link15">15</a></sup><br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Состоя́ние ума́, по отноше́нию к кото́рому есть у́мственно бо́лее высо́кое состоя́ние ума́, как состоя́ние, по отноше́нию к кото́рому есть у́мственно бо́лее высо́кие состоя́ния;
+                                            <sup><a name="16"></a><a href="#link16">16</a></sup> состоя́ние ума́, по отноше́нию к кото́рому нет у́мственно бо́лее высо́кого состоя́ния ума́, как состоя́ние, по отноше́нию к кото́рому нет у́мственно бо́лее
+                                            высо́ких состоя́ний;
+                                            <a name="17"></a><sup><a href="#link17">17</a></sup><br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Сосредото́ченное состоя́ние ума́, как сосредото́ченное состоя́ние ума́; не сосредото́ченное состоя́ние ума́, как не сосредото́ченное состоя́ние ума́;<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Освобождённое состоя́ние ума́, как освобождённое состоя́ние ума́;<sup><a name="18"></a><a href="#link18">18</a></sup> не освобождённое состоя́ние ума́, как не освобождённое состоя́ние ума́;
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает ум в уме́ вну́тренне, ли́бо он отсле́живает ум в уме́ вне́шне, ли́бо он отсле́живает ум в уме́ вну́тренне и вне́шне. Он отсле́живает фа́кторы возникнове́ния в уме́, ли́бо он отсле́живает
+                                            фа́кторы исчезнове́ния в уме́, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в уме́
+                                            <a name="19"></a><sup><a href="#link19">19</a></sup>.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Ум существу́ет» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает ум в уме́.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><a
+                                                        name="p9"></a>IV.
+                                                    Созерца́ние ка́честв ума́</b><br />
+                                            <i>(Дхамманупассана)</i>
+                                        </font>
+                                    </p>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b>Пять
+                                                        препя́тствий</b><br />
+                                                    (Дхамманупассана наниваранапаббха)
+                                                </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́?</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ пяти́ препя́тствий.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Каки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ пяти́ препя́тствий?
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том,
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Чу́вственное
+                                                    жела́ние</i></font>
+                                    </p>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>мона́х, когда́ в нём прису́тствует чу́вственное жела́ние,распозна́ет|распознаёт, что в нём есть чу́вственное жела́ние,
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>ли́бо, когда́ в нём отсу́тствует чу́вственное жела́ние, он распозна́ет|распознаёт, что в нём нет чу́вственного жела́ния.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшего чу́вственного жела́ния;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кшего чу́вственного жела́ния;
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он распозна́ет|распознаёт, как происхо́дит невозникновение в бу́дущем исчезнувшего чу́вственного жела́ния.
+                                        </font>
+                                    </ul>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Недоброжела́тельность</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует недоброжела́тельность, он распозна́ет|распознаёт, что в нём есть недоброжела́тельность, ли́бо, когда́ в нём отсу́тствует недоброжела́тельность, он распозна́ет|распознаёт, что в нём нет
+                                            недоброжела́тельности. Он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникшей недоброжела́тельности; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кшей недоброжела́тельности;
+                                            он распозна́ет|распознаёт, как происхо́дит невозникновение в бу́дущем исчезнувшей недоброжела́тельности.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Лёнь и
+                                                    сонли́вость</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствуют лень и сонли́вость, он распозна́ет|распознаёт, что в нём есть лень и сонли́вость, ли́бо, когда́ в нём отсу́тствуют лень и сонли́вость, он распозна́ет|распознаёт, что в нём нет ле́ни и
+                                            сонли́вости. Он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших ле́ни и сонли́вости; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших ле́ни и сонли́вости; он распозна́ет|распознаёт,
+                                            как происхо́дит невозникновение в бу́дущем исчезнувших ле́ни и сонли́вости.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Неугомо́нность и
+                                                    беспоко́йство</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствуют неугомо́нность и беспоко́йство, он распозна́ет|распознаёт, что в нём есть неугомо́нность и беспоко́йство, ли́бо, когда́ в нём отсу́тствуют неугомо́нность и беспоко́йство, он распозна́ет|распознаёт,
+                                            что в нём нет неугомо́нности и беспоко́йства. Он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших неугомо́нности и беспоко́йства; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших
+                                            неугомо́нности и беспоко́йства; он распозна́ет|распознаёт, как происхо́дит невозникновение в бу́дущем исчезнувших неугомо́нности и беспоко́йства.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>Неуве́ренность и
+                                                    сомне́ния</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ в нём прису́тствует неуве́ренность, он распозна́ет|распознаёт, что в нём есть неуве́ренность, ли́бо, когда́ в нём отсу́тствует неуве́ренность, он распозна́ет|распознаёт, что в нём нет неуве́ренности. Он распозна́ет|распознаёт,
+                                            как происхо́дит возникнове́ние невозникшей неуве́ренности; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кшей неуве́ренности; он распозна́ет|распознаёт, как происхо́дит невозникновение в бу́дущем
+                                            исчезнувшей неуве́ренности.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вне́шне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне и вне́шне.
+                                            Он отсле́живает фа́кторы возникнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы исчезнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в ка́чествах ума́
+                                            <sup><a name="20"></a><a href="#link20">20</a></sup>.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Ка́чества ума́ существу́ют» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ пяти́ препя́тствий.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p10"></a>Пять
+                                                        групп привя́занности</b><br />
+                                                    (Дхамманупассана кхандхапабба) </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ пяти́ групп привя́занностей.
+                                            <a name="21"></a><sup><a href="#link21">21</a></sup>
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Каки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ пяти́ групп привя́занностей?
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том мона́х мы́слит:
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>«Э́то – материа́льная фо́рма; э́то – возникнове́ние материа́льной фо́рмы; э́то – исчезнове́ние материа́льной фо́рмы.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Э́то – чу́вство; э́то – происхожде́ние чу́вства; э́то – исчезнове́ние чу́вства.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Э́то – распознава́ние; э́то – возникнове́ние распознава́ния; э́то – исчезнове́ние распознава́ния.<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Э́то – констру́кции; э́то – возникнове́ние констру́кций; э́то – исчезнове́ние констру́кций.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Э́то – созна́ние; э́то – происхожде́ние созна́ния; э́то – исчезнове́ние созна́ния».
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вне́шне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне и вне́шне.
+                                            Он отсле́живает фа́кторы возникнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы исчезнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в ка́чествах ума́
+                                            <a name="22"></a><sup><a href="#link22">22</a></sup>.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Ка́чества ума́ существу́ют» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ пяти́ групп привя́занностей.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p11"></a>Шесть
+                                                        вну́тренних и вне́шних опо́р</b><br />
+                                                    (Дхамманупассана айатанапабба) </i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И да́лее, мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ шести́ вну́тренних и вне́шних сфер чувств.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Каки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ шести́ вну́тренних и вне́шних сфер чувств?</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">При э́том,
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Зри́тельное</i></font>
+                                    </p>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>мона́х распозна́ет|распознаёт глаз и зри́тельные фо́рмы, и око́вы, порождённые и́ми;
+                                            <sup><a name="23"></a><a href="#link23">23</a></sup>
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших око́в; <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших око́в; и <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>он распозна́ет|распознаёт, как происхо́дит невозникновение в бу́дущем исчезнувших око́в.
+                                        </font>
+                                    </ul>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Слы́шимое</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Он распозна́ет|распознаёт у́хо и зву́ки и око́вы, порождённые и́ми; он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших око́в; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших
+                                            око́в; и он распозна́ет|распознаёт, как происхо́дит невозникновение в бу́дущем исчезнувших око́в.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Обоня́емое</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">нос и за́пахи и око́вы, порождённые и́ми; он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших око́в; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших око́в; и он распозна́ет|распознаёт,
+                                            как происхо́дит невозникновение в бу́дущем исчезнувших око́в.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Вкуша́емое</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">язы́к и вкус и око́вы, порождённые и́ми; он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших око́в; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших око́в; и он распозна́ет|распознаёт,
+                                            как происхо́дит невозникновение в бу́дущем исчезнувших око́в.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>Такти́льное</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">те́ло и объе́кты осяза́ния и око́вы, порождённые и́ми; он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших око́в; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших око́в; и он
+                                            распозна́ет|распознаёт, как происхо́дит невозникновение в бу́дущем исчезнувших око́в.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-
+serif" size="2"><i>У́мственное</i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">интелле́кт и иде́и, и око́вы, порождённые и́ми; он распозна́ет|распознаёт, как происхо́дит возникнове́ние невозникших око́в; он распозна́ет|распознаёт, как происхо́дит исчезнове́ние возни́кших око́в; и он распозна́ет|распознаёт,
+                                            как происхо́дит невозникновение в бу́дущем исчезнувших око́в.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вне́шне, ли́бо он отсле́живает ка́чества ума́ в ка́чествах ума́ вну́тренне и вне́шне.
+                                            Он отсле́живает фа́кторы возникнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы исчезнове́ния в ка́чествах ума́, ли́бо он отсле́живает фа́кторы происхожде́ния и исчезнове́ния в ка́чествах ума́.
+                                            <sup><a
+                                                        name="24"></a><a href="#link24">24</a></sup>
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ли́бо его́ па́мятование соотно́сится с мы́слью «Ка́чества ума́ существу́ют» по ме́ре необходи́мости, то́лько ра́ди зна́ния и па́мятования, и он живёт незави́симо и ни к чему́ не привя́зан в ми́ре. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И таки́м о́бразом мона́х отсле́живает ка́чества ума́ в ка́чествах ума́ шести́ вну́тренних и вне́шних сфер чувств.</font>
+                                    </div>
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <div class="a"><br />
+                                                    <div style='font-size:17.0pt;font-family:"Arial"'>
+                                                        <a href="dn22-mahasatipatthansa-sutta-02-ivahnenko.htm" style="border:0px;" title="к сле́дующей страни́це">→</a>
+                                                        <i>
+                                                                <font color="#999966"
+                                                                    face="Arial, Helvetica, sans-serif" size="2">
+                                                                </font>
+                                                            </i>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td><br />
+                                                <div align="right">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                                <font color="#999933" size="1">
+                                                                    страни́ца 1 / 2 </font>
+                                                            </i></font>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#1" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">1</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link1"></a>
+                                            Повторение фраз "отслеживая тело в теле", "чувства в чувствах", и т. д.
+                                            предназначено для того,
+                                            чтобы медитирующий понял, насколько важно осознавать, удерживается ли его
+                                            внимание на одном
+                                            выбранном объекте, и не отклоняется в область другого созерцания. Например,
+                                            когда медитирующий
+                                            созерцает любой телесный процесс, он может невольно отвлечься на
+                                            рассмотрение своих чувств,
+                                            связанных с этим телесным процессом. В таком случае он должен ясно
+                                            осознавать, что он ушел от
+                                            первоначального предмета, и занялся созерцанием чувства
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#2" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link2"></a>
+                                            Ум (на языке пали "читта", также "сознание" или "винняна") в данном
+                                            контексте означает состояния
+                                            ума или единицы моментальной продолжительности в потоке ума. Качества ума
+                                            (дхамма), – это
+                                            содержание ума, или факторы ума, из которых состоят отдельные состояния ума
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#3" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link3"></a>
+                                            "Внутренне": отслеживая собственное дыхание; "внешне": отслеживая дыхание
+                                            другого; "внутренне и
+                                            внешне": отслеживая попеременно свое дыхание и дыхание другого с непрерывным
+                                            вниманием. Сначала
+                                            внимание обращается только на собственное дыхание, и только на дальнейших
+                                            этапах для практики
+                                            проницательности внимание обращается на процесс дыхания другого человека.
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#4" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">4</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link4"></a>
+                                            Факторы возникновения (самудая-дхамма), то есть условия возникновения
+                                            дыхания тела; это: все тело
+                                            целиком, носовой проем и ум
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#5" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">5</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link5"></a>
+                                            Условия исчезновения дыхания тела – это: разрушение тела и носового проема,
+                                            и прекращение
+                                            деятельности ума
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#6" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">6</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link6"></a>Созерцание то одних, то других попеременно</i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#7" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">7</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link7"></a>
+                                            То есть существуют только безличностные процессы тела, без "я", души, духа,
+                                            постоянной сущности
+                                            или субстанции. Соответственно нужно понимать эту фразу в последующих
+                                            созерцаниях.
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#8" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">8</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link8"></a>
+                                            Независимо от жажды (танха) и ложного понимания.</i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#9" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">9</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link9"></a>
+                                            Во всех созерцаниях тела, кроме предыдущего, факторы происхождения:
+                                            невежество, жажда, карма, еда,
+                                            и общая характеристика происхождения; факторы исчезновения: исчезновение
+                                            невежества, жажды, кармы,
+                                            еды, и общая характеристика исчезновения</i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#10" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">10</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link10"></a>
+                                            Так называемые "стихии" – это первичные качества материи, объясняемые
+                                            буддийской традицией как
+                                            твердость (земля), сцепление (вода), теплотворность (огонь), и движение
+                                            (ветер или воздух).</i>
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#11" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">11
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link11"></a>
+                                            Здесь факторы возникновения: невежество, жажда, карма, впечатление чувств, и
+                                            общая характеристика
+                                            возникновения. Факторы исчезновения: исчезновение этих четырех, и общая
+                                            характеристика
+                                            исчезновения
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#12" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">12
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link12"></a>
+                                            Это относится к негибкому и ленивому состоянию ума
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#13" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">13
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link13"></a>
+                                            Это относится к беспокойному уму
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#14" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">14
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link14"></a>
+                                            Ум медитативной поглощенности тонко-телесной и нетелесной сферы
+                                            (рупа-арупа-джхана).
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#15" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">15
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link15"></a>
+                                            Обычный ум, или чувственное состояние существования (камавачара).
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#16" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">16
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link16"></a>
+                                            Ум чувственного состояния существования, по отношению к которому есть другие
+                                            более высокие
+                                            состояния ума
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#17" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">17</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link17"></a>
+                                            Ум тонко-телесной и нетелесной сферы, по отношению к которому нет более
+                                            высоких земных состояний
+                                            ума
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#18" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">18
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link18"></a>
+                                            Временно освобожденное от оков (килеса) либо с помощью методичной практики
+                                            проницательности
+                                            (випассана), освобождающей от отдельных неумелых состояний силой их
+                                            противоположностей, либо с
+                                            помощью медитативной поглощенности ума (джхана)
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#19" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">19</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link19"></a>
+                                            Здесь факторы происхождения состоят из невежества, жажды, кармы, тела-и-ума
+                                            (нама-рупа). И общей
+                                            характеристики происхождения; факторы исчезновения: пропадание невежества и
+                                            т. д., и общая
+                                            характеристика исчезновения
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#20" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">20
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link20"></a>
+                                            Здесь факторы возникновения – это условия, которые создают препятствия,
+                                            например ложное
+                                            рассуждение и т. п., факторы исчезновения – это условия, которые устраняют
+                                            препятствия, например
+                                            правильная решимость
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#21" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">21
+                                    </font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link21"></a>
+                                            Эти пять групп или скоплений образуют так называемую личность. Если они
+                                            являются объектами
+                                            привязанности, то существование, в форме повторных рождений и смертей,
+                                            повторяется
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#22" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">22</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link22"></a>
+                                            Факторы возникновения-исчезновения для пяти групп: для материальной формы,
+                                            те же, что и для поз;
+                                            для чувства, те же, что и для созерцания чувства; для распознавания и
+                                            конструкций, те же, что и
+                                            для чувства; для ума, те же, что и для созерцания ума
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#23" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">23</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link23"></a>
+                                            Традиционный список десяти главных оков (самйоджана), как он дан в собрании
+                                            трактатов ("Сутта
+                                            Питака"), следующий: (1) иллюзия "я", (2) скептицизм, (3) цепляние к
+                                            правилам и предписаниям, (4)
+                                            чувственное вожделение, (5) недоброжелательность, (6) жажда тонко-телесного
+                                            существования, (7)
+                                            жажда бестелесного существования, (8) тщеславие, (9) нетерпеливость, (10)
+                                            невежество
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                                    <a href="#24" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">24</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font color="#999966" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <a name="link24"></a>
+                                            Факторы возникновения шести физических оков чувств – это невежество, жажда,
+                                            карма, еда, и общая
+                                            характеристика происхождения; факторы исчезновения: общая характеристика
+                                            исчезновения и пропадание
+                                            невежества и т. д. Факторы происхождения и исчезновения основы ума те же,
+                                            что и у чувства
+                                        </i></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr bgcolor="#F4EFBD">
+                                <td class="bottom" colspan="4" height="2">
+                                    <div align="center">
+                                        <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                            <tr>
+                                <td class="bottom" height="2" valign="middle" width="1%">
+                                    <a href="../digha.htm#maha" style="border:0px;" title="вернуться к разделу">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                    </a>
+                                </td>
+                                <td class="bottom" height="2" valign="middle" width="1%">
+                                    <a href="#" style="border:0px;" title="вернуться наверх">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="32%">
+                                    <div align="center">
+                                        <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                            <noindex>
+                                                <!--LiveInternet counter-->
+                                                <script type="text/javascript">
+                                                    new Image().src = "//counter.yadro.ru/hit?r" +
+                                                        escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                                                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                        ";h" + escape(document.title.substring(0, 150)) +
+                                                        ";" + Math.random();
+                                                </script>
+                                                <!--/LiveInternet-->
+                                                <!--LiveInternet logo-->
+                                                <a href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1" src="//counter.yadro.ru/logo?42.6" title="LiveInternet" width="1" /></a>
+                                                <!--/LiveInternet-->
+                                                <!--SpyLOG-->
+                                                <span id="spylog2031418"></span>
+                                                <script type="text/javascript">
+                                                    var spylog = {
+                                                        counter: 2031418,
+                                                        image: undefined,
+                                                        next: spylog
+                                                    };
+                                                    document.write(unescape("%3Cscript src=%22http" +
+                                                        (("https:" == document.location.protocol) ? "s" : "") +
+                                                        "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E"));
+                                                </script>
+                                                <!--SpyLOG-->
+                                            </noindex>
+                                        </font>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="19%">
+                                    <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="37%">
+                                    <div align="right">
+                                        <font color="#C8C16C" face="Arial, Helvetica, sans-serif" style="font-size:7pt; font-family: Arial;">© theravada.ru – при копировании материалов
+                                            <br /> просьба ставить прямую ссылку на наш сайт.<br />
+                                            <a href="../../../Books/Cittaviveka/canon.htm" style="border:0px solid #FFFFCC;background:none;font:9" title="Будда и Буддизм">
+                                                <font color="#DAD694">Палийский Канон
+                                                </font>
+                                            </a>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div align="center"></div>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window,
+                a = 'inner';
+            if (!('innerWidth' in window)) {
+                a = 'client';
+                e = document.documentElement || document.body;
+            }
+            return {
+                width: e[a + 'Width'],
+                height: e[a + 'Height']
+            }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                item.setAttribute("width", "95%");
+            });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                item.setAttribute("width", "85%");
+            });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            document.querySelectorAll("font[size='3']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function(item) {
+                item.setAttribute("size", "6");
+            });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                document.querySelectorAll("font[size='3']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function(item) {
+                    item.setAttribute("size", "4");
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>

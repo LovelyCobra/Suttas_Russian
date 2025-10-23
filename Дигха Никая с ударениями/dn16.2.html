@@ -1,0 +1,1341 @@
+<html>
+
+<head>
+    <title>Махапариниббана сутта : Великое окончательное освобождение :: Дигха Никая 16</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        } catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                } catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat="" text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+                        
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+                        
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        .a {
+                            TEXT-INDENT: 2em
+                        }
+                        
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+                        
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+                        
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+                        
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                         <i>
+                                                <font face="Georgia, Times New Roman, Times, serif" size="2"><b>  
+                                                        Учение Старцев</b></font>
+                                            </i> </b>
+                                </font>
+                                </i>
+                            </td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td>
+                                            <a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%">
+                                <a href="../digha.htm#16" style="border:0px;" title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a>
+                                <a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная лекция">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a>
+                            </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span>
+                            </td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'>
+                                    <div align="right" class="a,">
+                                        <div style='font-size:17.0pt;font-family:"Arial"'> <a href="dn16-mahaparinibbana-sutta-01-ivahnenko.htm" style="border:0px;" title="к предыдущей странице">←</a>
+                                            <a href="dn16-mahaparinibbana-sutta-01-ivahnenko.htm" style="border:0px;" title="к оглавлению">↑</a>
+                                            <a href="dn16-mahaparinibbana-sutta-03-ivahnenko.htm" style="border:0px;" title="к следующей странице">→</a>
+                                            <i>
+                                                <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">
+                                                </font>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                                    </font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">
+                                            Махапариниббана сутта: <br />Великое Окончательное Освобождение<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="3">ДН 16</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                                        <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                                                <div align="right"><i>
+                                                        <font color="#996633"><span
+                                                                style="font-size:8pt;font-family:Arial;">
+                                                                <font color="#996633">
+                                                                    <span style="font-size:8pt;font-family:Arial;"><span
+                                                                            style="font-size:8pt;font-family:Arial;">
+                                                                            <font color="#996633">
+                                                                                <span
+                                                                                    style="font-size:8pt;font-family:Arial;">
+                                                                                    <font color="#996633"><span
+                                                                                            style="font-size:8pt;font-family:Arial;">
+                                                                                            редакция на основе
+                                                                                            палийского <br /> оригинала:
+                                                                                            Д. А. Ивахненко
+                                                                                        </span></font>
+                                    </span>
+                                    </font>
+                                    </span><br /> Перевод с английского: Ешея Дорже
+                                    <br />по переводу с пали <br />сестры Ваджиры и Френсиса Стори<br />
+                                    <br /> источник: <br />
+                                    <a href="http://www.dhamma.ru/canon/dn16.htm" target="_blank">www.dhamma.ru</a>
+                                    </span>
+                                    </font>
+                                    </span>
+                                    </font>
+                                    </i>
+                    </div>
+                    </span>
+                </div>
+                </span>
+                </td>
+                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                </tr>
+                </table>
+                <br /><br />
+                <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+                    <tr>
+                        <td style="text-align: justify" valign="top">
+                        </td>
+                        <td style="text-align: justify" valign="top"> </td>
+                        <td style="text-align: justify" valign="top">
+
+                            <p align="center">
+                                <font face="Times New Roman, Times, serif" size="4"><b><a
+                                                        name="p17"></a>Глава́
+                                                    III</b></font>
+                            </p>
+                            <p>
+                                <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p18"></a>Намёк
+                                                        и подска́зка</b></i></font>
+                            </p>
+                            <div class="a">
+                                <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>Р</b>
+                                </font>
+                                <font face="Arial, Helvetica, sans-serif" size="2">ано у́тром оде́лся Благослове́нный и, взяв свою́ ча́шу, отпра́вился в Весали проси́ть подая́ние; возврати́вшись, он сел на пригото́вленное для него́ сиде́ние и, отве́дав ри́са, обрати́лся к Ананде и сказа́л: «Возьми́ подсти́лку,
+                                    Ананда, я пойду́ проведу́ день к надгро́бью Чапалы». «Да бу́дет так, Господи́н», – отвеча́л Ананда. И взяв подсти́лку, он после́довал сле́дом за Благослове́нным.
+                                </font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">Ита́к, Благослове́нный напра́вился к надгро́бью Чапалы, и когда́ он при́был туда́, он сел на разо́стланную для него́ подсти́лку, и почте́нный|почтённый Ананда сел почти́тельно по́дле.
+                                </font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ Благослове́нный обрати́лся к Ананде и сказа́л ему́: «Как восхити́телен, Ананда, Весали; как восхити́тельны надгро́бья Удены, Готамаки, Саттамбы, Бахупутты, Сарандады и Чапалы».</font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И Благослове́нный сказа́л: «Ананда, кто развива́л, тренирова́л, укрепля́л, взра́щивал, внима́тельно изуча́л и довёл до соверше́нства четы́ре осно́вы психи́ческих сил (
+                                    <i>иддхи</i>), мог бы, е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли до конца́ её. Татхагата, о Ананда, сверши́л э́то. Таки́м о́бразом, Татхагата мо́жет, е́сли бы пожела́л, остава́ться здесь в тече́ние
+                                    кальпы и́ли до конца́ её
+                                    <a name="12"></a><sup><a href="#link12">12</a></sup>».
+                                </font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И хотя́ был так очеви́ден намёк, так ясна́ была́ подска́зка, – не по́нял того́ почте́нный|почтённый Ананда, – Ма́ра помути́л его́ ра́зум и он не проси́л Благослове́нного, не умоля́л: «Благоволи́, Господи́н, здесь оста́ться!
+                                    Пребу́дь всю сию́ кальпу, о Благослове́нный, на бла́го и сча́стье бесчи́сленного мно́жества живы́х суще́ств, из сострада́ния к ми́ру, на ра́дость, благосостоя́ние и благоде́нствие люде́й и бо́гов|бого́в!»</font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И когда́ во второ́й и в тре́тий раз Благослове́нный повтори́л ска́занное, почте́нный|почтённый Ананда пребыва́л в молча́нии.</font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И вот Благослове́нный обрати́лся к Ананде и сказа́л: «Поки́нь меня́ тепе́рь, Ананда, и займи́сь свои́м де́лом».</font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">«Да бу́дет так, Господи́н», – отвеча́л Ананда, и встав, поклони́вшись пе́ред Благослове́нным и обойдя́ его́ спра́ва, отошёл и сел у подно́жия де́рева, неподалёку.</font>
+                            </div>
+                            <p>
+                                <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p19"></a>Про́сьба
+                                                        Мары́</b></i></font>
+                            </p>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И когда́ Ананда отошёл, Ма́ра, Злой Дух, прибли́зился к Благослове́нному с таки́ми слова́ми: «О, Господи́н, поки́нь жизнь, уйди́ тепе́рь, о Благослове́нный! Пришло́ вре́мя Благослове́нному поки́нуть жизнь, как прорица́л
+                                    о себе́ Благослове́нный, говоря́: «Я до тех пор не уйду́, Злой Дух, пока́ мона́хи и мона́хини общи́ны и все|всё миря́не, ученики́, му́жи|мужи́ и жены́|жёны, не ста́нут ве́рными после́дователями, му́дрыми, окре́пшими
+                                    в зна́нии, восприня́вшими Дха́мму, живу́щими в соотве́тствии с Дха́ммой, ве́рно блюду́щими все|всё вели́кие и ма́лые установле́ния, держа́щими путь свой в согла́сии с пра́вилами, и изучи́в сло́ва|слова́ Учи́теля|Учителя́,
+                                    бу́дут гото́вы возвеща́ть их други́м, поуча́ть други́х, открыва́ть, разъясня́ть други́м, пока́ они́ не бу́дут гото́вы Дха́ммой рассе́ять вся́кое ло́жное уче́ние, и не разнесу́т далеко́ по све́ту весть о чудоде́йственной
+                                    и освобожда́ющей Дха́мме.
+                                </font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И тепе́рь, Господи́н, мона́хи и мона́хини общи́ны и все|всё миря́не, ученики́, му́жи|мужи́ и жены́|жёны, ста́ли таки́ми ученика́ми Благослове́нного. Поки́нь же тепе́рь жизнь, Господи́н! Уйди́, о Благослове́нный!</font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">Наступи́ло вре́мя отойти́ в Париниббану Благослове́нному, как он сам изрёк о себе́, говоря́: «Я до того́ дня не уйду́, Зло́бный Дух, пока́ чи́стое моё уче́ние благоче́стия широ́кой волно́й добра́ не разольётся по све́ту,
+                                    не бу́дет возлю́блено оно́, преиспо́лненное, не возвести́тся всеце́ло на бла́го людско́е». Уйди́ же тепе́рь, Господи́н, поки́нь существова́ние, о Благослове́нный, до́лжный час кончи́ны твое́й наступи́л ны́не».</font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И Благослове́нный отве́тил Маре́, Ду́ху Зла: «О, Зло́бный, пора́дуйся, Париниббана Татхагаты бли́зится. К концу́ тре́тьего ме́сяца от сего́ дня уйдёт Татхагата».
+                                </font>
+                            </div>
+                            <p>
+                                <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p20"></a>Отрече́ние
+                                                        от поддержа́ния жи́зни</b></i></font>
+                            </p>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">Так у надгро́бья Чапалы отри́нул Благослове́нный в душе́вной свобо́де и му́дрости оста́ток свое́й жи́зни. И когда́ он отрёкся от жи́зни, произошло́ стра́шное землетрясе́ние и разрази́лась гроза́. И гро́мко и торже́ственно
+                                    изрёк Благослове́нный:
+                                    <br />
+                                    <i>«Отрёкся от жи́зни Прему́дрый,<br />
+                                                    Отрёкся от её нача́ла вели́кого и ма́лого,<br />
+                                                    Как кольчу́гу он на себе́ разорва́л обольще́ния жи́зни, –<br />
+                                                    в ра́дости ду́ха, споко́йствии!»</i>
+                                </font>
+                            </div>
+                            <p>
+                                <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                            name="p21"></a>Большо́е
+                                                        землетрясе́ние</b></i></font>
+                            </p>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ поду́мал почте́нный|почтённый Ананда: «Чуде́сно, непоня́тно, отчего́ э́то бы́ло тако́е стра́шное землетрясе́ние, и все|всё не́бо покры́лось мо́лниями. Каковы́ же основа́ния, каковы́ причи́ны тако́го стра́шного землетрясе́ния?»
+                                </font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">И тогда́ почте́нный|почтённый Ананда прибли́зился к Благослове́нному и почти́тельно сев ря́дом с ним, сказа́л: «Чуде́сно, непоня́тно, отчего́ э́то бы́ло тако́е стра́шное землетрясе́ние и все|всё не́бо покры́лось мо́лниями?
+                                    Каковы́ же основа́ния, каковы́ причи́ны тако́го стра́шного землетрясе́ния?»</font>
+                            </div>
+                            <div class="a">
+                                <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ Благослове́нный сказа́л: «Есть во́семь основа́ний, Ананда, во́семь причи́н для стра́шного землетрясе́ния. Каковы́ же те во́семь причи́н? </font>
+                            </div>
+                            <ul>
+                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Э́та вели́кая земля́ утверждена́ на во́дах, во́ды|воды́ на ветра́х, ве́тры|ветры́ поко́ятся на простра́нствах. И когда́, Ананда, возни́кнут могу́чие ве́тры|ветры́ – всколыхну́тся во́ды|воды́, и волне́нием вод
+                                    сотрясётся земля́. Таково́ пе́рвое основа́ние, пе́рвая причи́на для стра́шного землетрясе́ния.
+                                    <br />
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Пото́м, Ананда, отше́льник и́ли брахма́на вели́кой духо́вной си́лы, обузда́вший все свои́ чу́вства, и́ли бог вели́кой си́лы и мо́щи, сосредото́ченной мы́слью мо́жет дви́нуть, поколеба́ть и сотрясти́ зе́млю.
+                                    Вот второ́е основа́ние, втора́я причи́на для стра́шного землетрясе́ния.<br />
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Пото́м, Ананда, когда́ Бодхисатта во́лею и свобо́дою покида́ет пребыва́ние в небеса́х Тушита и нисхо́дит в утро́бу ма́тери, в ту мину́ту сотряса́ется, дрожи́т и коле́блется земля́. Вот тре́тье основа́ние, тре́тья
+                                    причи́на для стра́шного землетрясе́ния.
+                                    <br />
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Пото́м, Ананда, когда́ Бодхисатта свобо́дно и во́льно|вольно́ оставля́ет утро́бу ма́тери, тогда́ потряса́ется земля́, коле́блется, содрога́ется бу́рно. Вот четвёртое основа́ние, четвёртая причи́на для стра́шного
+                                    землетрясе́ния.
+                                    <br />
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Пото́м, Ананда, когда́ Татхагата достига́ет высоча́йшего и соверше́ннейшего Благослове́ния, тогда́ потряса́ется земля́, коле́блется, содрога́ется бу́рно. Вот пя́тое основа́ние, пя́тая причи́на для стра́шного
+                                    землетрясе́ния.
+                                    <br />
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Пото́м, Ананда, когда́ Татхагата запуска́ет превосхо́дное Колесо́ Уче́ния, тогда́ потряса́ется земля́, коле́блется, содрога́ется бу́рно. Вот шесто́е основа́ние, шеста́я причи́на для стра́шного землетрясе́ния.<br
+                                    />
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Пото́м, Ананда, когда́ Татхагата во́лею и свобо́дою отрека́ется от оста́тка дней свои́х на земле́, тогда́ коле́блется земля́, потряса́ется, содрога́ется бу́рно. Вот седьмо́е основа́ние, седьма́я причи́на для
+                                    стра́шного землетрясе́ния.
+                                    <br />
+                                    <font face="Times New Roman, Times, serif" size="4">*</font>
+                                    <font size="4"> </font>Пото́м, Ананда, когда́ Татхагата отхо́дит навсегда́ в состоя́ние Ниббан
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p22"></a>Во́семь
+                                                                ви́дов собра́ний</b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Есть во́семь ви́дов собра́ний, Ананда, – э́то собра́ния благоро́дных, брахма́нов, домохозя́ев, отше́льников, Четырёх Вели́ких Царе́й, Тридцати́ трёх бого́в, Мар и Брахм.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́, Ананда, я входи́л в те собра́ния, пре́жде чем сесть и́ли вступи́ть в бесе́ду, я станови́лся цве́том подо́бен их цве́ту|цвету́ и го́лосом, подо́бен их го́лосу. И тогда́ в благочести́вой бесе́де я поуча́л
+                                            их, воодушевля́л и ра́довал. Но они́ не зна́ли меня́, когда́ я говори́л с ни́ми, и говори́ли: «Кто́ это, что говори́т так, челове́к ли, бог ли?»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И поучи́вши их, воодушеви́в, ободри́в и пора́довав в благочести́вой бесе́де, я исчеза́л отту́да. Но они́ не узна́ли меня́, да́же когда́ я скры́лся, и говори́ли: «Кто́ это, что исче́з так, челове́к ли, бог ли?»</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p23"></a>Во́семь
+                                                                областе́й мастерства́</b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Существу́ет во́семь областе́й мастерства́, Ананда. Каковы́ э́ти во́семь?
+                                        </font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним теле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, кото́рые коне́чны и краси́вы и́ли некраси́вы, и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, – такова́ пе́рвая о́бласть
+                                            мастерства́.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним теле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, кото́рые беспреде́льны и краси́вы и́ли некраси́вы, и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, – такова́ втора́я
+                                            о́бласть мастерства́.<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним бестеле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, кото́рые коне́чны и краси́вы и́ли некраси́вы, и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, – такова́ тре́тья о́бласть
+                                            мастерства́.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним бестеле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, кото́рые беспреде́льны и краси́вы и́ли некраси́вы, и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, – такова́ четвёртая
+                                            о́бласть мастерства́.<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним бестеле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, голубы́е цве́том, голубы́е ви́дом и отража́ющие голубо́е, как к приме́ру цвето́к льна голубо́го цве́та и отража́ющий голубо́е,
+                                            и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, – такова́ пя́тая о́бласть мастерства́.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним бестеле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, жёлтые цве́том, жёлтые ви́дом и отража́ющие жёлтое, и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, – такова́ шеста́я
+                                            о́бласть мастерства́.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним бестеле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, мали́новые цве́том, мали́новые ви́дом и отража́ющие мали́новое, и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, –
+                                            такова́ седьма́я о́бласть мастерства́.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним бестеле́сным распознава́нием не́кто ви́дит вне́шние фо́рмы, бе́лые цве́том, бе́лые ви́дом и отража́ющие бе́лое, как У́тренняя Звезда́ бе́лого цве́та, бе́лого ви́да и све́тит бе́лым сия́нием,
+                                            и созна́ет|сознаёт, что он их ви́дит и зна́ет, овладе́в и́ми, – такова́ восьма́я о́бласть мастерства́.
+
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таковы́, Ананда, во́семь областе́й мастерства́.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p24"></a>Во́семь
+                                                                освобожде́ний</b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Существу́ет во́семь освобожде́ний, Ананда. Каковы́ э́ти во́семь?</font>
+                                    </div>
+                                    <ul>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Те́лом он ви́дит фо́рмы, – таково́ пе́рвое освобожде́ние.<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Вну́тренним бестеле́сным распознава́нием, он ви́дит вне́шние фо́рмы, – таково́ второ́е освобожде́ние.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>Он настра́ивается на краси́вое, – таково́ тре́тье освобожде́ние.<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>По́лностью преступи́в преде́лы распознава́ния мате́рии, изба́вившись от распознава́ния раздраже́ния о́рганов|орга́нов чувств, не обраща́я внима́ния на распознава́ние многообра́зия, он осозна́ет|осознаёт,
+                                            достига́ет, пребыва́ет в сфе́ре бесконе́чного простра́нства, – таково́ четвёртое освобожде́ние.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>По́лностью преступи́в преде́лы сфе́ры бесконе́чного простра́нства, он осозна́ет|осознаёт, достига́ет, пребыва́ет в сфе́ре бесконе́чного созна́ния, – таково́ пя́тое освобожде́ние.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>По́лностью преступи́в преде́лы сфе́ры бесконе́чного созна́ния, он осозна́ет|осознаёт, достига́ет, пребыва́ет в сфе́ре отсу́тствия чего́ бы то ни́ было, – таково́ шесто́е освобожде́ние.
+                                            <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>По́лностью преступи́в преде́лы сфе́ры отсу́тствия всего́, он осозна́ет|осознаёт, достига́ет и пребыва́ет в сфе́ре ни-распознава́ния-ни-отсу́тствия-распознава́ния, – таково́ седьмо́е освобожде́ние.<br
+                                            />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            <font size="4"> </font>По́лностью преступи́в преде́лы сфе́ры ни-распознава́ния-ни-отсу́тствия-распознава́ния, он осозна́ет|осознаёт, достига́ет и пребыва́ет в состоя́нии отсече́ния распознава́ния и чу́вствования – таково́
+                                            восьмо́е освобожде́ние.
+
+
+                                        </font>
+                                    </ul>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таковы́, Ананда, во́семь освобожде́ний.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Бы́ли времена́, Ананда, когда́ я обита́л в Урувеле, под бана́новым де́ревом пастуха́ Нигродхи на берегу́ реки́ Нераньджары, вско́ре по́сле того́, как дости́г вели́кого Благослове́ния. И Ма́ра, Злой Дух, пришёл на
+                                            то ме́сто, где был я, и сто́я ря́дом обрати́лся ко мне с таки́ми слова́ми: «Поки́нь тепе́рь жизнь, Господи́н! Уйди́, о Благослове́нный! Пришло́ до́лжное вре́мя для Париниббаны Благослове́нного!»
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́, Ананда, я отве́тил Маре́, Зло́му Ду́ху, сказа́вши: «Я до тех пор не уйду́, Злой Дух, пока́ мона́хи и мона́хини общи́ны и все|всё миря́не, ученики́, му́жи|мужи́ и жены́|жёны, не ста́нут ве́рными после́дователями,
+                                            му́дрыми, окре́пшими в зна́нии, восприня́вшими Дха́мму, живу́щими в соотве́тствии с Дха́ммой, ве́рно блюду́щими все|всё вели́кие и ма́лые установле́ния, держа́щими путь свой в согла́сии с пра́вилами, и изучи́в
+                                            сло́ва|слова́ Учи́теля|Учителя́, бу́дут гото́вы возвеща́ть их други́м, поуча́ть други́х, открыва́ть, разъясня́ть други́м, пока́ они́ не бу́дут гото́вы Дха́ммой рассе́ять вся́кое ло́жное уче́ние, и не разнесу́т
+                                            далеко́ по све́ту весть о чудоде́йственной и освобожда́ющей Дха́мме.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Я до тех пор не уйду́, пока́ преподанный мно́ю приме́р свято́й жи́зни не ста́нет успе́шным, не распространи́тся далеко́ по све́ту, не бу́дет популя́рным и пока́ он не бу́дет возвещён среди́ бо́гов|бого́в и люде́й.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И сего́дня сно́ва, Ананда, у надгро́бья Чапалы, опя́ть посети́л меня́ Ма́ра, Злой Дух и обрати́вшись ко мне сказа́л: «И тепе́рь, Господи́н, мона́хи и мона́хини общи́ны, и все|всё миря́не, ученики́, му́жи|мужи́ и
+                                            жены́|жёны, ста́ли таки́ми ученика́ми Благослове́нного – му́дрыми, окре́пшими в зна́нии, восприня́вшими Дха́мму, живу́щими в соотве́тствии с Дха́ммой, ве́рно блюду́щими все|всё вели́кие и ма́лые установле́ния,
+                                            держа́щими путь свой в согла́сии с пра́вилами, и изучи́в сло́ва|слова́ Учи́теля|Учителя́, гото́вы возвеща́ть их други́м, поуча́ть други́х, открыва́ть, разъясня́ть други́м, они́ гото́вы Дха́ммой рассе́ять вся́кое
+                                            ло́жное уче́ние, и разнесли́ далеко́ по све́ту весть о чудоде́йственной и освобожда́ющей Дха́мме.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И тепе́рь, о Господи́н, э́тот приме́р свято́й жи́зни преподанный Благослове́нным стал успе́шным, распространи́лся далеко́ по све́ту, популя́рен и прекра́сно возвещён среди́ бо́гов|бого́в и люде́й. Поки́нь тепе́рь
+                                            жизнь, о Благослове́нный! Уйди́ ны́не, Господи́н! Наста́ло вре́мя для Париниббаны Благослове́нного!»
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ он сказа́л так, я отве́тил ему́: «О Зло́бный, пора́дуйся, Париниббана Татхагаты бли́зится. К концу́ тре́тьего ме́сяца от сего́ дня сконча́ется Татхагата».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таки́м о́бразом, Ананда, Татхагата сего́дня у надгро́бья Чапалы во́лею и свобо́дою отри́нул оста́ток сро́ка свое́й жи́зни!»</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p25"></a>Про́сьба
+                                                                Ананды</b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ бы́ли ска́заны те сло́ва, почте́нный|почтённый Ананда обрати́лся к Благослове́нному и сказа́л: «Благоволи́, Господи́н, оста́ться на земле́ в сей кальпе! Пребу́дь, о Благослове́нный, на бла́го и сча́стье
+                                            бесчи́сленного мно́жества живы́х суще́ств, из сострада́ния к ми́ру, ра́ди бла́га|блага́ и сча́стья люде́й и бо́гов|бого́в!»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Дово́льно, Ананда, не умоля́й Татхагату. Минова́ло вре́мя для таки́х просьб».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И во второ́й раз почте́нный|почтённый Ананда обрати́лся к Благослове́нному и сказа́л: «Благоволи́, Господи́н, оста́ться на земле́ в сей кальпе! Пребу́дь, о Благослове́нный, на бла́го и сча́стье бесчи́сленного мно́жества
+                                            живы́х суще́ств, из сострада́ния к ми́ру, ра́ди бла́га|блага́ и сча́стья люде́й и бо́гов|бого́в!»
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И в тре́тий раз почте́нный|почтённый Ананда обрати́лся к Благослове́нному и сказа́л: «Благоволи́, Господи́н, оста́ться на земле́ в сей кальпе! Пребу́дь, о Благослове́нный, на бла́го и сча́стье бесчи́сленного мно́жества
+                                            живы́х суще́ств, из сострада́ния к ми́ру, ра́ди бла́га|блага́ и сча́стья люде́й и бо́гов|бого́в!»
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ Благослове́нный сказа́л: «Ве́ришь ли ты, Ананда, в Пробужде́ние Татхагаты?» «И́стинно, так, Господи́н». – «Тогда́ как, Ананда, ты мо́жешь продолжа́ть упо́рствовать про́тив мне́ния Татхагаты, тем бо́лее три
+                                            ра́за подря́д?»
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ почте́нный|почтённый Ананда сказа́л: «Из уст Благослове́нного я слы́шал: «Ананда, кто развива́л, тренирова́л, укрепля́л, взра́щивал, внима́тельно изуча́л и довёл до соверше́нства четы́ре осно́вы психи́ческих
+                                            сил, мог бы, е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли до конца́ её. Татхагата, о Ананда, сверши́л э́то. Таки́м о́бразом, Татхагата мо́жет, е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы
+                                            и́ли до конца́ её».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«И ты пове́рил в э́то, Ананда?»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«И́стинно так, Господи́н!»
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Вот твоя́ оши́бка, вот твоя́ вина́, Ананда, – когда́ был так я́вен намёк, так очеви́дна была́ подска́зка, ты не мог поня́ть того́, и ты не умоля́л Татхагату, говоря́: «Благоволи́, Господи́н, оста́ться в сей кальпе.
+                                            Живи́, о Благослове́нный, на бла́го и сча́стье бесчи́сленного мно́жества живы́х суще́ств, из сострада́ния к ми́ру, ра́ди спасе́ния и бла́га|блага́ люде́й и бо́гов|бого́в». Е́сли бы так ты умоля́л тогда́ Татхагату,
+                                            Татхагата мо́жет быть и отклони́л бы твой призы́в до двух раз, но на тре́тий он снизошёл бы к твои́м мольба́м. Вот твоя́ оши́бка, вот твоя́ вина́!</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ я пребыва́л, Ананда, в Раджагахе, на верши́не, имену́емой Верши́ной Ко́ршуна, я говори́л тебе́, Ананда: «Како́е прекра́сное ме́сто Раджагаха, как вели́чественна э́та Верши́на Ко́ршуна! Кто развива́л, тренирова́л,
+                                            укрепля́л, взра́щивал, внима́тельно изуча́л и довёл до соверше́нства четы́ре осно́вы психи́ческих сил, мог бы, е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли до конца́ её. Татхагата, о Ананда, сверши́л
+                                            э́то. Таки́м о́бразом, Татхагата мо́жет е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли до конца́ её. И когда́ был так я́сен намёк, так очеви́дна подска́зка, не по́нял ты, не обрати́лся к Татхагате,
+                                            не умоля́л его́: «Благоволи́, Господи́н, пребы́ть здесь всю сию́ кальпу! О, живи́, Благослове́нный, на бла́го и сча́стье бесчи́сленного мно́жества живы́х суще́ств, из сострада́ния к ми́ру, ра́ди спасе́ния и
+                                            бла́га|блага́ люде́й и бо́гов|бого́в». Е́сли бы ты умоля́л Татхагату, Татхагата быть мо́жет и отклони́л бы твой призы́в до двух раз, но на тре́тий он бы при́нял его́. Вот в чём твоя́ оши́бка, Ананда, твоя́ вина́!</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И та́кже, в Бана́новой Ро́ще, у Разбо́йничьего Утёса, в Пеще́ре Саттапанни, на Го́ре|Горе́ Вебхара, у Чёрной Ска́лы|Скалы́ Исигили, у Змеи́ного Пруда́, в Прохла́дном Ле́су|Лесу́, в Таподовой Ро́ще, в Бамбу́ковой
+                                            Ро́ще, у Бе́личьей Корму́шки, в Ма́нговой Ро́ще Дживаки, В Ма́ленькой Бу́хте и в Оле́ньей Ро́ще, я говори́л тебе́, Ананда те же са́мые слова́: «Како́е прекра́сное ме́сто Раджагаха, прекра́сны все э́ти ме́ста|места́!
+                                            Кто развива́л, тренирова́л, занима́л, укрепля́л, взра́щивал, внима́тельно изуча́л и довёл до соверше́нства четы́ре осно́вы психи́ческих сил, мог бы е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли
+                                            до конца́ её. Татхагата, о Ананда, сверши́л э́то. Таки́м о́бразом, Татхагата мо́жет, е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли до конца́ её.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ был так я́сен намёк, так очеви́дна подска́зка, не по́нял ты, не обрати́лся к Татхагате, не умоля́л его́: «Благоволи́, Господи́н, пребы́ть здесь всю сию́ кальпу! О Благослове́нный, живи́ на бла́го и сча́стье
+                                            бесчи́сленного мно́жества живы́х суще́ств, из сострада́ния к ми́ру, на ра́дость и сча́стье и бла́го люде́й и бо́гов|бого́в». Е́сли бы ты умоля́л Татхагату, Татхагата быть мо́жет и отклони́л бы твой призы́в до
+                                            двух раз, но на тре́тий он бы при́нял его́. Вот в чём твоя́ оши́бка, Ананда, твоя́ вина́!</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И вот тепе́рь в Весали у надгро́бья Чапалы я говори́л тебе́: «О Ананда, как прекра́сно Весали, как прекра́сны надгро́бья Удены, Бахапутты и Сарандады! Кто, Ананда, развива́л, тренирова́л, занима́л, укрепля́л, взра́щивал,
+                                            внима́тельно изуча́л и довёл до соверше́нства четы́ре осно́вы психи́ческих сил, мог бы е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли до конца́ её. Татхагата, о Ананда сверши́л э́то. Таки́м о́бразом,
+                                            Татхагата мо́жет е́сли бы пожела́л, остава́ться здесь в тече́ние кальпы и́ли до конца́ её.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ был так я́сен намёк, так очеви́дна подска́зка, не по́нял ты, не обрати́лся к Татхагате, не умоля́л его́: «Благоволи́, Господи́н, пребы́ть здесь всю сию́ кальпу! О Благослове́нный, живи́ на бла́го и сча́стье
+                                            бесчи́сленного мно́жества живы́х суще́ств, из сострада́ния к ми́ру, на ра́дость и сча́стье и бла́го люде́й и бо́гов|бого́в». Е́сли бы ты умоля́л Татхагату, Татхагата быть мо́жет и отклони́л бы твой призы́в до
+                                            двух раз, но на тре́тий он бы при́нял его́. Вот в чём твоя́ оши́бка, Ананда, твоя́ вина́!</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Но не говори́л ли я пре́жде, Ананда, что в приро́де веще́й дороги́х нам и бли́зких, что должны́ мы ра́но и́ли по́здно, разлучи́ться с ни́ми, поки́нуть их, расста́ться? И как же мо́жет быть, что́бы рождённое, обре́тшее
+                                            жизнь, сотворённое, в са́мом себе́ несу́щее разруше́ние, не разру́шилось никогда́? Нет, не мо́жет тако́го быть. И э́то, Ананда, то, что Татхагата отве́рг, оста́вил, отбро́сил, отри́нул. И́бо Татхагата сказа́л
+                                            еди́ножды и для всех: «Вско́ре насту́пит час Париниббаны Татхагаты. Че́рез три ме́сяца от сего́ дня сконча́ется Татхагата. И не бу́дет того́, что́бы ра́ди жи́зни здесь Татхагата измени́л сло́ву – э́то невозмо́жно.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">В путь, Ананда, пойдём в зал собра́ний Острове́рхого Дворца́ в Вели́ком Ле́су|Лесу́!» – «Да бу́дет так, Господи́н», –отвеча́л почте́нный|почтённый Ананда.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И Благослове́нный с почте́нным|почтённым Анандой отпра́вились в зал собра́ний Острове́рхого Дворца́ в Вели́ком Ле́су|Лесу́. И там он обрати́лся к Ананде, говоря́: «Пойди́, Ананда, и собери́ в зал собра́ний всех
+                                            мона́хов, что живу́т по сосе́дству с Весали».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Да бу́дет так, Господи́н» – отвеча́л Ананда. И почте́нный|почтённый Ананда собра́л всех мона́хов живу́щих по сосе́дству с Весали, и размести́л их в за́ле собра́ний. И зате́м, почте́нно преклони́вшись пе́ред Благослове́нным
+                                            и ста́вши ря́дом, он обрати́лся к Благослове́нному и сказа́л: «Господи́н, общи́на мона́хов со́брана, поступа́й, как сочтёшь за лу́чшее».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ Благослове́нный отпра́вился в зал собра́ний и сел там на подсти́лку, разо́стланную для него́. И тогда́ Благослове́нный обрати́лся к мона́хам и сказа́л: «О мона́хи, я говорю́ вам, что э́ти уче́ния, прямо́е
+                                            зна́ние кото́рых бы́ло мно́ю пости́гнуто, и кото́рым я научи́л вас – вы должны́ тща́тельно изуча́ть, взра́щивать, развива́ть, и ча́сто практикова́ть, да́бы|дабы́ чи́стая жизнь была́ устано́влена и до́лго пребыва́ла
+                                            для бла́га и сча́стья бесчи́сленного мно́жества живы́х суще́ств, сострада́ния к ми́ру, на ра́дость, благосостоя́ние и бла́го люде́й и бо́гов|бого́в.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Каковы́ же, мона́хи, э́ти уче́ния? Э́то четы́ре осно́вы внима́тельности, четы́ре пра́вильных отноше́ния, четы́ре составля́ющих психи́ческих сил (
+                                            <i>иддхи</i>), пять корне́й, пять сил, семь фа́кторов благослове́ния и Благоро́дный восьмери́чный путь. Э́то, мона́хи, уче́ния, прямо́е зна́ние кото́рых бы́ло мно́ю пости́гнуто, кото́рым я научи́л вас, и кото́рые
+                                            вы должны́ тща́тельно изуча́ть, взра́щивать, развива́ть, и ча́сто практикова́ть, да́бы|дабы́ чи́стая жизнь была́ устано́влена и до́лго пребыва́ла для бла́га и сча́стья бесчи́сленного мно́жества живы́х суще́ств,
+                                            сострада́ния к ми́ру, на ра́дость, благосостоя́ние и бла́го люде́й и бо́гов|бого́в».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И Благослове́нный обрати́лся к мона́хам: «Внемлите, мона́хи, я увещева́ю вас: все|всё сотворённое погиба́ет, – ревни́во тру́дитесь|труди́тесь на пути́ спасе́ния! Вре́мя Париниббаны Татхагаты насту́пит ско́ро, че́рез
+                                            три ме́сяца от сего́ дня сконча́ется Татхагата».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И сказа́в э́то, Счастли́вейший, Учи́тель, обрати́лся сно́ва, говоря́:
+                                            <br />
+                                            <br />
+                                            <i>«Зре́лы мои́ го́ды, жизнь подхо́дит к концу́;<br />
+                                                            Я оставля́ю вас, я отхожу́, упова́я на одного́ лишь
+                                                            себя́.<br />
+                                                            Усе́рдствуйте, мона́хи, будьте внима́тельны<br />
+                                                            И в доброде́тели чи́сты!<br />
+                                                            Со стро́гой реши́мостью охраня́йте свой ум!<br />
+                                                            Кто не уныва́ет, но сле́дует Дха́мме и Винае,<br />
+                                                            Тот вы́йдет из кру́га рожде́ний, поло́жит коне́ц
+                                                            страда́нию».</i>
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"> </font>
+                                    </div>
+                                    <p align="center">
+                                        <font face="Times New Roman, Times, serif" size="4"><b><a
+                                                                name="p26"></a>Глава́
+                                                            IV</b></font>
+                                    </p>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p27"></a>Слоно́вий
+                                                                взор</b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ра́но у́тром Благослове́нный оде́лся и взяв свою́ ча́шу пошёл в Весали проси́ть подая́ние; обошедши Весали и пое́вши, он возвраща́ясь, оки́нул свои́м слоно́вьим взо́ром
+                                            <a name="13"></a><sup><a href="#link13">13</a></sup> Весали и обрати́лся к Ананде с таки́ми слова́ми: «После́дний раз, Ананда, Татхагата посети́л Весали. Пойдём тепе́рь в Бандагаму, Ананда».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Да бу́дет так, Господи́н», – отвеча́л Ананда Благослове́нному. И вот Благослове́нный с большо́й общи́ной мона́хов отпра́вился в Бандагаму, и там Благослове́нный останови́лся в селе́нии.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ Благослове́нный обрати́лся к мона́хам и сказа́л: «Мона́хи, от неве́дения четырёх при́нципов, от незна́ния их, – вот от чего́ э́тот дли́нный путь рожде́ний и смерте́й был мно́ю пройдён и перенесён, равно́
+                                            как и ва́ми. Каковы́ же те четы́ре? Э́то благоро́дная нра́вственность, благоро́дное сосредото́чение, благоро́дная му́дрость, благоро́дное освобожде́ние! Но сейча́с, мона́хи, когда́ благоро́дная нра́вственность
+                                            по́знана и дости́гнута, когда́ благоро́дное сосредото́чение по́знано и дости́гнуто, когда́ благоро́дная му́дрость по́знана и дости́гнута, когда́ по́знано и дости́гнуто благоро́дное освобожде́ние, – вы́рвана
+                                            с ко́рнем жа́жда жи́зни, прекращено́ то, что вело́ к но́вым воплоще́ниям, и не бу́дет но́вых рожде́ний».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И сказа́в э́ти слова́, Счастли́вейший, Учи́тель, говори́л да́льше:</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Нра́вственность, глубо́кое средоточение,
+                                            <br /> Му́дрость и вы́сшее освобожде́ние –
+                                            <br /> Вот четы́ре при́нципа, реализо́ванные просла́вленным Готамою;
+                                            <br /> И зна́я их, он, Бу́дда, свои́м мона́хам препода́л Дха́мму.
+                                            <br /> Он, положи́вший коне́ц страда́нию, уважа́емый, Ви́дящий, пребыва́ет в ми́ре».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И та́кже в Бхандагаме Благослове́нный ча́сто дава́л наставле́ния мона́хам таки́м о́бразом:
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«То́-то и то́-то явля́ется нра́вственностью, то́-то и то́-то явля́ется сосредото́чением; то́-то и то́- то явля́ется му́дростью. Вели́ким стано́вится плод, ве́лика|вели́ка|велика́ по́льза от сосредото́чения, когда́
+                                            оно́ по́лностью ра́звито доброде́тельным поведе́нием; вели́ким стано́вится плод, ве́лика|вели́ка|велика́ по́льза от му́дрости, когда́ она́ по́лностью ра́звита|развита́ сосредото́чением; по́лностью ра́звитый
+                                            в му́дрости ум освобожда́ется от всех влече́ний, – а и́менно, от влече́ния к чу́вственным удово́льствиям, от влече́ния к становле́нию, и от влече́ния к неве́жеству».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ Благослове́нный пробыл в Бхандагаме так до́лго, как он жела́л, он обрати́лся к почте́нному|почтённому Ананде: «В путь, Ананда, идём в Хаттхигаму!» – «Да бу́дет так, Господи́н», – отвеча́л Ананда. Тогда́
+                                            Благослове́нный, окружённый большо́й общи́ной мона́хов, отпра́вился в Хаттхигаму.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ Благослове́нный пробыл в Хаттхигаме так до́лго, как он жела́л, он отпра́вился в Амбагаму, пото́м в Джамбугаму. И в ка́ждом из э́тих мест Благослове́нный ча́сто дава́л наставле́ния мона́хам таки́м о́бразом:</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«То́-то и то́-то явля́ется нра́вственностью, то́-то и то́-то явля́ется сосредото́чением; то́-то и то́- то явля́ется му́дростью. Вели́ким стано́вится плод, ве́лика|вели́ка|велика́ по́льза от сосредото́чения, когда́
+                                            оно́ по́лностью ра́звито доброде́тельным поведе́нием; вели́ким стано́вится плод, ве́лика|вели́ка|велика́ по́льза от му́дрости, когда́ она́ по́лностью ра́звита|развита́ сосредото́чением; по́лностью ра́звитый
+                                            в му́дрости ум освобожда́ется от всех влече́ний, – а и́менно, от влече́ния к чу́вственным удово́льствиям, от влече́ния к становле́нию, и от влече́ния к неве́жеству».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ Благослове́нный пробыл в Джамбугаме так до́лго, как он жела́л, он обрати́лся к Ананде, и сказа́л ему́: «В путь, Ананда, идём в Бхоганагару!» – «Да бу́дет так, Господи́н», – отвеча́л почте́нный|почтённый
+                                            Ананда и Благослове́нный, окружённый большо́й общи́ной мона́хов, напра́вился в Бхоганагару.
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p28"></a>Четы́ре
+                                                                вели́ких отноше́ния<br />
+                                                            </b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И там, Благослове́нный обрати́лся к ученика́м и сказа́л: «Я поучу́ вас, мона́хи, четырём вели́ким отноше́ниям. Вни́кните, послу́шайте и обрати́те внима́ние на мои́ слова́». – «Да бу́дет так, Господи́н», – отве́тили
+                                            мона́хи.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ Благослове́нный сказа́л: «Таки́м о́бразом, о мона́хи, мо́жет говори́ть мона́х: «Из уст са́мого Благослове́нного я слы́шал, от него́ са́мого|самого́ я вы́учил. Такова́ Дха́мма, такова́ Виная, вот Уче́ние Учи́теля|Учителя́».
+                                            Слы́ша тако́е сло́во, ска́занное мона́хом, никогда́, о мона́хи, не восхваля́йте сказа́вшего так, но и никогда́ не встреча́йте его́ сло́ва хуло́й и́ли порица́нием. Не восторга́ясь и не порица́я, хорошо́ изучи́в
+                                            ка́ждое сло́во и ка́ждый слог, – сле́дует сличи́ть их с Суттами и све́рить с пра́вилами Винаи. И е́сли те сло́ва не согла́сны с Суттами, е́сли не совпада́ют они́ с пра́вилами Винаи, вы прими́те тако́е реше́ние:
+                                            «Пра́во, – э́то не сло́во Благослове́нного и оши́бочно по́нято оно́ тем мона́хом». И тогда́, мона́хи, вы отбро́сьте то сло́во. Е́сли же, мона́хи, оно́ согла́сно с Суттами, и совпада́ет с пра́вилами Винаи, вы
+                                            прими́те тако́е реше́ние: «Пра́во, – э́то сло́во Благослове́нного и и́стинно оно́ по́нято тем мона́хом». Таки́м о́бразом, мона́хи, приде́рживайтесь пе́рвого вели́кого отноше́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Пото́м мона́хи, мо́жет сказа́ть не́кто: «В тако́м-то ме́сте есть общи́на ученико́в, со старе́йшинами, руководи́телями. Из уст само́й общи́ны я слы́шал, от неё са́мой узна́л. Такова́ Дха́мма, такова́ Виная, вот Уче́ние
+                                            Учи́теля|Учителя́». И сло́во, ска́занное им, вы не встреча́йте ни хвало́ю, ни порица́нием. Не восторга́ясь и не порица́я, хорошо́ изучи́в ка́ждое сло́во и ка́ждый слог, – сле́дует сличи́ть их с Суттами и све́рить
+                                            с пра́вилами Винаи. И е́сли те сло́ва не согла́сны с Суттами, е́сли не совпада́ют они́ с пра́вилами Винаи, вы прими́те тако́е реше́ние: «Пра́во, – э́то не сло́во Благослове́нного и оши́бочно по́нято оно́ той
+                                            общи́ной». И тогда́ мона́хи, вы отбро́сьте то сло́во. Е́сли же, мона́хи, оно́ согла́сно с Суттами, и совпада́ет с пра́вилами Винаи, вы прими́те тако́е реше́ние: «Пра́во, – э́то сло́во Благослове́нного и и́стинно
+                                            оно́ по́нято той общи́ной». Таки́м о́бразом, мона́хи, приде́рживайтесь второ́го вели́кого отноше́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Пото́м, мона́хи, мо́жет сказа́ть не́кто: «Там-то прожива́ют старе́йшины, глубо́кие мудрецы́, блюду́щие ве́ру, как гласи́т преда́ние, све́дущие в Дха́мме и в пра́вилах Винаи. Из уст тех старе́йшин я слы́шал, от них
+                                            узна́л. Такова́ Дха́мма, такова́ Виная, вот Уче́ние Учи́теля|Учителя́». Мона́хи, услы́шав те сло́ва, никогда́ не восхваля́йте, никогда́ не порица́йте сказа́вшего. Не восторга́ясь и не порица́я, хорошо́ изучи́в
+                                            ка́ждое сло́во и ка́ждый слог, – сле́дует сличи́ть их с Суттами и све́рить с пра́вилами Винаи. И е́сли те сло́ва не согла́сны с Суттами, е́сли не совпада́ют они́ с пра́вилами Винаи, вы прими́те тако́е реше́ние:
+                                            «Пра́во, – э́то не сло́во Благослове́нного и оши́бочно по́нято оно́ старе́йшинами». И тогда́, мона́хи, вы отбро́сьте то сло́во. Е́сли же, мона́хи, оно́ согла́сно с Суттами, и совпада́ет с пра́вилами Винаи, вы
+                                            прими́те тако́е реше́ние: «Пра́во, – э́то сло́во Благослове́нного и и́стинно оно́ по́нято старе́йшинами». Таки́м о́бразом, мона́хи, приде́рживайтесь тре́тьего вели́кого отноше́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Пото́м, мона́хи, мо́жет сказа́ть не́кто: «Там-то прожива́ет старе́йшина, созре́вший в му́дрости, блюду́щий ве́ру, как гласи́т преда́ние, све́дущий в Дха́мме и в пра́вилах Винаи. Из уст самого́ старе́йшины я слы́шал,
+                                            от него́ узна́л. Такова́ Дха́мма, такова́ Виная, вот Уче́ние Учи́теля|Учителя́». И тако́е сло́во, мона́хи, не подоба́ет встреча́ть ни хвало́ю, ни порица́нием. Не восторга́ясь и не порица́я, хорошо́ изучи́в ка́ждое
+                                            сло́во и ка́ждый слог, – сле́дует сличи́ть их с Суттами и све́рить с пра́вилами Винаи. И е́сли те сло́ва не согла́сны с Суттами, е́сли не совпада́ют они́ с пра́вилами Винаи, вы прими́те тако́е реше́ние: «Пра́во,
+                                            – э́то не сло́во Благослове́нного и оши́бочно по́нято оно́ тем старе́йшиной». И тогда́, мона́хи, вы отбро́сьте то сло́во. Е́сли же, мона́хи, оно́ согла́сно с Суттами, и совпада́ет с пра́вилами Винаи, вы прими́те
+                                            тако́е реше́ние: «Пра́во, – э́то сло́во Благослове́нного и и́стинно оно́ по́нято тем старе́йшиной». Таки́м о́бразом, мона́хи, приде́рживайтесь четвёртого вели́кого отноше́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И та́кже в Бхоганагаре Благослове́нный ча́сто дава́л наставле́ния мона́хам таки́м о́бразом:
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«То́-то и то́-то явля́ется нра́вственностью, то́-то и то́-то явля́ется сосредото́чением; то́-то и то́- то явля́ется му́дростью. Вели́ким стано́вится плод, ве́лика|вели́ка|велика́ по́льза от сосредото́чения, когда́
+                                            оно́ по́лностью ра́звито доброде́тельным поведе́нием; вели́ким стано́вится плод, ве́лика|вели́ка|велика́ по́льза от му́дрости, когда́ она́ по́лностью ра́звита|развита́ сосредото́чением; по́лностью ра́звитый
+                                            в му́дрости ум освобожда́ется от всех влече́ний, – а и́менно, от влече́ния к чу́вственным удово́льствиям, от влече́ния к становле́нию, и от влече́ния к неве́жеству».
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p29"></a>Чунда-кузне́ц</b></i>
+                                        </font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Пробывши ско́лько подоба́ло в Бхоганагаре, Благослове́нный обрати́лся к Ананде, и сказа́л: «В путь, Ананда, идём в Па́ву». – «Да бу́дет так, господи́н»- отвеча́л почте́нный|почтённый Ананда. И Благослове́нный, окружённый
+                                            большо́й общи́ной мона́хов, напра́вился в Па́ву. И там в Па́ве, Благослове́нный останови́лся в Ма́нговой Ро́ще Чунды-кузнеца́.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И Чунда-кузне́ц, услы́шал, что Благослове́нный при́был в Па́ву и останови́лся в его́ Ма́нговой Ро́ще. И Чунда-кузне́ц напра́вился на то ме́сто, где останови́лся Благослове́нный, придя и поклони́вшись пе́ред ним,
+                                            почти́тельно сел ря́дом. И тогда́ Благослове́нный в благочести́вой бесе́де наставля́л его́ в Дха́мме, воодушевля́л и ра́довал благочести́вым поуче́нием.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И тогда́ он, нау́ченный, воодушевлённый и обра́дованный, обрати́лся к Благослове́нному и сказа́л: «Да удосто́ит Благослове́нный пожа́ловать ко мне за́втра на тра́пезу, вме́сте с общи́ной мона́хов». И Благослове́нный
+                                            мо́лча согласи́лся.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ви́дя, что Благослове́нный согла́сен, Чунда-кузне́ц подня́лся с сиде́ния, склони́лся пред ним и обойдя́ его́ спра́ва, удали́лся.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">На исхо́де но́чи Чунда-кузне́ц пригото́вил в своём жили́ще не́жный рис и пече́нье, и не́жное мя́со ве́пря
+                                            <a name="14"></a><sup><a href="#link14">14</a></sup>. И тогда́ извести́л Благослове́нного, говоря́: «Вре́мя, Господи́н, гото́ва тра́пеза».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Ра́но у́тром оде́лся Благослове́нный и, взяв ча́шу, отпра́вился с мона́хами в жили́ще Чунды-кузнеца́. Придя туда́, он сел на пригото́вленное для него́ ме́сто. И присе́вши, он обрати́лся к Чунде-кузнецу́ и сказа́л:
+                                            «Ты пригото́вил не́жное мя́со ве́пря – мне поднеси́ его́, Чунда, а сла́дким ри́сом и пече́ньем угости́ мона́хов». – «Да бу́дет так, Господи́н», – отвеча́л Чунда Благослове́нному. И поднёс мя́со ве́пря Благослове́нному,
+                                            а сла́дкий рис и пече́нье мона́хам.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вкуси́вши, Благослове́нный обрати́лся к Чунде-кузнецу́ и сказа́л: «Что оста́лось от мя́са ве́пря, Чунда, то заро́й в зе́млю. Я никого́ не ви́жу, Чунда, в э́том ми́ре, с его́ бога́ми, Ма́рами и Бра́хмами, отше́льниками
+                                            и брахма́нами, людьми́ и бога́ми, кто мог бы вкуси́ть и перевари́ть оста́тки той пи́щи|пищи́, кро́ме Татхагаты». – «Да бу́дет так, Господи́н», – отвеча́л Чунда-кузне́ц. И что оста́лось от мя́са ве́пря, то он
+                                            отнёс и зары́л в зе́млю.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">По́сле того́ он возврати́лся и сел с почте́нием ря́дом с Благослове́нным. И Благослове́нный в благочести́вой бесе́де наставля́л его́ в Дха́мме, воодушевля́л и ра́довал благочести́вым поуче́нием. Пото́м Благослове́нный
+                                            подня́лся с сиде́ния и удали́лся.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ Благослове́нный вкуси́л пи́щи|пищи́ у Чунды-кузнеца́, он почу́вствовал си́льное недомога́ние, начали́сь тя́жкие бо́ли, предве́стники сме́рти. Но Благослове́нный в му́дрости и реши́мости переноси́л терпели́во
+                                            страда́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Пото́м Благослове́нный обрати́лся к Ананде, говоря́: «В путь, Ананда, идём в Кусинару!» – «Да бу́дет так, Господи́н», – отвеча́л почте́нный|почтённый Ананда и Благослове́нный, окружённый большо́й общи́ной мона́хов,
+                                            напра́вился в Кусинару.
+                                            <br />
+                                            <br />
+                                            <i>Вкуси́вши пи́щи|пищи́ у Чунды-кузнеца́, так я слы́шал,
+                                                            –<br />
+                                                            он с твёрдостью переноси́л страда́ния, смерте́льные
+                                                            му́ки.<br />
+                                                            Вкуси́вши мя́со ве́пря, он почу́вствовал си́льное
+                                                            недомога́ние;<br />
+                                                            облегчи́вши же страда́ния, Благослове́нный сказа́л:<br />
+                                                            «Идём в Кусинару!»</i><sup><a name="15"></a><a
+                                                                href="#link15">15</a></sup>
+                                        </font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p30"></a>Принесе́ние
+                                                                воды́</b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И вот Благослове́нный сошёл с доро́ги и прибли́зился к подно́жию де́рева; и он обрати́лся к почте́нному|почтённому Ананде: «Ананда, прошу́ тебя́, сложи́ вче́тверо мо́ю|мою́ наки́дку и расстели́ её. Я уста́л, Ананда,
+                                            мне ну́жно отдохну́ть».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Да бу́дет так, Господи́н», – сказа́л почте́нный|почтённый Ананда и вче́тверо сложи́вши наки́дку, расстели́л её.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И Благослове́нный сел, и се́вши, обрати́лся к Ананде: «Принеси́ мне во́ды|воды́, Ананда, прошу́ тебя́. Жа́жда му́чит меня́, Ананда, хоте́л бы испи́ть я».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И Ананда сказа́л Благослове́нному: «Господи́н, то́лько что прое́хало че́рез ручеёк о́коло пятисо́т пово́зок. Вода́ взбаламу́чена колёсами, мутна́ ста́ла, грязна́. Но река́ Какудха, Господи́н, недалеко́ отсю́да,
+                                            она́ чиста́ и прозра́чна, прия́тно окуну́ться в её прохла́дные во́ды. Там Благослове́нный мо́жет испи́ть во́ды|воды́ и освежи́ть свои́ чле́ны».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И во второ́й раз Благослове́нный обрати́лся к Ананде и сказа́л: «Принеси́ мне во́ды|воды́, Ананда, прошу́ тебя́. Жа́жда му́чит меня́, Ананда, хоте́л бы испи́ть я».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И вновь отвеча́л Ананда Благослове́нному: «Господи́н, то́лько что че́рез руче́й прое́хало о́коло пятисо́т пово́зок. Вода́ взбаламу́чена колёсами, мутна́ ста́ла, грязна́. Но река́ Какудха, Господи́н, недалеко́ отсю́да,
+                                            она́ чиста́ и прозра́чна, прия́тно окуну́ться в её прохла́дные во́ды. Там Благослове́нный мо́жет испи́ть во́ды|воды́ и освежи́ть своё те́ло».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И в тре́тий раз Благослове́нный обрати́лся к Ананде и сказа́л: «Принеси́ мне во́ды|воды́, Ананда, прошу́ тебя́. Жа́жда му́чит меня́, Ананда, хоте́л бы испи́ть я».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Да бу́дет так, Господи́н», – отвеча́л почте́нный|почтённый Ананда Благослове́нному и, взяв ча́шу, пошёл к ручейку́. И вот, ручеёк, пе́ред тем взбаламу́ченный колёсами, ста́вший му́тным и гря́зным, как то́лько Ананда
+                                            подошёл к нему́, стал чист и прозра́чен, незамутнён во́все.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ поду́мал Ананда: «Как чуде́сна, непостижи́ма, как ве́лика|вели́ка|велика́ си́ла Татхагаты! Ручеёк, взбаламу́ченный колёсами, ста́вший му́тным и гря́зным, тепе́рь, как то́лько я подошёл к нему́, стал чист
+                                            и прозра́чен, не замутнён во́все!»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И напо́лнив ча́шу водо́ю, он возврати́лся к Благослове́нному и сказа́л: «Как чуде́сна, непостижи́ма, как ве́лика|вели́ка|велика́ си́ла Татхагаты! Ручеёк, взбаламу́ченный колёсами, ста́вший му́тным и гря́зным, как
+                                            то́лько я подошёл к нему́, стал чист и прозра́чен, не замутнён во́все! Испей во́ды|воды́, Благослове́нный! Испей во́ды|воды́, Счастли́вейший!» И Благослове́нный испи́л во́ды|воды́.</font>
+                                    </div>
+                                    <p>
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><b><a
+                                                                    name="p31"></a>Пуккуса
+                                                                из ро́да Маллов</b></i></font>
+                                    </p>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">В э́то са́мое вре́мя, Пуккуса из ро́да Маллов, учени́к Ала́ры Кала́мы <sup><a
+                                                                name="16"></a><a href="#link16">16</a></sup>, проходи́л ми́мо, возвраща́ясь из Кусинары в Па́ву.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И он уви́дел, что Благослове́нный сиди́т у подно́жия де́рева. Уви́дев его́, он прибли́зился к Благослове́нному и, подойдя́ и поприве́тствовав его́, сел почти́тельно ря́дом. И он обрати́лся к Благослове́нному: «Как
+                                            чуде́сно, Господи́н, что поки́нувшие мирско́е мо́гут пребыва́ть в тако́м средото́чии душе́вном!
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Не́когда, Господи́н, Ала́ра Кала́ма, бу́дучи в пути́, сошёл с доро́ги и присе́л под де́ревом отдохну́ть, укры́вшись от зно́я. В то вре́мя ми́мо Ала́ры Кала́мы прое́хало пятьсо́т пово́зок. И проводни́к, ше́дший в
+                                            хвосте́ карава́на, обрати́лся к нему́: «Ви́дел ли господи́н пятьсо́т пово́зок прое́хавших ми́мо?» «Нет, друг, не ви́дел». – «Слы́шал ли господи́н шум от коле́с|колёс?» «Нет, друг, не слы́шал». – «Ты спал тогда́,
+                                            господи́н?» «Нет, друг, я не спал тогда́». – «Ста́ло быть ты бо́дрствовал, господи́н?» «Да я бо́дрствовал, друг». – «Ита́к, господи́н, ты не спал, а бо́дрствовал, и одна́ко не ви́дел и не слы́шал, что карава́н
+                                            прошёл ми́мо, – а все|всё пла́тье твоё осы́пано пы́лью!»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́ поду́мал тот челове́к: «Как непостижи́мо, чуде́сно, что поки́нувшие мирско́е мо́гут пребыва́ть в состоя́нии столь глубо́кого сосредото́чия, так, что да́же бо́дрствуя и сознава́я, челове́к не ви́дит и не слы́шит,
+                                            что пятьсо́т пово́зок прошли́ ми́мо одна́ за друго́й, почти́ задева́я его́». И, вы́разив свою́ глубо́кую ве́ру в Ала́ру Кала́му, тот челове́к отошёл».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Как полага́ешь, Пуккуса, что удиви́тельнее: то, когда́ челове́к, бу́дучи в созна́нии не ви́дит и да́же не слы́шит, как пятьсо́т пово́зок прошли́ ми́мо, одна́ за друго́й, почти́ задева́я его́ – и́ли, когда́ бу́дучи
+                                            в созна́нии и бо́дрствуя, он не ви́дит и не слы́шит, как льётся дождь, бле́щут мо́лнии, грохо́чет гром?»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Како́е же сравне́ние, Господи́н! Несравне́нно трудне́е, что́бы челове́к, бо́дрствуя и сознава́я, не ви́дел и не слы́шал как льётся дождь, бле́щут мо́лнии, грохо́чет гром».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Случи́лось мне быть одна́жды, Пуккуса, в Атуме, на то́ку|току́ молоти́льщика. Разрази́лся ли́вень, заблиста́ли мо́лнии, загрохота́л гром; дво́е бра́тьев-поселя́н вме́сте с четырьмя́ вола́ми бы́ли уби́ты, и вели́кая
+                                            толпа́ собрала́сь из Атумы на ме́сто, где́ они бы́ли уби́ты.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">В то вре́мя, Пуккуса, я поки́нул ток и шёл в разду́мьях. И вот, Пуккуса, оди́н челове́к отдели́лся от толпы́ и подошёл ко мне. И подошедши, и поприве́тствовавши меня́, стал почти́тельно ря́дом.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И я спроси́л того́ челове́ка: «Заче́м собра́лся здесь наро́д?» «Да ведь то́лько что разрази́лся ли́вень, блиста́ли мо́лнии, греме́л гром: дво́е бра́тьев-поселя́н вме́сте с четырьмя́ вола́ми уби́то. От того́-то и
+                                            столпи́лось здесь мно́жество люде́й. Но где же ты был, Господи́н?» «Я, друг, всё вре́мя был здесь». – «Но ты ви́дел же, Господи́н, что бы́ло? Но ты слы́шал же, Господи́н, что бы́ло?» «Нет, друг, я ничего́ не
+                                            слы́шал». – «Ра́зве ты почива́л в то вре́мя, Господи́н?» «Нет, друг, я не почива́л тогда́». – «Зна́чит ты бо́дрствовал, Господи́н?» «Да, друг, я бо́дрствовал тогда́». – «Ита́к, Господи́н, ты бо́дрствовал, и
+                                            бу́дучи в созна́нии, ничего́ не слы́шал и не ви́дел, как лил дождь, блиста́ли мо́лнии, греме́л гром!» – «Ве́рно, э́то так, друг».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И тогда́, Пуккуса, тот челове́к поду́мал так: «Необъясни́мо, чуде́сно, что поки́нувшие мирско́е мо́гут пребыва́ть в тако́й глубо́кой тишине́ средото́чия, что бо́дрствуя, сознава́я, не ви́дят и не слы́шат ни гро́ма
+                                            в небеса́х, ни шу́ма от проли́вного|проливно́го дождя́, ни бле́ска мо́лний». И, вы́сказав свою́ глубо́кую ве́ру в меня́, он с почте́нием удали́лся.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ э́то бы́ло ска́зано, Пуккуса из ро́да Маллов сказа́л Благослове́нному: «Господи́н, ве́ру, кото́рая была́ у меня́ в Ала́ру Кала́му, я тепе́рь разве́ю по ве́тру|ветру́, пусть унесёт её тече́нием! Превосхо́дно,
+                                            о Господи́н, наибо́лее превосхо́дно, о Господи́н! Э́то как е́сли бы Господи́н восстанови́л низве́ргнутое, откры́л сокры́тое, и́ли показа́л путь заблуди́вшемуся, и́ли зажёг свети́льник во тьме, так что́бы зря́чие
+                                            могли́ ви́деть – и́менно так Благослове́нный распространя́ет Дха́мму мно́жеством спо́собов. И потому́, о Господи́н, я принима́ю Прибе́жище в Благослове́нном, в Дха́мме и в Общи́не Мона́хов. Да при́мет|приме́т|примёт
+                                            меня́ Благослове́нный, как ученика́, кото́рый при́нял Прибе́жище до конца́ свое́й жи́зни».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Пото́м Пуккуса из ро́да Маллов обрати́лся к одному́ челове́ку: «Принеси́ мне, друг, па́ру парчо́вых одея́ний, вы́шитых зо́лотом|золото́м, гото́вых для ноше́ния». И челове́к отве́тил: «Да бу́дет так».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И когда́ оде́жды бы́ли принесены́, Пуккуса из ро́да Маллов предложи́л их Благослове́нному, говоря́: «Господи́н, вот па́ра парчо́вых одея́ний, вы́шитых зо́лотом|золото́м, гото́вых для ноше́ния. Сде́лай ми́лость,
+                                            Благослове́нный, прими́ от меня́!» – «Оде́нь в одно́ из них меня́, Пуккуса, в друго́е Ананду». – «Да бу́дет так, Господи́н», – отвеча́л Пуккуса Благослове́нному, и в одно́ одея́ние оде́л Благослове́нного, а
+                                            в друго́е почте́нного|почтённого Ананду.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И тогда́ Благослове́нный в благочести́вой бесе́де наставля́л в Дха́мме Пуккусу, воодушевля́л и ра́довал благочести́вым поуче́нием. И Пуккуса из ро́да Маллов, обу́ченный, воодушевлённый, обра́дованный Благослове́нным,
+                                            в восхище́нии подня́лся с сиде́ния, и склони́вшись пред Благослове́нным, обойдя́ спра́ва, удали́лся.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вско́ре по́сле того́, как удали́лся Пуккуса из ро́да Маллов, почте́нный|почтённый Ананда возложи́л о́ба парчо́вых, вы́шитых зо́лотом|золото́м одея́ния на Благослове́нного. И как то́лько он оде́л их на те́ло Благослове́нного
+                                            – они́ потеря́ли весь свой блеск!
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И почте́нный|почтённый Ананда сказа́л Благослове́нному: «Как чуде́сно, Господи́н, как непостижи́мо, – лик Благослове́нного так я́сен и све́тится! И́бо как то́лько я возложи́л парчо́вые, вы́шитые зо́лотом|золото́м
+                                            одея́ния на Благослове́нного, весь пре́жний я́ркий их блеск потускне́л внеза́пно!»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«И́стинно так, Ананда! Есть два слу́чая, когда́ ко́жа Благослове́нного стано́вится ясна́ и необыча́йно светла́.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Каковы́ э́ти два? В ту ночь, Ананда, когда́ Татхагата стано́вится по́лностью благослове́нным и достига́ет наивы́сшего Благослове́ния, и в ту ночь, в кото́рую он оконча́тельно отойдёт в состоя́ние Ниббаны, в кото́ром
+                                            не остаётся объе́ктов для очище́ния, – вот когда́, Ананда, лик Татхагаты стано́вится я́сен и све́тел необыча́йно.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И сего́дня, Ананда, в тре́тью ночну́ю стра́жу, в Саловой Ро́ще Маллов, побли́зости от Кусинары, ме́жду двумя́ дере́вьями-близнеца́ми са́ла, насту́пит Париниббана Татхагаты. В путь тепе́рь, Ананда, идём к реке́ Какудхе».
+                                            – «Да бу́дет так, Господи́н», – отвеча́л почте́нный|почтённый Ананда.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ Учи́тель облёкся в парчо́вые пла́тья,
+                                            <br /> поднесённые Пуккусой, от него́ исходи́ло золото́е сия́ние.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Окружённый большо́й общи́ной мона́хов, Благослове́нный прибли́зился к реке́ Какудхе; и спусти́вшись к воде́, омы́л те́ло и утоли́л жа́жду. И вы́йдя на бе́рег, пошёл в Ма́нговую Ро́щу.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И придя, он обрати́лся к почте́нному|почтённому Чундаке: «Чундака, прошу́ тебя́, сложи́ наки́дку вче́тверо, расстели́ на земле́. Уста́л я, Чундака, приле́г бы тепе́рь». – «Да бу́дет так, Господи́н», – отвеча́л почте́нный|почтённый
+                                            Чундака и, сложи́вши наки́дку вче́тверо, расстели́л на земле́.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И Благослове́нный приле́г на пра́вый бок, в по́зе льва, положи́в одну́ на другу́ю утомлённые но́ги; и так улёгшись, внима́тельно, с я́сным осознава́нием он отда́лся размышле́нию, с мы́слью восста́ть в до́лжное вре́мя.
+                                            И почте́нный|почтённый Чундака сел пред лицо́м Благослове́нного.
+                                            <br />
+                                            <br />
+                                            <i>К реке́ Какудхе прибли́зился Благослове́нный,<br />
+                                                            К её ти́хо журча́щему, све́тлому и не́жному тече́нию;<br />
+                                                            И уста́вший, утомлённый, погрузи́лся он, Бу́дда, – Ра́вного
+                                                            ему́ на све́те
+                                                            нет!<br />
+                                                            Омы́в своё те́ло, испи́вши во́ды|воды́, вы́шел из реки́
+                                                            Учи́тель,<br />
+                                                            И те́сной толпо́й шли мона́хи за ним.<br />
+                                                            Наставля́я в святы́х и́стинах, вели́кий Учи́тель<br />
+                                                            Держа́л свой путь че́рез Ма́нговую Ро́щу.<br />
+                                                            И сказа́л он мона́ху Чундаке:<br />
+                                                            «Расстели́ мне как ло́же наки́дку мо́ю|мою́, вче́тверо
+                                                            сло́женную!»<br />
+                                                            Ободрённый Святы́м,Чундака бы́стро раски́нул<br />
+                                                            Ту наки́дку, вче́тверо сло́женную.<br />
+                                                            Уста́вший, Учи́тель приле́г на наки́дку,<br />
+                                                            И Чунда сел на зе́млю пе́ред ним.</i>
+                                        </font>
+                                    </div>
+                                    <br />
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И вот Благослове́нный обрати́лся к Ананде: «Тепе́рь мо́жет ста́ться, Ананда, бу́дут упрека́ть Чунду-кузнеца́, говоря́: «Грех тебе́, Чунда, вели́кий позо́р тебе́, Чунда, что Татхагата, вкуси́вши у тебя́ после́дний
+                                            раз пи́щи|пищи́, вско́ре сконча́лся». Но э́тот упрёк, Ананда, ну́жно отклони́ть от Чунды, говоря́: «Бла́го тебе́, Чунда, сла́ва тебе́, Чунда, что у тебя́ в после́дний раз вкуси́л Татхагата пи́щи|пищи́ и тогда́
+                                            сконча́лся. Из уст са́мого|самого́ Татхагаты я слы́шал, от него́ са́мого при́нял я тако́е сло́во: «Два подноше́ния пи́щи даю́т ра́вный плод, ра́вное бла́го – вы́сший плод и вы́сшее бла́го, чем все|всё ины́е.
+                                            Каковы́ же те два подноше́ния? Подноше́ние пи́щи пе́ред достиже́нием Татхагатой высоча́йшего Благослове́ния, и подноше́ние пи́щи пе́ред отхо́дом Татхагаты в состоя́ние Ниббаны, в кото́ром не остаётся объе́ктов
+                                            для очище́ния. Э́тим дея́нием досто́йный Чунда накопи́л заслу́ги для до́лгой жи́зни, красо́ты|красоты́, благополу́чия, сча́стья, перерожде́ния на небеса́х и влады́чества на земле́!» Вот как подоба́ет отрази́ть
+                                            вся́кий упрёк Чунде-кузнецу́». И тогда́ Благослове́нный гро́мко и торже́ственно изрёк:
+                                            <br />
+                                            <br />
+                                            <i>«Даю́щий приумножа́ет до́брое;<br />
+                                                            Кто укроти́л себя́, того́ не беспоко́ит гнев;<br />
+                                                            Кто доброде́тели взрасти́л, того́ бои́тся зло,<br />
+                                                            И с ко́рнем вы́рвавший страсть, гнев,<br />
+                                                            И вся́кое неве́дение, дости́гнет умиротворе́ния!»</i>
+                                        </font>
+                                    </div>
+                                    <br />
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td>
+                                                <div class="a"><br />
+                                                    <div style='font-size:17.0pt;font-family:"Arial"'> <a href="dn16-mahaparinibbana-sutta-01-ivahnenko.htm" style="border:0px;" title="к предыду́щей страни́це">←</a>
+                                                        <a href="dn16-mahaparinibbana-sutta-01-ivahnenko.htm" style="border:0px;" title="к оглавле́нию">↑</a>
+                                                        <a href="dn16-mahaparinibbana-sutta-03-ivahnenko.htm" style="border:0px;" title="к сле́дующей страни́це">→</a>
+                                                        <i>
+                                                                        <font color="#999966"
+                                                                            face="Arial, Helvetica, sans-serif"
+                                                                            size="2"></font>
+                                                                    </i>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td><br />
+                                                <div align="right">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                                        <font color="#999933" size="1">
+                                                                            страни́ца 2 / 3 </font>
+                                                                    </i></font>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </font>
+                            </ul>
+
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                    <tr>
+                        <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                            <a href="#12" style="border:0px;" title="вернуться к сноске в тексте">
+                                <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                            </a>
+                        </td>
+                        <td height="2" valign="top" width="1%">
+                            <font color="#996600" face="Times New Roman, Times, serif" size="2">12</font>
+                        </td>
+                        <td height="2" width="96%">
+                            <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><a
+                                                            name="link12"></a></font>
+                                                </i>
+                            </font>
+                            <font color="#999966">
+                                Kappam va tittheyya kappavasesam va. Комментаторы обычно рассматривают kappa не как мировой период (кальпа, эра), а как ayu-kappa – «продолжительность жизни», а avasesa – как «в неограниченности». Таким образом смысл перевода звучит как «Он может иметь
+                                неограниченную продолжительность жизни». Вместе с тем следует отметить, что среди многочисленных значений слова kappa, наиболее часто употребляемо его значение как времени в общем, а не только как продолжительность эона;
+                                но значение, как «продолжительность жизни», похоже встречается только в этом месте. Также необычно значение «в неограниченности» для слова avasesa (обычно – «напоминание»). Четыре основы «иддхи» (санскр. сиддхи) – это сильное
+                                желание (обрести их), подвижничество (активная, энергичная устремленность), сосредоточенность(развитие безмятежности и сосредоточения ума), проникновение (развитие всепроницающей мудрости).
+                            </font>
+                            </i>
+                            </font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                    <tr>
+                        <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                            <a href="#13" style="border:0px;" title="вернуться к сноске в тексте">
+                                <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                            </a>
+                        </td>
+                        <td height="2" valign="top" width="1%">
+                            <font color="#996600" face="Times New Roman, Times, serif" size="2">13</font>
+                        </td>
+                        <td height="2" width="96%">
+                            <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><a
+                                                            name="link13"></a></font>
+                                                </i>
+                            </font>
+                            <font color="#999966">
+                                Комментаторы говорят, что Будды, когда смотрят назад, поворачиваются всем телом, как это делают слоны. </font>
+                            </i>
+                            </font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                    <tr>
+                        <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                            <a href="#14" style="border:0px;" title="вернуться к сноске в тексте">
+                                <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                            </a>
+                        </td>
+                        <td height="2" valign="top" width="1%">
+                            <font color="#996600" face="Times New Roman, Times, serif" size="2">14</font>
+                        </td>
+                        <td height="2" width="96%">
+                            <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                            <font face="Arial, Helvetica, sans-serif" size="2"><a
+                                                                    name="link14"></a></font>
+                                                        </i></font>
+                            </i>
+                            </font>
+                            <font color="#999966">
+                                Sukara-maddava: сложный термин до сих пор не имеющий однозначного перевода, поэтому его зачастую оставляют как есть в палийском произношении. Sukara = свинья; maddava = мягкий, нежный, деликатесный. Возможны два альтернативных значения этого термина:
+                                1) нежные части свиньи или вепря; 2) то, что любят свиньи или вепри. Позже этот термин переводился так же как, грибы или трюфеля, ямс или клубни. К.Е. Нейман, в предисловии к немецкому переводу Маджжхима Никаи цитирует
+                                из индийского сборника лекарственных трав Раджаниганту, несколько растений начинающихся с sukara. Комментарий к нашему тексту дает три альтернативных объяснения: 1) мясо дикого вепря, не слишком молодого и не слишком старого,
+                                доставшееся без преднамеренного убийства; 2) Разваренный рис, приготовленный с пятью молокопродуктами; 3) разновидность алхимического эликсира (rasayanavidhi). Дхаммапала, в своем комментарии к Удане VIII.5, разъясняет
+                                как побеги молодого бамбука, нанизанные свининой (sukarehi maddita-vamsakaliro) </font>
+                            </i>
+                            </font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                    <tr>
+                        <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                            <a href="#15" style="border:0px;" title="вернуться к сноске в тексте">
+                                <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                            </a>
+                        </td>
+                        <td height="2" valign="top" width="1%">
+                            <font color="#996600" face="Times New Roman, Times, serif" size="2">15</font>
+                        </td>
+                        <td height="2" width="96%">
+                            <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><a
+                                                            name="link15"></a></font>
+                                                </i>
+                            </font>
+                            <font color="#999966">
+                                Эти куплеты были вставлены теми, кто составлял и записывал сутты во время Первого собора. </font>
+                            </i>
+                            </font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                    <tr>
+                        <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%">
+                            <a href="#16" style="border:0px;" title="вернуться к сноске в тексте">
+                                <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                            </a>
+                        </td>
+                        <td height="2" valign="top" width="1%">
+                            <font color="#996600" face="Times New Roman, Times, serif" size="2">16</font>
+                        </td>
+                        <td height="2" width="96%">
+                            <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><a
+                                                            name="link16"></a></font>
+                                                </i>
+                            </font>
+                            <font color="#999966">
+                                Алара Калама – был одним из учителей Будды, до его Пробуждения. Он научил Бодхисатту, как достичь сферы отсутствия всего, но не мог показать ему путь к Ниббане. </font>
+                            </i>
+                            </font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                        </td>
+                    </tr>
+                </table>
+                <br />
+                <br />
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                    <tr bgcolor="#F4EFBD">
+                        <td class="bottom" colspan="4" height="2">
+                            <div align="center">
+                                <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                                </font>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                    <tr>
+                        <td class="bottom" height="2" valign="middle" width="1%">
+                            <a href="../digha.htm#16" style="border:0px;" title="вернуться к разделу">
+                                <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                            </a>
+                        </td>
+                        <td class="bottom" height="2" valign="middle" width="1%">
+                            <a href="#" style="border:0px;" title="вернуться наверх">
+                                <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                            </a>
+                        </td>
+                        <td height="2" valign="top" width="32%">
+                            <div align="center">
+                                <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                    <noindex>
+                                        <!--LiveInternet counter-->
+                                        <script type="text/javascript">
+                                            new Image().src = "//counter.yadro.ru/hit?r" +
+                                                escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                                                    ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                        screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                ";h" + escape(document.title.substring(0, 150)) +
+                                                ";" + Math.random();
+                                        </script>
+                                        <!--/LiveInternet-->
+                                        <!--LiveInternet logo-->
+                                        <a href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1" src="//counter.yadro.ru/logo?42.6" title="LiveInternet" width="1" /></a>
+                                        <!--/LiveInternet-->
+                                        <!--SpyLOG-->
+                                        <span id="spylog2031418"></span>
+                                        <script type="text/javascript">
+                                            var spylog = {
+                                                counter: 2031418,
+                                                image: undefined,
+                                                next: spylog
+                                            };
+                                            document.write(unescape("%3Cscript src=%22http" +
+                                                (("https:" == document.location.protocol) ? "s" : "") +
+                                                "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E"));
+                                        </script>
+                                        <!--SpyLOG-->
+                                    </noindex>
+                                </font>
+                            </div>
+                        </td>
+                        <td height="2" valign="top" width="19%">
+                            <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                            </div>
+                        </td>
+                        <td height="2" valign="top" width="37%">
+                            <div align="right">
+                                <font color="#C8C16C" face="Arial, Helvetica, sans-serif" style="font-size:7pt; font-family: Arial;">© theravada.ru – при копировании материалов
+                                    <br /> просьба ставить прямую ссылку на наш сайт.<br />
+                                    <a href="../../../Books/Cittaviveka/canon.htm" style="border:0px solid #FFFFCC;background:none;font:9" title="Будда и Буддизм">
+                                        <font color="#DAD694">Палийский Канон
+                                        </font>
+                                    </a>
+                                </font>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div align="center"></div>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window,
+                a = 'inner';
+            if (!('innerWidth' in window)) {
+                a = 'client';
+                e = document.documentElement || document.body;
+            }
+            return {
+                width: e[a + 'Width'],
+                height: e[a + 'Height']
+            }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                item.setAttribute("width", "95%");
+            });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                item.setAttribute("width", "85%");
+            });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            document.querySelectorAll("font[size='3']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function(item) {
+                item.setAttribute("size", "6");
+            });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                document.querySelectorAll("font[size='3']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function(item) {
+                    item.setAttribute("size", "4");
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>
