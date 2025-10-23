@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Джханы и брахмавихары</a><br/> <a href="#a2">Дэвы ми́ра сия́ния</a><br/> </font>

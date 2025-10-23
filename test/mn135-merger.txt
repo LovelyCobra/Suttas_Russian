@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Уби́йство<br/> </a><a href="#a2">Кале́чение</a><br/> <a href="#a3">Зло́ба</a> <br/> <a href="#a4">За́висть</a><br/> <a href="#a5">Ску́пость</a> <br/> <a href="#a6">Надме́нность</a><br/> <a href="#a7">Вопроша́ние</a><br/> <a href="#a8">Сво́дка</a><br/> </font>
