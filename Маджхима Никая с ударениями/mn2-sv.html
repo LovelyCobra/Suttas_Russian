@@ -1,0 +1,953 @@
+<html>
+
+<head>
+    <title>Саббасава-сутта: Все пятна загрязнений ума :: Мадджхима Никая 2</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta
+        content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        }
+        catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+    text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        .a {
+                            TEXT-INDENT: 2em
+                        }
+
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                           
+                                            Учение Старцев </b></font>
+                                </i></td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm" style="border:0px;"
+                                    title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;"
+                                    title="случайная сутта">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a> </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span
+                                    style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span></td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                        style="cursor:default;font-size:1pt;">.</font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">Саббасава-сутта:
+                                            Все пятна загрязнений ума<br />
+                                            <font size="3">МН 2</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                                        <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                                                <div align="right"><i>
+                                                        <font color="#996633"><span
+                                                                style="font-size:8pt;font-family:Arial;"><span
+                                                                    style="font-size:8pt;font-family:Arial;"><span
+                                                                        style="font-size:8pt;font-family:Arial;"><span
+                                                                            style="font-size:8pt;font-family:Arial;"><span
+                                                                                style="font-size:8pt;font-family:Arial;"><span
+                                                                                    style="font-size:8pt;font-family:Arial;"><span
+                                                                                        style="font-size:8pt;font-family:Arial;"><span
+                                                                                            style="font-size:8pt;font-family:Arial;">редакция
+                                                                                            перевода:
+                                                                                            04.02.2024</span></span></span><br />
+                                                                                Перевод с английского: SV<br />
+                                                                                <br />
+                                                                                <span
+                                                                                    style="font-size:8pt;font-family:Arial;"><span
+                                                                                        style="font-size:8pt;font-family:Arial;"><span
+                                                                                            style="font-size:8pt;font-family:Arial;">источник:
+                                                                                            <br />
+                                                                                            "Majjhima Nikaya by Bodhi
+                                                                                            &amp; Nyanamoli, p.
+                                                                                            92"</span></span></span></span></span></span></span></span>
+                                                        </font>
+                                                    </i></div>
+                                            </span></div>
+                                    </span></td>
+                                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+                            <tr>
+                                <td height="305" style="text-align: justify" valign="top">
+                                    <font color="#996633" face="Times
+                                    New Roman, Times, serif" size="5"><b>Т</b></font>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">ак
+                                        я слы́шал. Одна́жды Благослове́нный прожива́л в Саваттхи в ро́ще Джеты́
+                                        в па́рке Анатхапиндики. Там он обрати́лся к мона́хам: <br />
+                                        «Мона́хи!»</font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Уважа́емый»,
+                                            – отве́тили они́. <br />
+                                            Благослове́нный сказа́л сле́дующее:</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Мона́хи,
+                                            я дам вам наставле́ние о сде́рживании всех пя́тен [загрязне́ний
+                                            ума́]. Слу́шайте внима́тельно то, о чём я бу́ду говори́ть.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Да,
+                                            уважа́емый», – отве́тили они́. <br />
+                                            Благослове́нный сказа́л сле́дующее:</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="1"></a>«Мона́хи,
+                                            я говорю́ вам, уничтоже́ние пя́тен возмо́жно для того́, кто зна́ет
+                                            и ви́дит, а не для того́, кто не зна́ет и не ви́дит. Зна́ет и ви́дит
+                                            что? [Зна́ет и ви́дит] му́дрое внима́ние и нему́дрое внима́ние<sup><a
+                                                    href="#link1">1</a></sup>.
+                                            Когда́ челове́к направля́ет внима́ние нему́дро, невозникшие пя́тна|пятна́
+                                            возника́ют, а возни́кшие пя́тна увели́чиваются. Когда́ челове́к направля́ет
+                                            внима́ние му́дро, невозникшие пя́тна|пятна́ не возника́ют, а возни́кшие
+                                            пя́тна отбра́сываются. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи,
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4"><br />
+                                                *</font> есть пя́тна, кото́рые сле́дует отбра́сывать
+                                            ви́дением|виде́нием,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            есть пя́тна, кото́рые сле́дует отбра́сывать сде́рживанием,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            есть пя́тна, кото́рые сле́дует отбра́сывать испо́льзованием,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            есть пя́тна, кото́рые сле́дует отбра́сывать терпе́нием,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            есть пя́тна, кото́рые сле́дует отбра́сывать избега́нием,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            есть пя́тна, кото́рые сле́дует отбра́сывать устране́нием,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            есть пя́тна, кото́рые сле́дует отбра́сывать разви́тием.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Ви́дение|Виде́ние</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            И каки́е пя́тна [загрязне́ний ума́], мона́хи, сле́дует отбра́сывать
+                                            ви́дением|виде́нием? Вот, мона́хи, необу́ченный|необучённый зауря́дный
+                                            челове́к,
+                                            кото́рый
+                                            не уважа́ет Благоро́дных, неуме́лый и нетрениро́ванный в их Дха́мме,
+                                            кото́рый не уважа́ет чи́стых люде́й, неуме́лый и нетрениро́ванный
+                                            в их Дха́мме, не понима́ет, каки́е ве́щи подхо́дят для внима́ния,
+                                            а каки́е ве́щи не подхо́дят для внима́ния. Поско́льку э́то так, он
+                                            направля́ет внима́ние на те ве́щи, кото́рые не подхо́дят для внима́ния,
+                                            и не направля́ет внима́ние на те ве́щи, кото́рые подхо́дят для внима́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="2"></a>И
+                                            каковы́ неподходя́щие для внима́ния ве́щи, на кото́рые он направля́ет
+                                            внима́ние? Э́то таки́е ве́щи, что когда́ он направля́ет на них внима́ние,
+                                            невозникшее пя́тно|пятно́ чу́вственного жела́ния возника́ет в нём, а
+                                            возни́кшее
+                                            пятно́ чу́вственного жела́ния увели́чивается; невозникшее пя́тно|пятно́
+                                            существова́ния возника́ет в нём, а возни́кшее пятно́ существова́ния
+                                            увели́чивается; невозникшее пя́тно|пятно́ неве́дения возника́ет в нём,
+                                            а возни́кшее пятно́ неве́дения увели́чивается<sup><a
+                                                    href="#link2">2</a></sup>.
+                                            Таковы́ неподходя́щие для внима́ния ве́щи, на кото́рые он направля́ет
+                                            внима́ние. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И
+                                            каковы́ подходя́щие для внима́ния ве́щи, на кото́рые он не направля́ет
+                                            внима́ние? Э́то таки́е ве́щи, что когда́ он направля́ет на них внима́ние,
+                                            невозникшее пя́тно|пятно́ чу́вственного жела́ния не возника́ет в нём, а
+                                            возни́кшее пятно́ чу́вственного жела́ния отбра́сывается; невозникшее
+                                            пя́тно|пятно́ существова́ния не возника́ет в нём, а возни́кшее пятно́
+                                            существова́ния
+                                            отбра́сывается; невозникшее пя́тно|пятно́ неве́дения не возника́ет в нём,
+                                            а возни́кшее пятно́ неве́дения отбра́сывается. Таковы́ подходя́щие
+                                            для внима́ния ве́щи, на кото́рые он не направля́ет внима́ние. Направля́я
+                                            внима́ние на неподходя́щие для внима́ния ве́щи и не направля́я внима́ние
+                                            на подходя́щие для внима́ния ве́щи, [он де́лает так, что и] невозникшие
+                                            пя́тна|пятна́ возника́ют в нём, и возни́кшие пя́тна
+                                            увели́чиваются.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Вот
+                                            как он нему́дро направля́ет внима́ние: «Был ли я в про́шлом? Не́
+                                            было ли меня́ в про́шлом? Чем я был в про́шлом? Каки́м я был в про́шлом?
+                                            Бу́дучи чем, я стал таки́м в про́шлом? Бу́ду ли я в бу́дущем? Не
+                                            бу́дет ли меня́ в бу́дущем? Чем я бу́ду в бу́дущем? Каки́м я бу́ду
+                                            в бу́дущем? Бу́дучи чем, я бу́ду таки́м в бу́дущем?» И́ли вме́сто э́того
+                                            он вну́тренне запу́тан в отноше́нии настоя́щего: «Есть ли я? Нет
+                                            ли меня́? Что я? Како́в я? Отку́да взя́лось|взяло́сь э́то существо́? Куда́
+                                            оно́
+                                            уйдёт?»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="3"></a>Когда́
+                                            он подо́бным о́бразом нему́дро направля́ет внима́ние, одно́ из шести́
+                                            воззре́ний возника́ет в нём. Воззре́ние «"я" существу́ет
+                                            у меня́» возника́ет в нём как и́стинное и утверждённое; и́ли же
+                                            воззре́ние «"я" не существу́ет у меня́» возника́ет в нём
+                                            как и́стинное и утверждённое; и́ли же воззре́ние «я воспринима́ю
+                                            "я" свои́м "я" возника́ет в нём как и́стинное
+                                            и утверждённое; и́ли же воззре́ние «я воспринима́ю "не-я́"
+                                            свои́м "я" возника́ет в нём как и́стинное и утверждённое;
+                                            и́ли же воззре́ние «я воспринима́ю "я" свои́м "не-я́"
+                                            возника́ет в нём как и́стинное и утверждённое; и́ли же у него́ есть
+                                            тако́е воззре́ние как э́то: «И́менно э́то моё "я" говори́т
+                                            и чу́вствует и пережива́ет здесь и там результа́ты хоро́ших и плохи́х
+                                            посту́пков. Но э́то моё "я" явля́ется постоя́нным, бесконе́чным,
+                                            ве́чным, не подве́ржено измене́ниям, бу́дет таки́м це́лую|целу́ю
+                                            ве́чность»<sup><a href="#link3">3</a></sup>.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Э́то
+                                            концептуа́льное воззре́ние, мона́хи, называ́ется ча́щей воззре́ний,
+                                            де́брями воззре́ний, искривле́нием воззре́ний, колеба́нием воззре́ний,
+                                            пу́тами воззре́ний. Ско́ванный пу́тами воззре́ний, необу́ченный|необучённый
+                                            зауря́дный
+                                            челове́к не освобождён от рожде́ния, старе́ния, сме́рти, от печа́ли,
+                                            стена́ния, бо́ли, гру́сти|грусти́ и отча́яния. Он не освобождён от
+                                            страда́ний,
+                                            я говорю́ вам.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи,
+                                            хорошо́ обу́ченный благоро́дный учени́к, кото́рый уважа́ет Благоро́дных,
+                                            уме́лый и трениро́ванный в их Дха́мме, кото́рый уважа́ет чи́стых люде́й,
+                                            уме́лый и трениро́ванный в их Дха́мме, понима́ет, каки́е ве́щи подхо́дят
+                                            для внима́ния, а каки́е ве́щи не подхо́дят для внима́ния. Поско́льку
+                                            э́то так, он не направля́ет внима́ние на те ве́щи, кото́рые не подхо́дят
+                                            для внима́ния, и направля́ет внима́ние на те ве́щи, кото́рые подхо́дят
+                                            для внима́ния. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И
+                                            каковы́ неподходя́щие для внима́ния ве́щи, на кото́рые он не направля́ет
+                                            внима́ние? Э́то таки́е ве́щи, что, когда́ он направля́ет на них внима́ние,
+                                            невозникшее пя́тно|пятно́ чу́вственного жела́ния возника́ет в нём, а
+                                            возни́кшее
+                                            пятно́ чу́вственного жела́ния увели́чивается; невозникшее пя́тно|пятно́
+                                            существова́ния возника́ет в нём, а возни́кшее пятно́ существова́ния
+                                            увели́чивается; невозникшее пя́тно|пятно́ неве́дения возника́ет в нём,
+                                            а возни́кшее пятно́ неве́дения увели́чивается. Таковы́ неподходя́щие
+                                            для внима́ния ве́щи, на кото́рые он направля́ет внима́ние. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И
+                                            каковы́ подходя́щие для внима́ния ве́щи, на кото́рые он направля́ет
+                                            внима́ние? Э́то таки́е ве́щи, что, когда́ он направля́ет на них внима́ние,
+                                            невозникшее пя́тно|пятно́ чу́вственного жела́ния не возника́ет в нём, а
+                                            возни́кшее пятно́ чу́вственного жела́ния отбра́сывается; невозникшее
+                                            пя́тно|пятно́ существова́ния не возника́ет в нём, а возни́кшее пятно́
+                                            существова́ния
+                                            отбра́сывается; невозникшее пя́тно|пятно́ неве́дения не возника́ет в нём,
+                                            а возни́кшее пятно́ неве́дения отбра́сывается. Таковы́ подходя́щие
+                                            для внима́ния ве́щи, на кото́рые он направля́ет внима́ние. Не направля́я
+                                            внима́ние на неподходя́щие для внима́ния ве́щи и направля́я внима́ние
+                                            на подходя́щие для внима́ния ве́щи, [он де́лает так, что] невозникшие
+                                            пя́тна|пятна́ не возника́ют в нём, а возни́кшие пя́тна
+                                            отбра́сываются.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">[Вот
+                                            каки́м о́бразом] он му́дро направля́ет внима́ние: «Э́то – страда́ние».
+                                            Он му́дро направля́ет внима́ние: «Э́то – происхожде́ние страда́ния»…
+                                            «Э́то – прекраще́ние страда́ния»… «Э́то – путь, веду́щий к прекраще́нию
+                                            страда́ния». Когда́ он таки́м о́бразом му́дро направля́ет внима́ние,
+                                            три око́вы отбра́сываются в нём: </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4"><br />
+                                                *</font> воззре́ние о существова́нии «я», <br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            сомне́ние,<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            цепля́ние за пра́вила и предписа́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            Э́ти зову́тся пя́тнами [загрязне́ний ума́], кото́рые сле́дует отбра́сывать
+                                            ви́дением|виде́нием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Сде́рживание</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            И каки́е пя́тна [загрязне́ний ума́], мона́хи, сле́дует отбра́сывать
+                                            сде́рживанием? Вот мона́х, му́дро осмы́сливая, пребыва́ет, сде́рживая
+                                            спосо́бность гла́за. Тогда́ как пя́тна|пятна́ [разли́чных загрязне́ний
+                                            ума́],
+                                            раздраже́ние, взбудораженность могли́ бы возни́кнуть в том, кто
+                                            пребыва́ет, не сде́рживая спосо́бность гла́за – в том, кто пребыва́ет,
+                                            сде́рживая спосо́бность гла́за, нет пя́тен, раздраже́ния, взбудораженности.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            Му́дро осмы́сливая, он пребыва́ет, сде́рживая спосо́бность у́ха…<br />
+                                            Му́дро осмы́сливая, он пребыва́ет, сде́рживая спосо́бность но́са…<br />
+                                            Му́дро осмы́сливая, он пребыва́ет, сде́рживая спосо́бность языка́…<br />
+                                            Му́дро осмы́сливая, он пребыва́ет, сде́рживая спосо́бность
+                                            те́ла…</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            Му́дро осмы́сливая, он пребыва́ет, сде́рживая спосо́бность ума́. Тогда́
+                                            как пя́тна|пятна́, раздраже́ние, взбудораженность могли́ бы возни́кнуть
+                                            в том, кто пребыва́ет, не сде́рживая спосо́бность ума́ – в том,
+                                            кто пребыва́ет, сде́рживая спосо́бность ума́, нет пя́тен, раздраже́ния,
+                                            взбудораженности.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́
+                                            как пя́тна|пятна́, раздраже́ние, взбудораженность могли́ бы возни́кнуть
+                                            в том, кто пребыва́ет, не сде́рживая спосо́бности [о́рганов|орга́нов
+                                            чувств],
+                                            – в том, кто пребыва́ет, сде́рживая спосо́бности, нет пя́тен, раздраже́ния,
+                                            взбудораженности. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Э́ти
+                                            зову́тся
+                                            пя́тнами [загрязне́ний ума́], кото́рые сле́дует отбра́сывать
+                                            сде́рживанием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Испо́льзование</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            И каки́е пя́тна [загрязне́ний ума́], мона́хи, сле́дует отбра́сывать
+                                            испо́льзованием? Вот мона́х, му́дро осмы́сливая, по́льзуется одея́нием
+                                            про́сто для того́, что́бы защити́ться от хо́лода, защити́ться от жары́,
+                                            защити́ться от конта́ктов с му́хами, кома́рами|комара́ми, со́лнцем, ве́тром
+                                            и ползу́чими тва́рями; а та́кже, что́бы скрыть инти́мные ча́сти
+                                            [те́ла|тела́].</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Му́дро
+                                            осмы́сливая, он употребля́ет пи́щу|пищу́, со́бранную с подая́ний, не ра́ди
+                                            развлече́ний, не ра́ди упое́ния, не ра́ди физи́ческой красоты́ и
+                                            привлека́тельности,
+                                            а про́сто ра́ди сто́йкости и продолжи́тельности э́того те́ла, что́бы
+                                            устрани́ть дискомфо́рт, [тем са́мым] поддержа́ть [веде́ние] свято́й
+                                            жи́зни, осознава́я: «Так я устраню́ ста́рые чу́вства [го́лода] и не
+                                            созда́м но́вых чувств [от перееда́ния]. Я бу́ду здоро́вым, не бу́ду
+                                            [э́тим] порица́ем, бу́ду пребыва́ть в облегче́нии». </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Му́дро
+                                            осмы́сливая, он испо́льзует жили́ще про́сто для того́, что́бы защити́ться
+                                            от хо́лода, защити́ться от жары́, защити́ться от конта́ктов с му́хами,
+                                            кома́рами|комара́ми, со́лнцем, ве́тром и ползу́чими тва́рями; а та́кже
+                                            что́бы
+                                            скры́ться от непого́ды и ра́доваться затво́рничеству. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Му́дро
+                                            осмы́сливая, он испо́льзует необходи́мые для лече́ния ве́щи то́лько
+                                            зате́м, что́бы защити́ться от возни́кших мучи́тельных [теле́сных]
+                                            чувств и поддержа́ть своё здоро́вье. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́
+                                            как
+                                            пя́тна|пятна́ [разли́чных загрязне́ний ума́], раздраже́ние, взбудораженность
+                                            могли́ бы возни́кнуть в том, кто не по́льзуется э́тими веща́ми так – в том,
+                                            кто
+                                            по́льзуется и́ми так, нет пя́тен, раздраже́ния,
+                                            взбудораженности.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Э́ти
+                                            зову́тся
+                                            пя́тнами, кото́рые сле́дует отбра́сывать испо́льзованием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Терпе́ние</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            И каки́е пя́тна [загрязне́ний ума́], мона́хи, сле́дует отбра́сывать
+                                            терпе́нием? Вот мона́х, му́дро осмы́сливая, те́рпит хо́лод, жа́ру|жару́,
+                                            го́лод и жа́жду, конта́кты с му́хами, кома́рами|комара́ми, ве́тром и
+                                            со́лнцем
+                                            и ползу́чими тва́рями. Он те́рпит гру́бые и неприве́тливые слова́
+                                            и возни́кшие теле́сные чу́вствования – боле́зненные, мучи́тельные,
+                                            о́стрые, пронза́ющие, неприя́тные, терза́ющие, угрожа́ющие жи́зни.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́
+                                            как
+                                            пя́тна|пятна́ [разли́чных загрязне́ний ума́], раздраже́ние, взбудораженность
+                                            могли́ бы возни́кнуть в том, кто не те́рпит э́тих веще́й – в том,
+                                            кто те́рпит их, нет пя́тен, раздраже́ния, взбудораженности.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Э́ти
+                                            зову́тся
+                                            пя́тнами, кото́рые сле́дует отбра́сывать терпе́нием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Избега́ние</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            И каки́е пя́тна [загрязне́ний ума́], мона́хи, сле́дует отбра́сывать
+                                            избега́нием? Вот мона́х, му́дро осмы́сливая, избе́гает|избега́ет [встреч] с
+                                            ди́ким слоно́м, с ди́кой ло́шадью, с ди́ким быко́м, с ди́кой соба́кой,
+                                            со змеёй, с пнём, с колю́чками, с про́пастью, с обры́вом, с выгребно́й
+                                            я́мой, с канализа́цией. Му́дро осмы́сливая, он избе́гает|избега́ет сиде́ть
+                                            на
+                                            неуме́стных сиде́ньях, броди́ть в ненадлежа́щих места́х, обща́ться
+                                            с плохи́ми друзья́ми, и́з-за чего́ его́ му́дрые това́рищи по свято́й
+                                            жи́зни могли́ бы заподо́зрить его́ в поро́чном поведе́нии. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́
+                                            как
+                                            пя́тна|пятна́ [разли́чных загрязне́ний ума́], раздраже́ние, взбудораженность
+                                            могли́ бы возни́кнуть в том, кто не избе́гает|избега́ет э́тих веще́й – в
+                                            том,
+                                            кто избе́гает|избега́ет их, нет пя́тен, раздраже́ния,
+                                            взбудораженности.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Э́ти
+                                            зову́тся
+                                            пя́тнами, кото́рые сле́дует отбра́сывать избега́нием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Устране́ние</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            И каки́е пя́тна [загрязне́ний ума́], мона́хи, сле́дует отбра́сывать
+                                            устране́нием? Вот мона́х, му́дро осмы́сливая, не те́рпит возни́кшую
+                                            мысль, [осно́ванную на] чу́вственном жела́нии. Он отбра́сывает её,
+                                            устраня́ет её, избавля́ется от неё, истребля́ет её. Му́дро осмы́сливая,
+                                            он не те́рпит возни́кшую мысль, [осно́ванную на] недоброжела́тельности…
+                                            не те́рпит возни́кшую мысль, [осно́ванную на] причине́нии вреда́…
+                                            не те́рпит возни́кшие поро́чные, неблагие состоя́ния [ума́]. Он отбра́сывает
+                                            их, устраня́ет их, избавля́ется от них, истребля́ет их. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́
+                                            как пя́тна|пятна́ [разли́чных загрязне́ний ума́], раздраже́ние,
+                                            взбудораженность
+                                            могли́ бы возни́кнуть в том, кто не устраня́ет э́тих мы́слей, – в
+                                            том, кто устраня́ет их, нет пя́тен, раздраже́ния,
+                                            взбудораженности.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Э́ти
+                                            зову́тся
+                                            пя́тнами, кото́рые сле́дует отбра́сывать устране́нием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Разви́тие</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            <a name="4"></a>И каки́е пя́тна [загрязне́ний ума́], мона́хи, сле́дует
+                                            отбра́сывать разви́тием? Вот мона́х, му́дро осмы́сливая, развива́ет
+                                            осо́знанность как фа́ктор просветле́ния, кото́рый подде́рживается
+                                            отрече́нием, бесстра́стием, прекраще́нием, созрева́ет в оставле́нии.
+                                            Он развива́ет иссле́дование состоя́ний… усе́рдие… восто́рг… безмяте́жность…
+                                            сосредото́чение… невозмути́мость как фа́ктор просветле́ния, кото́рый
+                                            подде́рживается отрече́нием, бесстра́стием, прекраще́нием, созрева́ет
+                                            в оставле́нии<sup><a href="#link4">4</a></sup>.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Тогда́
+                                            как пя́тна|пятна́ [разли́чных загрязне́ний ума́], раздраже́ние,
+                                            взбудораженность
+                                            могли́ бы возни́кнуть в том, кто не развива́ет э́ти фа́кторы просветле́ния,
+                                            – в том, кто их развива́ет, нет пя́тен, раздраже́ния,
+                                            взбудораженности.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Э́ти
+                                            зову́тся
+                                            пя́тнами, кото́рые сле́дует отбра́сывать разви́тием.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                Заключе́ние</b></font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                            <a name="5"></a>Мона́хи, когда́ у мона́ха пятна́ [загрязне́ний ума́],
+                                            кото́рые сле́дует отбра́сывать ви́дением|виде́нием, бы́ли отбро́шены
+                                            ви́дением|виде́нием;
+                                            когда́ пя́тна, кото́рые сле́дует отбра́сывать сде́рживанием, бы́ли
+                                            отбро́шены сде́рживанием; когда́ пя́тна, кото́рые сле́дует отбра́сывать
+                                            испо́льзованием, бы́ли отбро́шены испо́льзованием; когда́ пя́тна,
+                                            кото́рые сле́дует отбра́сывать терпе́нием, бы́ли отбро́шены терпе́нием;
+                                            когда́ пя́тна, кото́рые сле́дует отбра́сывать избега́нием, бы́ли отбро́шены
+                                            избега́нием; когда́ пя́тна, кото́рые сле́дует отбра́сывать устране́нием,
+                                            бы́ли отбро́шены устране́нием; когда́ пя́тна, кото́рые сле́дует отбра́сывать
+                                            разви́тием, бы́ли отбро́шены разви́тием, – то тогда́ он зовётся мона́хом,
+                                            кото́рый пребыва́ет сде́ржанным с по́мощью сде́рживания всех пя́тен
+                                            [загрязне́ний ума́]. Он разруби́л жа́жду, сбро́сил пу́ты, и с по́лным
+                                            проникнове́нием в самомне́ние он положи́л коне́ц страда́ниям»<sup><a
+                                                    href="#link5">5</a></sup>.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Так
+                                            сказа́л
+                                            Благослове́нный. Мона́хи бы́ли дово́льны и восхи́тились|восхити́лись
+                                            слова́ми
+                                            Благослове́нного.</font><br />
+                                    </div>
+                                    <div class="a"></div>
+                                </td>
+
+                            </tr>
+                        </table>
+                        <br />
+                        <div align="center"><br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a
+                                            href="#1" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="14" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+                                                style='font-size:18pt;font-family:"Wingdings 3";'></span></font>
+                                    </td>
+                                    <td height="14" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link1"></a>
+                                                <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">
+                                                    Бодхи:
+                                                    Мудрое внимание (йонисо манасикара) толкуется как внимание,
+                                                    представляющее собой правильные средства (упая) на верном пути
+                                                    (патха). Объясняется как умственное отношение, размышление,
+                                                    озабоченность, которые согласуются с истиной, - например, когда
+                                                    непостоянное рассматривается и видится непостоянным. Немудрое
+                                                    внимание (айонисо манасикара) - внимание, представляющее собой
+                                                    неправильные средства на ошибочном пути (уппатха). Оно не
+                                                    согласуется
+                                                    с истиной, то есть имеет место, когда кто-либо рассматривает
+                                                    непостоянное как постоянное, болезненное как приятное, безличностное
+                                                    как имеющее "я", уродливое как прекрасное. <br />
+                                                    Комментарий (резюмирует): "Уничтожение пятен загрязнений
+                                                    ума возможно для того, кто знает, как зародить мудрое внимание,
+                                                    и кто видит так, что немудрое внимание не возникает".</font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#2" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link2"></a>
+                                                <font color="#999966">Комментарий:
+                                                    "Когда он направляет внимание на привлекательность пяти
+                                                    нитей чувственного удовольствия, возникает и увеличивается пятно
+                                                    чувственного желания. Когда он направляет внимание на
+                                                    привлекательность
+                                                    возвышенных состояний (джхан), то возникает и увеличивается
+                                                    пятно существования. Когда он направляет внимание на любые мирские
+                                                    вещи посредством четырёх искажений (випалласа), то возникает
+                                                    и увеличивается пятно неведения".</font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="266" valign="middle" width="3%"><a
+                                            href="#3" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="266" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+                                    </td>
+                                    <td height="266" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link3"></a>
+                                                <font color="#999966">Бодхи:
+                                                    Первые два из этих шести воззрений - простой этернализм и
+                                                    аннигиляционизм.
+                                                    Воззрение '"я" не существует у "меня"' не
+                                                    является доктриной безличност ности Будды, но представляет собой
+                                                    материалистическое воззрение, согласно которому личность - это
+                                                    просто физическое тело и существования после смерти нет. Следующие
+                                                    три воззрения можно понимать как возникшие из философски более
+                                                    сложного наблюдения, в котором присущая текущему опыту рефлексивная
+                                                    структура позволяет сознающему себя сознанию познать себя,
+                                                    содержимое
+                                                    ума и тело, с которым оно взаимосвязано. В поисках своей "истинной
+                                                    природы" необученный заурядный человек соотносит своё "я"
+                                                    либо с обоими аспектами переживаемого (воззрение 3), либо с
+                                                    наблюдателем (воззрение 4), либо с наблюдаемым (воззрение 5).
+                                                    Последнее воззрение - полноценная версия этернализма без каких-либо
+                                                    оговорок. <br />
+                                                    <br />
+                                                    SV: Все эти вопросы упоминаются в
+                                                </font>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                        <font color="#999966"><a href="sn12_20-paccaya-sutta-sv.htm">СН
+                                                                12.20</a></font>
+                                                    </i></font>
+                                                <font color="#999966">. Будда объясняет,
+                                                    что они возникают у того, кто не понимает зависимого возникновения
+                                                    личности.</font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#4" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">4</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link4"></a>
+                                                <font color="#999966">SV:
+                                                </font>
+                                                <font color="#999966">Семь факторов просветления. Более
+                                                    подробно разбираются в <a href="../SN/samyutta-46.htm">СН 46</a>.
+                                                    См. также <a href="mn10-satipatthana-sutta-sv.htm">МН 10</a>,
+                                                    <a href="mn118-anapanasati-sutta-sv.htm">МН 118</a>.
+                                                </font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#5" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">5</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link5"></a>
+                                                <font color="#999966">Бодхи:
+                                                    На самом утончённом уровне самомнение лежит в основе умственного
+                                                    потока живого существа вплоть до арахантства и создаёт ощущение
+                                                    "я есть". "Проникновение в самомнение" (мана-бхисамая)
+                                                    означает увидеть самомнение насквозь и тем самым отбросить его.
+                                                </font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr bgcolor="#F4EFBD">
+                                <td class="bottom" colspan="4" height="2">
+                                    <div align="center">
+                                        <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                            style="cursor:default;font-size:1pt;">.
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                            <tr>
+                                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm"
+                                        style="border:0px;" title="вернуться к разделу">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                    </a></td>
+                                <td class="bottom" height="2" valign="middle" width="1%"> <a href="#"
+                                        style="border:0px;" title="вернуться наверх">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                                    </a></td>
+                                <td height="2" valign="top" width="32%">
+                                    <div align="center">
+                                        <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                            <noindex><!--LiveInternet counter-->
+                                                <script type="text/javascript">
+                                                    new Image().src = "//counter.yadro.ru/hit?r" +
+                                                        escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                                                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                        ";h" + escape(document.title.substring(0, 150)) +
+                                                        ";" + Math.random();</script>
+                                                <!--/LiveInternet--><!--LiveInternet logo--><a
+                                                    href="//www.liveinternet.ru/click" target="_blank"><img alt=""
+                                                        border="0" height="1" src="//counter.yadro.ru/logo?42.6"
+                                                        title="LiveInternet"
+                                                        width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                                                <span id="spylog2031418"></span>
+                                                <script
+                                                    type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                                                            (("https:" == document.location.protocol) ? "s" : "") +
+                                                            "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                                                <!--SpyLOG-->
+                                            </noindex>
+                                        </font>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="19%">
+                                    <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="37%">
+                                    <div align="right">
+                                        <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                                            style="font-size:7pt; font-family: Arial;">©
+                                            theravada.ru – при копировании материалов<br />
+                                            просьба ставить прямую ссылку на наш сайт.<br />
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window, a = 'inner';
+            if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+            return { width: e[a + 'Width'], height: e[a + 'Height'] }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+            document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+                document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+            }
+        }
+
+    </script>
+</body>
+
+</html>
