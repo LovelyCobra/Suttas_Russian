@@ -1,0 +1,852 @@
+<html>
+
+<head>
+    <title>Индриябхавана-сутта: Развитие способностей :: Мадджхима Никая 152</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta
+        content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        }
+        catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+    text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        .a {
+                            TEXT-INDENT: 2em
+                        }
+
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                           
+                                            Учение Старцев </b></font>
+                                </i></td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm#7" style="border:0px;"
+                                    title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;"
+                                    title="случайная сутта">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a> </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span
+                                    style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span></td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                        style="cursor:default;font-size:1pt;">.</font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="78%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">Индриябхавана-сутта:
+                                            Развитие способностей<br />
+                                            <font size="3">МН 152</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                                        <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                                                <div align="right"><i>
+                                                        <font color="#996633"><span
+                                                                style="font-size:8pt;font-family:Arial;"><span
+                                                                    style="font-size:8pt;font-family:Arial;"><span
+                                                                        style="font-size:8pt;font-family:Arial;"><span
+                                                                            style="font-size:8pt;font-family:Arial;"><span
+                                                                                style="font-size:8pt;font-family:Arial;">редакция
+                                                                                перевода:
+                                                                                22.11.2020</span></span></span><br />
+                                                                    Перевод с английского: SV<br />
+                                                                    <br />
+                                                                    источник: <br />
+                                                                    "Majjhima Nikaya by Nyanamoli &amp; Bodhi, p.
+                                                                    1147"</span></span></font>
+                                                    </i></div>
+                                            </span></div>
+                                    </span></td>
+                                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+                            <tr>
+                                <td height="1032" style="text-align: justify" valign="top">
+                                    <div>
+                                        <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>Т</b>
+                                        </font>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">ак
+                                            я слы́шал. Одна́жды Благослове́нный прожива́л в Каджангале в ро́ще
+                                            дере́вьев мукхелу. И тогда́ брахма́н Уттара, учени́к брахма́на Парасарии,
+                                            отпра́вился к Благослове́нному и обменя́лся с ним приве́тствиями.
+                                            По́сле обме́на ве́жливыми приве́тствиями и любе́зностями он сел ря́дом.
+                                            Зате́м Благослове́нный спроси́л его́: «Уттара, у́чит ли брахма́н Парасария
+                                            свои́х ученико́в разви́тию спосо́бностей?»</font>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«У́чит,
+                                                господи́н Готама».</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«Но,
+                                                Уттара, как [и́менно] он у́чит свои́х ученико́в разви́тию
+                                                спосо́бностей?»</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«Господи́н
+                                                Готама, вот челове́к не ви́дит форм гла́зом, и он не слы́шит зву́ков
+                                                у́хом. Вот как брахма́н Парасария у́чит свои́х ученико́в разви́тию
+                                                спосо́бностей».</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«Е́сли
+                                                э́то так, Уттара, то тогда́ слепо́й и́ли глухо́й челове́к был бы
+                                                ра́звитым|развиты́м в спосо́бностях су́дя по тому́, что говори́т
+                                                брахма́н
+                                                Парасария. Ведь слепо́й челове́к не ви́дит форм гла́зом, а глухо́й
+                                                челове́к не слы́шит зву́ков у́хом».</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><a name="1"></a>Когда́
+                                                так бы́ло ска́зано, брахма́нский учени́к Уттара, воспи́танник Парасарии,
+                                                замо́лк, смути́лся, сиде́л с опу́щенными плеча́ми и пони́кшей голово́й,
+                                                угрю́мый, без отве́та. Тогда́, осозна́в э́то, Благослове́нный обрати́лся
+                                                к достопочте́нному Ананде: «Ананда, брахма́н Парасария у́чит
+                                                свои́х ученико́в разви́тию спосо́бностей одни́м о́бразом, но в
+                                                Дисципли́не
+                                                Благоро́дных высоча́йшее разви́тие спосо́бностей ино́е»<font
+                                                    face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                                href="#link1">1</a></sup></font>
+                                                </font>.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«Сейча́с
+                                                подходя́щий моме́нт, Благослове́нный. Сейча́с подходя́щий моме́нт,
+                                                Высоча́йший, что́бы Благослове́нный научи́л высоча́йшему разви́тию
+                                                спосо́бностей в Дисципли́не Благоро́дных. Услы́шав э́то от
+                                                Благослове́нного,
+                                                мона́хи запо́мнят э́то».</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«Тогда́,
+                                                Ананда, слу́шай внима́тельно то, о чём я бу́ду говори́ть».</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«Да,
+                                                уважа́емый» – отве́тил он. Благослове́нный сказа́л сле́дующее:</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Глаз и фо́рмы</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                «И что тако́е, Ананда, высоча́йшее разви́тие спосо́бностей в Дисципли́не
+                                                Благоро́дных? Вот, Ананда, когда́ мона́х ви́дит фо́рму гла́зом,
+                                                в нём возника́ет прия́тное, в нём возника́ет неприя́тное, в нём
+                                                возника́ет и прия́тное и неприя́тное. Он понима́ет так: «Во мне
+                                                возни́кло прия́тное, во мне возни́кло неприя́тное, во мне возни́кло
+                                                и прия́тное и неприя́тное. Но э́то явля́ется обусло́вленным, гру́бым,
+                                                возни́кшим зави́симо. А невозмути́мость - э́то умиротворённое,
+                                                высоча́йшее». Возни́кшее прия́тное, возни́кшее неприя́тное, возни́кшее
+                                                и прия́тное и неприя́тное прекраща́ются в нём, и устана́вливается
+                                                невозмути́мость.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно
+                                                тому́ как челове́к с хоро́шим зре́нием, откры́в свои́ глаза́, мог
+                                                бы закры́ть их, и́ли же, закры́в свои́ глаза́, мог бы откры́ть их,
+                                                то то́чно та́кже бы́стро, то́чно та́кже легко́, то́чно та́кже
+                                                мгнове́нно,
+                                                каса́ясь абсолю́тно всего́, возни́кшее прия́тное, возни́кшее
+                                                неприя́тное,
+                                                возни́кшее и прия́тное и неприя́тное прекраща́ются в нём, и
+                                                устана́вливается
+                                                невозмути́мость. Э́то называ́ется высоча́йшим разви́тием спосо́бностей
+                                                в Дисципли́не Благоро́дных в отноше́нии форм, познава́емых гла́зом.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        У́хо и зву́ки</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                Да́лее, Ананда, когда́ мона́х слы́шит звук у́хом, в нём возника́ет
+                                                прия́тное, в нём возника́ет неприя́тное, в нём возника́ет и прия́тное
+                                                и неприя́тное. Он понима́ет так: «Во мне возни́кло прия́тное,
+                                                во мне возни́кло неприя́тное, во мне возни́кло и прия́тное и
+                                                неприя́тное.
+                                                Но э́то явля́ется обусло́вленным, гру́бым, возни́кшим зави́симо.
+                                                А невозмути́мость - э́то умиротворённое, высоча́йшее». Возни́кшее
+                                                прия́тное, возни́кшее неприя́тное, возни́кшее и прия́тное и неприя́тное
+                                                прекраща́ются в нём, и устана́вливается невозмути́мость. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно
+                                                тому́ как си́льный челове́к мог бы с лёгкостью щёлкнуть па́льцами,
+                                                то то́чно та́кже бы́стро, то́чно та́кже легко́, то́чно та́кже
+                                                мгнове́нно,
+                                                каса́ясь абсолю́тно всего́, возни́кшее прия́тное, возни́кшее
+                                                неприя́тное,
+                                                возни́кшее и прия́тное и неприя́тное прекраща́ются в нём, и
+                                                устана́вливается
+                                                невозмути́мость. Э́то называ́ется высоча́йшим разви́тием спосо́бностей
+                                                в Дисципли́не Благоро́дных в отноше́нии зву́ков, познава́емых у́хом.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Нос и за́пахи</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                Да́лее, Ананда, когда́ мона́х чу́ет за́пах|запа́х но́сом, в нём
+                                                возника́ет
+                                                прия́тное, в нём возника́ет неприя́тное, в нём возника́ет и прия́тное
+                                                и неприя́тное. Он понима́ет так: «Во мне возни́кло прия́тное,
+                                                во мне возни́кло неприя́тное, во мне возни́кло и прия́тное и
+                                                неприя́тное.
+                                                Но э́то явля́ется обусло́вленным, гру́бым, возни́кшим зави́симо.
+                                                А невозмути́мость - э́то умиротворённое, высоча́йшее». Возни́кшее
+                                                прия́тное, возни́кшее неприя́тное, возни́кшее и прия́тное и неприя́тное
+                                                прекраща́ются в нём, и устана́вливается невозмути́мость. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно
+                                                тому́ как со слегка́ наклонённого ло́тосового ли́ста|листа́ стека́ют
+                                                ка́пли
+                                                дождя́ и не остаю́тся на нём, то то́чно та́кже бы́стро, то́чно та́кже
+                                                легко́, то́чно та́кже мгнове́нно, каса́ясь абсолю́тно всего́, возни́кшее
+                                                прия́тное, возни́кшее неприя́тное, возни́кшее и прия́тное и неприя́тное
+                                                прекраща́ются в нём, и устана́вливается невозмути́мость. Э́то
+                                                называ́ется высоча́йшим разви́тием спосо́бностей в Дисципли́не
+                                                Благоро́дных
+                                                в отноше́нии за́пахов, познава́емых но́сом.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Язы́к и вку́сы</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                Да́лее, Ананда, когда́ мона́х про́бует вкус языко́м, в нём возника́ет
+                                                прия́тное, в нём возника́ет неприя́тное, в нём возника́ет и прия́тное
+                                                и неприя́тное. Он понима́ет так: «Во мне возни́кло прия́тное,
+                                                во мне возни́кло неприя́тное, во мне возни́кло и прия́тное и
+                                                неприя́тное.
+                                                Но э́то явля́ется обусло́вленным, гру́бым, возни́кшим зави́симо.
+                                                А невозмути́мость - э́то умиротворённое, высоча́йшее». Возни́кшее
+                                                прия́тное, возни́кшее неприя́тное, возни́кшее и прия́тное и неприя́тное
+                                                прекраща́ются в нём, и устана́вливается невозмути́мость. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно
+                                                тому́ как си́льный челове́к мог бы с лёгкостью вы́плюнуть слюну́,
+                                                со́бранную на ко́нчике своего́ языка́, то то́чно та́кже бы́стро,
+                                                то́чно та́кже легко́, то́чно та́кже мгнове́нно, каса́ясь абсолю́тно
+                                                всего́, возни́кшее прия́тное, возни́кшее неприя́тное, возни́кшее
+                                                и прия́тное и неприя́тное прекраща́ются в нём, и устана́вливается
+                                                невозмути́мость. Э́то называ́ется высоча́йшим разви́тием спосо́бностей
+                                                в Дисципли́не Благоро́дных в отноше́нии вку́сов, познава́емых языко́м.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Те́ло и осяза́емые ве́щи</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                Да́лее, Ананда, когда́ мона́х тро́гает осяза́емую вещь те́лом, в
+                                                нём возника́ет прия́тное, в нём возника́ет неприя́тное, в нём
+                                                возника́ет и прия́тное и неприя́тное. Он понима́ет так: «Во мне
+                                                возни́кло прия́тное, во мне возни́кло неприя́тное, во мне возни́кло
+                                                и прия́тное и неприя́тное. Но э́то явля́ется обусло́вленным, гру́бым,
+                                                возни́кшим зави́симо. А невозмути́мость - э́то умиротворённое,
+                                                высоча́йшее». Возни́кшее прия́тное, возни́кшее неприя́тное, возни́кшее
+                                                и прия́тное и неприя́тное прекраща́ются в нём, и устана́вливается
+                                                невозмути́мость. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно
+                                                тому́ как си́льный челове́к мог бы с лёгкостью распрями́ть со́гнутую
+                                                ру́ку и́ли согну́ть распрямлённую, то то́чно та́кже бы́стро, то́чно
+                                                та́кже легко́, то́чно та́кже мгнове́нно, каса́ясь абсолю́тно всего́,
+                                                возни́кшее прия́тное, возни́кшее неприя́тное, возни́кшее и прия́тное
+                                                и неприя́тное прекраща́ются в нём, и устана́вливается невозмути́мость.
+                                                Э́то называ́ется высоча́йшим разви́тием спосо́бностей в Дисципли́не
+                                                Благоро́дных
+                                                в отноше́нии осяза́емых веще́й, познава́емых те́лом.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Ум и у́мственные фено́мены|феноме́ны</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                Да́лее, Ананда, когда́ мона́х познаёт у́мственный фено́мен|феноме́н
+                                                умо́м,
+                                                в нём возника́ет прия́тное, в нём возника́ет неприя́тное, в нём
+                                                возника́ет и прия́тное и неприя́тное. Он понима́ет так: «Во мне
+                                                возни́кло прия́тное, во мне возни́кло неприя́тное, во мне возни́кло
+                                                и прия́тное и неприя́тное. Но э́то явля́ется обусло́вленным, гру́бым,
+                                                возни́кшим зави́симо. А невозмути́мость - э́то умиротворённое,
+                                                высоча́йшее». Возни́кшее прия́тное, возни́кшее неприя́тное, возни́кшее
+                                                и прия́тное и неприя́тное прекраща́ются в нём, и устана́вливается
+                                                невозмути́мость. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Предста́вь,
+                                                как е́сли бы челове́к урони́л две и́ли три ка́пли воды́ на желе́зный
+                                                лист, кото́рый раскаля́лся це́лый день. Паде́ние э́тих ка́пель могло́
+                                                бы быть ме́дленным, но зате́м они́ мгнове́нно испари́лись и исче́зли.
+                                                То́чно так же бы́стро, то́чно та́кже легко́, то́чно та́кже мгнове́нно,
+                                                каса́ясь абсолю́тно всего́, возни́кшее прия́тное, возни́кшее
+                                                неприя́тное,
+                                                возни́кшее и прия́тное и неприя́тное прекраща́ются в нём, и
+                                                устана́вливается
+                                                невозмути́мость. Э́то называ́ется высоча́йшим разви́тием спосо́бностей
+                                                в Дисципли́не Благоро́дных в отноше́нии у́мственных
+                                                фено́менов|феноме́нов,
+                                                познава́емых умо́м.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Вот
+                                                каково́ высоча́йшее разви́тие спосо́бностей в Дисципли́не Благоро́дных.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Учени́к</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                <a name="2"></a>И кто тако́й, Ананда, учени́к в вы́сшей трениро́вке,
+                                                кото́рый вступи́л на путь? Вот, Ананда, когда́ мона́х ви́дит фо́рму
+                                                гла́зом… слы́шит звук у́хом… ню́хает за́пах|запа́х но́сом… про́бует на
+                                                вкус
+                                                языко́м… тро́гает осяза́емую вещь те́лом… познаёт у́мственный
+                                                фено́мен|феноме́н
+                                                умо́м, в нём возника́ет прия́тное, в нём возника́ет неприя́тное,
+                                                в нём возника́ет и прия́тное и неприя́тное. К э́тому возни́кшему
+                                                прия́тному, к э́тому возни́кшему неприя́тному, к э́тому возни́кшему
+                                                и прия́тному и неприя́тному он чу́вствует отторже́ние, отвраще́ние,
+                                                неприя́знь. Вот како́в учени́к в вы́сшей трениро́вке, кото́рый вступи́л
+                                                на путь<font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                                        href="#link2">2</a></sup></font>
+                                                        </font>
+                                                    </font>
+                                                </font>.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Арахант</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                                                <a name="3"></a>И кто тако́й, Ананда, благоро́дный с
+                                                ра́звитыми|развиты́ми
+                                                спосо́бностями?<font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                                        href="#link3">3</a></sup></font>
+                                                        </font>
+                                                    </font>
+                                                </font>
+                                                Вот, Ананда, когда́ мона́х ви́дит фо́рму гла́зом… слы́шит у́хом звук…
+                                                чу́ет за́пах|запа́х но́сом… про́бует вкус языко́м… тро́гает осяза́емую
+                                                вещь
+                                                те́лом… познаёт у́мственный фено́мен|феноме́н умо́м, в нём возника́ет
+                                                прия́тное,
+                                                в нём возника́ет неприя́тное, в нём возника́ет и прия́тное и
+                                                неприя́тное.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Е́сли он
+                                                пожела́ет: «Пусть я бу́ду пребыва́ть, воспринима́я не-отврати́тельное
+                                                в отврати́тельном» – он пребыва́ет, воспринима́я не-отврати́тельное
+                                                в отврати́тельном.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Е́сли он
+                                                пожела́ет: «Пусть я бу́ду пребыва́ть, воспринима́я отврати́тельное
+                                                в не-отврати́тельном» – он пребыва́ет, воспринима́я отврати́тельное
+                                                в не-отврати́тельном.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Е́сли он
+                                                пожела́ет: «Пусть я бу́ду пребыва́ть, воспринима́я не-отврати́тельное
+                                                и в не-отврати́тельном и в отврати́тельном» – он пребыва́ет,
+                                                воспринима́я не-отврати́тельное и в не-отврати́тельном и в
+                                                отврати́тельном.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Е́сли он
+                                                пожела́ет: «Пусть я бу́ду пребыва́ть, воспринима́я отврати́тельное
+                                                и в не-отврати́тельном и в отврати́тельном» – он пребыва́ет,
+                                                воспринима́я отврати́тельное в не-отврати́тельном и в отврати́тельном.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><a name="4"></a>Е́сли
+                                                он пожела́ет: «Избега́я и не-отврати́тельного и отврати́тельного,
+                                                пусть я бу́ду пребыва́ть в невозмути́мости, осо́знанным и бди́тельным»
+                                                – он пребыва́ет в невозмути́мости к э́тому, бу́дучи осо́знанным
+                                                и бди́тельным<font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                                        href="#link3">4</a></sup></font>
+                                                        </font>
+                                                    </font>
+                                                </font>
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                                <sup></sup></font>
+                                                        </font>
+                                                    </font>
+                                                </font>.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Вот
+                                                како́в благоро́дный с ра́звитыми|развиты́ми спосо́бностями.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Ананда,
+                                                я научи́л высоча́йшему разви́тию спосо́бностей в Дисципли́не
+                                                Благоро́дных,
+                                                [научи́л] ученику́ в вы́сшей трениро́вке, кото́рый вступи́л на путь,
+                                                [научи́л] благоро́дному с ра́звитыми|развиты́ми спосо́бностями.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">То, что
+                                                сле́дует сде́лать учи́телю для свои́х ученико́в из сострада́ния
+                                                к ним, жела́я им благополу́чия, име́я к ним сострада́ние, всё
+                                                э́то я сде́лал для вас, Ананда. Вон там – подно́жья дере́вьев,
+                                                там – пусты́е хи́жины. Медити́руйте, Ананда, не откла́дывайте
+                                                на пото́м, ина́че бу́дете по́зже сожале́ть об э́том. Таково́ на́ше
+                                                наставле́ние вам».</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Так сказа́л
+                                                Благослове́нный. Достопочте́нный Ананда был дово́лен и
+                                                восхи́тился|восхити́лся
+                                                слова́ми Благослове́нного.<br />
+                                            </font>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="190" valign="middle" width="3%"><a
+                                        href="#1" style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a></td>
+                                <td height="190" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span style='font-size:18pt;font-family:"Wingdings 3";'>
+                                            <font color="#C7B683"></font>
+                                        </span></font>
+                                </td>
+                                <td height="190" width="96%">
+                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><a name="link1"></a>
+                                            </font>
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                    <font color="#999966">Бодхи:
+                                                        Выражение «развитие способностей» (индрия-бхавана) в
+                                                        действительности
+                                                        обозначает развитие ума в отношении<br />
+                                                        того, как он реагирует на объекты, переживаемые чувственными
+                                                        способностями.
+                                                        Зачаточный аспект этой практики называется «сдержанностью
+                                                        способностей
+                                                        [органов] чувств» (индрия-самвара) и подразумевает
+                                                        контролирование
+                                                        ума так, чтобы не цепляться за «образы и черты» вещей, за их
+                                                        привлекательные
+                                                        или отвратительные атрибуты. Развитие способностей доводит этот
+                                                        процесс контроля вплоть до той точки, когда посредством волевого
+                                                        акта практикующий может в тот же миг установить прозрение даже
+                                                        во время чувственного восприятия. На высочайшем уровне [развития
+                                                        этой практики] обретается способность радикально преобразить
+                                                        субъективную
+                                                        значимость самих воспринимаемых объектов, когда практикующий
+                                                        может
+                                                        делать так, что они будут представляться ему совершенно иным
+                                                        образом,
+                                                        противоположным тому, как они познаются им обычно.</font>
+                                                </i></font>
+                                        </i></font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#2"
+                                        style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a></td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><a name="link2"></a>
+                                            </font>
+                                            <font color="#999966">Бодхи:
+                                                Хотя ученик (секха) уже вступил на путь к достижению<br />
+                                                окончательного освобождения, он всё ещё подвержен утончённым состояниям
+                                                влечения, отвращения, простого безразличия по отношению к объектам
+                                                чувств. Однако он переживает эти (состояния) как помехи, мешающие
+                                                его прогрессу, и из-за этого чувствует к ним отторжение, отвращение,
+                                                неприязнь.</font>
+                                        </i></font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#3"
+                                        style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a></td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><a name="link3"></a>
+                                            </font>
+                                            <font color="#999966">Бодхи:
+                                                Речь идёт об араханте. </font>
+                                        </i></font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                            <tr>
+                                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#4"
+                                        style="border:0px;" title="вернуться к сноске в тексте">
+                                        <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                    </a></td>
+                                <td height="2" valign="top" width="1%">
+                                    <font color="#996600" face="Times New Roman, Times, serif" size="2">4</font>
+                                </td>
+                                <td height="2" width="96%">
+                                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><a name="link4"></a>
+                                            </font>
+                                            <font color="#999966">SV:
+                                                Согласно Патисамбхидамагге: 1) чтобы воспринимать отвратительное
+                                                в не-отвратительном, следует наполнять привлекательный объект
+                                                идеей непривлекательности и загрязнённости, либо же рассматривать
+                                                его как непостоянный 2) чтобы воспринимать не-отвратительное в
+                                                отвратительном, следует наполнять неприятный объект доброжелательностью
+                                                или же рассматривать его как состоящий из элементов 3) и 4) аналогичным
+                                                образом, но к обоим видам объектов 5) так, как это и объясняется
+                                                в тексте сутты. <br />
+                                                <br />
+                                                Бодхи: Хотя это пятичастное созерцание предписано араханту в качестве
+                                                силы, которую он в совершенстве контролирует, в других суттах
+                                                Будда обучает этому монахов, находящихся ещё в процессе тренировки,
+                                                для преодоления трёх неблагих корней ума.
+                                            </font>
+                                        </i></font><span style="font-size:16.0pt">
+                                        <o:p></o:p>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <br />
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr bgcolor="#F4EFBD">
+                                <td class="bottom" colspan="4" height="2">
+                                    <div align="center">
+                                        <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                            style="cursor:default;font-size:1pt;">.</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                            <tr>
+                                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm#7"
+                                        style="border:0px;" title="вернуться к разделу">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                    </a></td>
+                                <td class="bottom" height="2" valign="middle" width="1%"> <a href="#"
+                                        style="border:0px;" title="вернуться наверх">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                                    </a></td>
+                                <td height="2" valign="top" width="32%">
+                                    <div align="center">
+                                        <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                            <noindex><!--LiveInternet counter-->
+                                                <script type="text/javascript">
+                                                    new Image().src = "//counter.yadro.ru/hit?r" +
+                                                        escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                                                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                        ";h" + escape(document.title.substring(0, 150)) +
+                                                        ";" + Math.random();</script><!--/LiveInternet--><!--LiveInternet logo--><a href="//www.liveinternet.ru/click"
+                                                    target="_blank"><img alt="" border="0" height="1"
+                                                        src="//counter.yadro.ru/logo?42.6" title="LiveInternet"
+                                                        width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                                                <span id="spylog2031418"></span>
+                                                <script type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                                                        (("https:" == document.location.protocol) ? "s" : "") +
+                                                        "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                                                <!--SpyLOG-->
+                                            </noindex>
+                                        </font>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="19%">
+                                    <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="37%">
+                                    <div align="right">
+                                        <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                                            style="font-size:7pt; font-family: Arial;">©
+                                            theravada.ru – при копировании материалов<br />
+                                            просьба ставить прямую ссылку на наш сайт.<br />
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window, a = 'inner';
+            if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+            return { width: e[a + 'Width'], height: e[a + 'Height'] }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+            document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+                document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+            }
+        }
+
+    </script>
+</body>
+
+</html>
