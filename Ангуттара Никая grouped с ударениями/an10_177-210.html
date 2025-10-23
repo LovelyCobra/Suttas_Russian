@@ -1,0 +1,648 @@
+<html>
+
+<head>
+    <title>Сутты :: Ангуттара Никая 10.179-210</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        } catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            } catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                } catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat="" text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+                        
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+                        
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+                        
+                        .a {
+                            TEXT-INDENT: 2em
+                        }
+                        
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+                        
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+                        
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+                        
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                         <i>
+                                                <font face="Georgia, Times New Roman, Times, serif" size="2"><b>  
+                                                        Учение Старцев</b></font>
+                                            </i> </b>
+                                </font>
+                                </i>
+                            </td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td>
+                                            <a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%">
+                                <a href="../AN/anguttara-10.htm" style="border:0px;" title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a>
+                                <a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная сутта">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a>
+                            </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span></td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.</font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="73%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">Дасака Нипата: Книга десяти
+                                            <br />
+                                            <font size="3">Cутты 177-210</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%">
+                                    <div align="right">
+                                        <div align="right"><i>
+                                                <font color="#996633">
+                                                    <font color="#996633">
+                                                        <font color="#996633"><span
+                                                                style="font-size:8pt;font-family:Arial;">
+                                                                <font color="#996633"><span
+                                                                        style="font-size:8pt;font-family:Arial;">редакция
+                                                                        перевода: 14.06.2013</span></font>
+                                                            </span></font><br />
+                                                        Перевод с английского: SV<br />
+                                                        <br />
+                                                        источник: <br />
+                                                        <i>
+                                                            <font color="#996633">
+                                                                <font color="#996633"><i>
+                                                                        <font color="#996633">
+                                                                            <font color="#996633"><i>
+                                                                                    <font color="#996633">
+                                                                                        <font color="#996633"><i>
+                                                                                                <font color="#996633">
+                                                                                                    <font
+                                                                                                        color="#996633">
+                                                                                                        <i>
+                                                                                                            <font
+                                                                                                                color="#996633">
+                                                                                                                <font
+                                                                                                                    color="#996633">
+                                                                                                                    <i>
+                                                                                                                        <font
+                                                                                                                            color="#996633">
+                                                                                                                            <span
+                                                                                                                                style="font-size:8pt;font-family:Arial;">
+                                                                                                                                <font
+                                                                                                                                    color="#996633">
+                                                                                                                                    <span
+                                                                                                                                        style="font-size:8pt;font-family:Arial;">"Anguttara
+                                                                                                                                        Nikaya
+                                                                                                                                        by
+                                                                                                                                        Bodhi,
+                                                                                                                                        p.
+                                                                                                                                        1526"</span>
+                                                                                                                                </font>
+                                                                                                                            </span>
+                                                                                                                        </font>
+                                                                                                                    </i>
+                                            </font>
+                                            </font>
+                                            </i>
+                                            </font>
+                                            </font>
+                                            </i>
+                                            </font>
+                                            </font>
+                                            </i>
+                                            </font>
+                                            </font>
+                                            </i>
+                                            </font>
+                                            </font>
+                                            </i>
+                                            </font>
+                                            </font>
+                                            </i>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="0" height="200" width="60%">
+                            <tr>
+                                <td height="370" style="text-align: justify" valign="top">
+                                    <br />
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="3"><i>Джануссонин
+                                                    сутта</i>:<br />
+                                            <font color="brown" size="4">К Джануссонину</font>
+                                            <br />
+                                            <font size="3">АН 10.177</font>
+                                        </font>
+                                    </div><br />
+                                    <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>И</b>
+                                    </font>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                        тогда́ брахма́н Джануссонин отпра́вился к Благослове́нному и по прибы́тии обменя́лся с ним приве́тствиями. По́сле обме́на ве́жливыми приве́тствиями и любе́зностями он сел ря́дом. Зате́м он спроси́л Благослове́нного: «Господи́н Готама, вы зна́ете, что
+                                        мы, брахма́ны, соверша́ем даре́ния, де́лаем подноше́ния, [жела́я]: «Пусть э́тот дар вы́падет на до́лю на́ших уме́рших ро́дственников. Пусть на́ши уме́ршие ро́дственники разде́лят э́тот дар». Так что же, господи́н
+                                        Готама, достаётся ли э́тот дар на́шим уме́ршим ро́дственникам?» </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«В тех места́х, брахма́н, где э́то возмо́жно, он достаётся им, но не там, где э́то невозмо́жно».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«И где же, господи́н Готама, [э́ти] места́, в кото́рых э́то возмо́жно? В каки́х места́х э́то невозмо́жно?».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Быва́ет так, брахма́н, когда́ не́кий челове́к (1) лиша́ет друго́го жи́зни, (2) берёт то, что не дано́, (3) соверша́ет недозво́ленное сексуа́льное поведе́ние, (4) лжёт, (5) говори́т се́ющую ра́спри речь, (6) говори́т
+                                            гру́бые слова́ и (7) пустосло́вит; (8) он жа́ден, (9) пита́ет неприя́знь, (10) име́ет непра́вильные воззре́ния. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется в аду́. Там он живёт, там он пребыва́ет посре́дством
+                                            еды́, что есть у жи́телей а́да. Э́то – невозмо́жное|невозможно́е ме́сто для того́, что́бы э́тот дар вы́пал на до́лю пребыва́ющего здесь.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Зате́м, быва́ет так, когда́ не́кий челове́к лиша́ет друго́го жи́зни, берёт то, что не дано́, соверша́ет недозво́ленное сексуа́льное поведе́ние, лжёт, говори́т се́ющую ра́спри речь, говори́т гру́бые слова́ и пустосло́вит;
+                                            он жа́ден, пита́ет неприя́знь, име́ет непра́вильные воззре́ния. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется в ми́ре живо́тных. Там он живёт, там он пребыва́ет посре́дством еды́, что есть у обы́чных
+                                            живо́тных. Э́то та́кже невозмо́жное|невозможно́е ме́сто для того́, что́бы э́тот дар вы́пал на до́лю пребыва́ющего здесь.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Зате́м, быва́ет так, когда́ не́кий челове́к не лиша́ет друго́го жи́зни, не берёт то, что не дано́, не соверша́ет недозво́ленного сексуа́льного поведе́ния, не лжёт, не говори́т се́ющей ра́спри ре́чи, не говори́т
+                                            гру́бых слов и не пустосло́вит; он не жа́ден, не пита́ет неприя́зни, име́ет пра́вильные воззре́ния. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется в ми́ре люде́й. Там он живёт, там он пребыва́ет посре́дством
+                                            еды́, что есть у челове́ческих суще́ств. Э́то та́кже невозмо́жное|невозможно́е ме́сто для того́, что́бы э́тот дар вы́пал на до́лю пребыва́ющего здесь.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Зате́м, быва́ет так, когда́ не́кий челове́к не лиша́ет друго́го жи́зни, не берёт то, что не дано́, не соверша́ет недозво́ленного сексуа́льного поведе́ния, не лжёт, не говори́т се́ющей ра́спри ре́чи, не говори́т
+                                            гру́бых слов и не пустосло́вит; он не жа́ден, не пита́ет неприя́зни, име́ет пра́вильные воззре́ния. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется в ми́ре дэвов. Там он живёт, там он пребыва́ет посре́дством
+                                            еды́, что есть у дэвов. Э́то та́кже невозмо́жное|невозможно́е ме́сто для того́, что́бы э́тот дар вы́пал на до́лю пребыва́ющего здесь.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <a name="1"></a>Зате́м, быва́ет так, когда́ не́кий челове́к лиша́ет друго́го жи́зни, берёт то, что не дано́, соверша́ет недозво́ленное сексуа́льное поведе́ние, лжёт, говори́т се́ющую ра́спри речь, говори́т гру́бые слова́
+                                            и пустосло́вит; он жа́ден, пита́ет неприя́знь, име́ет непра́вильные воззре́ния. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется в ми́ре страда́ющих ду́хов|духо́в. Там он живёт, там он пребыва́ет посре́дством
+                                            еды́, что есть у страда́ющих ду́хов|духо́в. Там он живёт, там он пребыва́ет посре́дством того́, что его́ друзья́ и́ли ро́дственники да́ли|дали́, посвяти́в ему́
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                                href="#link1">1</a></sup></font>
+                                            </font>. Э́то – возмо́жное ме́сто для того́, что́бы э́тот дар вы́пал на до́лю пребыва́ющего здесь».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Но, господи́н Готама, что е́сли уме́рший ро́дственник не рожда́ется в э́том возмо́жном ме́сте, кто тогда́ разде́лит э́тот дар?»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Други́е уме́ршие ро́дственники, брахма́н, кото́рые роди́лись в э́том возмо́жном ме́сте». </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Но, господи́н Готама, что е́сли ни уме́рший ро́дственник не рожда́ется в э́том возмо́жном ме́сте, ни други́е уме́ршие ро́дственники не роди́лись в э́том возмо́жном ме́сте, то кто тогда́ разде́лит э́тот дар?»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Невозмо́жно, брахма́н, не мо́жет быть тако́го, что́бы за э́то до́лгое вре́мя [тече́ния санса́ры] в э́том ме́сте не́ было чьих-ли́бо уме́рших ро́дственников. Но в любо́м слу́чае, дари́тель полу́чит вознагражде́ние».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Предпи́сывает ли господи́н Готама како́е-ли́бо приготовле́ние для невозмо́жных|невозможны́х мест?»</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Брахма́н, я предпи́сываю приготовле́ние для невозмо́жных|невозможны́х мест. Быва́ет так, когда́ не́кий челове́к лиша́ет друго́го жи́зни, берёт то, что не дано́, соверша́ет недозво́ленное сексуа́льное поведе́ние,
+                                            лжёт, говори́т се́ющую ра́спри речь, говори́т гру́бые слова́ и пустосло́вит; он жа́ден, пита́ет неприя́знь, име́ет непра́вильные воззре́ния. Но он да́рит е́ду|еду́, напи́тки, оде́жду, сре́дства передвиже́ния,
+                                            гирля́нды, ду́хи|духи́ и кре́мы, посте́ли|постели́, жили́ща и ла́мпы жреца́м и отше́льникам. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется среди́ слоно́в. Там ему́ достаётся еда́, напи́тки, цветы́ и разли́чные
+                                            украше́ния. Поско́льку он лиша́л жи́зни друго́го, брал то, что не дано́, соверша́л недозво́ленное сексуа́льное поведе́ние, лгал, говори́л се́ющую ра́спри речь, говори́л гру́бые слова́ и пустосло́вил; был жа́дным,
+                                            пита́л неприя́знь, име́л непра́вильные воззре́ния – он роди́лся среди́ слоно́в. Но поско́льку он дари́л е́ду|еду́, напи́тки, оде́жду, сре́дства передвиже́ния, гирля́нды, ду́хи|духи́ и кре́мы, посте́ли|постели́,
+                                            жили́ща и ла́мпы жреца́м и отше́льникам – ему́ достаётся еда́, напи́тки, цветы́ и разли́чные украше́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <a name="2"></a>Да́лее, быва́ет так, когда́ не́кий челове́к лиша́ет друго́го жи́зни… име́ет непра́вильные воззре́ния. Но он да́рит е́ду|еду́… жили́ща и ла́мпы жреца́м и отше́льникам. По́сле распа́да те́ла, по́сле сме́рти,
+                                            он рожда́ется среди́ лошаде́й… среди́ рога́того скота́… среди́ дома́шних птиц. Там ему́ достаётся еда́, напи́тки, цветы́ и разли́чные украше́ния
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                                href="#link2">2</a></sup></font>
+                                            </font>. Поско́льку он лиша́л жи́зни друго́го… име́л непра́вильные воззре́ния – он роди́лся среди́ дома́шних птиц. Но поско́льку он дари́л е́ду|еду́… жили́ща и ла́мпы жреца́м и отше́льникам – ему́ достаётся еда́, напи́тки,
+                                            цветы́ и разли́чные украше́ния. </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, быва́ет так, когда́ не́кий челове́к не лиша́ет друго́го жи́зни, не берёт того́, что не дано́, не соверша́ет недозво́ленного сексуа́льного поведе́ния, не лжёт, не говори́т се́ющей ра́спри ре́чи, не говори́т
+                                            гру́бых слов и не пустосло́вит; он не жа́ден, не пита́ет неприя́зни, име́ет пра́вильные воззре́ния. И он да́рит е́ду|еду́, напи́тки, оде́жду, сре́дства передвиже́ния, гирля́нды, ду́хи|духи́ и кре́мы, посте́ли|постели́,
+                                            жили́ща и ла́мпы жреца́м и отше́льникам. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется в ми́ре люде́й. Там он наслажда́ется пятью́ ни́тями челове́ческих чу́вственных удово́льствий. Поско́льку он не лиша́л
+                                            жи́зни друго́го, не соверша́л недозво́ленного сексуа́льного поведе́ния, не лгал, не говори́л се́ющей ра́спри ре́чи, не говори́л гру́бых слов и не пустосло́вил; не́ был жа́дным, не пита́л неприя́зни, име́л пра́вильные
+                                            воззре́ния – он роди́лся в ми́ре люде́й. А поско́льку он дава́л е́ду|еду́, напи́тки, оде́жду, сре́дства передвиже́ния, гирля́нды, ду́хи|духи́ и кре́мы, посте́ли|постели́, жили́ща и ла́мпы жреца́м и отше́льникам
+                                            – он наслажда́ется пятью́ ни́тями челове́ческих чу́вственных удово́льствий.</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, быва́ет так, когда́ не́кий челове́к не лиша́ет друго́го жи́зни… име́ет пра́вильные воззре́ния. И он да́рит е́ду|еду́… жили́ща и ла́мпы жреца́м и отше́льникам. По́сле распа́да те́ла, по́сле сме́рти, он рожда́ется
+                                            в ми́ре дэвов. Там он наслажда́ется пятью́ ни́тями небе́сных чу́вственных удово́льствий. Поско́льку он не лиша́л жи́зни друго́го… име́л пра́вильные воззре́ния – он роди́лся в ми́ре дэвов. А поско́льку он дава́л
+                                            е́ду|еду́… жили́ща и ла́мпы жреца́м и отше́льникам – он наслажда́ется пятью́ ни́тями небе́сных чу́вственных удово́льствий. Но в любо́м слу́чае, брахма́н, дари́тель полу́чит вознагражде́ние».</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Удиви́тельно, господи́н Готама, порази́тельно, как всего́ э́того [ска́занного] доста́точно для того́, что́бы кто-ли́бо захоте́л сде́лать дар, доста́точно для того́, что́бы кто-ли́бо захоте́л сде́лать подноше́ние,
+                                            ведь дари́тель полу́чит вознагражде́ние». </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«И́менно так, брахма́н. И́менно так. Дари́тель полу́чит вознагражде́ние».
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Великоле́пно, господи́н Готама! Великоле́пно! Как е́сли бы он поста́вил на ме́сто то, что бы́ло перевёрнуто, раскры́л бы спря́танное, показа́л путь тому́, кто потеря́лся, внёс бы ла́мпу во тьму, что́бы зря́чий
+                                            да мог уви́деть, то́чно так же Благослове́нный разли́чными спо́собами проя́снил|проясни́л Дха́мму. Я принима́ю прибе́жище в Благослове́нном, прибе́жище в Дха́мме и прибе́жище в Сангхе мона́хов. Пусть Благослове́нный
+                                            по́мнит меня́ как мирско́го после́дователя, приня́вшего прибе́жище с э́того дня и на всю жизнь».</font><br />
+                                    </div><br />
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="3"><i>Са́дху
+                                                    сутта</i>:<br />
+                                            <font color="brown" size="4">Хоро́шее</font>
+                                            <br />
+                                            <font size="3">АН 10.178</font>
+                                        </font>
+                                    </div><br />
+                                    <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>[Б</b>
+                                    </font>
+                                    <font face="Arial, Helvetica, sans-serif" size="2">лагословенный сказа́л]: «Мона́хи, я научу́ вас тому́, что явля́ется хоро́шим и тому́, что явля́ется плохи́м. Слу́шайте внима́тельно то, о чём я бу́ду говори́ть».
+                                    </font>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Да, уважа́емый» – отвеча́ли те мона́хи. Благослове́нный сказа́л:</font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«И что есть плохо́е, мона́хи? </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4"><br /> *
+                                                        </font>
+                                                    </font>
+                                                </font>
+                                            </font> (1) уничтоже́ние жи́зни;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (2) взя́тие того́, что [вам] не́ было дано́;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (3) неблагое сексуа́льное поведе́ние;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (4) ложь;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (5) се́ющая ра́спри речь;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (6) гру́бая речь;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (7) пустосло́вие;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (8) жа́жда;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (9) недоброжела́тельность;<br />
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                    </font>
+                                                </font>
+                                            </font>
+                                            (10) непра́вильные воззре́ния.
+                                        </font>
+                                    </div>
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br /> Э́то называ́ется плохи́м. И что есть хоро́шее, мона́хи? Воздержа́ние от уничтоже́ния жи́зни… пустосло́вия, не-жа́жда, доброжела́тельность, пра́вильные воззре́ния. Э́то называ́ется хоро́шим».</font><br />
+                                    </div><br />
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="3"><i></i><br />
+                                            <font color="brown" size="4">Сутты:</font>
+                                            <br />
+                                            <font size="3">АН 10.179-210</font>
+                                        </font>
+                                    </div><br />
+                                    <font color="#666666" face="Arial, Helvetica, sans-serif" size="2">(сутты иденти́чны АН 10.135-166, но здесь идёт друго́й спи́сок из десяти́ пу́нктов, а и́менно, тот са́мый, что и в предыду́щей сутте <a href="an10_178-sadhu-sutta-sv.htm">АН
+                                                10.178</a>)<br />
+                                    </font>
+                                    <font color="#666666" size="2"></font>
+
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <br />
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr bgcolor="#F4EFBD">
+                                <td class="bottom" colspan="4" height="2">
+                                    <div align="center">
+                                        <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                            <tr>
+                                <td class="bottom" height="2" valign="middle" width="1%">
+                                    <a href="../AN/anguttara-10.htm" style="border:0px;" title="вернуться к разделу">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                    </a>
+                                </td>
+                                <td class="bottom" height="2" valign="middle" width="1%">
+                                    <a href="#" style="border:0px;" title="вернуться наверх">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                                    </a>
+                                </td>
+                                <td height="2" valign="top" width="32%">
+                                    <div align="center">
+                                        <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                            <noindex>
+                                                <!--LiveInternet counter-->
+                                                <script type="text/javascript">
+                                                    new Image().src = "//counter.yadro.ru/hit?r" +
+                                                        escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                                                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                        ";h" + escape(document.title.substring(0, 150)) +
+                                                        ";" + Math.random();
+                                                </script>
+                                                <!--/LiveInternet-->
+                                                <!--LiveInternet logo-->
+                                                <a href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1" src="//counter.yadro.ru/logo?42.6" title="LiveInternet" width="1" /></a>
+                                                <!--/LiveInternet-->
+                                                <!--SpyLOG-->
+                                                <span id="spylog2031418"></span>
+                                                <script type="text/javascript">
+                                                    var spylog = {
+                                                        counter: 2031418,
+                                                        image: undefined,
+                                                        next: spylog
+                                                    };
+                                                    document.write(unescape("%3Cscript src=%22http" +
+                                                        (("https:" == document.location.protocol) ? "s" : "") +
+                                                        "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E"));
+                                                </script>
+                                                <!--SpyLOG-->
+                                            </noindex>
+                                        </font>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="19%">
+                                    <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="37%">
+                                    <div align="right">
+                                        <font color="#C8C16C" face="Arial, Helvetica, sans-serif" style="font-size:7pt; font-family: Arial;">© theravada.ru – при копировании материалов<br /> просьба ставить прямую ссылку на наш сайт.<br />
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <div align="center"></div>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window,
+                a = 'inner';
+            if (!('innerWidth' in window)) {
+                a = 'client';
+                e = document.documentElement || document.body;
+            }
+            return {
+                width: e[a + 'Width'],
+                height: e[a + 'Height']
+            }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                item.setAttribute("width", "95%");
+            });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                item.setAttribute("width", "85%");
+            });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            document.querySelectorAll("font[size='3']").forEach(function(item) {
+                item.setAttribute("size", "8");
+            });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function(item) {
+                item.setAttribute("size", "6");
+            });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function(item) {
+                    item.setAttribute("width", "85%");
+                });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                document.querySelectorAll("font[size='3']").forEach(function(item) {
+                    item.setAttribute("size", "6");
+                });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function(item) {
+                    item.setAttribute("size", "4");
+                });
+            }
+        }
+    </script>
+</body>
+
+</html>
