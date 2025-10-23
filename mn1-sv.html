@@ -1,0 +1,1387 @@
+<html>
+
+<head>
+  <title>Мулапарийяя-сутта: Корень всех вещей :: Мадджхима Никая 1</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+  <meta
+    content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+    name="keywords" />
+  <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript">
+    //Пути к директориям
+    var pathToScript = '/Index/Scripts/';
+    var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+    //-----------------------------------
+    var request = false;
+    try {
+      request = new XMLHttpRequest();
+    }
+    catch (trymicrosoft) {
+      try {
+        request = new ActiveXObject("Msxml2.XMLHTTP");
+      }
+      catch (othermicrosoft) {
+        try {
+          request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        catch (failed) {
+          request = false;
+        }
+      }
+    }
+
+    if (!request) {
+      alert("Ошибка в работе");
+    }
+
+    function sendRequest() {
+      var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+      request.open("GET", url, true);
+      request.onreadystatechange = getResponse;
+      request.send(null);
+    }
+
+    function getResponse() {
+      if (request.readyState == 4) {
+        if (request.status == 200) {
+          var response = request.responseText;
+          var articles = request.responseText.split(' ');
+          var random = Math.round((Math.random() * (articles.length - 2)));
+          window.open("http://" + document.domain + articles[random], "_self");
+        }
+      }
+    }
+  </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+  text="#333300" topmargin="1" vlink="#996633">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+    <tr>
+      <td>
+        <div align="center">
+          <style>
+            a {
+              border: 0px solid #FFFFCC;
+              text-decoration: none
+            }
+
+            a:hover {
+              font-family: Arial;
+              border: 0px solid #996633;
+              color: #000000;
+              text-decoration: none;
+              background-color: #D8D68B;
+              padding: 0;
+            }
+
+            a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            div {
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            .a {
+              TEXT-INDENT: 2em
+            }
+
+            .bottom a:hover {
+              color: #000000;
+              font-family: Arial;
+              text-decoration: none;
+              background: none;
+            }
+
+            .bottom a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none;
+            }
+
+            body {
+              background: #FFFFCC;
+              overflow-y: scroll
+            }
+
+            p {
+              TEXT-INDENT: 0em
+            }
+          </style>
+          <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td colspan="2"> </td>
+              <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                  <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                     
+                      Учение Старцев </b></font>
+                </i></td>
+              <td width="5%"> </td>
+            </tr>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                  <tr>
+                    <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                        <div style='font-size:24.0pt;font-family:"Arial"'>
+                          <div align="center">«</div>
+                        </div>
+                      </a></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+              </td>
+              <td bgcolor="#CBB079" width="3%"> </td>
+              <td width="5%"> </td>
+            </tr>
+            <tr>
+              <td bgcolor="#CBB079"> </td>
+              <td rowspan="2"> </td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </table>
+          <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+            <tr>
+              <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm" style="border:0px;"
+                  title="вернуться к разделу">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная сутта">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>
+                    <font size="-4"> </font>₪
+                  </div>
+                </a> </td>
+              <td height="2" width="44%">  </td>
+              <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span>
+              </td>
+              <td class="bottom" height="2" width="19%">
+                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+              </td>
+            </tr>
+            <tr bgcolor="#F4EFBD">
+              <td colspan="4" height="3">
+                <div align="center">
+                  <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                  </font>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div align="center"><br />
+            <table border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr>
+                <td>
+                  <div align="center">
+                    <font face="Times New Roman, Times, serif" size="5">Мулапарийяя-сутта:
+                      Корень всех вещей<br />
+                      <font size="3">МН 1</font>
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="0" cellspacing="5" width="70%">
+              <tr>
+                <td height="2" width="61%"> </td>
+                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                    <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                        <div align="right"><i>
+                            <font color="#996633"><span style="font-size:8pt;font-family:Arial;"><span
+                                  style="font-size:8pt;font-family:Arial;"><span
+                                    style="font-size:8pt;font-family:Arial;"><span
+                                      style="font-size:8pt;font-family:Arial;"><span
+                                        style="font-size:8pt;font-family:Arial;">редакция
+                                        перевода: 04.02.2024</span></span></span><br />
+                                  Перевод с английского: SV<br />
+                                  <br />
+                                  <span style="font-size:8pt;font-family:Arial;"><span
+                                      style="font-size:8pt;font-family:Arial;"><span
+                                        style="font-size:8pt;font-family:Arial;">источник:
+                                        <br />
+                                        "Majjhima Nikaya by Bodhi &amp; Nyanamoli, p.
+                                        83"</span></span></span></span></span></font>
+                          </i></div>
+                      </span></div>
+                  </span></td>
+                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="0" cellspacing="0" width="60%">
+              <tr>
+                
+                <td style="text-align: justify" valign="top">
+                  <font color="#996633" face="Times New Roman, Times, serif" size="5"><b><a name="1"></a>Т</b></font>
+                  <font face="Arial, Helvetica, sans-serif" size="2">ак
+                    я слы́шал. Одна́жды Благослове́нный прожива́л в Уккаттхе, в Ро́ще Субхаги,
+                    у подно́жия ца́рского салового де́рева. Там он обрати́лся к мона́хам:<br />
+                    «Мона́хи!»<sup><a href="#link1">1</a></sup></font>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">«Уважа́емый»,
+                      – отве́тили они́. <br />
+                      Благослове́нный сказа́л сле́дующее:</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="2"></a>«Мона́хи,
+                      я дам вам наставле́ние о ко́рне всех веще́й<sup><a href="#link2">2</a></sup>.
+                      Слу́шайте внима́тельно то, о чём я бу́ду говори́ть». </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">«Да,
+                      уважа́емый», – отве́тили мона́хи. <br />
+                      Благослове́нный сказа́л:</font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                        Зауря́дный челове́к</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      <a name="3"></a><a name="4"></a><a name="5"></a><a name="6"></a>«Мона́хи,
+                      необу́ченный|необучённый зауря́дный челове́к<sup><a href="#link3">3</a></sup>,
+                      кото́рый не уважа́ет Благоро́дных, неуме́лый и нетрениро́ванный в
+                      их Дха́мме, кото́рый не уважа́ет чи́стых люде́й, неуме́лый и не трениро́ванный
+                      в их Дха́мме, воспринима́ет зе́млю как зе́млю<sup><a href="#link4">4</a></sup>.
+                      Восприня́в зе́млю как зе́млю, он измышля́ет [себя́ как] зе́млю, он
+                      измышля́ет [себя́ в] земле́, он измышля́ет [себя́ отде́льным] от земли́,
+                      он измышля́ет зе́млю «свое́й», он ра́дуется земле́<sup><a href="#link5">5</a></sup>.
+                      И почему́? Потому́ что он не по́лностью по́нял<sup><a href="#link6">6</a></sup>
+                      её, я говорю́ вам.<br />
+                      <br />
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он воспринима́ет
+                      во́ду как во́ду… <br />
+                      Он воспринима́ет ого́нь как ого́нь…</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      Он воспринима́ет во́здух как во́здух. Восприня́в во́здух как во́здух,
+                      он измышля́ет [себя́ как] во́здух, он измышля́ет [себя́ в] во́здухе,
+                      он измышля́ет [себя́ отде́льным] от во́здуха, он измышля́ет во́здух
+                      «свои́м», он ра́дуется во́здуху. И почему́? Потому́ что он не по́лностью
+                      по́нял его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="7"></a>Он
+                      воспринима́ет суще́ств как суще́ств<sup><a href="#link7">7</a></sup>.
+                      Восприня́в суще́ств как суще́ств, он измышля́ет [себя́ как] суще́ств,
+                      он измышля́ет [себя́ в] существа́х, он измышля́ет [себя́ отде́льным]
+                      от суще́ств, он измышля́ет суще́ств «свои́м», он ра́дуется существа́м.
+                      И почему́? Потому́ что он не по́лностью по́нял их, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="8"></a>Он
+                      воспринима́ет боже́ств как боже́ств<sup><a href="#link8">8</a></sup>.
+                      Восприня́в боже́ств как боже́ств, он измышля́ет [себя́ как] боже́ств,
+                      он измышля́ет [себя́ в] божества́х, он измышля́ет [себя́ отде́льным]
+                      от боже́ств, он измышля́ет боже́ств «свои́м», он ра́дуется божества́м.
+                      И почему́? Потому́ что он не по́лностью по́нял их, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="9"></a>Он
+                      воспринима́ет Паджапати как Паджапати<sup><a href="#link9">9</a></sup>.
+                      Восприня́в Паджапати как Паджапати, он измышля́ет [себя́ как] Паджапати,
+                      он измышля́ет [себя́ в] Паджапати, он измышля́ет [себя́ отде́льным]
+                      от Паджапати, он измышля́ет Паджапати «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется Паджапати. И почему́? Потому́ что он не по́лностью
+                      по́нял его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="10"></a>Он
+                      воспринима́ет Бра́хму как Бра́хму<sup><a href="#link10">10</a></sup>.
+                      Восприня́в Бра́хму как Бра́хму, он измышля́ет [себя́ как] Бра́хму,
+                      он измышля́ет [себя́ в] Бра́хме, он измышля́ет [себя́ отде́льным]
+                      от Бра́хмы, он измышля́ет Бра́хму «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется Бра́хме. И почему́? Потому́ что он не по́лностью по́нял
+                      его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="11"></a>Он
+                      воспринима́ет бо́гов|бого́в Лучеза́рного сия́ния как боже́ств Лучеза́рного
+                      сия́ния<sup><a href="#link11">11</a></sup>. Восприня́в бо́гов|бого́в Лучеза́рного
+                      сия́ния как боже́ств Лучеза́рного сия́ния, он измышля́ет [себя́ как]
+                      бо́гов|бого́в Лучеза́рного сия́ния, он измышля́ет [себя́ в] бога́х Лучеза́рного
+                      сия́ния, он измышля́ет [себя́ отде́льным] от бого́в Лучеза́рного сия́ния,
+                      он измышля́ет бо́гов|бого́в Лучеза́рного сия́ния «свои́м», он ра́дуется бога́м
+                      Лучеза́рного сия́ния. И почему́? Потому́ что он не по́лностью по́нял
+                      их, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="12"></a>Он
+                      воспринима́ет бо́гов|бого́в Сверка́ющего великоле́пия как бо́гов|бого́в Сверка́ющего
+                      великоле́пия<sup><a href="#link12">12</a></sup>. Восприня́в бо́гов|бого́в
+                      Сверка́ющего великоле́пия как бо́гов|бого́в Сверка́ющего великоле́пия, он
+                      измышля́ет [себя́ как] бо́гов|бого́в Сверка́ющего великоле́пия, он измышля́ет
+                      [себя́ в] бога́х Сверка́ющего великоле́пия, он измышля́ет [себя́ отде́льным]
+                      от бого́в Сверка́ющего великоле́пия, он измышля́ет бо́гов|бого́в Сверка́ющего
+                      великоле́пия «свои́м», он ра́дуется бога́м Сверка́ющего великоле́пия.
+                      И почему́? Потому́ что он не по́лностью по́нял их, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="13"></a>Он
+                      воспринима́ет бо́гов|бого́в Вели́кого плода́ как бо́гов|бого́в Вели́кого плода́<sup><a
+                          href="#link13">13</a></sup>.
+                      Восприня́в бо́гов|бого́в Вели́кого плода́ как бо́гов|бого́в Вели́кого плода́, он
+                      измышля́ет [себя́ как] бо́гов|бого́в Вели́кого плода́, он измышля́ет [себя́
+                      в] бога́х Вели́кого плода́, он измышля́ет [себя́ отде́льным] от бого́в
+                      Вели́кого плода́, он измышля́ет бо́гов|бого́в Вели́кого плода́ «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»,
+                      он ра́дуется бога́м Вели́кого плода́. И почему́? Потому́ что он не
+                      по́лностью по́нял их, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="14"></a>Он
+                      воспринима́ет Влады́ку как Влады́ку<sup><a href="#link14">14</a></sup>.
+                      Восприня́в Влады́ку как Влады́ку, он измышля́ет [себя́ как] Влады́ку,
+                      он измышля́ет [себя́ во] Влады́ке, он измышля́ет [себя́ отде́льным]
+                      от Влады́ки, он измышля́ет Влады́ку «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется Влады́ке. И почему́? Потому́ что он не по́лностью по́нял
+                      его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он воспринима́ет
+                      сфе́ру безграни́чного простра́нства как сфе́ру безграни́чного простра́нства.
+                      Восприня́в сфе́ру безграни́чного простра́нства как сфе́ру безграни́чного
+                      простра́нства, он измышля́ет [себя́ как] сфе́ру безграни́чного простра́нства,
+                      он измышля́ет [себя́ в] сфе́ре безграни́чного простра́нства, он измышля́ет
+                      [себя́ отде́льным] от сфе́ры безграни́чного простра́нства, он измышля́ет
+                      сфе́ру безграни́чного простра́нства «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется сфе́ре безграни́чного простра́нства. И почему́? Потому́
+                      что он не по́лностью по́нял её, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      Он воспринима́ет сфе́ру безграни́чного созна́ния…<br />
+                      Он воспринима́ет сфе́ру отсу́тствия всего́…</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      Он воспринима́ет сфе́ру ни-восприя́тия-ни-не-восприя́тия как сфе́ру
+                      ни-восприя́тия-ни-не-восприя́тия. Восприня́в сфе́ру ни-восприя́тия-ни-не-восприя́тия
+                      как сфе́ру ни-восприя́тия-ни-не-восприя́тия, он измышля́ет [себя́
+                      как] сфе́ру ни-восприя́тия-ни-не-восприя́тия, он измышля́ет [себя́
+                      в] сфе́ре ни-восприя́тия-ни-не-восприя́тия, он измышля́ет [себя́
+                      отде́льным] от сфе́ры ни-восприя́тия-ни-не-восприя́тия, он измышля́ет
+                      сфе́ру ни-восприя́тия-ни-не-восприя́тия «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»,
+                      он ра́дуется сфе́ре ни-восприя́тия-ни-не-восприя́тия. И почему́?
+                      Потому́ что он не по́лностью по́нял её, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="15"></a>Он
+                      воспринима́ет ви́димое как ви́димое<sup><a href="#link15">15</a></sup>.
+                      Восприня́в ви́димое как ви́димое, он измышля́ет [себя́ как] ви́димое,
+                      он измышля́ет [себя́ в] ви́димом, он измышля́ет [себя́ отде́льным]
+                      от ви́димого, он измышля́ет ви́димое «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется ви́димому. И почему́? Потому́ что он не по́лностью по́нял
+                      его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      Он воспринима́ет слы́шимое как слы́шимое…<br />
+                      Он воспринима́ет ощуща́емое как ощуща́емое…</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      Он воспринима́ет познава́емое как познава́емое. Восприня́в познава́емое
+                      как познава́емое, он измышля́ет [себя́ как] познава́емое, он измышля́ет
+                      [себя́ в] познава́емом, он измышля́ет [себя́ отде́льным] от познава́емого,
+                      он измышля́ет познава́емое «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется познава́емому. И почему́? Потому́ что он не по́лностью
+                      по́нял его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="16"></a>Он
+                      воспринима́ет еди́ное как еди́ное<sup><a href="#link16">16</a></sup>.
+                      Восприня́в еди́ное как еди́ное, он измышля́ет [себя́ как] еди́ное,
+                      он измышля́ет [себя́ в] еди́ном, он измышля́ет [себя́ отде́льным]
+                      от еди́ного, он измышля́ет еди́ное «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется еди́ному. И почему́? Потому́ что он не по́лностью по́нял
+                      его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он
+                      воспринима́ет мно́жественное как мно́жественное. Восприня́в мно́жественное
+                      как мно́жественное, он измышля́ет [себя́ как] мно́жественное, он
+                      измышля́ет [себя́ в] мно́жественном, он измышля́ет [себя́ отде́льным]
+                      от мно́жественного, он измышля́ет мно́жественное «свои́м», он ра́дуется
+                      мно́жественному. И почему́? Потому́ что он не по́лностью по́нял его́,
+                      я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="17"></a>Он
+                      воспринима́ет всё как всё<sup><a href="#link17">17</a></sup>.
+                      Восприня́в всё как всё, он измышля́ет [себя́ как] всё, он измышля́ет
+                      [себя́ во] всём, он измышля́ет [себя́ отде́льным] от всего́, он измышля́ет
+                      всё «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется всему́. И почему́? Потому́ что он не по́лностью по́нял
+                      его́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="18"></a>Он
+                      воспринима́ет ниббану как ниббану<sup><a href="#link18">18</a></sup>.
+                      Восприня́в ниббану как ниббану, он измышля́ет [себя́ как] ниббану,
+                      он измышля́ет [себя́ в] ниббане, он измышля́ет [себя́ отде́льным]
+                      от ниббаны, он измышля́ет ниббану «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он ра́дуется ниббане. И почему́? Потому́ что он не по́лностью по́нял
+                      её, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                        <font face="Georgia, Times New Roman, Times, serif"><br />
+                          Учени́к </font>
+                      </b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      <a name="19"></a><a name="20"></a><a name="21"></a>Мона́хи, мона́х,
+                      кото́рый нахо́дится [в проце́ссе] вы́сшей трениро́вки<sup><a href="#link19">19</a></sup>,
+                      чей ум ещё не дости́г це́ли и кто всё ещё устремлён к непревзойдённой
+                      защи́те от поднево́льности, напряму́ю зна́ет зе́млю как зе́млю<sup><a href="#link20">20</a></sup>.
+                      Напряму́ю позна́в зе́млю как зе́млю, ему́ не сле́дует измышля́ть [себя́
+                      как] зе́млю, ему́ не сле́дует измышля́ть [себя́] в земле́, ему́ не
+                      сле́дует измышля́ть [себя́ отде́льным] от земли́, ему́ не сле́дует
+                      измышля́ть зе́млю «свои́м
+                    </font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      ему́ не сле́дует ра́доваться земле́. И почему́? Потому́ что он до́лжен
+                      по́лностью поня́ть её, я говорю́ вам<sup><a href="#link21">21</a></sup>.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="22"><br />
+                      </a>Он напряму́ю зна́ет во́ду как во́ду… <sup><a href="#link22">22</a></sup></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      Он напряму́ю зна́ет ниббану как ниббану. Напряму́ю позна́в ниббану
+                      как ниббану, ему́ не сле́дует измышля́ть [себя́ как] ниббану, ему́
+                      не сле́дует измышля́ть [себя́] в ниббане, ему́ не сле́дует измышля́ть
+                      [себя́ отде́льным] от ниббаны, ему́ не сле́дует измышля́ть ниббану
+                      «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      ему́ не сле́дует ра́доваться ниббане. И почему́? Потому́ что он до́лжен
+                      по́лностью поня́ть её, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                        Арахант</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      Мона́хи, мона́х, кото́рый [явля́ется] арахантом, чьи пя́тна|пятна́ [загрязне́ний
+                      ума́] уничто́жены, кото́рый прожи́л святу́ю жизнь, сде́лал то, что
+                      сле́довало сде́лать, сбро́сил тя́жкий груз, дости́г свое́й це́ли, уничто́жил
+                      око́вы существова́ния и по́лностью освободи́лся посре́дством оконча́тельного
+                      зна́ния, та́кже напряму́ю зна́ет зе́млю как зе́млю. Напряму́ю позна́в
+                      зе́млю как зе́млю, он не измышля́ет [себя́ как] зе́млю, он не измышля́ет
+                      [себя́] в земле́, он не измышля́ет [себя́ отде́льно] от земли́, он
+                      не измышля́ет зе́млю «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»,
+                      он не ра́дуется земле́. И почему́? Потому́ что он по́лностью её по́нял,
+                      я говорю́ вам. </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он та́кже
+                      напряму́ю зна́ет во́ду как во́ду… Он та́кже напряму́ю зна́ет ниббану
+                      как ниббану… он не ра́дуется ниббане. И почему́? Потому́ что он
+                      по́лностью её по́нял, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи,
+                      мона́х, кото́рый [явля́ется] арахантом, чьи пя́тна|пятна́ [загрязне́ний
+                      ума́] уничто́жены… та́кже напряму́ю зна́ет зе́млю как зе́млю. Напряму́ю
+                      позна́в зе́млю как зе́млю, он не измышля́ет [себя́ как] зе́млю, он
+                      не измышля́ет [себя́] в земле́, он не измышля́ет [себя́ отде́льно]
+                      от земли́, он не измышля́ет зе́млю «свои́м», он не ра́дуется земле́.
+                      И почему́? Потому́ что он освобождён от стра́сти посре́дством уничтоже́ния
+                      стра́сти. </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он
+                      та́кже напряму́ю зна́ет во́ду как во́ду… Он та́кже напряму́ю зна́ет
+                      ниббану как ниббану… он не ра́дуется ниббане. И почему́? Потому́
+                      что он освобождён от стра́сти посре́дством уничтоже́ния стра́сти.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи,
+                      мона́х, кото́рый [явля́ется] арахантом, чьи пя́тна|пятна́ [загрязне́ний
+                      ума́] уничто́жены… та́кже напряму́ю зна́ет зе́млю как зе́млю. Напряму́ю
+                      позна́в зе́млю как зе́млю, он не измышля́ет [себя́ как] зе́млю, он
+                      не измышля́ет [себя́] в земле́, он не измышля́ет [себя́ отде́льно]
+                      от земли́, он не измышля́ет зе́млю «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он не ра́дуется земле́. И почему́? Потому́ что он освобождён от
+                      зло́бы посре́дством уничтоже́ния зло́бы. </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он та́кже
+                      напряму́ю зна́ет во́ду как во́ду… Он та́кже напряму́ю зна́ет ниббану
+                      как ниббану… он не ра́дуется ниббане. И почему́? Потому́ что он
+                      освобождён от зло́бы посре́дством уничтоже́ния зло́бы.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи,
+                      мона́х, кото́рый [явля́ется] арахантом, чьи пя́тна|пятна́ [загрязне́ний
+                      ума́] уничто́жены… та́кже напряму́ю зна́ет зе́млю как зе́млю. Напряму́ю
+                      позна́в зе́млю как зе́млю, он не измышля́ет [себя́ как] зе́млю, он
+                      не измышля́ет [себя́] в земле́, он не измышля́ет [себя́ отде́льно]
+                      от земли́, он не измышля́ет зе́млю «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он не ра́дуется земле́. И почему́? Потому́ что он освобождён от
+                      заблужде́ния посре́дством уничтоже́ния заблужде́ния. </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он та́кже
+                      напряму́ю зна́ет во́ду как во́ду… Он та́кже напряму́ю зна́ет ниббану
+                      как ниббану… он не ра́дуется ниббане. И почему́? Потому́ что он
+                      освобождён от заблужде́ния посре́дством уничтоже́ния заблужде́ния.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                        Татхагата</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br />
+                      <a name="23"></a>Мона́хи, Татхагата, соверше́нный|совершённый и по́лностью
+                      просветлённый, та́кже напряму́ю зна́ет зе́млю как зе́млю. Напряму́ю
+                      позна́в зе́млю как зе́млю, он не измышля́ет [себя́ как] зе́млю, он
+                      не измышля́ет [себя́] в земле́, он не измышля́ет [себя́ отде́льно]
+                      от земли́, он не измышля́ет зе́млю «свои́м
+                    </font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он не ра́дуется земле́. И почему́? Потому́ что Татхагата по́лностью
+                      по́нял её до самого́ конца́, я говорю́ вам<sup><a href="#link23">23</a></sup>.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он та́кже
+                      напряму́ю зна́ет во́ду как во́ду… Он та́кже напряму́ю зна́ет ниббану
+                      как ниббану… он не ра́дуется ниббане. И почему́? Потому́ что Татхагата
+                      по́лностью по́нял её до самого́ конца́, я говорю́ вам.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="24"></a>Мона́хи,
+                      Татхагата, соверше́нный|совершённый и по́лностью просветлённый, та́кже напряму́ю
+                      зна́ет зе́млю как зе́млю. Напряму́ю позна́в зе́млю как зе́млю, он не
+                      измышля́ет [себя́ как] зе́млю, он не измышля́ет [себя́] в земле́,
+                      он не измышля́ет [себя́ отде́льно] от земли́, он не измышля́ет зе́млю
+                      «свои́м</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">»</font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">,
+                      он не ра́дуется земле́. И почему́? Потому́ что он по́нял, что [подо́бная]
+                      ра́дость – э́то ко́рень страда́ния, и что с существова́нием [как
+                      усло́вием] име́ет ме́сто рожде́ние, и что для всего́, что возни́кло,
+                      име́ет ме́сто старе́ние и смерть<sup><a href="#link24">24</a></sup>.
+                      Поэ́тому, мона́хи, с по́лным уничтоже́нием, угаса́нием, прекраще́нием,
+                      отбра́сыванием и оставле́нием [всех ви́дов] жа́жды Татхагата пробуди́лся
+                      в наивы́сшее по́лное просветле́ние, я говорю́ вам. </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он
+                      та́кже напряму́ю зна́ет во́ду как во́ду… Он та́кже напряму́ю зна́ет
+                      ниббану как ниббану… он не ра́дуется ниббане. И почему́? Потому́
+                      что он по́нял, что [подо́бная] ра́дость – э́то ко́рень страда́ния…
+                      пробуди́лся в наивы́сшее по́лное просветле́ние, я говорю́ вам».</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="25"></a>Так
+                      сказа́л Благослове́нный. Но те мона́хи не возра́довались слова́м
+                      Благослове́нного<sup><a href="#link25">25</a></sup>.<br />
+                    </font>
+                  </div>
+                  <div class="a"></div>
+                </td>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a href="#1" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="14" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+            style='font-size:18pt;font-family:"Wingdings 3";'></span></font>
+      </td>
+      <td height="14" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link1"></a>
+            <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">Бодхи:
+              Комментарий поясняет, что Будда дал эту проповедь, чтобы рассеять
+              самомнение, которое возникло у пяти сотен учеников из-за их эрудиции
+              и интеллектуальных знаний Дхаммы. Эти монахи прежде были брахманами,
+              знатоками Вед, и загадочные утверждения, которые произносит Будда,
+              скорее всего, были нацелены на устранение их брахманистских воззрений,
+              к которым они всё ещё могли цепляться.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#2" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link2"></a>
+            <font color="#999966">Бодхи:
+              Комментарий поясняет, что слово "всё" (сабба) используется
+              здесь в ограниченном смысле, то есть обозначает "всё, что
+              входит в личностную самоидентичность" (саккая-сабба), то
+              есть все состояния или феномены (дхамма), которые заключены в
+              пяти совокупностях, подверженных цеплянию (кхандха) (см. <a
+                href="mn28-maha-hatthipadopama-sutta-sv.htm">МН
+                28</a>). Сверхмирские состояния - пути, плоды и ниббана - сюда
+              не входят.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#3" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link3"></a>
+            <font color="#999966">Бодхи:
+              Ассутава путхудджана - обычный человек, у которого нет ни познаний
+              Дхаммы, ни духовных достижений в Дхамме Благородных. В нём преобладают
+              многочисленные загрязнения ума и неправильные воззрения.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#4" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">4</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link4"></a>
+            <font color="#999966">Бодхи:
+              Хотя может показаться, что "восприятие земли как земли"
+              является видением объекта в соответствии с действительностью (что
+              является целью буддийской медитации прозрения), всё же из контекста
+              видно, что, когда заурядный человек воспринимает так, происходит
+              некоторое искажение в восприятии объекта, которое затем раздувается
+              до абсолютно неправильного представления, при котором когнитивный
+              процесс входит в фазу "измышления". Комментарий объясняет,
+              что заурядный человек схватывает условное выражение "это
+              земля" и, применяя это к объекту, воспринимает его через
+              "искажение восприятия" (сання-випалласа). Искажение
+              восприятия происходит, когда человек воспринимает а) непостоянное
+              как постоянное, б) болезненное как приятное, в) бессамостное как
+              самостное, г) отвратительное как прекрасное (см. <a href="an4_49-vipallasa-sutta-sv.htm">АН
+                4.49</a>).</font>
+          </i></font><span style="font-size:16.0pt">
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="151" valign="middle" width="3%"><a href="#5" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="151" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">5</font>
+      </td>
+      <td height="151" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link5"></a>
+            <font color="#999966">Бодхи:
+              Палийский глагол "измышляет" (манняти) происходит от
+              корня ман ("думать") и часто используется в палийских
+              суттах для обозначения искажённого мышления, то есть мысли, которая
+              приписывает объекту не объективные качества и значимость, а субъективные.
+              Когнитивное искажение, вносимое измышлением, состоит, если говорить
+              вкратце, во вторжении эгоцентричной перспективы в переживаемое,
+              которое уже было отчасти искажено спонтанным восприятием. Согласно
+              Комментарию, акт измышления управляется тремя загрязнениями, за
+              счёт чего оно (измышление) проявляется одним из трёх способов.
+              Эти загрязнения - жажда (танха), самомнение (мана), воззрения
+              (диттхи).</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p><br />
+            <i>
+              <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">SV:
+                Что касается четырёх способов измышления, то, по мнению достопочтенного
+                Бодхи, речь идёт о спектре всех возможных попыток утвердить (вообразить
+                реально существующим) онтологическое "я" в отношении
+                рассматриваемого объекта. </font>
+            </i>
+          </o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#6" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">6</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link6"></a>
+            <font color="#999966">Бодхи:
+              Комментарий утверждает, что тот, кто полностью понимает землю
+              как землю, делает это тремя типами полного понимания: а) полное
+              понимание познанного (нята-париння) - определение элемента земли
+              посредством [понимания] его уникальной характеристики, функции,
+              проявления, непосредственной причины; б) полное понимание за счёт
+              тщательного исследования (тирана-париння) - созерцание элемента
+              земли с позиции трёх основных характерных черт непостоянства,
+              страдания, безличностности; в) полное понимание оставления
+              (паханапариння) - оставление желания и страсти к элементу земли
+              за счёт высочайшего пути (арахантства).</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#7" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">7</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link7"></a>
+            <font color="#999966">Бодхи:
+              Бхута. Комментарий утверждает, что "существа" здесь
+              означает живых существ в мирах, которые находятся ниже небесного
+              мира Четырёх великих царей - нижайшего из небесных миров мира
+              чувств. Комментарий показывает работу трёх видов измышлений в
+              данном случае: когда человек привязывается к существам в результате
+              видения, слышания и т.д. или же желает переродиться в некоем классе
+              существ, это является измышлением посредством жажды; когда он
+              считает себя высшим, равным или низшим в сравнении с ними, - это
+              измышление посредством самомнения; когда он думает: "Существа
+              постоянны, устойчивы, вечны и т. д." - это измышление посредством
+              воззрений.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#8" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">8</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link8"></a>
+            <font color="#999966">Комментарий:
+              Имеются в виду боги шести небесных миров мира чувств, кроме Мары
+              с его свитой в мире богов, которые имеют власть над творениями
+              других.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#9" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">9</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link9"></a>
+            <font color="#999966">Бодхи:
+              Паджапати - "повелитель творения". Этим именем в Ведах
+              называли богов Индру, Агни и прочих высших ведийских божеств.
+              Согласно Комментарию, в данном случае имя Паджапати относится
+              к Маре, так как он является правителем этого "поколения"
+              (паджа), состоящего из живых существ.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#10" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="3%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">10</font>
+      </td>
+      <td height="2" width="94%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link10"></a>
+            <font color="#999966">Бодхи:
+              Здесь речь идёт о Махабрахме - первом божестве, которое рождается
+              в начале нового цикла мира и чей срок жизни длится весь цикл [существования
+              мира]. Придворные Брахмы и собрание Брахмы - другие божества,
+              чьё существование в этом мире обусловлено достижением первой джханы,
+              - также входят сюда.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#11" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="2%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">11</font>
+      </td>
+      <td height="2" width="95%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link11"></a>
+            <font color="#999966">SV:
+              Существа второго по счёту мира форм, соответствующего второй джхане.
+              Согласно Комментарию, сюда также включены божества ограниченного
+              сияния и божества безграничного сияния, так как и они относятся
+              к этому миру.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#12" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">12</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link12"></a>
+            <font color="#999966">SV:
+              Существа третьего по счёту мира форм, соответствующего третьей
+              джхане. Согласно Комментарию, сюда также включены боги ограниченного
+              и боги безграничного великолепия.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#13" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">13</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link13"></a>
+            <font color="#999966">SV:
+              Существа четвёртого по счёту мира форм, соответствующего четвёртой
+              джхане.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#14" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">14</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link14"></a>
+            <font color="#999966">Бодхи:
+              Абхибху. Согласно Комментарию, этим термином обозначен мир невоспринимающих
+              существ, который назван так потому, что он покоряет (абхибхавати)
+              четыре нематериальные совокупности (чувствование, восприятие,
+              формации, сознание), которые отсутствуют у существ в этом мире.
+              В <a href="mn49-brahma-nimantanika-sutta-sv.htm">МН 49</a> это
+              слово встречается в заявлении Брахмой Бакой своей теократической
+              гегемонии. Однако Комментарий отрицает соотнесение Абхибху с Брахмой
+              по причине избыточности.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#15" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">15</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link15"></a>
+            <font color="#999966">SV:
+              Это объекты восприятия, разделённые по типу воспринимания: видимое,
+              слышимое, ощущаемое, познаваемое. Ощущаемое (мута) означает вкусы,
+              запахи, осязаемые вещи. Познаваемое (виннята) - абстрактное мышление,
+              воображение.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#16" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="3%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">16</font>
+      </td>
+      <td height="2" width="94%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link16"></a>
+            <font color="#999966">SV:
+              Комментарий утверждает, что "единое" (екатта) означает
+              "сосредоточенный на единственном объекте ум в состоянии джханы",
+              а множественное (нанатта) преобладает в том, кто не достигает
+              джханы. Однако в стандартной формуле достижения сферы безграничного
+              пространства (которая достигается посредством преодоления четвёртой
+              джханы) говорится так: "Не обращающий внимания на восприятие
+              множественного, осознавая: "пространство безгранично",
+              монах входит в сферу безграничного пространства и пребывает [в ней]".
+              Очевидно, под "единым" подразумеваются четыре бесформенные
+              сферы, а под "множественным" - различные объекты органов
+              чувств, которые могут восприниматься в той<br />
+              или иной из четырёх джхан.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#17" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="3%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">17</font>
+      </td>
+      <td height="2" width="94%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link17"></a>
+            <font color="#999966">SV:
+              В <a href="sn35_23-sabba-sutta-sv.htm">СН 35.23</a> сказано: «Что
+              такое "Всё"? [Это] глаз и формы, ухо и звуки, нос и
+              запахи, язык и вкусы, тело и осязаемые вещи, ум и умственные феномены.
+              Это, монахи, называется "всё". И если кто-либо скажет:
+              "Отвергнув это "всё", я опишу иное "всё""
+              - то с его стороны это будет лишь пустым хвастовством. Если бы
+              его расспросили [на этот счёт], то он не смог бы ответить и повстречал
+              бы лишь досаду. Почему? Потому, что это вне его области [познания]».</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#18" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="3%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">18</font>
+      </td>
+      <td height="2" width="94%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link18"></a>
+            <font color="#999966">SV:
+              Согласно Комментарию, здесь речь идёт о ложной ниббане, которая
+              упоминается в ряде воззрений в <a href="dn1-brahmajala-sutta-01-sirkin.htm">ДН
+                1</a>. Однако в <a href="mn102-pancattaya-sutta-sv.htm">МН 102</a>
+              Будда говорит о том, что некий отшельник или жрец способен, преодолев
+              нейтральное чувство (которое присутствует в четвёртой джхане и
+              четырёх бесформенных сферах), настроиться на, очевидно, подлинную
+              ниббану. Но так как у него всё ещё присутствуют воззрения о "я",
+              он думает так: "[Это] я достиг ниббаны". Он продолжает
+              цепляться и измышляет "я" по отношению к этой действительной
+              ниббане. Вероятно, именно об этом здесь идёт речь. Также интересно
+              отметить, что в двух китайских версиях этой сутты ниббана не упоминается
+              вовсе, а перечисление заканчивается на предыдущем параграфе, где
+              обсуждается "всё".</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a href="#19" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="14" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">19<span
+            style='font-size:18pt;font-family:"Wingdings 3";'></span></font>
+      </td>
+      <td height="14" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link19"></a>
+            <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">Бодхи:
+              Секха. Это ученик, проходящий высшую тренировку, который уже достиг
+              одного из трёх нижних уровней святости - вступления в поток, однажды-возвращения,
+              не-возвращения, - но ещё должен тренироваться дальше, чтобы достичь
+              [конечной] цели, арахантства.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#20" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">20</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link20"></a>
+            <font color="#999966">Бодхи:
+              Абхиджанати. Комментарий поясняет, что этот человек выдающимся
+              знанием знает вещи в соответствии с их подлинной природой, то
+              есть как непостоянные, являющиеся страданием, безличностные.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#21" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="2%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">21</font>
+      </td>
+      <td height="2" width="95%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link21"></a>
+            <font color="#999966">Бодхи:
+              Будда призывает ученика, проходящего высшую тренировку, воздерживаться
+              от измышления и радости, поскольку предрасположенности к этим
+              умственным процессам всё ещё наличествуют в нём. С достижением
+              вступления в поток ученик уничтожил оковы воззрения о "я"
+              (саккая-диттхи) и поэтому не может более измышлять в рамках неправильных
+              воззрений. Однако загрязнения жажды и самомнения искореняются
+              только путём арахантства, а потому секха уязвим к измышлениям,
+              которые они способны породить. Тогда как прямое знание (абхиння)
+              является областью, разделяемой и секхой и арахантом, полное понимание
+              (париння) присуще исключительно араханту, но не ученику, так как
+              подразумевает полное уничтожение загрязнений ума.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#22" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">22</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link22"></a>
+            <font color="#999966">Повторяются
+              все темы идущих выше фрагментов. </font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#23" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">23</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link23"></a>
+            <font color="#999966">Бодхи:
+              Комментарий поясняет, что, хотя ученики-араханты и будды одинаковы
+              в оставлении загрязнений, имеется различие в сфере их полного
+              понимания. Ученики достигают ниббаны через прозрение в ограниченное
+              число формаций, а будды полностью понимают все формации без исключения.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#24" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">24</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link24"></a>
+            <font color="#999966">Бодхи:
+              Это предложение - сильно сжатая формула зависимого возникновения,
+              обычно разъясняемая в двенадцати факторах (см. <a href="mn38-maha-tanha-sankhaya-sutta-sv.htm">МН
+                38</a>). <br />
+              SV: Комментарий объясняет, что радость (нанди) здесь - это жажда
+              в предыдущей жизни, которая создала "страдание" в виде
+              пяти совокупностей (кхандха) в этой жизни.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <table border="0" cellpadding="4" cellspacing="0" width="55%">
+    <tr>
+      <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#25" style="border:0px;"
+          title="вернуться к сноске в тексте">
+          <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+        </a></td>
+      <td height="2" valign="top" width="1%">
+        <font color="#996600" face="Times New Roman, Times, serif" size="2">25</font>
+      </td>
+      <td height="2" width="96%">
+        <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link25"></a>
+            <font color="#999966">Бодхи:
+              Монахи не возрадовались словам Будды, вероятно, потому, что наставление
+              слишком сильно затронуло их остаточные брахманистские воззрения
+              и те болезненные области самомнения. Комментарий утверждает, что
+              позднее, когда их гордыня уменьшилась, Будда дал этим же монахам
+              Готамака-сутту (<a href="an3_125-gotamakacetiya-sutta-sv.htm">АН
+                3.125</a>), во время слушания которой все они достигли арахантства.</font>
+          </i></font><span style="font-size:16.0pt">
+          <o:p></o:p>
+        </span>
+      </td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  <br />
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+    <tr bgcolor="#F4EFBD">
+      <td class="bottom" colspan="4" height="2">
+        <div align="center">
+          <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+          </font>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <table border="0" cellpadding="4" cellspacing="0" width="70%">
+    <tr>
+      <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm" style="border:0px;"
+          title="вернуться к разделу">
+          <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+        </a></td>
+      <td class="bottom" height="2" valign="middle" width="1%"> <a href="#" style="border:0px;"
+          title="вернуться наверх">
+          <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+        </a></td>
+      <td height="2" valign="top" width="32%">
+        <div align="center">
+          <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+            <noindex><!--LiveInternet counter-->
+              <script type="text/javascript">
+                new Image().src = "//counter.yadro.ru/hit?r" +
+                  escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                    ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                      screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                  ";h" + escape(document.title.substring(0, 150)) +
+                  ";" + Math.random();</script><!--/LiveInternet--><!--LiveInternet logo--><a
+                href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1"
+                  src="//counter.yadro.ru/logo?42.6" title="LiveInternet"
+                  width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+              <span id="spylog2031418"></span>
+              <script type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                  (("https:" == document.location.protocol) ? "s" : "") +
+                  "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+              <!--SpyLOG-->
+            </noindex>
+          </font>
+        </div>
+      </td>
+      <td height="2" valign="top" width="19%">
+        <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+            <font color="C7B683">٭</font>
+          </span>
+        </div>
+      </td>
+      <td height="2" valign="top" width="37%">
+        <div align="right">
+          <font color="#C8C16C" face="Arial, Helvetica, sans-serif" style="font-size:7pt; font-family: Arial;">©
+            theravada.ru – при копировании материалов<br />
+            просьба ставить прямую ссылку на наш сайт.<br />
+          </font>
+        </div>
+      </td>
+    </tr>
+  </table>
+  </div>
+  </div>
+  </td>
+  </tr>
+  </table>
+  <script type="text/javascript">
+    function viewport() {
+      var e = window, a = 'inner';
+      if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+      return { width: e[a + 'Width'], height: e[a + 'Height'] }
+    }
+    var screen = viewport();
+
+    if (screen.width < 1002) {
+      // Content
+      document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+      // Comments
+      document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+      // Title
+      document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+      document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+      // Text
+      document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+    } else {
+      if (screen.width < 1280) {
+        // Content
+        document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Comments
+        document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Title
+        document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+        document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+        // Text
+        document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+      }
+    }
+
+  </script>
+</body>
+
+</html>
