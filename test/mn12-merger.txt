@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Де́сять сил Татхагаты </a><br/> <a href="#a2">Четы́ре ви́да неустраши́мости</a><br/> <a href="#a3">Во́семь собра́ний</a><br/> <a href="#a4">Четы́ре ви́да рожде́ния</a><br/> <a href="#a5">Пять уде́лов и ниббана</a><br/> <a href="#a6">Аске́за бодхисатты</a><br/> <a href="#a7">Воззре́ния жрецо́в и отше́льников</a><br/> </font>
