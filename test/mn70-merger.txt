@@ -1,0 +1,3 @@
+<font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b> </font>
+
+<font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Поле́зные и вредые ви́ды чувств</a><br/> <a href="#a2">Семь ви́дов благоро́дных ученико́в</a><br/> <a href="#a3">Ве́ра и постепе́нность пути́</a><br/> </font>
