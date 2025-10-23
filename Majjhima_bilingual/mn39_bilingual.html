@@ -1,0 +1,1254 @@
+<html>
+
+<head>
+  <title>Махаассапура-сутта: Большое наставление в Ассапуре :: Мадджхима Никая 39</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+  <meta
+    content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+    name="keywords" />
+  <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript">
+    //Пути к директориям
+    var pathToScript = '/Index/Scripts/';
+    var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+    //-----------------------------------
+    var request = false;
+    try {
+      request = new XMLHttpRequest();
+    }
+    catch (trymicrosoft) {
+      try {
+        request = new ActiveXObject("Msxml2.XMLHTTP");
+      }
+      catch (othermicrosoft) {
+        try {
+          request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        catch (failed) {
+          request = false;
+        }
+      }
+    }
+
+    if (!request) {
+      alert("Ошибка в работе");
+    }
+
+    function sendRequest() {
+      var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+      request.open("GET", url, true);
+      request.onreadystatechange = getResponse;
+      request.send(null);
+    }
+
+    function getResponse() {
+      if (request.readyState == 4) {
+        if (request.status == 200) {
+          var response = request.responseText;
+          var articles = request.responseText.split(' ');
+          var random = Math.round((Math.random() * (articles.length - 2)));
+          window.open("http://" + document.domain + articles[random], "_self");
+        }
+      }
+    }
+  </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+  text="#333300" topmargin="1" vlink="#996633">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+    <tr>
+      <td valign="top">
+        <div align="center">
+          <style>
+            a {
+              border: 0px solid #FFFFCC;
+              text-decoration: none
+            }
+
+            a:hover {
+              font-family: Arial;
+              border: 0px solid #996633;
+              color: #000000;
+              text-decoration: none;
+              background-color: #D8D68B;
+              padding: 0;
+            }
+
+            a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            div {
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            .a {
+              TEXT-INDENT: 2em;
+              margin-bottom: 15px;
+            }
+
+            .bottom a:hover {
+              color: #000000;
+              font-family: Arial;
+              text-decoration: none;
+              background: none;
+            }
+
+            .bottom a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none;
+            }
+
+            body {
+              background: #FFFFCC;
+              overflow-y: scroll
+            }
+
+            p {
+              TEXT-INDENT: 0em
+            }
+          </style>
+          <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td colspan="2"> </td>
+              <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                  <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                     
+                      Учение Старцев </b></font>
+                </i></td>
+              <td width="5%"> </td>
+            </tr>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                  <tr>
+                    <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                        <div style='font-size:24.0pt;font-family:"Arial"'>
+                          <div align="center">«</div>
+                        </div>
+                      </a></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+              </td>
+              <td bgcolor="#CBB079" width="3%"> </td>
+              <td width="5%"> </td>
+            </tr>
+            <tr>
+              <td bgcolor="#CBB079"> </td>
+              <td rowspan="2"> </td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </table>
+          <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+            <tr>
+              <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm" style="border:0px;"
+                  title="вернуться к разделу">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная сутта">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>
+                    <font size="-4"> </font>₪
+                  </div>
+                </a> </td>
+              <td height="2" width="44%">  </td>
+              <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span>
+              </td>
+              <td class="bottom" height="2" width="19%">
+                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+              </td>
+            </tr>
+            <tr bgcolor="#F4EFBD">
+              <td colspan="4" height="3">
+                <div align="center">
+                  <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                  </font>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div align="center"><br />
+            <table border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr>
+                <td>
+                  <div align="center">
+                    <font face="Times New Roman, Times, serif" size="5">Махаассапура-сутта:
+                      Большое наставление в Ассапуре<br />
+                      <font size="3">МН 39</font>
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="0" cellspacing="5" width="70%">
+              <tr>
+                <td height="2" width="61%"> </td>
+                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                    <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                        <div align="right"><i>
+                            <font color="#996633"><span style="font-size:8pt;font-family:Arial;"><span
+                                  style="font-size:8pt;font-family:Arial;"><span
+                                    style="font-size:8pt;font-family:Arial;"><span
+                                      style="font-size:8pt;font-family:Arial;"><span
+                                        style="font-size:8pt;font-family:Arial;">редакция
+                                        перевода: 19.02.2024</span></span></span><br />
+                                  Перевод с английского: SV<br />
+                                  <br />
+                                  источник: <br />
+                                  "Majjhima Nikaya by Nyanamoli &amp; Bodhi, p. 362"</span></span></font>
+                          </i></div>
+                      </span></div>
+                  </span></td>
+                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="0" cellspacing="0" width="60%">
+              <tr>
+                <td style="text-align: justify" valign="top">
+
+
+
+                  <font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b><br /> </font>
+                  <font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Нра́вственность и сре́дства к
+                      жи́зни</a><br /> <a href="#a2">Сде́ржанность чувств</a><br /> <a href="#a3">Уме́ренность в
+                      еде́</a><br /> <a href="#a4">Бо́дрствование</a><br /> <a href="#a5">Осо́знанность и
+                      бди́тельность</a><br /> <a href="#a6">Оставле́ние поме́х</a><br /> <a href="#a7">Четы́ре
+                      джханы</a><br /> <a href="#a8">Три зна́ния</a><br /> <a href="#a9">Арахант</a><br /> </font>
+                  <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>Т</b></font>
+                  <font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал. Одна́жды Благослове́нный прожива́л
+                    в стране́ Ангов в го́роде Ангов под назва́нием Ассапура. Там Благослове́нный обрати́лся к мона́хам
+                    так: <br /> – Мона́хи!</font>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">– Уважа́емый, – отве́тили они́. <br />
+                      Благослове́нный сказа́л сле́дующее:</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Thus have I heard. On one
+                        occasion the Blessed One was living in the Angan country at a town of the Angans named
+                        Assapura. There the Blessed One addressed the bhikkhus thus: "Bhikkhus."—"Venerable sir," they
+                        replied. The Blessed One said this:</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">– «Отше́льники, отше́льники» – вот как,
+                      мона́хи, лю́ди воспринима́ют вас. И когда́ вас спра́шивают: «Вы кто?» – вы утвержда́ете, что вы
+                      отше́льники. Поско́льку так вы обознача́етесь и так о себе́ заявля́ете, то вот как вам сле́дует
+                      тренирова́ться: «Мы бу́дем предпринима́ть и практикова́ть те ве́щи, кото́рые де́лают кого́-ли́бо
+                      отше́льником, де́лают кого́-ли́бо жрецо́м, так что на́ши обозначе́ния бу́дут правди́выми, на́ши
+                      утвержде́ния – по́длинными, и так, что́бы услуже́ние тех [миря́н], чьи оде́жды, е́ду|еду́,
+                      жили́ща, необходи́мые для лече́ния ве́щи мы испо́льзуем, принесло́ им вели́кий плод и бла́го, и
+                      так, что́бы наш ухо́д в бездо́мную жизнь был бы не тще́тным, а плодотво́рным и продукти́вным».
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "‘Recluses, recluses,’
+                        bhikkhus, that is how people perceive you. And when you are asked, ‘What are you?’, you claim
+                        that you are recluses. Since that is what you are designated and what you claim to be, you
+                        should train thus: ‘We will undertake and practise those things that make one a recluse, that
+                        make one a brahmin, so that our designations may be true and our claims genuine, and so that
+                        the services of those whose robes, almsfood, resting place, and medicinal requisites we use
+                        shall bring them great fruit and benefit, and so that our going forth shall not be in vain but
+                        fruitful and fertile.’</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a1"></a>Нра́вственность
+                        и сре́дства к жи́зни</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> И каки́е ве́щи, мона́хи, де́лают кого́-ли́бо
+                      отше́льником, де́лают кого́-ли́бо жрецо́м? Мона́хи, вот как вы должны́ тренирова́ться: «Мы
+                      бу́дем облада́ть чу́вством стыда́ и боя́знью соверши́ть просту́пок». И тепе́рь, мона́хи, вы
+                      мо́жете поду́мать так: «Мы облада́ем чу́вством стыда́ и боя́знью соверши́ть просту́пок. Э́того
+                      доста́точно, э́то бы́ло вы́полнено, цель отше́льничества дости́гнута, нам не́чего бо́льше
+                      де́лать» – и бу́дете отдыха́ть, дово́льные э́тим. Мона́хи, я говорю́ вам, заявля́ю вам: вам, то́
+                      есть тем, кто и́щет ста́туса отше́льника [не сле́дует остана́вливаться] не дости́гнув це́ли
+                      отше́льничества, когда́ всё ещё есть то, что необходи́мо осуществи́ть. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "And what, bhikkhus, are
+                        the things that make one a recluse, that make one a brahmin? Bhikkhus, you should train thus:
+                        ‘We will be possessed of shame and fear of wrongdoing.’ Now, bhikkhus, you may think thus: ‘We
+                        are possessed of shame and fear of wrongdoing. That much is enough, that much has been done,
+                        the goal of recluseship has been reached, there is nothing more for us to do’; and you may
+                        rest content with that much. Bhikkhus, I inform you, I declare to you: You who seek the
+                        recluse's status, do not fall short of the goal of recluseship while there is more to be
+                        done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: «На́ше теле́сное поведе́ние бу́дет очи́щенным, чи́стым и
+                      откры́тым, безупре́чным и сде́ржанным, и мы не ста́нем восхваля́ть себя́ и унижа́ть други́х
+                      и́з-за э́того очи́щенного теле́сного поведе́ния». И тепе́рь, мона́хи, вы мо́жете поду́мать так:
+                      «Мы облада́ем чу́вством стыда́ и боя́знью соверши́ть просту́пок, и на́ше теле́сное поведе́ние
+                      бы́ло очи́щено. Э́того доста́точно, э́то бы́ло вы́полнено, цель отше́льничества дости́гнута, нам
+                      не́чего бо́льше де́лать» – и бу́дете отдыха́ть, дово́льные э́тим. Мона́хи, я говорю́ вам,
+                      заявля́ю вам: вам, то́ есть тем, кто и́щет ста́туса отше́льника, [не сле́дует остана́вливаться]
+                      не дости́гнув це́ли отше́льничества, когда́ всё ещё есть то, что необходи́мо осуществи́ть.
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "What more is to be done?
+                        Bhikkhus, you should train thus: ‘Our bodily conduct shall be purified, clear and open,
+                        flawless and restrained, and we will not laud ourselves and disparage others on account of
+                        that purified bodily conduct.’ Now, bhikkhus, you may think thus: ‘We are possessed of shame
+                        and fear of wrongdoing and our bodily conduct has been purified. That much is enough, that
+                        much has been done, the goal of recluseship has been reached, there is nothing more for us to
+                        do’; and you may rest content with that much. Bhikkhus, I inform you, I declare to you: You
+                        who seek the recluse's status, do not fall short of the goal of recluseship while there is
+                        more to be done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: «На́ше слове́сное поведе́ние бу́дет очи́щенным, чи́стым и
+                      откры́тым, безупре́чным и сде́ржанным, и мы не ста́нем восхваля́ть себя́ и унижа́ть други́х
+                      и́з-за э́того очи́щенного слове́сного поведе́ния». И тепе́рь, мона́хи, вы мо́жете поду́мать так:
+                      «Мы облада́ем чу́вством стыда́…» – когда́ всё ещё есть то, что необходи́мо осуществи́ть.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "What more is to be done?
+                        Bhikkhus, you should train thus: ‘Our verbal conduct shall be purified, clear and open,
+                        flawless and restrained, and we will not laud ourselves and disparage others on account of
+                        that purified verbal conduct.’ Now, bhikkhus, you may think thus: ‘We are possessed of shame
+                        and fear of wrongdoing, our bodily conduct has been purified, and our verbal conduct has been
+                        purified. That much is enough … ’; and you may rest content with that much. Bhikkhus, I inform
+                        you, I declare to you: You who seek the recluse's status, do not fall short of the goal of
+                        recluseship while there is more to be done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: «На́ше у́мственное поведе́ние бу́дет очи́щенным, чи́стым и
+                      откры́тым, безупре́чным и сде́ржанным, и мы не ста́нем восхваля́ть себя́ и унижа́ть други́х
+                      и́з-за э́того очи́щенного у́мственного поведе́ния». И тепе́рь, мона́хи, вы мо́жете поду́мать
+                      так: «Мы облада́ем чу́вством стыда́…» – когда́ всё ещё есть то, что необходи́мо осуществи́ть.
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "What more is to be done?
+                        Bhikkhus, you should train thus: ‘Our mental conduct shall be purified, clear and open,
+                        flawless and restrained, and we will not laud ourselves and disparage others on account of
+                        that purified mental conduct.’ Now, bhikkhus, you may think thus: ‘We are possessed of shame
+                        and fear of wrongdoing, our bodily conduct and verbal conduct have been purified, and our
+                        mental conduct has been purified. That much is enough … ’; and you may rest content with that
+                        much. Bhikkhus, I inform you, I declare to you: You who seek the recluse's status, do not fall
+                        short of the goal of recluseship while there is more to be done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: «На́ши сре́дства к жи́зни бу́дут очи́щенными, чи́стыми и
+                      откры́тыми, безупре́чными и сде́ржанными, и мы не ста́нем восхваля́ть себя́ и унижа́ть други́х
+                      и́з-за э́тих очи́щенных средств к жи́зни». И тепе́рь, мона́хи, вы мо́жете поду́мать так: «Мы
+                      облада́ем чу́вством стыда́…» – когда́ всё ещё есть то, что необходи́мо осуществи́ть.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "What more is to be done?
+                        Bhikkhus, you should train thus: ‘Our livelihood shall be purified, clear and open, flawless
+                        and restrained, and we will not laud ourselves and disparage others on account of that
+                        purified livelihood.’ Now, bhikkhus, you may think thus: ‘We are possessed of shame and fear
+                        of wrongdoing, our bodily conduct, verbal conduct, and mental conduct have been purified, and
+                        our livelihood has been purified. That much is enough … ’; and you may rest content with that
+                        much. Bhikkhus, I inform you, I declare to you: You who seek the recluse's status, do not fall
+                        short of the goal of recluseship while there is more to be done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b><a name="a2"> </a>Сде́ржанность
+                        чувств</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: "Мы бу́дем охраня́ть две́ри|двери́ на́ших спосо́бностей
+                      [о́рганов|орга́нов] чувств. Ви́дя фо́рму гла́зом, мы не бу́дем цепля́ться за её о́браз и черты́.
+                      Ведь е́сли мы оста́вим спосо́бность гла́за неохраня́емой, плохи́е неблагие состоя́ния а́лчности
+                      и гру́сти|грусти́ мо́гут наводни́ть нас. Мы бу́дем практикова́ть путь сде́рживания, охраня́ть
+                      спосо́бность гла́за, предпринима́ть сде́рживание спосо́бности гла́за. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "What more is to be done?
+                        Bhikkhus, you should train thus: ‘We will guard the doors of our sense faculties. On seeing a
+                        form with the eye, we will not grasp at its signs and features. Since, if we left the eye
+                        faculty unguarded, evil unwholesome states of covetousness and grief might invade us, we will
+                        practise the way of its restraint, we will guard the eye faculty, we will undertake the
+                        restraint of the eye faculty.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br /> Слы́ша звук у́хом… <br /> Обоня́я
+                      за́пах|запа́х но́сом … <br /> Про́буя вкус языко́м… <br /> Каса́ясь осяза́емой ве́щи те́лом…
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>On hearing a sound with the
+                        ear … On smelling an odour with the nose … On tasting a flavour with the tongue … On touching
+                        a tangible with the body … </i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><br /> Познава́я у́мственный фено́мен|феноме́н
+                      умо́м, мы не бу́дем цепля́ться за его́ о́браз и черты́. Ведь е́сли мы оста́вим спосо́бность ума́
+                      неохраня́емой, то плохи́е, неблагие состоя́ния а́лчности и гру́сти|грусти́ мо́гут наводни́ть
+                      нас. Мы бу́дем практикова́ть путь сде́рживания, охраня́ть спосо́бность ума́, предпринима́ть
+                      сде́рживание спосо́бности ума́».</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>On cognizing a mind-object
+                        with the mind, we will not grasp at its signs and features. Since, if we left the mind faculty
+                        unguarded, evil unwholesome states of covetousness and grief might invade us, we will practise
+                        the way of its restraint, we will guard the mind faculty, we will undertake the restraint of
+                        the mind faculty.’</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И тепе́рь, мона́хи, вы мо́жете поду́мать так:
+                      «Мы облада́ем чу́вством стыда́… мы охраня́ем две́ри|двери́ на́ших спосо́бностей
+                      [о́рганов|орга́нов] чувств…» – когда́ всё ещё есть то, что необходи́мо осуществи́ть.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Now, bhikkhus, you may think
+                        thus: ‘We are possessed of shame and fear of wrongdoing, our bodily conduct, verbal conduct,
+                        mental conduct, and livelihood have been purified, and we guard the doors of our sense
+                        faculties. That much is enough … ’; and you may rest content with that much. Bhikkhus, I
+                        inform you, I declare to you: You who seek the recluse's status, do not fall short of the goal
+                        of recluseship while there is more to be done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a3"></a>Уме́ренность в
+                        еде́</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: «Мы бу́дем уме́ренны в еде́. Му́дро осмы́сливая, мы бу́дем
+                      употребля́ть пи́щу|пищу́, со́бранную с подая́ний, не ра́ди развлече́ний, не ра́ди упое́ния, не
+                      ра́ди физи́ческой красоты́ и привлека́тельности, а про́сто ра́ди сто́йкости и продолжи́тельности
+                      э́того те́ла, что́бы устрани́ть дискомфо́рт, [тем са́мым] поддержа́ть [веде́ние] свято́й жи́зни,
+                      осознава́я: "Так я устраню́ ста́рые чу́вства [го́лода] и не созда́м но́вых чувств [от
+                      перееда́ния]. Я бу́ду здоро́вым, не бу́ду [э́тим] порица́ем, бу́ду пребыва́ть в облегче́нии"».
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "What more is to be done?
+                        Bhikkhus, you should train thus: ‘We will be moderate in eating. Reflecting wisely, we will
+                        take food neither for amusement nor for intoxication nor for the sake of physical beauty and
+                        attractiveness, but only for the endurance and continuance of this body, for ending
+                        discomfort, and for assisting the holy life, considering: "Thus I shall terminate old feelings
+                        without arousing new feelings and I shall be healthy and blameless and shall live in
+                        comfort."’</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И тепе́рь, мона́хи, вы мо́жете поду́мать так:
+                      «Мы облада́ем чу́вством стыда́… мы уме́ренны в еде́…» – когда́ всё ещё есть то, что необходи́мо
+                      осуществи́ть.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Now, bhikkhus, you may think
+                        thus: ‘We are possessed of shame and fear of wrongdoing, our bodily conduct, verbal conduct,
+                        mental conduct, and livelihood have been purified, we guard the doors of our sense faculties,
+                        and we are moderate in eating. That much is enough … ’; and you may rest content with that
+                        much. Bhikkhus, I inform you, I declare to you: You who seek the recluse's status, do not fall
+                        short of the goal of recluseship while there is more to be done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a4"></a>Бо́дрствование</b>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: «Мы бу́дем предава́ться бо́дрствованию. Днём, во вре́мя
+                      хожде́ния вперёд и наза́д и сиде́ния, мы бу́дем очища́ть свой ум от тех состоя́ний, что создаю́т
+                      препя́тствия. В пе́рвую стра́жу но́чи, во вре́мя хожде́ния вперёд и наза́д, [а та́кже во вре́мя]
+                      сиде́ния, мы бу́дем очища́ть свой ум от тех состоя́ний, что создаю́т препя́тствия. В сре́днюю
+                      стра́жу но́чи мы бу́дем ложи́ться на пра́вый бок в по́зе льва, положи́в одну́ ступню́ на
+                      другу́ю, осо́знанные и бди́тельные, предвари́тельно сде́лав в уме́ отме́тку, когда́ сле́дует
+                      встава́ть. По́сле подъёма, в тре́тью стра́жу но́чи, по ме́ре хожде́ния вперёд и наза́д, [а
+                      та́кже во вре́мя] сиде́ния, мы бу́дем очища́ть свой ум от тех состоя́ний, что создаю́т
+                      препя́тствия». </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"What more is to be done?
+                        Bhikkhus, you should train thus: ‘We will be devoted to wakefulness. During the day, while
+                        walking back and forth and sitting, we will purify our minds of obstructive states. In the
+                        first watch of the night, while walking back and forth and sitting, we will purify our minds
+                        of obstructive states. In the middle watch of the night we will lie down on the right side in
+                        the lion's pose with one foot overlapping the other, mindful and fully aware, after noting in
+                        our minds the time for rising. After rising, in the third watch of the night, while walking
+                        back and forth and sitting, we will purify our minds of obstructive states.’ </i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И тепе́рь, мона́хи, вы мо́жете поду́мать так:
+                      «Мы облада́ем чу́вством стыда́… мы предаёмся бо́дрствованию…» – когда́ всё ещё есть то, что
+                      необходи́мо осуществи́ть.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Now, bhikkhus, you may think
+                        thus: ‘We are possessed of shame and fear of wrongdoing, our bodily conduct, verbal conduct,
+                        mental conduct, and livelihood have been purified, we guard the doors of our sense faculties,
+                        we are moderate in eating, and we are devoted to wakefulness. That much is enough … ’; and you
+                        may rest content with that much. Bhikkhus, I inform you, I declare to you: You who seek the
+                        recluse's status, do not fall short of the goal of recluseship while there is more to be
+                        done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a5"></a>Осо́знанность и
+                        бди́тельность</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> И что ещё необходи́мо осуществи́ть? Мона́хи,
+                      вот как вы должны́ тренирова́ться: «Мы бу́дем облада́ть осо́знанностью и бди́тельностью. Мы
+                      бу́дем де́йствовать с бди́тельностью, когда́ идём вперёд и возвраща́емся… когда́ смо́трим вперёд
+                      и смо́трим в сто́рону… когда́ сгиба́ем и разгиба́ем свои́ чле́ны те́ла… когда́ несём одея́ния,
+                      вне́шнее одея́ние, ча́шу… когда́ еди́м, пьём, жуём, про́буем… когда́ мо́чимся и испражня́емся…
+                      когда́ идём, сто́им|стои́м, сиди́м, засыпа́ем, просыпа́емся, разгова́риваем и молчи́м». </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"What more is to be done?
+                        Bhikkhus, you should train thus: ‘We will be possessed of mindfulness and full awareness. We
+                        will act in full awareness when going forward and returning; we will act in full awareness
+                        when looking ahead and looking away; we will act in full awareness when flexing and extending
+                        our limbs; we will act in full awareness when wearing our robes and carrying our outer robe
+                        and bowl; we will act in full awareness when eating, drinking, consuming food, and tasting; we
+                        will act in full awareness when defecating and urinating; we will act in full awareness when
+                        walking, standing, sitting, falling asleep, waking up, talking, and keeping silent.’</i>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И тепе́рь, мона́хи, вы мо́жете поду́мать так:
+                      «Мы облада́ем чу́вством стыда́… мы облада́ем осо́знанностью и бди́тельностью…» – когда́ всё ещё
+                      есть то, что необходи́мо осуществи́ть.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Now, bhikkhus, you may think
+                        thus: ‘We are possessed of shame and fear of wrongdoing, our bodily conduct, verbal conduct,
+                        mental conduct, and livelihood have been purified, we guard the doors of our sense faculties,
+                        we are moderate in eating, we are devoted to wakefulness, and we are possessed of mindfulness
+                        and full awareness. That much is enough, that much has been done, the goal of recluseship has
+                        been reached, there is nothing more for us to do’; and you may rest content with that much.
+                        Bhikkhus, I inform you, I declare to you: You who seek the recluse's status, do not fall short
+                        of the goal of recluseship while there is more to be done.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a6"></a>Оставле́ние
+                        поме́х</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> И что ещё необходи́мо осуществи́ть? Вот,
+                      мона́хи, мона́х затворя́ется в уединённом обита́лище: в лесу́, у подно́жия де́рева, на
+                      го́ре|горе́, в уще́лье, в пеще́ре на скло́не холма́, на кла́дбище, в джу́нглях, на откры́той
+                      ме́стности, у сто́га соло́мы. По́сле приня́тия пи́щи, верну́вшись с хожде́ния за подая́ниями, он
+                      сади́тся со скрещёнными нога́ми, де́ржит те́ло вы́прямленным, устана́вливает осо́знанность
+                      вперёди.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"What more is to be done?
+                        Here, bhikkhus, a bhikkhu resorts to a secluded resting place: the forest, the root of a tree,
+                        a mountain, a ravine, a hillside cave, a charnel ground, a jungle thicket, an open space, a
+                        heap of straw. On returning from his almsround, after his meal he sits down, folding his legs
+                        crosswise, setting his body erect and establishing mindfulness before him.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Оставля́я а́лчность к ми́ру, он пребыва́ет с
+                      умо́м, свобо́дным от а́лчности. Он очища́ет ум от а́лчности. Оставля́я недоброжела́тельность и
+                      злость, он пребыва́ет с умо́м, свобо́дным от недоброжела́тельности, сострада́тельный ко всем
+                      живы́м существа́м. Он очища́ет ум от недоброжела́тельности и зло́сти. Оставля́я лень и апа́тию,
+                      он пребыва́ет свобо́дным от ле́ни и апа́тии – осо́знанным, бди́тельным, воспринима́я свет. Он
+                      очища́ет свой ум от ле́ни и апа́тии. Отбра́сывая неугомо́нность и сожале́ние, он пребыва́ет
+                      не-взволно́ванным, с вну́тренне умиротворённым умо́м. Он очища́ет ум от неугомо́нности и
+                      сожале́ния. Отбра́сывая сомне́ние, он пребыва́ет, вы́йдя за преде́лы сомне́ния, не име́я
+                      замеша́тельства в отноше́нии [понима́ния] бла́гих|благи́х [у́мственных] состоя́ний. Он очища́ет
+                      свой ум от сомне́ния.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Abandoning covetousness for
+                        the world, he abides with a mind free from covetousness; he purifies his mind from
+                        covetousness. Abandoning ill will and hatred, he abides with a mind free from ill will,
+                        compassionate for the welfare of all living beings; he purifies his mind from ill will and
+                        hatred. Abandoning sloth and torpor, he abides free from sloth and torpor, percipient of
+                        light, mindful and fully aware; he purifies his mind from sloth and torpor. Abandoning
+                        restlessness and remorse, he abides unagitated with a mind inwardly peaceful; he purifies his
+                        mind from restlessness and remorse. Abandoning doubt, he abides having gone beyond doubt,
+                        unperplexed about wholesome states; he purifies his mind from doubt.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи, предста́вьте, как е́сли челове́к взял
+                      заём и предпри́нял не́кое де́ло, и его́ де́ло по́шло|пошло́ бы на лад, так что он мог бы
+                      вы́платить все|всё де́ньги ста́рого за́йма и у него́ оста́лось бы ещё доста́точно, что́бы
+                      содержа́ть жену́. И тогда́, осозна́в э́то, он был бы дово́льным и по́лным ра́дости.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Bhikkhus, suppose a man
+                        were to take a loan and undertake business and his business were to succeed so that he could
+                        repay all the money of the old loan and there would remain enough extra to maintain a wife;
+                        then on considering this, he would be glad and full of joy. </i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И́ли предста́вьте, как е́сли бы челове́к был
+                      нездоров, поражён боле́знью, серьёзно бо́лен. Еда́ не подходи́ла бы ему́, у его́ те́ла не́ было
+                      бы си́лы. Но по́зже он бы вы́здоровел от боле́зни, еда́ бы подходи́ла ему́, его́ те́ло
+                      восстанови́ло бы си́лу. И тогда́, осозна́в э́то, он был бы дово́льным и по́лным ра́дости.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Or suppose a man were
+                        afflicted, suffering and gravely ill, and his food would not agree with him and his body had
+                        no strength, but later he would recover from the affliction and his food would agree with him
+                        and his body would regain strength; then on considering this, he would be glad and full of
+                        joy. </i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И́ли предста́вьте, как е́сли бы челове́ка
+                      бро́сили в тюрьму́, но по́зже он бы освободи́лся от тюрьмы́, был бы в безопа́сности и
+                      сохра́нности, не потеря́в своего́ иму́щества. И тогда́, осозна́в э́то, он был бы дово́льным и
+                      по́лным ра́дости.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Or suppose a man were
+                        imprisoned in a prisonhouse, but later he would be released from prison, safe and secure, with
+                        no loss to his property; then on considering this, he would be glad and full of joy. </i>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И́ли предста́вьте, как е́сли бы челове́к был
+                      рабо́м, не незави́симым, но зави́симым от други́х. Он не мог бы идти́ туда́, куда́ пожела́ет. Но
+                      по́зже он бы освободи́лся от ра́бства, стал бы зави́сим то́лько от себя́, незави́симым от
+                      други́х, и мог бы идти́ туда́, куда́ пожела́ет. И тогда́, осозна́в э́то, он был бы дово́льным и
+                      по́лным ра́дости.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Or suppose a man were a
+                        slave, not self-dependent but dependent on others, unable to go where he wants, but later on
+                        he would be released from slavery, self-dependent, independent of others, a freed man able to
+                        go where he wants; then on considering this, he would be glad and full of joy. </i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И́ли предста́вьте, как е́сли бы челове́к с
+                      бога́тством и иму́ществом пое́хал по доро́ге, веду́щей че́рез пусты́ню, но пото́м он бы пересёк
+                      пусты́ню, был в безопа́сности и сохра́нности, не потеря́в своего́ иму́щества. И тогда́, осозна́в
+                      э́то, он был бы дово́льным и по́лным ра́дости. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Or suppose a man with wealth
+                        and property were to enter a road across a desert, but later on he would cross over the
+                        desert, safe and secure, with no loss to his property; then on considering this, he would be
+                        glad and full of joy. </i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">То́чно так же, мона́хи, когда́ э́ти пять поме́х
+                      не отбро́шены в нём, мона́х ви́дит их соотве́тствующим о́бразом как долг, боле́знь, тюрьму́,
+                      ра́бство, доро́гу че́рез пусты́ню. Но когда́ э́ти пять поме́х бы́ли отбро́шены в нём, он ви́дит
+                      э́то как свобо́ду от до́лга, здоро́вье, освобожде́ние из тюрьмы́, освобожде́ние от ра́бства,
+                      безопа́сную зе́млю. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>So too, bhikkhus, when these
+                        five hindrances are unabandoned in himself, a bhikkhu sees them respectively as a debt, a
+                        disease, a prisonhouse, slavery, and a road across a desert. But when these five hindrances
+                        have been abandoned in himself, he sees that as freedom from debt, healthiness, release from
+                        prison, freedom from slavery, and a land of safety.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b><a name="a7"> </a>Четы́ре
+                        джханы</b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><b><i> Пе́рвая джхана</i></b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Отбро́сив э́ти пять поме́х, изъя́нов ума́,
+                      кото́рые ослабля́ют му́дрость, бу́дучи отстранённым от чу́вственных удово́льствий, отстранённым
+                      от неблагих состоя́ний [ума́], он вхо́дит [в пе́рвую джхану] и пребыва́ет в пе́рвой джхане,
+                      кото́рая сопровожда́ется направле́нием [ума́ на объе́кт медита́ции] и удержа́нием [на нём], с
+                      восто́ргом и удово́льствием, что возни́кли и́з-за [э́той] отстранённости.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Having abandoned these
+                        five hindrances, imperfections of the mind that weaken wisdom, quite secluded from sensual
+                        pleasures, secluded from unwholesome states, he enters upon and abides in the first jhāna,
+                        which is accompanied by applied and sustained thought, with rapture and pleasure born of
+                        seclusion.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он де́лает восто́рг и удово́льствие, что
+                      возни́кли и́з-за [э́той] отстранённости, пропи́тывающими, прома́чивающими, залива́ющими,
+                      наполня́ющими э́то те́ло, так что во всём его́ те́ле нет ни еди́ной ча́сти, кото́рая не была́ бы
+                      напо́лнена восто́ргом и удово́льствием, что возни́кли и́з-за [э́той] отстранённости. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>He makes the rapture and
+                        pleasure born of seclusion drench, steep, fill, and pervade this body, so that there is no
+                        part of his whole body unpervaded by the rapture and pleasure born of seclusion.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно тому́ как уме́лый ба́нщик и́ли учени́к
+                      ба́нщика насы́пал|насыпа́л бы ба́нный порошо́к в желе́зный таз и, постепе́нно опры́скивая его́
+                      водо́й, заме́шивал бы его́, пока́ вла́га не пропита́ла [э́тот] его́ ком ба́нного порошка́, не
+                      промочи́ла его́ и не напо́лнила внутри́ и снару́жи, но всё же сам [э́тот] ком не сочи́лся бы [от
+                      воды́], – то́чно так же мона́х де́лает восто́рг и удово́льствие, что возни́кли и́з-за [э́той]
+                      отстранённости, пропи́тывающими, прома́чивающими, залива́ющими, наполня́ющими э́то те́ло, так
+                      что во всём его́ те́ле нет ни еди́ной ча́сти, кото́рая не была́ бы напо́лнена восто́ргом и
+                      удово́льствием, что возни́кли и́з-за [э́той] отстранённости. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Just as a skilled bath man
+                        or a bath man's apprentice heaps bath powder in a metal basin and, sprinkling it gradually
+                        with water, kneads it until the moisture wets his ball of bath powder, soaks it, and pervades
+                        it inside and out, yet the ball itself does not ooze; so too, a bhikkhu makes the rapture and
+                        pleasure born of seclusion drench, steep, fill, and pervade this body, so that there is no
+                        part of his whole body unpervaded by the rapture and pleasure born of seclusion.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><b><i> Втора́я джхана</i></b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Да́лее, мона́хи, с угаса́нием направле́ния и
+                      удержа́ния он вхо́дит [во втору́ю джхану] и пребыва́ет во второ́й джхане, в кото́рой
+                      нали́чествуют уве́ренность в себе́ и едине́ние ума́, в кото́рой нет направле́ния и удержа́ния,
+                      но есть восто́рг и удово́льствие, что возни́кли посре́дством сосредото́чения. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Again, bhikkhus, with the
+                        stilling of applied and sustained thought, a bhikkhu enters upon and abides in the second
+                        jhāna, which has self-confidence and singleness of mind without applied and sustained thought,
+                        with rapture and pleasure born of concentration.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он де́лает восто́рг и удово́льствие, что
+                      возни́кли посре́дством сосредото́чения, пропи́тывающими, прома́чивающими, залива́ющими,
+                      наполня́ющими э́то те́ло, так что во всём его́ те́ле нет ни еди́ной ча́сти, кото́рая не была́ бы
+                      напо́лнена восто́ргом и удово́льствием, что возни́кли посре́дством сосредото́чения.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>He makes the rapture and
+                        pleasure born of concentration drench, steep, fill, and pervade this body, so that there is no
+                        part of his whole body unpervaded by the rapture and pleasure born of concentration.</i>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">[Э́то] подо́бно о́зеру, чьи во́ды|воды́ би́ли
+                      бы ключа́ми со дна, не име́ющему прито́ка с восто́ка, за́пада, се́вера и́ли ю́га. [О́зеро] не
+                      пополня́лось бы вре́мя от вре́мени проли́вным|проливны́м дождём. И тогда́ прохла́дные
+                      исто́чники, бью́щие [на дне] озёра, сде́лали бы так, что прохла́дная вода́ пропи́тывала,
+                      прома́чивала, залива́ла, наполня́ла бы о́зеро, так что не́ было бы ни еди́ной ча́сти во всём
+                      о́зере, кото́рая не была́ бы пропи́тана прохла́дной водо́й. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Just as though there were a
+                        lake whose waters welled up from below and it had no inflow from east, west, north, or south,
+                        and would not be replenished from time to time by showers of rain, then the cool fount of
+                        water welling up in the lake would make the cool water drench, steep, fill, and pervade the
+                        lake, so that there would be no part of the whole lake unpervaded by cool water.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">То́чно так же мона́х де́лает восто́рг и
+                      удово́льствие, что возни́кли посре́дством сосредото́чения, пропи́тывающими, прома́чивающими,
+                      залива́ющими, наполня́ющими э́то те́ло, так что во всём его́ те́ле нет ни еди́ной ча́сти,
+                      кото́рая не была́ бы напо́лнена восто́ргом и удово́льствием, что возни́кли посре́дством
+                      сосредото́чения. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>So too, a bhikkhu makes the
+                        rapture and pleasure born of concentration drench, steep, fill, and pervade this body, so that
+                        there is no part of his whole body unpervaded by the rapture and pleasure born of
+                        concentration.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><i><b> Тре́тья джхана</b></i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Да́лее, мона́хи, с угаса́нием восто́рга мона́х
+                      пребыва́ет невозмути́мым, осо́знанным, бди́тельным, всё ещё ощуща́я прия́тное те́лом. Он вхо́дит
+                      [в тре́тью джхану] и пребыва́ет в тре́тьей джхане, о кото́рой благоро́дные говоря́т так: «Он
+                      невозмути́м, осо́знан, нахо́дится в прия́тном пребыва́нии».</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Again, bhikkhus, with the
+                        fading away as well of rapture, a bhikkhu abides in equanimity, and mindful and fully aware,
+                        still feeling pleasure with the body, he enters upon and abides in the third jhāna, on account
+                        of which noble ones announce: ‘He has a pleasant abiding who has equanimity and is
+                        mindful.’</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он де́лает удово́льствие, отделённое от
+                      восто́рга, пропи́тывающим, прома́чивающим, залива́ющим, наполня́ющим э́то те́ло, так что во всём
+                      его́ те́ле нет ни еди́ной ча́сти, кото́рая не была́ бы напо́лнена удово́льствием, отделённым от
+                      восто́рга. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>He makes the pleasure
+                        divested of rapture drench, steep, fill, and pervade this body, so that there is no part of
+                        his whole body unpervaded by the pleasure divested of rapture.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно тому́ как в о́зере с голубы́ми, и́ли
+                      кра́сными, и́ли бе́лыми ло́тосами не́которые ло́тосы, кото́рые роди́лись и вы́росли в воде́,
+                      расцвета́ют, бу́дучи погружёнными в во́ду, так и не взойдя́ над пове́рхностью воды́, а
+                      прохла́дные во́ды пропи́тывают, прома́чивают, залива́ют, наполня́ют их от ко́нчиков до корне́й,
+                      – то́чно так же мона́х де́лает удово́льствие, отделённое от восто́рга, пропи́тывающим,
+                      прома́чивающим, залива́ющим, наполня́ющим э́то те́ло, так что во всём его́ те́ле нет ни еди́ной
+                      ча́сти, кото́рая не была́ бы напо́лнена удово́льствием, отделённым от восто́рга. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Just as, in a pond of blue
+                        or red or white lotuses, some lotuses that are born and grow in the water thrive immersed in
+                        the water without rising out of it, and cool water drenches, steeps, fills, and pervades them
+                        to their tips and their roots, so that there is no part of all those lotuses unpervaded by
+                        cool water; so too, a bhikkhu makes the pleasure divested of rapture drench, steep, fill, and
+                        pervade this body, so that there is no part of his whole body unpervaded by the pleasure
+                        divested of rapture.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><i><b> Четвёртая джхана</b></i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Да́лее, мона́хи, с оставле́нием удово́льствия
+                      и бо́ли, равно́ как и с предыду́щим угаса́нием ра́дости и гру́сти|грусти́, мона́х вхо́дит [в
+                      четвёртую джхану] и пребыва́ет в четвёртой джхане, кото́рая явля́ется
+                      ни-прия́тной-ни-боле́зненной, характеризу́ется чисте́йшей осо́знанностью и́з-за невозмути́мости.
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Again, bhikkhus, with the
+                        abandoning of pleasure and pain, and with the previous disappearance of joy and grief, a
+                        bhikkhu enters upon and abides in the fourth jhāna, which has neither-pain-nor-pleasure and
+                        purity of mindfulness due to equanimity.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Он сиди́т, наполня́я э́то те́ло чи́стым я́рким
+                      умо́м, так что во всём его́ те́ле нет ни еди́ной ча́сти, кото́рая не была́ бы напо́лнена чи́стым
+                      и я́рким умо́м. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>He sits pervading this body
+                        with a pure bright mind, so that there is no part of his whole body unpervaded by the pure
+                        bright mind.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно сидя́щему челове́ку, укры́тому с ног
+                      до головы́ бе́лой тка́нью|тканью́ так, что не́ было бы ни одно́й ча́сти его́ те́ла, не
+                      напо́лненной бе́лой тка́нью|тканью́, – то́чно так же мона́х сиди́т, наполня́я э́то те́ло чи́стым
+                      я́рким умо́м, так что во всём его́ те́ле нет ни еди́ной ча́сти, кото́рая не была́ бы напо́лнена
+                      чи́стым я́рким умо́м. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Just as though a man were
+                        sitting covered from the head down with a white cloth, so that there would be no part of his
+                        whole body unpervaded by the white cloth; so too, a bhikkhu sits pervading this body with a
+                        pure bright mind, so that there is no part of his whole body unpervaded by the pure bright
+                        mind.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a8"></a>Три зна́ния</b>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><b><i> Про́шлые жи́зни</i></b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> <a name="1"></a>Когда́ его́ ум стал таки́м
+                      сосредото́ченным, очи́щенным, я́рким, безупре́чным, изба́вленным от изъя́нов, ги́бким,
+                      пода́тливым, усто́йчивым и непоколеби́мым, он направля́ет его́ к зна́нию воспомина́ний про́шлых
+                      жи́зней… <sup><a href="#link1">1</a></sup> Так он вспомина́ет свои́ многочи́сленные про́шлые
+                      жи́зни в подро́бностях и дета́лях. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "When his concentrated mind
+                        is thus purified, bright, unblemished, rid of imperfection, malleable, wieldy, steady, and
+                        attained to imperturbability, he directs it to knowledge of the recollection of past lives. He
+                        recollects his manifold past lives, that is, one birth, two births, three births, four births,
+                        five births, ten births, twenty births, thirty births, forty births, fifty births, a hundred
+                        births, a thousand births, a hundred thousand births, many aeons of world-contraction, many
+                        aeons of world-expansion, many aeons of world-contraction and expansion: ‘There I was so
+                        named, of such a clan, with such an appearance, such was my nutriment, such my experience of
+                        pleasure and pain, such my life-term; and passing away from there, I reappeared elsewhere; and
+                        there too I was so named, of such a clan, with such an appearance, such was my nutriment, such
+                        my experience of pleasure and pain, such my life-term; and passing away from there, I
+                        reappeared here.’ Thus with their aspects and particulars he recollects his manifold past
+                        lives.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно тому́ как челове́к мог бы отпра́виться
+                      из свое́й дере́вни в другу́ю дере́вню, а зате́м обра́тно в свою́ дере́вню, и мог бы поду́мать:
+                      «Я отпра́вился из свое́й дере́вни в ту дере́вню, и там я стоя́л та́к-то, сиде́л та́к-то,
+                      говори́л та́к-то, молча́л та́к-то; из той дере́вни я отпра́вился в ту другу́ю дере́вню и там я
+                      стоя́л та́к-то, сиде́л та́к-то, говори́л та́к-то, молча́л та́к-то; из той дере́вни я опя́ть
+                      верну́лся обра́тно в свою́ дере́вню», – то́чно так же, мона́х вспомина́ет свои́ многочи́сленные
+                      про́шлые жи́зни… Так он вспомина́ет свои́ многочи́сленные про́шлые жи́зни в подро́бностях и
+                      дета́лях.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Just as a man might go from
+                        his own village to another village and then back again to his own village, he might think: ‘I
+                        went from my own village to that village, and there I stood in such a way, sat in such a way,
+                        spoke in such a way, kept silent in such a way; and from that village I went to that other
+                        village, and there I stood in such a way, sat in such a way, spoke in such a way, kept silent
+                        in such a way; and from that village I came back again to my own village.’ So too, a bhikkhu
+                        recollects his manifold past lives … Thus with their aspects and particulars he recollects his
+                        manifold past lives.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><b><i> Боже́ственный глаз</i></b></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Когда́ его́ ум стал таки́м сосредото́ченным...
+                      он направля́ет его́ к зна́нию сме́рти и перерожде́ния суще́ств… Боже́ственным гла́зом,
+                      очи́щенным и превосходя́щим челове́ческий, он ви́дит умира́ющих и перерожда́ющихся суще́ств... в
+                      соотве́тствии с их посту́пками. </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно тому́, как е́сли бы бы́ло два до́ма с
+                      дверя́ми, и челове́к с хоро́шим зре́нием, сто́я ме́жду ни́ми, ви́дел бы, как лю́ди вхо́дят в
+                      дома́ и выхо́дят, скита́ются туда́ и сюда́, – то́чно так же, боже́ственным гла́зом, очи́щенным и
+                      превосходя́щим челове́ческий, мона́х ви́дит смерть и перерожде́ние суще́ств… и он понима́ет, как
+                      существа́ скита́ются в соотве́тствии с их дея́ниями. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"When his concentrated mind
+                        is thus purified, bright, unblemished, rid of imperfection, malleable, wieldy, steady, and
+                        attained to imperturbability, he directs it to knowledge of the passing away and reappearance
+                        of beings. With the divine eye, which is purified and surpasses the human, I saw beings
+                        passing away and reappearing, inferior and superior, fair and ugly, fortunate and unfortunate.
+                        I understood how beings pass on according to their actions thus: ‘These worthy beings who were
+                        ill conducted in body, speech, and mind, revilers of noble ones, wrong in their views, giving
+                        effect to wrong view in their actions, on the dissolution of the body, after death, have
+                        reappeared in a state of deprivation, in a bad destination, in perdition, even in hell; but
+                        these worthy beings who were well conducted in body, speech, and mind, not revilers of noble
+                        ones, right in their views, giving effect to right view in their actions, on the dissolution
+                        of the body, after death, have reappeared in a good destination, even in the heavenly world.’
+                        Thus with the divine eye, which is purified and surpasses the human, I saw beings passing away
+                        and reappearing, inferior and superior, fair and ugly, fortunate and unfortunate, and I
+                        understood how beings pass on according to their actions.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><b><i> Уничтоже́ние загрязне́ний ума́</i></b>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Когда́ его́ ум стал таки́м сосредото́ченным...
+                      он направля́ет его́ к зна́нию уничтоже́ния пя́тен [у́мственных загрязне́ний]. Он понима́ет в
+                      соотве́тствии с действи́тельностью: «Э́то – страда́ние… Э́то – происхожде́ние страда́ния… Э́то –
+                      прекраще́ние страда́ния… Э́то – путь, веду́щий к прекраще́нию страда́ния… Э́то –
+                      пя́тна|пятна́... Э́то – происхожде́ние пя́тен [загрязне́ний ума́]… Э́то – прекраще́ние пя́тен…
+                      Э́то – путь, веду́щий к прекраще́нию пя́тен». </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"When his concentrated mind
+                        is thus purified, bright, unblemished, rid of imperfection, malleable, wieldy, steady, and
+                        attained to imperturbability, he directs it to knowledge of the destruction of the taints. He
+                        understands as it actually is: ‘This is suffering’; … ‘This is the origin of suffering’; …
+                        ‘This is the cessation of suffering’; … ‘This is the way leading to the cessation of
+                        suffering’; … ‘These are the taints’; … ‘This is the origin of the taints’; … ‘This is the
+                        cessation of the taints’; … ‘This is the way leading to the cessation of the taints.’</i>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Когда́ он зна́ет и ви́дит так, его́ ум
+                      освобожда́ется от пятна́ чу́вственного жела́ния, от пятна́ существова́ния, от пятна́ неве́дения.
+                      Когда́ он освободи́лся, прихо́дит зна́ние: «Он освобождён». Он понима́ет: «Рожде́ние
+                      уничто́жено, свята́я жизнь прожита́, сде́лано то, что сле́довало сде́лать, не бу́дет бо́лее
+                      появле́ния в како́м-ли́бо состоя́нии существова́ния».</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"When he knows and sees
+                        thus, his mind is liberated from the taint of sensual desire, from the taint of being, and
+                        from the taint of ignorance. When it is liberated there comes the knowledge: ‘It is
+                        liberated.’ He understands: ‘Birth is destroyed, the holy life has been lived, what had to be
+                        done has been done, there is no more coming to any state of being.’</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">[Э́то] подо́бно тому́, как е́сли бы о́зеро в
+                      го́рной впа́дине бы́ло чи́стым, споко́йным, прозра́чным. И челове́к с хоро́шим зре́нием, сто́я
+                      на берегу́, мог бы ви́деть ра́кушки|раку́шки, гра́вий и га́льку, проплыва́ющие и отдыха́ющие
+                      ста́и рыб. Он мог бы поду́мать: «Вот, есть э́то о́зеро – чи́стое, споко́йное, прозра́чное. И
+                      вот, здесь есть э́ти ра́кушки|раку́шки, гра́вий, га́лька, а та́кже э́ти проплыва́ющие и
+                      отдыха́ющие ста́и рыб». То́чно так же мона́х понима́ет в соотве́тствии с действи́тельностью:
+                      «Э́то – страда́ние… Рожде́ние уничто́жено, свята́я жизнь прожита́, сде́лано то, что сле́довало
+                      сде́лать, не бу́дет бо́лее появле́ния в како́м-ли́бо состоя́нии существова́ния».</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Just as if there were a
+                        lake in a mountain recess, clear, limpid, and undisturbed, so that a man with good sight
+                        standing on the bank could see shells, gravel, and pebbles, and also shoals of fish swimming
+                        about and resting, he might think: ‘There is this lake, clear, limpid, and undisturbed, and
+                        there are these shells, gravel, and pebbles, and also these shoals of fish swimming about and
+                        resting.’ So too, a bhikkhu understands as it actually is: ‘This is suffering.’ … He
+                        understands: ‘Birth is destroyed, the holy life has been lived, what had to be done has been
+                        done, there is no more coming to any state of being.’</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a9"></a>Арахант</b>
+                    </font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Мона́хи, тако́й мона́х зовётся отше́льником,
+                      жрецо́м, кото́рый соверши́л купа́ние, кото́рый дости́г зна́ния, свято́й учёный, благоро́дный,
+                      арахант. </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Bhikkhus, a bhikkhu such as
+                        this is called a recluse, a brahmin, one who has been washed, one who has attained to
+                        knowledge, a holy scholar, a noble one, an arahant.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом мона́х явля́ется
+                      отше́льником? Он успоко́ил плохи́е, неблагие состоя́ния [ума́], кото́рые загрязня́ют, веду́т к
+                      но́вому существова́нию, создаю́т пробле́мы, созрева́ют в страда́нии, веду́т к бу́дущему
+                      рожде́нию, старе́нию, сме́рти. Вот каки́м о́бразом мона́х явля́ется отше́льником.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And how is a bhikkhu a
+                        recluse? He has quieted down evil unwholesome states that defile, bring renewal of being, give
+                        trouble, ripen in suffering, and lead to future birth, ageing, and death. That is how a
+                        bhikkhu is a recluse.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом мона́х явля́ется жрецо́м? Он
+                      вы́дворил плохи́е, неблагие состоя́ния… веду́т к бу́дущему рожде́нию, старе́нию, сме́рти. Вот
+                      каки́м о́бразом мона́х явля́ется жрецо́м.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And how is a bhikkhu a
+                        brahmin? He has expelled evil unwholesome states that defile … and lead to future birth,
+                        ageing, and death. That is how a bhikkhu is a brahmin.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="2"></a>И каки́м о́бразом мона́х
+                      явля́ется тем, кто соверши́л купа́ние?<sup><a href="#link2">2</a></sup> Он смыл плохи́е,
+                      неблагие состоя́ния… </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And how is a bhikkhu one
+                        who has been washed? He has washed off evil unwholesome states that defile … and lead to
+                        future birth, ageing, and death. That is how a bhikkhu is one who has been washed.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом мона́х дости́г зна́ния? Он
+                      позна́л плохи́е, неблагие состоя́ния… </font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And how is a bhikkhu one
+                        who has attained to knowledge? He has known evil unwholesome states that defile … and lead to
+                        future birth, ageing, and death. That is how a bhikkhu is one who has attained to
+                        knowledge.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="3"></a>И каки́м о́бразом мона́х
+                      явля́ется святы́м учёным?<sup><a href="#link3">3</a></sup> Плохи́е, неблагие состоя́ния,
+                      кото́рые загрязня́ют, веду́т к но́вому существова́нию, создаю́т пробле́мы, созрева́ют в
+                      страда́нии, веду́т к бу́дущему рожде́нию, старе́нию, сме́рти – стекли́ с него́. Вот каки́м
+                      о́бразом мона́х явля́ется святы́м учёным.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And how is a bhikkhu a holy
+                        scholar? The evil unwholesome states that defile … and lead to future birth, ageing, and
+                        death, have streamed away from him. That is how a bhikkhu is a holy scholar.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом мона́х явля́ется
+                      благоро́дным? Плохи́е, неблагие состоя́ния, кото́рые загрязня́ют… – далеки́ от него́. Вот каки́м
+                      о́бразом мона́х явля́ется благоро́дным.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And how is a bhikkhu a
+                        noble one? Evil unwholesome states that defile … and lead to future birth, ageing, and death,
+                        are far away from him. That is how a bhikkhu is a noble one.</i></font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И каки́м о́бразом мона́х явля́ется арахантом?
+                      Плохи́е, неблагие состоя́ния, кото́рые загрязня́ют… – далеки́ от него́. Вот каки́м о́бразом
+                      мона́х явля́ется арахантом.</font>
+                  </div>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And how is a bhikkhu an
+                        arahant? Evil unwholesome states that defile, bring renewal of being, give trouble, ripen in
+                        suffering, and lead to future birth, ageing, and death, are far away from him. That is how a
+                        bhikkhu is an arahant."</i></font>
+                  </div>
+                  <font face="Arial, Helvetica, sans-serif" size="2"> Так сказа́л Благослове́нный. Мона́хи бы́ли
+                    дово́льны и восхи́тились|восхити́лись слова́ми Благослове́нного.</font>
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>That is what the Blessed One
+                        said. The bhikkhus were satisfied and delighted in the Blessed One's words.</i></font>
+                  </div>
+
+
+
+                </td>
+              </tr>
+            </table>
+            <br />
+            <br />
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a href="#1"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="14" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+                      style='font-size:18pt;font-family:"Wingdings 3";'></span></font>
+                </td>
+                <td height="14" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link1"></a>
+                      <font color="#999966">SV:
+                        Это, как и остальные два знания, раскрываются по стандартной формуле,
+                        так же, как, например, в <a href="mn4-bhaya-bherava-sutta-sb.htm">МН
+                          4</a>.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#2"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link2"></a>
+                      <font color="#999966">Бодхи:
+                        Слово нхатака (совершивший омовение) означает брахмана, который
+                        в конце ученичества у своего учителя совершает церемониальное
+                        купание, отмечая тем самым окончание своей тренировки.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#3"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link3"></a>
+                      <font color="#999966">Бодхи:
+                        Соттхия. Этим словом обозначался брахман, хорошо знающий Веды.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <br />
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr bgcolor="#F4EFBD">
+                <td class="bottom" colspan="4" height="2">
+                  <div align="center">
+                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="4" cellspacing="0" width="70%">
+              <tr>
+                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm" style="border:0px;"
+                    title="вернуться к разделу">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                  </a></td>
+                <td class="bottom" height="2" valign="middle" width="1%"> <a href="#" style="border:0px;"
+                    title="вернуться наверх">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                  </a></td>
+                <td height="2" valign="top" width="32%">
+                  <div align="center">
+                    <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                      <noindex><!--LiveInternet counter-->
+                        <script type="text/javascript">
+                          new Image().src = "//counter.yadro.ru/hit?r" +
+                            escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                              ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                            ";h" + escape(document.title.substring(0, 150)) +
+                            ";" + Math.random();</script><!--/LiveInternet--><!--LiveInternet logo--><a
+                          href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1"
+                            src="//counter.yadro.ru/logo?42.6" title="LiveInternet"
+                            width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                        <span id="spylog2031418"></span>
+                        <script type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                            (("https:" == document.location.protocol) ? "s" : "") +
+                            "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                        <!--SpyLOG-->
+                      </noindex>
+                    </font>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="19%">
+                  <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                      <font color="C7B683">٭</font>
+                    </span>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="37%">
+                  <div align="right">
+                    <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                      style="font-size:7pt; font-family: Arial;">©
+                      theravada.ru – при копировании материалов<br />
+                      просьба ставить прямую ссылку на наш сайт.<br />
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <script type="text/javascript">
+    function viewport() {
+      var e = window, a = 'inner';
+      if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+      return { width: e[a + 'Width'], height: e[a + 'Height'] }
+    }
+    var screen = viewport();
+
+    if (screen.width < 1002) {
+      // Content
+      document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+      // Comments
+      document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+      // Title
+      document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+      document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+      // Text
+      document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+    } else {
+      if (screen.width < 1280) {
+        // Content
+        document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Comments
+        document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Title
+        document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+        document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+        // Text
+        document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+      }
+    }
+
+  </script>
+</body>
+
+</html>

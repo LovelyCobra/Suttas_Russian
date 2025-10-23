@@ -1,0 +1,1964 @@
+<html>
+
+<head>
+  <title>Махасиханада-сутта: Большое наставление о львином рыке :: МН 12</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+  <meta
+    content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+    name="keywords" />
+  <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript">
+    //Пути к директориям
+    var pathToScript = '/Index/Scripts/';
+    var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+    //-----------------------------------
+    var request = false;
+    try {
+      request = new XMLHttpRequest();
+    }
+    catch (trymicrosoft) {
+      try {
+        request = new ActiveXObject("Msxml2.XMLHTTP");
+      }
+      catch (othermicrosoft) {
+        try {
+          request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        catch (failed) {
+          request = false;
+        }
+      }
+    }
+
+    if (!request) {
+      alert("Ошибка в работе");
+    }
+
+    function sendRequest() {
+      var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+      request.open("GET", url, true);
+      request.onreadystatechange = getResponse;
+      request.send(null);
+    }
+
+    function getResponse() {
+      if (request.readyState == 4) {
+        if (request.status == 200) {
+          var response = request.responseText;
+          var articles = request.responseText.split(' ');
+          var random = Math.round((Math.random() * (articles.length - 2)));
+          window.open("http://" + document.domain + articles[random], "_self");
+        }
+      }
+    }
+  </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+  text="#333300" topmargin="1" vlink="#996633">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" height="9717" style="background:#FFFFCC;"
+    width="1000">
+    <tr>
+      <td>
+        <div align="center">
+          <style>
+            a {
+              border: 0px solid #FFFFCC;
+              text-decoration: none
+            }
+
+            a:hover {
+              font-family: Arial;
+              border: 0px solid #996633;
+              color: #000000;
+              text-decoration: none;
+              background-color: #D8D68B;
+              padding: 0;
+            }
+
+            a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            div {
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            .a {
+              TEXT-INDENT: 2em;
+              margin-bottom: 10px;
+            }
+
+            .bottom a:hover {
+              color: #000000;
+              font-family: Arial;
+              text-decoration: none;
+              background: none;
+            }
+
+            .bottom a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none;
+            }
+
+            body {
+              background: #FFFFCC;
+              overflow-y: scroll
+            }
+
+            p {
+              TEXT-INDENT: 0em
+            }
+          </style> <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td colspan="2"> </td>
+              <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                  <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                     
+                      Учение Старцев </b></font>
+                </i></td>
+              <td width="5%"> </td>
+            </tr>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                  <tr>
+                    <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                        <div style='font-size:24.0pt;font-family:"Arial"'>
+                          <div align="center">«</div>
+                        </div>
+                      </a></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+              </td>
+              <td bgcolor="#CBB079" width="3%"> </td>
+              <td width="5%"> </td>
+            </tr>
+            <tr>
+              <td bgcolor="#CBB079"> </td>
+              <td rowspan="2"> </td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </table><br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+            <tr>
+              <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm" style="border:0px;"
+                  title="вернуться к разделу">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная сутта">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>
+                    <font size="-4"> </font>₪
+                  </div>
+                </a>
+              </td>
+              <td height="2" width="44%">  </td>
+              <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span>
+              </td>
+              <td class="bottom" height="2" width="19%">
+                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+              </td>
+            </tr>
+            <tr bgcolor="#F4EFBD">
+              <td colspan="4" height="3">
+                <div align="center">
+                  <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                  </font>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div align="center"><br />
+            <table border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr>
+                <td>
+                  <div align="center">
+                    <font face="Times New Roman, Times, serif" size="5">Махасиханада-сутта:
+                      Большое наставление о львином рыке<br />
+                      <font size="3">МН 12</font>
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table><br />
+            <table border="0" cellpadding="0" cellspacing="5" width="70%">
+              <tr>
+                <td height="2" width="61%"> </td>
+                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                    <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                        <div align="right"><i>
+                            <font color="#996633"><span style="font-size:8pt;font-family:Arial;"><span
+                                  style="font-size:8pt;font-family:Arial;"><span
+                                    style="font-size:8pt;font-family:Arial;"><span
+                                      style="font-size:8pt;font-family:Arial;"><span
+                                        style="font-size:8pt;font-family:Arial;"><span
+                                          style="font-size:8pt;font-family:Arial;"><span
+                                            style="font-size:8pt;font-family:Arial;"><span
+                                              style="font-size:8pt;font-family:Arial;">редакция
+                                              перевода: 05.02.2024</span></span></span><br />
+                                        Перевод с английского: SV<br />
+                                        <br />
+                                        источник: <br />
+                                        "Majjhima Nikaya by Bodhi &amp; Nyanamoli, p. 164"
+                                      </span></span></span></span></span></font>
+                          </i></div>
+                      </span></div>
+                  </span></td>
+                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+              </tr>
+            </table><br />
+            <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+              <tr>
+
+                <td height="7657" style="text-align: justify" valign="top">
+
+                  <font face="Georgia, Times New Roman, Times, serif" size="2"> <b>Содержа́ние</b><br /> </font>
+
+                  <font face="Arial, Helvetica, sans-serif" size="2"> <a href="#a1">Де́сять сил Татхагаты </a><br /> <a
+                      href="#a2">Четы́ре ви́да неустраши́мости</a><br /> <a href="#a3">Во́семь собра́ний</a><br /> <a
+                      href="#a4">Четы́ре ви́да рожде́ния</a><br /> <a href="#a5">Пять уде́лов и ниббана</a><br /> <a
+                      href="#a6">Аске́за бодхисатты</a><br /> <a href="#a7">Воззре́ния жрецо́в и отше́льников</a><br />
+                  </font>
+
+                  <font color="#996633" face="Times New Roman, Times, serif" size="5"><b><br /> <a name="1"></a><a
+                        name="2"></a><a name="3"></a>Т</b></font>
+
+                  <font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал. Одна́жды Благослове́нный прожива́л
+                    во́зле Весали в ро́ще, что к за́паду от го́рода. И в то вре́мя Сунаккхатта, сын Личчхави, не так
+                    давно́ оста́вил э́ту Дха́мму и Винаю<sup><a href="#link1">1</a></sup>. В собра́нии [люде́й] из
+                    Весали он де́лал тако́е утвержде́ние: «У отше́льника Готамы нет каки́х-ли́бо сверхчелове́ческих
+                    состоя́ний, како́го-ли́бо отли́чия в зна́нии и ви́дении|виде́нии, досто́йного благоро́дных<sup><a
+                        href="#link2">2</a></sup>. Отше́льник Готама у́чит Дха́мме, вы́думанной [со́бственным]
+                    размышле́нием, сле́дуя со́бственному вопроша́нию по ме́ре того́, как оно́ происхо́дит в нём.
+                    [Одна́ко] когда́ он у́чит кого́-ли́бо [э́той] Дха́мме, э́то ведёт того́, кто практику́ет её, к
+                    по́лному уничтоже́нию страда́ний<sup><a href="#link3">3</a></sup>». </font>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Thus have I heard. On one
+                        occasion the Blessed One was living at Vesālī in the grove outside the city to the west. Now on
+                        that occasion Sunakkhatta, son of the Licchavis, had recently left this Dhamma and Discipline.
+                        He was making this statement before the Vesālī assembly: "The recluse Gotama does not have any
+                        superhuman states, any distinction in knowledge and vision worthy of the noble ones. The recluse
+                        Gotama teaches a Dhamma merely hammered out by reasoning, following his own line of inquiry as
+                        it occurs to him, and when he teaches the Dhamma to anyone, it leads him when he practises it to
+                        the complete destruction of suffering."</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И тогда́, у́тром, достопочте́нный Сарипутта
+                      оде́лся, взял ча́шу и вне́шнее одея́ние и пошёл в Весали за подая́ниями. Он услы́шал, как
+                      Сунаккхатта, сын Личчхави, де́лает тако́е утвержде́ние в собра́нии [люде́й] из Весали. Походи́в по
+                      Весали за подая́ниями, верну́вшись с хожде́ния за подая́ниями, по́сле приня́тия пи́щи он
+                      отпра́вился к Благослове́нному и, поклони́вшись ему́, сел ря́дом и рассказа́л Благослове́нному о
+                      том, что говори́л Сунаккхатта. [Благослове́нный отве́тил]:</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Then, when it was morning, the
+                        venerable Sāriputta dressed, and taking his bowl and outer robe, went into Vesālī for alms. Then
+                        he heard Sunakkhatta, son of the Licchavis, making this statement before the Vesālī assembly.
+                        When he had wandered for alms in Vesālī and had returned from his almsround, after his meal he
+                        went to the Blessed One, and after paying homage to him, he sat down at one side and told the
+                        Blessed One what Sunakkhatta was saying.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> Сарипутта, э́тот заблу́дший челове́к Сунаккхатта
+                      зол и говори́т свои́ слова́ из зло́бы. Ду́мая о том, что́бы обесче́стить Татхагату, он в
+                      действи́тельности лишь восхваля́ет его́. Ведь э́то явля́ется похвало́й Татхагате, когда́ кто-ли́бо
+                      говори́т о нём: «Когда́ он у́чит кого́-ли́бо Дха́мме, э́то ведёт того́, кто практику́ет её, к
+                      по́лному уничтоже́нию страда́ний». </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> The Blessed One said:
+                        "Sāriputta, the misguided man Sunakkhatta is angry and his words are spoken out of anger.
+                        Thinking to discredit the Tathāgata, he actually praises him; for it is praise of the Tathāgata
+                        to say of him: ‘When he teaches the Dhamma to anyone, it leads him when he practises it to the
+                        complete destruction of suffering.’</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, э́тот заблу́дший челове́к Сунаккхатта
+                      никогда́ не смо́жет сде́лать обо мне́ вы́вод в соотве́тствии с Дха́ммой: «Э́тот Благослове́нный –
+                      тот, кто дости́г соверше́нства, по́лностью просветлённый, соверше́нный|совершённый в зна́нии и
+                      поведе́нии, высоча́йший, знато́к миро́в, непревзойдённый вождь тех, кто до́лжен обузда́ть себя́,
+                      учи́тель бого́в и люде́й, просветлённый, благослове́нный».</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Sāriputta, this misguided
+                        man Sunakkhatta will never infer of me according to Dhamma: ‘That Blessed One is accomplished,
+                        fully enlightened, perfect in true knowledge and conduct, sublime, knower of worlds,
+                        incomparable leader of persons to be tamed, teacher of gods and humans, enlightened,
+                        blessed.’</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="4"></a>И он никогда́ не смо́жет сде́лать
+                      обо мне́ вы́вод в соотве́тствии с Дха́ммой: «Э́тот Благослове́нный – тот, кто владе́ет разли́чными
+                      ви́дами сверхъесте́ственных сил: бу́дучи одни́м, он стано́вится мно́гими… <sup><a
+                          href="#link4">4</a></sup> так влия́ет на те́ло, что достига́ет да́же ми́ра Бра́хмы». </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "And he will never infer of
+                        me according to Dhamma: ‘That Blessed One enjoys the various kinds of supernormal power: having
+                        been one, he becomes many; having been many, he becomes one; he appears and vanishes; he goes
+                        unhindered through a wall, through an enclosure, through a mountain, as though through space; he
+                        dives in and out of the earth as though it were water; he walks on water without sinking as
+                        though it were earth; seated cross-legged, he travels in space like a bird; with his hand he
+                        touches and strokes the moon and sun so powerful and mighty; he wields bodily mastery even as
+                        far as the Brahma-world.’</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И он никогда́ не смо́жет сде́лать обо мне́ вы́вод
+                      в соотве́тствии с Дха́ммой: «За счёт элеме́нта боже́ственного у́ха, очи́щенного и превосходя́щего
+                      челове́ческое, Благослове́нный слы́шит о́ба ви́да зву́ков: боже́ственные и челове́ческие, далёкие
+                      и бли́зкие».</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "And he will never infer of
+                        me according to Dhamma: ‘With the divine ear element, which is purified and surpasses the human,
+                        that Blessed One hears both kinds of sounds, the heavenly and the human, those that are far as
+                        well as near.’</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="5"></a>И он никогда́ не смо́жет сде́лать
+                      обо мне́ вы́вод в соотве́тствии с Дха́ммой: «Э́тот Благослове́нный зна́ет умы́ други́х суще́ств,
+                      други́х ли́чностей, напра́вив на них свой со́бственный ум… <sup><a href="#link5">5</a></sup>
+                      не-освобождённый ум как не-освобождённый ум».</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "And he will never infer of
+                        me according to Dhamma: ‘That Blessed One encompasses with his own mind the minds of other
+                        beings, other persons. He understands a mind affected by lust as affected by lust and a mind
+                        unaffected by lust as unaffected by lust; he understands a mind affected by hate as affected by
+                        hate and a mind unaffected by hate as unaffected by hate; he understands a mind affected by
+                        delusion as affected by delusion and a mind unaffected by delusion as unaffected by delusion; he
+                        understands a contracted mind as contracted and a distracted mind as distracted; he understands
+                        an exalted mind as exalted and an unexalted mind as unexalted; he understands a surpassed mind
+                        as surpassed and an unsurpassed mind as unsurpassed; he understands a concentrated mind as
+                        concentrated and an unconcentrated mind as unconcentrated; he understands a liberated mind as
+                        liberated and an unliberated mind as unliberated.’</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a1"></a>Де́сять сил
+                        Татхагаты</b></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> <a name="6"></a>Сарипутта, у Татхагаты есть э́ти
+                      де́сять сил Татхагаты, облада́я кото́рыми, он занима́ет ме́сто быка́-вожака́ ста́да, рычи́т свои́м
+                      льви́ным ры́ком на собра́ниях, приво́дит в движе́ние колесо́ Бра́хмы<sup><a
+                          href="#link6">6</a></sup>. Каки́е де́сять? </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Sāriputta, the Tathāgata has
+                        these ten Tathāgata's powers, possessing which he claims the herd-leader's place, roars his
+                        lion's roar in the assemblies, and sets rolling the Wheel of Brahmā. What are the ten?</i>
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="7"></a> Татхагата понима́ет в
+                      соотве́тствии с действи́тельностью возмо́жное как возмо́жное, а невозмо́жное|невозможно́е как
+                      невозмо́жное|невозможно́е<sup><a href="#link7">7</a></sup>. И э́то си́ла Татхагаты, кото́рая есть
+                      у Татхагаты, облада́я кото́рой, он занима́ет ме́сто быка́ – вожака́ ста́да, рычи́т свои́м льви́ным
+                      ры́ком на собра́ниях, приво́дит в движе́ние колесо́ Бра́хмы. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(1) "Here, the Tathāgata
+                        understands as it actually is the possible as possible and the impossible as impossible. And
+                        that is a Tathāgata's power that the Tathāgata has, by virtue of which he claims the
+                        herd-leader's place, roars his lion's roar in the assemblies, and sets rolling the Wheel of
+                        Brahmā.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> <a name="8"></a>
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, Татхагата понима́ет в
+                      соотве́тствии с действи́тельностью результа́т сверше́ния предпри́нятых де́йствий в про́шлом,
+                      бу́дущем, настоя́щем в пла́не возмо́жностей и причи́н<sup><a href="#link8">8</a></sup>. Э́то
+                      та́кже си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(2) "Again, the Tathāgata
+                        understands as it actually is the results of actions undertaken, past, future, and present, by
+                        way of possibilities and causes. That too is a Tathāgata's power...</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, Татхагата понима́ет в
+                      соотве́тствии с действи́тельностью пути́, веду́щие во все|всё уде́лы<sup><a
+                          href="#link9">9</a></sup>. И э́то си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(3) "Again, the Tathāgata
+                        understands as it actually is the ways leading to all destinations. That too is a Tathāgata's
+                        power...</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="10"></a>
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, Татхагата понима́ет в
+                      соотве́тствии с действи́тельностью мир с его́ многочи́сленными и разнообра́зными
+                      элеме́нтами<sup><a href="#link10">10</a></sup>. Э́то та́кже си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(4) "Again, the Tathāgata
+                        understands as it actually is the world with its many and different elements. That too is a
+                        Tathāgata's power...</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="11"></a>
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, Татхагата понима́ет в
+                      соотве́тствии с действи́тельностью разнообра́зие в предрасполо́женностях суще́ств<sup><a
+                          href="#link11">11</a></sup>. Э́то та́кже си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(5) "Again, the Tathāgata
+                        understands as it actually is how beings have different inclinations. That too is a Tathāgata's
+                        power...</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="12"></a>
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, Татхагата понима́ет в
+                      соотве́тствии с действи́тельностью диспози́цию ка́честв други́х суще́ств, други́х
+                      ли́чностей<sup><a href="#link12">12</a></sup>. Э́то та́кже си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(6) "Again, the Tathāgata
+                        understands as it actually is the disposition of the faculties of other beings, other persons.
+                        That too is a Tathāgata's power...</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, Татхагата понима́ет в
+                      соотве́тствии с действи́тельностью загрязне́ние, очище́ние и вы́ход [к бо́лее высо́кому
+                      состоя́нию] в отноше́нии джхан, освобожде́ний, сосредото́чений и [медитати́вных] достиже́ний. Э́то
+                      та́кже си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(7) "Again, the Tathāgata
+                        understands as it actually is the defilement, the cleansing, and the emergence in regard to the
+                        jhānas, liberations, concentrations, and attainments. That too is a Tathāgata's power...</i>
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="13"></a>
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, Татхагата вспомина́ет свои́
+                      многочи́сленные про́шлые жи́зни…<sup><a href="#link13">13</a></sup> Э́то та́кже си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(8) "Again, the Tathāgata
+                        recollects his manifold past lives, that is, one birth, two births, three births, four births,
+                        five births, ten births, twenty births, thirty births, forty births, fifty births, a hundred
+                        births, a thousand births, a hundred thousand births, many aeons of world-contraction, many
+                        aeons of world-expansion, many aeons of world-contraction and expansion: ‘There I was so named,
+                        of such a clan, with such an appearance, such was my nutriment, such my experience of pleasure
+                        and pain, such my life-term; and passing away from there, I reappeared elsewhere; and there too
+                        I was so named, of such a clan, with such an appearance, such was my nutriment, such my
+                        experience of pleasure and pain, such my life-term; and passing away from there, I reappeared
+                        here.’ Thus with their aspects and particulars he recollects his manifold past lives. That too
+                        is a Tathāgata's power … </i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="14"></a>
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, за счёт боже́ственного
+                      гла́за, очи́щенного и превосходя́щего челове́ческий, Татхагата ви́дит смерть и перерожде́ние
+                      суще́ств…<sup><a href="#link14">14</a></sup> Э́то та́кже си́ла Татхагаты…
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(9) "Again, with the divine
+                        eye, which is purified and surpasses the human, the Tathāgata sees beings passing away and
+                        reappearing, inferior and superior, fair and ugly, fortunate and unfortunate. I understood how
+                        beings pass on according to their actions thus: ‘These worthy beings who were ill conducted in
+                        body, speech, and mind, revilers of noble ones, wrong in their views, giving effect to wrong
+                        view in their actions, on the dissolution of the body, after death, have reappeared in a state
+                        of deprivation, in a bad destination, in perdition, even in hell; but these worthy beings who
+                        were well conducted in body, speech, and mind, not revilers of noble ones, right in their views,
+                        giving effect to right view in their actions, on the dissolution of the body, after death, have
+                        reappeared in a good destination, even in the heavenly world.’ Thus with the divine eye, which
+                        is purified and surpasses the human, I saw beings passing away and reappearing, inferior and
+                        superior, fair and ugly, fortunate and unfortunate, and he understands how beings pass on
+                        according to their actions. That too is a Tathāgata's power … </i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">
+                      <font face="Times New Roman, Times, serif" size="4">*</font> Да́лее, за счёт уничтоже́ния пя́тен
+                      [у́мственных загрязне́ний] Татхагата здесь и сейча́с вхо́дит в незапя́тнанное освобожде́ние ума́,
+                      освобожде́ние му́дростью, и пребыва́ет в них, реализова́в э́ти состоя́ния для себя́ посре́дством
+                      прямо́го зна́ния. Э́то та́кже си́ла Татхагаты, кото́рая есть у Татхагаты, облада́я кото́рой, он
+                      занима́ет ме́сто быка́ – вожака́ ста́да, рычи́т свои́м льви́ным ры́ком на собра́ниях, приво́дит в
+                      движе́ние колесо́ Бра́хмы.
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(10) "Again, by realising for
+                        himself with direct knowledge, the Tathāgata here and now enters upon and abides in the
+                        deliverance of mind and deliverance by wisdom that are taintless with the destruction of the
+                        taints. That too is a Tathāgata's power that the Tathāgata has, by virtue of which he claims the
+                        herd-leader's place, roars his lion's roar in the assemblies, and sets rolling the Wheel of
+                        Brahmā.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">У Татхагаты есть э́ти де́сять сил Татхагаты,
+                      облада́я кото́рыми, он занима́ет ме́сто быка́ – вожака́ ста́да, рычи́т свои́м льви́ным ры́ком на
+                      собра́ниях, приво́дит в движе́ние колесо́ Бра́хмы. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"The Tathāgata has these ten
+                        Tathāgata's powers, possessing which he claims the herd-leader's place, roars his lion's roar in
+                        the assemblies, and sets rolling the Wheel of Brahmā.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, когда́ я зна́ю и ви́жу та́к, то е́сли
+                      кто-ли́бо ска́жет обо мне́: «У отше́льника Готамы нет каки́х-ли́бо сверхчелове́ческих состоя́ний,
+                      како́го-ли́бо отли́чия в зна́нии и ви́дении|виде́нии, что досто́йно благоро́дных. Отше́льник
+                      Готама у́чит Дха́мме, вы́думанной [лишь свои́м] размышле́нием, сле́дуя со́бственному рассмотре́нию
+                      по ме́ре того́, как оно́ происхо́дит в нём» – е́сли он не оста́вит э́того утвержде́ния, э́того
+                      состоя́ния ума́, не оста́вит э́того воззре́ния, тогда́, как е́сли бы его́ туда́ затяну́ли си́лой,
+                      он ока́жется в аду́. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, when I know and
+                        see thus, should anyone say of me: ‘The recluse Gotama does not have any superhuman states, any
+                        distinction in knowledge and vision worthy of the noble ones. The recluse Gotama teaches a
+                        Dhamma merely hammered out by reasoning, following his own line of inquiry as it occurs to
+                        him’—unless he abandons that assertion and that state of mind and relinquishes that view, then
+                        as surely as if he had been carried off and put there he will wind up in hell. Just as a bhikkhu
+                        possessed of virtue, concentration, and wisdom would here and now enjoy final knowledge, so it
+                        will happen in this case, I say, that unless he abandons that assertion and that state of mind
+                        and relinquishes that view, then as surely as if he had been carried off and put there he will
+                        wind up in hell.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно тому́, как мона́х, наделённый
+                      нра́вственностью, сосредото́чением, му́дростью, здесь и сейча́с мог бы владе́ть оконча́тельным
+                      зна́нием, то и в э́том слу́чае [с Сунаккхаттой] я говорю́, что е́сли он не оста́вит э́того
+                      утвержде́ния, э́того состоя́ния ума́, не оста́вит э́того воззре́ния – тогда́, как е́сли бы его́
+                      туда́ затяну́ли си́...</font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a2"></a>Четы́ре ви́да
+                        неустраши́мости</b></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, у Татхагаты есть э́ти четы́ре ви́да
+                      неустраши́мости, облада́я кото́рыми он занима́ет ме́сто быка́-вожака́ ста́да, рычи́т свои́м
+                      льви́ным ры́ком на собра́ниях, приво́дит в движе́ние колесо́ Бра́хмы. Каки́е четы́ре?</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, the Tathāgata has
+                        these four kinds of intrepidity, possessing which he claims the herd-leader's place, roars his
+                        lion's roar in the assemblies, and sets rolling the Wheel of Brahmā. What are the four?</i>
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я не ви́жу никаки́х основа́ний, на кото́рых
+                      како́й-ли́бо отше́льник, и́ли жрец, и́ли бог, и́ли Мара, и́ли Бра́хма, и́ли кто-ли́бо ещё в ми́ре
+                      мог бы в соотве́тствии с Дха́ммой обвини́ть меня́ так: «Хотя́ ты утве́рждаешь, что по́лностью
+                      просветлён, ты не по́лностью просветлён в э́тих вещах». И поско́льку я не ви́жу никаки́х
+                      основа́ний для э́того, я пребыва́ю в безопа́сности, без стра́ха, в неустраши́мости. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Here, I see no ground on
+                        which any recluse or brahmin or god or Māra or Brahmā or anyone else at all in the world could,
+                        in accordance with the Dhamma, accuse me thus: ‘While you claim to be fully enlightened, you are
+                        not fully enlightened about these things.’ And seeing no ground for that, I abide in safety,
+                        fearlessness, and intrepidity.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я не ви́жу никаки́х основа́ний, на кото́рых
+                      како́й-ли́бо отше́льник… и́ли кто-ли́бо ещё мог бы обвини́ть меня́ так: «Хотя́ ты утве́рждаешь,
+                      что уничто́жил пятна́, ты не уничто́жил э́ти пятна́». И поско́льку я не ви́жу никаки́х основа́ний
+                      для э́того, я пребыва́ю в безопа́сности, без стра́ха, в неустраши́мости. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"I see no ground on which any
+                        recluse … or anyone at all could accuse me thus: ‘While you claim to be one who has destroyed
+                        the taints, you have not destroyed these taints.’ And seeing no ground for that, I abide in
+                        safety, fearlessness, and intrepidity.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я не ви́жу никаки́х основа́ний, на кото́рых
+                      како́й-ли́бо отше́льник… и́ли кто-ли́бо ещё мог бы обвини́ть меня́ так: «Те ве́щи, кото́рые ты
+                      называ́ешь препя́тствиями, не мо́гут препя́тствовать тому́, кто занима́ется и́ми». И поско́льку я
+                      не ви́жу никаки́х основа́ний для э́того, я пребыва́ю в безопа́сности, без стра́ха, в
+                      неустраши́мости. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"I see no ground on which any
+                        recluse … or anyone at all could accuse me thus: ‘Those things called obstructions by you are
+                        not able to obstruct one who engages in them.’ And seeing no ground for that, I abide in safety,
+                        fearlessness, and intrepidity.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я не ви́жу никаки́х основа́ний, на кото́рых
+                      како́й-ли́бо отше́льник… и́ли кто-ли́бо ещё мог бы обвини́ть меня́ так: «Когда́ ты у́чишь
+                      кого́-ли́бо Дха́мме, э́то не ведёт того́, кто практику́ет её, к по́лному уничтоже́нию страда́ний».
+                      И поско́льку я не ви́жу никаки́х основа́ний для э́того, я пребыва́ю в безопа́сности, без стра́ха,
+                      в неустраши́мости. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"I see no ground on which any
+                        recluse … or anyone at all could accuse me thus: ‘When you teach the Dhamma to someone, it does
+                        not lead him when he practises it to the complete destruction of suffering.’ And seeing no
+                        ground for that, I abide in safety, fearlessness, and intrepidity.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">У Татхагаты есть э́ти четы́ре ви́да
+                      неустраши́мости, облада́я кото́рыми он занима́ет ме́сто быка́-вожака́ ста́да, рычи́т свои́м
+                      льви́ным ры́ком на собра́ниях, приво́дит в движе́ние колесо́ Бра́хмы. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"A Tathāgata has these four
+                        kinds of intrepidity, possessing which he claims the herd-leader's place, roars his lion's roar
+                        in the assemblies, and sets rolling the Wheel of Brahmā.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, когда́ я зна́ю и ви́жу та́к, то е́сли
+                      кто-ли́бо ска́жет обо мне́… он ока́жется в аду́. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, when I know and
+                        see thus, should anyone say of me … he will wind up in hell.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a3"></a>Во́семь
+                        собра́ний</b></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, есть э́ти во́семь собра́ний. Каки́е
+                      во́семь? Собра́ние благородных вои́нов, собра́ние жрецо́в, собра́ние домохозя́ев, собра́ние
+                      отше́льников, собра́ние бого́в Четырёх Вели́ких Царе́й, собра́ние бого́в Тридцати́ Трёх, собра́ние
+                      свиты́ Мары, собра́ние Бра́хм. Облада́я э́тими четырьмя́ ви́дами неустраши́мости, Татхагата
+                      подхо́дит и вхо́дит в э́ти во́семь собра́ний. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, there are these
+                        eight assemblies. What are the eight? An assembly of nobles, an assembly of brahmins, an
+                        assembly of householders, an assembly of recluses, an assembly of gods of the heaven of the Four
+                        Great Kings, an assembly of gods of the heaven of the Thirty-three, an assembly of Māra's
+                        retinue, an assembly of Brahmās. Possessing these four kinds of intrepidity, the Tathāgata
+                        approaches and enters these eight assemblies.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я вспомина́ю, как подхо́дил ко мно́гим со́тням
+                      собра́ний благородных вои́нов… ко мно́гим со́тням собра́ний жрецо́в… ко мно́гим со́тням собра́ний
+                      домохозя́ев… ко мно́гим со́тням собра́ний отше́льников… ко мно́гим со́тням собра́ний бого́в
+                      Четырёх Вели́ких Царе́й… ко мно́гим со́тням собра́ний бого́в Тридцати́ Трёх… ко мно́гим со́тням
+                      собра́ний свиты́ Мары… ко мно́гим со́тням собра́ний Бра́хм. И ра́ньше я сиде́л с ни́ми там,
+                      разгова́ривал с ни́ми, вёл с ни́ми бесе́ды, одноклассно я не ви́жу никаки́х основа́ний для того́,
+                      что́бы страх и́ли робо́сть могли́ овладе́ть мной там. И поско́льку я не ви́жу никаки́х основа́ний
+                      для э́того, я пребыва́ю в безопа́сности, без стра́ха, в неустраши́мости. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"I recall having approached
+                        many hundred assemblies of nobles … many hundred assemblies of brahmins … many hundred
+                        assemblies of householders … many hundred assemblies of recluses … many hundred assemblies of
+                        gods of the heaven of the Four Great Kings … many hundred assemblies of gods of the heaven of
+                        the Thirty-three … many hundred assemblies of Māra's retinue … many hundred assemblies of
+                        Brahmās. And formerly I had sat with them there and talked with them and held conversations with
+                        them, yet I see no ground for thinking that fear or timidity might come upon me there. And
+                        seeing no ground for that, I abide in safety, fearlessness, and intrepidity. </i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, когда́ я зна́ю и ви́жу та́к, то е́сли
+                      кто-ли́бо ска́жет обо мне́… он ока́жется в аду́. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, when I know and
+                        see thus, should anyone say of me … he will wind up in hell.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a4"></a>Четы́ре ви́да
+                        рожде́ния</b></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, есть э́ти четы́ре ви́да рожде́ния.
+                      Каки́е четы́ре? Рожде́ние из яиц, рожде́ние из утробы, рожде́ние из вла́ги, спонта́нное рожде́ние.
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, there are these
+                        four kinds of generation. What are the four? Egg-born generation, womb-born generation,
+                        moisture-born generation, and spontaneous generation.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Что тако́е рожде́ние из яиц? Есть суще́ства,
+                      рожда́ющиеся, разбива́я скорлупу́ яиц; э́то называ́ется рожде́нием из яиц. Что тако́е рожде́ние из
+                      утробы? Есть суще́ства, рожда́ющиеся, разрывая́ оболочку; э́то называ́ется рожде́нием из утробы.
+                      Что тако́е рожде́ние из вла́ги? Есть суще́ства, рожда́ющиеся в гнило́й ры́бе, в гнило́м тру́пе, в
+                      гнило́й ка́ше, в cesspit и́ли в канализа́ции; э́то называ́ется рожде́нием из вла́ги. Что тако́е
+                      спонта́нное рожде́ние? Есть бо́ги и оби́татели ада, и не́которые лю́ди, и не́которые суще́ства в
+                      ни́зших ми́рах; э́то называ́ется спонта́нным рожде́нием. Э́то четы́ре ви́да рожде́ния. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "What is egg-born generation?
+                        There are these beings born by breaking out of the shell of an egg; this is called egg-born
+                        generation. What is womb-born generation? There are these beings born by breaking out from the
+                        caul; this is called womb-born generation. What is moisture-born generation? There are these
+                        beings born in a rotten fish, in a rotten corpse, in rotten porridge, in a cesspit, or in a
+                        sewer; this is called moisture-born generation. What is spontaneous generation? There are gods
+                        and denizens of hell and certain human beings and some beings in the lower worlds; this is
+                        called spontaneous generation. These are the four kinds of generation.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, когда́ я зна́ю и ви́жу та́к, то е́сли
+                      кто-ли́бо ска́жет обо мне́… он ока́жется в аду́. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, when I know and
+                        see thus, should anyone say of me … he will wind up in hell.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a5"></a>Пять уде́лов и
+                        ниббана</b></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, есть э́ти пять уде́лов. Каки́е пять?
+                      Ад, ца́рство живо́тных, ца́рство при́зраков, лю́ди, бо́ги. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, there are these
+                        five destinations. What are the five? Hell, the animal realm, the realm of ghosts, human beings,
+                        and gods.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я понима́ю ад, и путь, и до́рогу, веду́щие в ад.
+                      И я та́кже понима́ю, как тот, кто вошёл в э́тот путь, по распа́де те́ла, по́сле сме́рти,
+                      перероди́тся в состоя́нии лише́ния, в несча́стном уде́ле, в поги́бели, да́же в аду́. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> (1) "I understand hell, and
+                        the path and way leading to hell. And I also understand how one who has entered this path will,
+                        on the dissolution of the body, after death, reappear in a state of deprivation, in an unhappy
+                        destination, in perdition, in hell.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я понима́ю ца́рство живо́тных, и путь, и до́рогу,
+                      веду́щие в ца́рство живо́тных. И я та́кже понима́ю, как тот, кто вошёл в э́тот путь, по распа́де
+                      те́ла, по́сле сме́рти, перероди́тся в ца́рстве живо́тных. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>(2) "I understand the animal
+                        realm, and the path and way leading to the animal realm. And I...(truncated 7723
+                        characters)...ng for himself with direct knowledge, he here and now enters upon and abides in
+                        the deliverance of mind and deliverance by wisdom that are taintless with the destruction of the
+                        taints, and is experiencing exclusively pleasant feelings. Suppose there were a pond with clean,
+                        agreeable, cool water, transparent, with smooth banks, delightful, and nearby a dense wood; and
+                        then a man scorched and exhausted by hot weather, weary, parched, and thirsty, came by a path
+                        going in one way only towards that same pond. Then a man with good sight on seeing him would
+                        say: ‘This person so behaves … that he will come to this same pond’; and then later on he sees
+                        that he has plunged into the pond, bathed, drunk, and relieved all his distress, fatigue, and
+                        fever and has come out again and is sitting or lying in the wood experiencing exclusively
+                        pleasant feelings. So too, by encompassing mind with mind … exclusively pleasant feelings. These
+                        are the five destinations.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, когда́ я зна́ю и ви́жу та́к, то е́сли
+                      кто-ли́бо ска́жет обо мне́: «У отше́льника Готамы нет каки́х-ли́бо сверхчелове́ческих состоя́ний,
+                      како́го-ли́бо отли́чия в зна́нии и ви́дении|виде́нии, что досто́йно благоро́дных. Отше́льник
+                      Готама у́чит Дха́мме, вы́думанной [лишь свои́м] размышле́нием, сле́дуя со́бственному рассмотре́нию
+                      по ме́ре того́, как оно́ происхо́дит в нём» – е́сли он не оста́вит э́того утвержде́ния, э́того
+                      состоя́ния ума́, не оста́вит э́того воззре́ния, тогда́, как е́сли бы его́ туда́ затяну́ли си́лой,
+                      он ока́жется в аду́. Подо́бно тому́, как мона́х, наделённый нра́вственностью, сосредото́чением,
+                      му́дростью, здесь и сейча́с мог бы владе́ть оконча́тельным зна́нием, то и в э́том слу́чае я
+                      говорю́, что е́сли он не оста́вит э́того утвержде́ния, э́того состоя́ния ума́, не оста́вит э́того
+                      воззре́ния – тогда́, как е́сли бы его́ туда́ затяну́ли си́лой, он ока́жется в аду́. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, when I know and
+                        see thus, should anyone say of me: ‘The recluse Gotama does not have any superhuman states, any
+                        distinction in knowledge and vision worthy of the noble ones. The recluse Gotama teaches a
+                        Dhamma merely hammered out by reasoning, following his own line of inquiry as it occurs to
+                        him’—unless he abandons that assertion and that state of mind and relinquishes that view, then
+                        as surely as if he had been carried off and put there he will wind up in hell. Just as a bhikkhu
+                        possessed of virtue, concentration, and wisdom would here and now enjoy final knowledge, so it
+                        will happen in this case, I say, that unless he abandons that assertion and that state of mind
+                        and relinquishes that view, then as surely as if he had been carried off and put there he will
+                        wind up in hell.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b> <a name="a6"></a>Аске́за
+                        бодхисатты</b></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, я вспомина́ю, что жил свято́й жи́знью,
+                      облада́я четырьмя́ фа́кторами. Я был аске́том – высоча́йшим аске́том; я был гру́бым – высоча́йше
+                      гру́бым; я был скру́пулёзным – высоча́йше скру́пулёзным; я был уеди́ненным – высоча́йше
+                      уеди́ненным. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, I recall having
+                        lived a holy life possessing four factors. I have been an ascetic—a supreme ascetic; I have been
+                        coarse—supremely coarse; I have been scrupulous—supremely scrupulous; I have been
+                        secluded—supremely secluded.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Тако́ва была́ моя́ аске́за, Сарипутта, что я
+                      ходи́л нагим, отверга́я конве́нции, облизывая́ ру́ки, не приходя́, когда́ зва́ли, не
+                      останавливаясь, когда́ проси́ли; я не принима́л еду́, принесённую и́ли пригото́вленную
+                      спе́циально, и́ли приглаше́ние на еду́; я ничего́ не получа́л из горшка́, из ча́ши, че́рез порог,
+                      че́рез па́лку, че́рез пе́ст, от двои́х, едя́щих вме́сте, от бере́менной же́нщины, от кормя́щей
+                      же́нщины, от же́нщины среди́ мужчи́н, от то́го ме́ста, где еда́ реклами́ровалась для
+                      распределе́ния, от то́го ме́ста, где соба́ка жда́ла, от то́го ме́ста, где му́хи жужжа́ли; я не
+                      принима́л ры́бу и́ли мя́со, не пил спиртно́е, вино́ и́ли ферменти́рованный напи́ток. Я
+                      ограни́чивался одни́м до́мом, одни́м куско́м; я ограни́чивался двумя́ дома́ми, двумя́ кусками́; …
+                      я ограни́чивался семью́ дома́ми, семью́ кусками́. Я жил на одно́й ча́шке в день, на двух ча́шках в
+                      день … на семи́ ча́шках в день; я принима́л пи́щу ра́з в день, ра́з в два дня … ра́з в семь дней;
+                      так да́же до ра́за в две неде́ли я пребыва́л, практику́я приём пи́щи в установле́нные интерва́лы.
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Such was my asceticism,
+                        Sāriputta, that I went naked, rejecting conventions, licking my hands, not coming when asked,
+                        not stopping when asked; I did not accept food brought or food specially made or an invitation
+                        to a meal; I received nothing from a pot, from a bowl, across a threshold, across a stick,
+                        across a pestle, from two eating together, from a pregnant woman, from a woman giving suck, from
+                        a woman in the midst of men, from where food was advertised to be distributed, from where a dog
+                        was waiting, from where flies were buzzing; I accepted no fish or meat, I drank no liquor, wine,
+                        or fermented brew. I kept to one house, to one morsel; I kept to two houses, to two morsels; … I
+                        kept to seven houses, to seven morsels. I lived on one saucerful a day, on two saucerfuls a day
+                        … on seven saucerfuls a day; I took food once a day, once every two days … once every seven
+                        days; thus even up to once every fortnight, I dwelt pursuing the practice of taking food at
+                        stated intervals.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я был поеда́телем зеле́ни и́ли проса́ и́ли
+                      ди́кого ри́са и́ли шку́рных обре́зков и́ли мха и́ли рисо́вой шелухи́ и́ли рисо́вой пе́нки и́ли
+                      кунжу́тной муки́ и́ли тра́вы и́ли коровьего наво́за. Я жил на ко́рнях и плода́х ле́са; я пита́лся
+                      па́вшими плода́ми. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>I was an eater of greens or
+                        millet or wild rice or hide-parings or moss or ricebran or rice-scum or sesamum flour or grass
+                        or cowdung. I lived on forest roots and fruits; I fed on fallen fruits. </i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я одева́лся в конопля́, в сме́шанную с коноплёй
+                      тка́нь, в сава́ны, в отбро́шенные ло́скуты, в ко́ру де́рева, в шку́ру антило́пы, в по́лоски шку́ры
+                      антило́пы, в тка́нь из тра́вы куса́, в тка́нь из ко́ры, в тка́нь из стружки́ де́рева, в ше́рсть из
+                      воло́с го́ловы, в зве́риную ше́рсть, в кры́лья со́вы. Я был тем, кто выры́вал во́лосы и бо́роду,
+                      практику́я вырыва́ние во́лос и бо́роды. Я был тем, кто стоя́л непреры́вно, отверга́я сиде́ния. Я
+                      был тем, кто приседа́л непреры́вно, посвяща́я себя́ подде́рживанию позы́ приседа́ния. Я был тем,
+                      кто испо́льзовал матра́с из шипо́в; я де́лал матра́с из шипо́в свои́м ло́жем. Я пребыва́л,
+                      практику́я купа́ние в воде́ три ра́за в день, вклю́чая ве́чер. Так в тако́м разнообра́зии я
+                      пребыва́л, практику́я му́чение и истяза́ние те́ла. Тако́ва была́ моя́ аске́за. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>I clothed myself in hemp, in
+                        hemp-mixed cloth, in shrouds, in refuse rags, in tree bark, in antelope hide, in strips of
+                        antelope hide, in kusagrass fabric, in bark fabric, in wood-shavings fabric, in head-hair wool,
+                        in animal wool, in owls’ wings. I was one who pulled out hair and beard, pursuing the practice
+                        of pulling out hair and beard. I was one who stood continuously, rejecting seats. I was one who
+                        squatted continuously, devoted to maintaining the squatting position. I was one who used a
+                        mattress of spikes; I made a mattress of spikes my bed. I dwelt pursuing the practice of bathing
+                        in water three times daily including the evening. Thus in such a variety of ways I dwelt
+                        pursuing the practice of tormenting and mortifying the body. Such was my asceticism.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Тако́ва была́ моя́ гру́бость, Сарипутта, что
+                      подо́бно тому́, как ствол де́рева тиндука́, нако́пленный за го́ды, слёживается и отсла́ивается,
+                      так же пыль и грязь, нако́пленные за го́ды, слёживались на моём те́ле и отсла́ивались. Мне́
+                      никогда́ не приходи́ло в го́лову: «О, дава́йте я сотру́ э́ту пыль и грязь руко́й, и́ли дава́йте
+                      друго́й сотрёт э́ту пыль и грязь свое́й руко́й» – мне́ никогда́ не приходи́ло э́то в го́лову.
+                      Тако́ва была́ моя́ гру́бость. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Such was my coarseness,
+                        Sāriputta, that just as the bole of a tindukā tree, accumulating over the years, cakes and
+                        flakes off, so too, dust and dirt, accumulating over the years, caked off my body and flaked
+                        off. It never occurred to me: ‘Oh, let me rub this dust and dirt off with my hand, or let
+                        another rub this dust and dirt off with his hand’—it never occurred to me thus. Such was my
+                        coarseness.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Тако́ва была́ моя́ скру́пулёзность, Сарипутта,
+                      что я всегда́ был осо́знанным, шага́я вперёд и шага́я наза́д. Я был по́лон сострада́ния да́же в
+                      отноше́нии ка́пли воды́ так: «Да не причиню́ я вре́да кро́шечным суще́ствам в ще́лях земли́».
+                      Тако́ва была́ моя́ скру́пулёзность. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Such was my scrupulousness,
+                        Sāriputta, that I was always mindful in stepping forwards and stepping backwards. I was full of
+                        pity even in regard to a drop of water thus: ‘Let me not hurt the tiny creatures in the crevices
+                        of the ground.’ Such was my scrupulousness.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Тако́во было́ моё уедине́ние, Сарипутта, что я
+                      погружа́лся в како́й-ли́бо лес и пребыва́л там. И когда́ я ви́дел пастуха́ и́ли пасту́ха и́ли
+                      кого́-ли́бо, собира́ющего тра́ву и́ли па́лки, и́ли лесни́ка, я бе́гал из ро́щи в ро́щу, из
+                      за́рослей в за́росли, из лощи́ны в лощи́ну, из холми́ка в холми́к. Почему́ э́то? Что́бы они́ не
+                      уви́дели меня́ и́ли я не уви́дел их. Подо́бно тому́, как лесно́й олень, уви́дев люде́й, бе́гает из
+                      ро́щи в ро́щу, из за́рослей в за́росли, из лощи́ны в лощи́ну, из холми́ка в холми́к, так же,
+                      когда́ я ви́дел пастуха́ и́ли пасту́ха… Тако́во было́ моё уедине́ние. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Such was my seclusion,
+                        Sāriputta, that I would plunge into some forest and dwell there. And when I saw a cowherd or a
+                        shepherd or someone gathering grass or sticks, or a woodsman, I would flee from grove to grove,
+                        from thicket to thicket, from hollow to hollow, from hillock to hillock. Why was that? So that
+                        they should not see me or I see them. Just as a forest-bred deer, on seeing human beings, flees
+                        from grove to grove, from thicket to thicket, from hollow to hollow, from hillock to hillock, so
+                        too, when I saw a cowherd or a shepherd … Such was my seclusion.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я ходи́л на четверенька́х в коровни́ки, когда́
+                      скот вы́шел и пасту́х оста́вил их, и пита́лся наво́зом мо́лодых те́лят, сосу́щих молоко́. Пока́
+                      мои́ со́бственные экскреме́нты и моча́ дли́лись, я пита́лся свои́ми со́бственными экскреме́нтами и
+                      мочо́й. Тако́ва была́ моя́ вели́кая пра́ктика пита́ния нечи́стотами. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"I would go on all fours to
+                        the cow-pens when the cattle had gone out and the cowherd had left them, and I would feed on the
+                        dung of the young suckling calves. As long as my own excrement and urine lasted, I fed on my own
+                        excrement and urine. Such was my great practice of feeding on filth.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я погружа́лся в како́й-ли́бо внуша́ющий страх лес
+                      и пребыва́л там – лес тако́й внуша́ющий страх, что у больши́нства люде́й во́лосы вста́ли бы
+                      ды́бом, е́сли бы они́ не бы́ли свобо́дны от похо́ти. Когда́ те хо́лодные зи́мние но́чи приходи́ли
+                      во вре́мя ‘восьмидне́вного пери́ода сне́га’, я пребыва́л но́чью на откры́том ме́сте и днём в
+                      ле́су. В после́дний ме́сяц жа́ркого сезо́на я пребыва́л днём на откры́том ме́сте и но́чью в ле́су.
+                      И ко мне́ спонта́нно пришло́ э́то стро́фа, никогда́ ра́ньше не слы́шанная: </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"I would plunge into some
+                        awe-inspiring grove and dwell there—a grove so awe-inspiring that it would make most of a man's
+                        hairs stand up if he were not freed from lust. When those cold wintry nights came during the
+                        ‘eight-days period of snowfall, ’ I would dwell by night in the open and by day in the grove. In
+                        the last month of the hot season I would dwell by day in the open and by night in the grove. And
+                        there came to me spontaneously this stanza never heard before:</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">‘Охлаждённый но́чью и опалённый днём, </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>‘Chilled by night and scorched
+                        by day,</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Оди́н в внуша́ющих страх ро́щах, </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Alone in awe-inspiring
+                        groves,</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Наги́м, без о́гня, что́бы сиде́ть ря́дом, </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Naked, no fire to sit
+                        beside,</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Му́дрец всё же преследу́ет свой по́иск.’ </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> The sage yet pursues his
+                        quest.’</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Я де́лал своё ло́же на кла́дбище, [испо́льзуя в
+                      ка́честве] поду́шки ко́сти уме́рших. Ма́льчики-пастухи́ подходи́ли ко мне, плева́ли на меня́,
+                      мочи́лись на меня́, броса́ли в меня́ грязь, ты́кали мне в у́ши па́лками. И всё же я не припо́мню,
+                      что́бы хоть когда́-либо зароди́л поро́чный ум [не́нависти] по отноше́нию к ним. Таковы́м бы́ло моё
+                      пребыва́ние в невозмути́мости.</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"I would make my bed in a
+                        charnel ground with the bones of the dead for a pillow. And cowherd boys came up and spat on me,
+                        urinated on me, threw dirt at me, and poked sticks into my ears. Yet I do not recall that I ever
+                        aroused an evil mind of hate against them. Such was my abiding in equanimity. </i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, есть не́которые жрецы́ и отше́льники,
+                      чьи доктри́на и воззре́ние таковы́: «Очище́ние прихо́дит че́рез еду́». Они́ говоря́т: «Бу́дем жить
+                      на плода́х ко́лы», и они́ едя́т плоды́ ко́лы, едя́т порошо́к из плодо́в ко́лы, пьют напи́тки из
+                      плодо́в ко́лы, изгота́вливают разли́чные ва́рева из плодо́в ко́лы. Я по́мню, что ел оди́н плод
+                      ко́лы|колы́ в день. Сарипутта, ты мо́жешь поду́мать, что плод ко́лы|колы́ был бо́льше в то вре́мя,
+                      но тебе́ не сле́дует так ду́мать. В то вре́мя плод ко́лы|колы́ был практи́чески того́ же разме́ра,
+                      что и сейча́с. И́з-за пита́ния еди́нственным плодо́м ко́лы в день моё те́ло дошло́ до состоя́ния
+                      кра́йнего истоще́ния. И́з-за того́, что я ел так ма́ло|мало́, чле́ны моего́ те́ла ста́ли подо́бны
+                      соединённым сегме́нтам сте́бля лозы́ и́ли сте́бля бамбу́ка. И́з-за того́, что я ел так
+                      ма́ло|мало́, мои́ я́годицы ста́ли похо́жи на верблю́жье копы́то. И́з-за того́, что я ел так
+                      ма́ло|мало́, мой позвоно́чник выпира́л, как бу́сины на шнуре́. И́з-за того́, что я ел так
+                      ма́ло|мало́, мои́ рёбра выпира́ли [и вы́глядели так же] мра́чно, как кривы́е ба́лки|балки́
+                      ста́рого сара́я без кры́ши. И́з-за того́, что я ел так ма́ло|мало́, блеск мои́х глаз утону́л в
+                      глазни́цах, подо́бно бле́ску воды́, утону́вшему в глубо́ком коло́дце. И́з-за того́, что я ел так
+                      ма́ло|мало́, ко́жа на голове́ смо́рщилась и вы́сохла, как зелёная го́рькая ты́ква высыха́ет и
+                      смо́рщивается на ве́тре и со́лнце. И́з-за того́, что я ел так ма́ло|мало́, ко́жа моего́ живота́
+                      прили́пла к позвоно́чнику. Е́сли я хоте́л дотро́нуться до свое́й ко́жи живота́, то каса́лся
+                      позвоно́чника. Е́сли хоте́л косну́ться позвоно́чника, то каса́лся ко́жи живота́. И́з-за того́, что
+                      я ел так ма́ло|мало́, то е́сли хоте́л испражни́ться и́ли помочи́ться, я па́дал там же на зе́млю
+                      лицо́м вниз. И́з-за того́, что я ел так ма́ло|мало́, то е́сли я пыта́лся облегчи́ть своё те́ло,
+                      растира́я его́ чле́ны свои́ми рука́ми, во́лосы, сгни́вшие у свои́х корне́й, па́дали с моего́ те́ла
+                      по ме́ре того́, как я тёр.</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, there are certain
+                        recluses and brahmins whose doctrine and view is this: ‘Purification comes about through food.’
+                        They say: ‘Let us live on kola-fruits,’ and they eat kola-fruits, they eat kola-fruit powder,
+                        they drink kola-fruit water, and they make many kinds of kola-fruit concoctions. Now I recall
+                        having eaten a single kola-fruit a day. Sāriputta, you may think that the kola-fruit was bigger
+                        at that time, yet you should not regard it so: the kola-fruit was then at most the same size as
+                        now. Through feeding on a single kola-fruit a day, my body reached a state of extreme
+                        emaciation. Because of eating so little my limbs became like the jointed segments of vine stems
+                        or bamboo stems. Because of eating so little my backside became like a camel's hoof. Because of
+                        eating so little the projections on my spine stood forth like corded beads. Because of eating so
+                        little my ribs jutted out as gaunt as the crazy rafters of an old roof-less barn. Because of
+                        eating so little the gleam of my eyes sank far down in their sockets, looking like a gleam of
+                        water that has sunk far down in a deep well. Because of eating so little my scalp shrivelled and
+                        withered as a green bitter gourd shrivels and withers in the wind and sun. Because of eating so
+                        little my belly skin adhered to my backbone; thus if I wanted to touch my belly skin I
+                        encountered my backbone, and if I wanted to touch my backbone I encountered my belly skin.
+                        Because of eating so little, if I wanted to defecate or urinate, I fell over on my face right
+                        there. Because of eating so little, if I tried to ease my body by rubbing my limbs with my
+                        hands, the hair, rotted at its roots, fell from my body as I rubbed.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, есть не́которые жрецы́ и отше́льники,
+                      чьи доктри́на и воззре́ние таковы́: «Очище́ние прихо́дит че́рез еду́». Они́ говоря́т: «Бу́дем жить
+                      на боба́х», и они́ едя́т бобы́… «Бу́дем жить на кунжу́те», и они́ едя́т кунжу́т… «Бу́дем жить на
+                      ри́се», и они́ едя́т рис… Я по́мню, что ел одно́ ри́совое зёрнышко в день. Сарипутта, ты мо́жешь
+                      поду́мать, что ри́совое зёрнышко бы́ло бо́льше в то вре́мя, но тебе́ не сле́дует так ду́мать. В то
+                      вре́мя ри́совое зёрнышко бы́ло практи́чески того́ же разме́ра, что и сейча́с. И́з-за того́, что я
+                      пита́лся еди́нственным ри́совым зёрнышком в день моё те́ло дошло́ до состоя́ния кра́йнего
+                      истоще́ния. И́з-за того́, что я ел так ма́ло|мало́… …па́дали с моего́ те́ла по ме́ре того́, как я
+                      тёр.</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, there are certain
+                        recluses and brahmins whose doctrine and view is this: ‘Purification comes about through food.’
+                        They say: ‘Let us live on beans,’ … ‘Let us live on sesamum,’ … ‘Let us live on rice,’ and they
+                        eat rice, they eat rice powder, they drink rice water, and they make many kinds of rice
+                        concoctions. Now I recall having eaten a single rice grain a day. Sāriputta, you may think that
+                        the rice grain was bigger at that time, yet you should not regard it so: the rice grain was then
+                        at most the same size as now. Through feeding on a single rice grain a day, my body reached a
+                        state of extreme emaciation. Because of eating so little … the hair, rotted at its roots, fell
+                        from my body as I rubbed.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И всё же, Сарипутта, за счёт подо́бного
+                      поведе́ния, за счёт тако́й пра́ктики, за счёт тако́го исполне́ния аске́зы я не дости́г
+                      каки́х-ли́бо сверхчелове́ческих состоя́ний, како́го-ли́бо отли́чия в зна́нии и ви́дении|виде́нии,
+                      что досто́йно благоро́дных. И почему́? Потому́ что я не дости́г той благоро́дной му́дрости,
+                      кото́рая, бу́дучи дости́гнутой, явля́ется благоро́дной и освобожда́ющей и ведёт того́, кто
+                      практику́ет в соотве́тствии с ней, к по́лному уничтоже́нию страда́ний. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Yet, Sāriputta, by such
+                        conduct, by such practice, by such performance of austerities, I did not attain any superhuman
+                        states, any distinction in knowledge and vision worthy of the noble ones. Why was that? Because
+                        I did not attain that noble wisdom which when attained is noble and emancipating and leads the
+                        one who practises in accordance with it to the complete destruction of suffering.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                        <font face="Georgia, Times New Roman, Times, serif"> <a name="a7"></a>Воззре́ния жрецо́в и
+                          отше́льников </font>
+                      </b></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"> <a name="19"></a>Сарипутта, есть не́которые
+                      жрецы́ и отше́льники, чьи доктри́на и воззре́ние таковы́: «Очище́ние прихо́дит че́рез кругове́рть
+                      перерожде́ний». Но непро́сто найти́ тот мир в кругове́рти, че́рез кото́рый я бы уже́ не проходи́л
+                      за э́то до́лгое стра́нствие, за исключе́нием [ми́ра] бо́гов|бого́в Чи́стых оби́телей. Е́сли бы я
+                      прошёл по кругове́рти как божество́ Чи́стых оби́телей, то я бы никогда́ бо́лее не верну́лся в
+                      э́тот мир<sup><a href="#link19">19</a></sup>. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, there are certain
+                        recluses and brahmins whose doctrine and view is this: ‘Purification comes about through the
+                        round of rebirths.’ But it is not easy to find a realm in the round that I have not already
+                        passed through in this long journey, except for the gods of the Pure Abodes; and had I passed
+                        through the round as a god in the Pure Abodes, I would never have returned to this world.</i>
+                    </font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Есть не́которые жрецы́ и отше́льники, чьи
+                      доктри́на и воззре́ние таковы́: «Очище́ние прихо́дит че́рез [определённый вид] перерожде́ния». Но
+                      непро́сто найти́ вид перерожде́ния, в кото́ром бы я не перерожда́лся за э́то до́лгое стра́нствие,
+                      за исключе́нием [перерожде́ния] бо́гом Чи́стых оби́телей…</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"There are certain recluses
+                        and brahmins whose doctrine and view is this: ‘Purification comes about through some particular
+                        kind of rebirth.’ But it is not easy to find a kind of rebirth that I have not been reborn in
+                        already in this long journey, except for the gods of the Pure Abodes … </i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Есть не́которые жрецы́ и отше́льники, чьи
+                      доктри́на и воззре́ние таковы́: «Очище́ние прихо́дит че́рез [определённый вид] оби́тели». Но
+                      непро́сто найти́ вид оби́тели, в кото́рой бы я не пребыва́л за э́то до́лгое стра́нствие, за
+                      исключе́нием [ми́ра] бо́гов|бого́в Чи́стых оби́телей…</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"There are certain recluses
+                        and brahmins whose doctrine and view is this: ‘Purification comes about through some particular
+                        abode.’ But it is not easy to find a kind of abode that I have not already dwelt in … except for
+                        the gods of the Pure Abodes … </i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Есть не́которые жрецы́ и отше́льники, чьи
+                      доктри́на и воззре́ние таковы́: «Очище́ние прихо́дит че́рез жертвоприноше́ние». Но непро́сто
+                      найти́ вид жертвоприноше́ния, кото́рое бы не соверша́лось мной за э́то до́лгое стра́нствие, когда́
+                      я был ли́бо пома́занным на ца́рство благоро́дным царём, ли́бо зажи́точным брахма́ном. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"There are certain recluses
+                        and brahmins whose doctrine and view is this: ‘Purification comes about through sacrifice.’ But
+                        it is not easy to find a kind of sacrifice that has not already been offered up by me in this
+                        long journey, when I was either a head-anointed noble king or a well-to-do brahmin.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Есть не́которые жрецы́ и отше́льники, чьи
+                      доктри́на и воззре́ние таковы́: «Очище́ние прихо́дит че́рез поклоне́ние огню́». Но непро́сто
+                      найти́ вид огня́, кото́рому бы я не поклоня́лся за э́то до́лгое стра́нствие, когда́ я был ли́бо
+                      пома́занным на ца́рство благоро́дным царём, ли́бо зажи́точным брахма́ном.</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"There are certain recluses
+                        and brahmins whose doctrine and view is this: ‘Purification comes through fire-worship.’ But it
+                        is not easy to find a kind of fire that has not already been worshipped by me in this long
+                        journey, when I was either a head-anointed noble king or a well-to-do brahmin.</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Есть не́которые жрецы́ и отше́льники, чьи
+                      доктри́на и воззре́ние таковы́: «Пока́ э́тот почте́нный|почтённый челове́к всё ещё мо́лод,
+                      черноволо́с, наделён благослове́нием мо́лодости на пе́рвом эта́пе жи́зни, он соверше́нен в свое́й
+                      я́сной му́дрости. Но когда́ э́тот почте́нный|почтённый челове́к ста́рый, пожило́й, отягощённый
+                      года́ми, мно́го прожи́вший, чьи дни подхо́дят к концу́, кото́рому во́семьдесят, девяно́сто и́ли
+                      сто лет, то тогда́ я́сность его́ му́дрости уте́ряна». Но не сле́дует так ду́мать. Сейча́с я
+                      ста́рый, пожило́й, отягощён года́ми, мно́го прожи́л, мои́ дни подхо́дят к концу́, идёт мне
+                      восьмидеся́тый год. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Sāriputta, there are certain
+                        recluses and brahmins whose doctrine and view is this: ‘As long as this good man is still young,
+                        a black-haired young man endowed with the blessing of youth, in the prime of life, so long is he
+                        perfect in his lucid wisdom. But when this good man is old, aged, burdened with years, advanced
+                        in life, and come to the last stage, being eighty, ninety, or a hundred years old, then the
+                        lucidity of his wisdom is lost.’ But it should not be regarded so. I am now old, aged, burdened
+                        with years, advanced in life, and come to the last stage: my years have turned eighty.</i></font>
+                  </div> 
+                        
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И предста́вь, как е́сли бы у меня́ бы́ло бы
+                      четы́ре ученика́, соверше́нных|совершённых в осо́знанности, облада́ющих отли́чным запомина́нием,
+                      па́мятью, я́сностью му́дрости, и срок жи́зни ка́ждого составля́л бы со́тню лет. Подо́бно тому́,
+                      как е́сли бы уме́лый лу́чник – обу́ченный, натрениро́ванный, испы́танный – мог без труда́
+                      вы́пустить по те́ни|тени́ бана́новой па́льмы лёгкую стрелу́, предста́вь, что они́ да́же до тако́й
+                      сте́пени бы́ли бы соверше́нны в осо́знанности, облада́ли бы отли́чным запомина́нием, па́мятью,
+                      я́сностью му́дрости. </font>
+                  </div>
+
+                    <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Now
+                        suppose that I had four disciples with a hundred years’ lifespan, perfect in mindfulness,
+                        retentiveness, memory, and lucidity of wisdom. Just as a skilled archer, trained, practised, and
+                        tested, could easily shoot a light arrow across the shadow of a palm tree, suppose that they
+                        were even to that extent perfect in mindfulness, retentiveness, memory, and lucidity of wisdom.</i></font>
+                  </div>
+                        
+                        
+                   <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И предста́вь, как е́сли бы они́ непреры́вно
+                      задава́ли мне вопро́сы о четырёх осно́вах осо́знанности, и, бу́дучи спро́шенным, я бы отвеча́л им,
+                      и они́ бы запомина́ли ка́ждый мой отве́т и никогда́ бы не задава́ли второстепе́нного вопро́са и не
+                      остана́вливались бы кро́ме как на то, что́бы пое́сть, попи́ть, употреби́ть пи́щу|пищу́,
+                      распро́бовать её на вкус, помочи́ться, испражни́ться, отдохну́ть, что́бы устрани́ть сонли́вость и
+                      уста́лость. И всё равно́ изложе́ние Татхагатой Дха́ммы, его́ объясне́ние фа́кторов Дха́ммы и его́
+                      отве́ты на вопро́сы не подошли́ бы к концу́, а э́ти четы́ре мои́х ученика́ со сро́ком жи́зни в
+                      со́тню лет [уже́] сконча́лись бы по истече́нии э́тих ста лет.</font>
+                  </div>
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Сарипутта, да́же е́сли бы тебе́ пришло́сь носи́ть
+                      меня́ на ло́же, всё равно́ не́ было бы переме́ны в я́сности му́дрости Татхагаты. </font>
+                  </div>
+                        <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Suppose that they continuously asked me about the four foundations of mindfulness and that I
+                        answered them when asked and that they remembered each answer of mine and never asked a
+                        subsidiary question or paused except to eat, drink, consume food, taste, urinate, defecate, and
+                        rest in order to remove sleepiness and tiredness. Still the Tathāgata's exposition of the
+                        Dhamma, his explanations of factors of the Dhamma, and his replies to questions would not yet
+                        come to an end, but meanwhile those four disciples of mine with their hundred years’ lifespan
+                        would have died at the end of those hundred years. Sāriputta, even if you have to carry me about
+                        on a bed, still there will be no change in the lucidity of the Tathāgata's wisdom.</i></font>
+                  </div>
+
+                  
+
+                 
+                  
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Е́сли бы кто-ли́бо, говоря́ правди́во, сказа́л бы
+                      о ком-ли́бо: «Существо́, кото́рое не подве́ржено заблужде́нию, появи́лось в ми́ре ра́ди
+                      благополу́чия и сча́стья мно́гих, из сострада́ния к ми́ру, ра́ди бла́га|блага́, благополу́чия, и
+                      сча́стья бого́в и люде́й» – то и́менно обо мне́, в са́мом де́ле, э́тот говоря́щий так [челове́к]
+                      мог бы сказа́ть так. <br /> </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Rightly speaking, were it to
+                        be said of anyone: ‘A being not subject to delusion has appeared in the world for the welfare
+                        and happiness of many, out of compassion for the world, for the good, welfare, and happiness of
+                        gods and humans,’ it is of me indeed that rightly speaking this should be said."</i></font>
+                  </div>
+
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">И в то вре́мя достопочте́нный Нагасамала стоя́л
+                      позади́ Благослове́нного, обма́хивая его́. И тогда́ он сказа́л Благослове́нному: <br />
+                      «Удиви́тельно, уважа́емый, порази́тельно, уважа́емый! Во вре́мя слу́шания э́той бесе́ды по Дха́мме
+                      мои́ во́лосы на те́ле вста́ли ды́бом. Уважа́емый, как называ́ется э́та бесе́да по Дха́мме?»</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Now on that occasion the
+                        venerable Nāgasamāla was standing behind the Blessed One fanning him. Then he said to the
+                        Blessed One: "It is wonderful, venerable sir, it is marvellous! As I listened to this discourse
+                        on the Dhamma, the hairs of my body stood up. Venerable sir, what is the name of this discourse
+                        on the Dhamma?"</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><a name="20"></a>«В тако́м слу́чае, Нагасамала,
+                      ты мо́жешь запо́мнить э́ту бесе́ду по Дха́мме как «Бесе́ду, подыма́ющую во́лосы ды́бом»<sup><a
+                          href="#link20">20</a></sup>. </font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "As to that, Nāgasamāla, you
+                        may remember this discourse on the Dhamma as ‘The Hair-Raising Discourse.’"</i></font>
+                  </div>
+
+                  <div class="a">
+                    <font face="Arial, Helvetica, sans-serif" size="2">Так сказа́л Благослове́нный. Достопочте́нный
+                      Нагасамала был дово́лен и восхи́тился|восхити́лся слова́ми Благослове́нного.</font>
+                  </div>
+
+                  <div class="a">
+                    <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>That is what the Blessed One
+                        said. The venerable Nāgasamāla was satisfied and delighted in the Blessed One's words.</i>
+                    </font>
+                  </div>
+
+                </td>
+
+              </tr>
+            </table><br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a href="#1"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="14" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+                      style='font-size:18pt;font-family:"Wingdings 3";'></span></font>
+                </td>
+                <td height="14" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link1"></a>
+                      <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">Бодхи:
+                        Беседа с ним содержится в <a href="mn105-sunakkhatta-sutta-sv.htm">МН
+                          105</a>; вероятно, она имела место до того, как он вступил в монашескую
+                        общину. О неудаче Сунаккхатты также повествует ДН 24. Он разочаровался
+                        и оставил монашескую общину из-за того, что Будда не демонстрировал
+                        никаких чудес, а также не объяснял ему первоначало вещей.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#2"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link2"></a>
+                      <font color="#999966">Бодхи:
+                        Сверхчеловеческие состояния (уттари-манусса-дхамма). Это состояния
+                        и добродетели, достижения, которые выше обычных человеческих добродетелей,
+                        заключающихся в десяти течениях благой каммы (см. <a href="mn9-sammaditthi-sutta-sv.htm">МН
+                          9</a>). Это джханы, разные виды прямых знаний, пути и плоды. "Отличия
+                        в знании и видении, что достойно благородных" – частая фраза,
+                        встречающаяся в суттах. Обозначает все высшие степени медитативного
+                        знания, характеристика благородного ученика. Комментарий поясняет,
+                        что в данном случае речь идёт о сверхмирском пути, наличие которого
+                        у Будды отрицается Сунаккхаттой.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#3"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link3"></a>
+                      <font color="#999966">Бодхи:
+                        Суть критики состоит в том, что Будда не имеет никакой трансцендентной
+                        мудрости, и его Дхамма – это просто результат его собственных
+                        размышлений. Видимо, Сунаккхатта считал, что уничтожение страданий
+                        является более низкой целью в сравнении с достижением сверхспособностей,
+                        которые позволяют творить чудеса. </font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#4"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">4</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link4"></a>
+                      <font color="#999966">Раскрывается
+                        так же, как в <a href="mn6-akankheya-sutta-sv.htm">МН 6</a>.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#5"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">5</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link5"></a>
+                      <font color="#999966">Раскрывается
+                        так же, как в </font>
+                      <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                          <font color="#999966"><a href="mn6-akankheya-sutta-sv.htm">МН
+                              6</a></font>
+                        </i></font>
+                      <font color="#999966">.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#6"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">6</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link6"></a>
+                      <font color="#999966">Бодхи:
+                        Колесо Брахмы – самое превосходное из всех колёс, лучшее, высочайшее.
+                        Имеется в виду колесо Дхаммы (дхамма-чакка), под которым, согласно
+                        Комментарию, подразумевается знание проникновения в истину и знание
+                        того, как излагать истину.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#7"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">7</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link7"></a>
+                      <font color="#999966">SV:
+                        Пример возможного и невозможного см. в <a href="mn115-bahudhatuka-sutta-sv.htm">МН
+                          115</a>.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#8"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">8</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link8"></a>
+                      <font color="#999966">SV:
+                        Полное знание механизма каммы. Примеры такого знания можно найти
+                        в <a href="mn57-kukkuravatika-sutta-sv.htm">МН 57</a>, <a
+                          href="mn135-cula-kammavibhanga-sutta-sv.htm">МН
+                          135</a>, <a href="mn136-maha-kammavibhanga-sutta-sv.htm">МН 136</a>.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#9"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">9</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link9"></a>
+                      <font color="#999966">SV:
+                        Объяснение этого знания приводится ниже по тексту сутты.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#10"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="3%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">10</font>
+                </td>
+                <td height="2" width="94%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link10"></a>
+                      <font color="#999966">SV:
+                        Поясняется в </font>
+                      <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                          <font color="#999966"><a href="mn115-bahudhatuka-sutta-sv.htm">МН
+                              115</a>.</font>
+                        </i></font><span style="font-size:16.0pt">
+                        <o:p></o:p>
+                      </span>
+                      <font color="#999966">.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#11"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="2%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">11</font>
+                </td>
+                <td height="2" width="95%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link11"></a>
+                      <font color="#999966">SV:
+                        "Вибханга" Абхидхаммы поясняет это как знание высших
+                        и низших существ в плане их предрасположенностей, а также и то,
+                        каким образом эти существа сходятся вместе. Например, см. <a
+                          href="sn14_16-sagatha-sutta-sv.htm">СН
+                          14.16</a></font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#12"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">12</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link12"></a>
+                      <font color="#999966">Вибханга
+                        Абхидхаммы поясняет это как знание Будды о состоянии (у тех или
+                        иных существ) различных влечений, скрытых склонностей, темпераментов,
+                        предрасположенностей, способностей к пониманию, свойств, характеров,
+                        восприимчивостей, потенциалов, а также степени развитости качеств
+                        (таких как вера, осознанность, мудрость и т.д.).</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#13"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">13</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link13"></a>
+                      <font color="#999966">Раскрывается
+                        также, как в </font>
+                      <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                          <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                              <font color="#999966"><a href="mn6-akankheya-sutta-sv.htm">МН
+                                  6</a></font>
+                            </i></font>
+                        </i></font>
+                      <font color="#999966">.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#14"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">14</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link14"></a>
+                      <font color="#999966">Раскрывается
+                        также, как в </font>
+                      <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                          <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                              <font color="#999966"><a href="mn6-akankheya-sutta-sv.htm">МН
+                                  6</a></font>
+                            </i></font>
+                        </i></font>
+                      <font color="#999966">.</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#15"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">15</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link15"></a>
+                      <font color="#999966">SV:
+                        В <a href="an8_69-parisa-sutta-sv.htm">АН 8.69</a> достопочтенный
+                        Бодхи переводит этот же фрагмент иначе: "подходил к собранию,
+                        состоящему из многих сотен кхаттиев… [и т.д.]". </font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#16"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="3%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">16</font>
+                </td>
+                <td height="2" width="94%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link16"></a>
+                      <font color="#999966">SV:
+                        Комментарий поясняет, что хотя описание схоже с переживаниями
+                        в небесных мирах, всё же, здесь речь идёт о том, что исключительно
+                        приятные чувства (блаженство ниббаны) он переживает посредством
+                        освобождения от страстей. </font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#17"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="3%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">17</font>
+                </td>
+                <td height="2" width="94%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link17"></a>
+                      <font color="#999966">SV:
+                        Этим Будда показывает, что не было аскета, который мог бы сравниться
+                        с ним в суровости предпринимаемой аскезы, когда он ещё был непросветлённым
+                        бодхисаттой и только искал путь к пробуждению. Этот фрагмент можно
+                        дополнить информацией из <a href="mn4-bhayabherava-sutta-sv.htm">МН
+                          4</a> и <a href="mn36-mahasaccaka-sutta-sv.htm">МН 36 </a>(там
+                        также описывается практика самоумерщвления, которую он предпринимал).</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#18"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="3%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">18</font>
+                </td>
+                <td height="2" width="94%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link18"></a>
+                      <font color="#999966">Бодхи:
+                        Очевидно, речь идёт не о сочувствии к микробам и бактериям в капле
+                        воды, а к тем существам, которые живут в земле и могут погибнуть,
+                        если на них пролить воду. </font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a href="#19"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="14" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">19<span
+                      style='font-size:18pt;font-family:"Wingdings 3";'></span></font>
+                </td>
+                <td height="14" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link19"></a>
+                      <font color="#999966" face="Arial, Helvetica, sans-serif" size="2">Бодхи:
+                        В Чистых обителях (суддхаваса) могут родиться только не-возвращающиеся.
+                      </font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#20"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="2" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">20</font>
+                </td>
+                <td height="2" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><i><a name="link20"></a>
+                      <font color="#999966">Бодхи:
+                        Ломахансанапарийяя. Это название (как упоминание данной сутты)
+                        встречается в "Вопросах Милинды" (398), а также в Комментарии
+                        к "Дигха-никае".</font>
+                    </i></font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br /> <br />
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr bgcolor="#F4EFBD">
+                <td class="bottom" colspan="4" height="2">
+                  <div align="center">
+                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="4" cellspacing="0" width="70%">
+              <tr>
+                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm" style="border:0px;"
+                    title="вернуться к разделу">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                  </a></td>
+                <td class="bottom" height="2" valign="middle" width="1%">
+                  <a href="#" style="border:0px;" title="вернуться наверх">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                  </a>
+                </td>
+                <td height="2" valign="top" width="32%">
+                  <div align="center">
+                    <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                      <noindex><!--LiveInternet counter-->
+                        <script type="text/javascript">
+                          new Image().src = "//counter.yadro.ru/hit?r" +
+                            escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                              ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                            ";h" + escape(document.title.substring(0, 150)) +
+                            ";" + Math.random();</script><!--/LiveInternet--><!--LiveInternet logo--><a
+                          href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1"
+                            src="//counter.yadro.ru/logo?42.6" title="LiveInternet"
+                            width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                        <span id="spylog2031418"></span>
+                        <script type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                            (("https:" == document.location.protocol) ? "s" : "") +
+                            "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                        <!--SpyLOG-->
+                      </noindex>
+                    </font>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="19%">
+                  <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                      <font color="C7B683">٭</font>
+                    </span>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="37%">
+                  <div align="right">
+                    <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                      style="font-size:7pt; font-family: Arial;">©
+                      theravada.ru – при копировании материалов<br /> просьба ставить прямую ссылку на
+                      наш сайт.<br /> </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <script type="text/javascript">
+    function viewport() {
+      var e = window, a = 'inner';
+      if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+      return { width: e[a + 'Width'], height: e[a + 'Height'] }
+    }
+    var screen = viewport();
+
+    if (screen.width < 1002) {
+      // Content
+      document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+      // Comments
+      document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+      // Title
+      document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+      document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+      // Text
+      document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+    } else {
+      if (screen.width < 1280) {
+        // Content
+        document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Comments
+        document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Title
+        document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+        document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+        // Text
+        document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+      }
+    }
+
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,1300 @@
+<html>
+
+<head>
+    <title>Махадуккхаккхандха-сутта: Большое наставление о массе страданий :: Мадджхима Никая 13</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta
+        content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        }
+        catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+    text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        .a {
+                            TEXT-INDENT: 2em; margin-bottom: 15px;
+                        }
+
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                           
+                                            Учение Старцев </b></font>
+                                </i></td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm#7" style="border:0px;"
+                                    title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;"
+                                    title="случайная сутта">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a> </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span
+                                    style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span></td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                        style="cursor:default;font-size:1pt;">.</font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">Махадуккхаккхандха-сутта:
+                                            Большое наставление о массе страданий<br />
+                                            <font size="3">МН 13</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                                        <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                                                <div align="right"><i>
+                                                        <font color="#996633"><span
+                                                                style="font-size:8pt;font-family:Arial;"><span
+                                                                    style="font-size:8pt;font-family:Arial;"><span
+                                                                        style="font-size:8pt;font-family:Arial;"><span
+                                                                            style="font-size:8pt;font-family:Arial;"><span
+                                                                                style="font-size:8pt;font-family:Arial;">редакция
+                                                                                перевода:
+                                                                                05.02.2024</span></span></span><br />
+                                                                    Перевод с английского: SV<br />
+                                                                    <br />
+                                                                    источник: <br />
+                                                                    "Majjhima Nikaya by Nyanamoli &amp; Bodhi, p.
+                                                                    179"</span></span></font>
+                                                    </i></div>
+                                            </span></div>
+                                    </span></td>
+                                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+                            <tr>
+                                <td height="2105" style="text-align: justify" valign="top">
+                                    <html>
+
+                                    <body>
+                                        <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>Т</b>
+                                        </font>
+                                        <font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал. Одна́жды
+                                            Благослове́нный прожива́л в Саваттхи, в ро́ще Джеты́, в па́рке
+                                            Анатхапиндики. И тогда́, у́тром, не́сколько мона́хов оде́лись, взя́ли ча́ши
+                                            и вне́шние одея́ния и отпра́вились в Саваттхи за подая́ниями. Зате́м они́
+                                            поду́мали: «Сли́шком ра́но ходи́ть по Саваттхи в по́исках подая́ний. Что
+                                            е́сли мы отпра́вимся в парк стра́нников – приве́рженцев ины́х уче́ний?» И
+                                            тогда́ они́ отпра́вились в парк стра́нников – приве́рженцев ины́х уче́ний и
+                                            обменя́лись со стра́нниками приве́тствиями. По́сле обме́на ве́жливыми
+                                            приве́тствиями и любе́зностями они́ се́ли ря́дом. Стра́нники сказа́ли им:
+                                        </font>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Thus
+                                                    have I heard. On one occasion the Blessed One was living at Sāvatthī
+                                                    in Jeta's Grove, Anāthapiṇḍika's Park.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Then,
+                                                    when it was morning, a number of bhikkhus dressed, and taking their
+                                                    bowls and outer robes, went into Sāvatthī for alms. Then they
+                                                    thought: "It is still too early to wander for alms in Sāvatthī.
+                                                    Suppose we went to the park of the wanderers of other sects." So
+                                                    they went to the park of the wanderers of other sects and exchanged
+                                                    greetings with the wanderers. When this courteous and amiable talk
+                                                    was finished, they sat down at one side. The wanderers said to
+                                                    them:</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><a name="1"></a>«Друзья́,
+                                                отше́льник Готама предпи́сывает по́лное понима́ние чу́вственных
+                                                удово́льствий, и мы то́же де́лаем так. Отше́льник Готама предпи́сывает
+                                                по́лное понима́ние материа́льной фо́рмы, и мы то́же де́лаем так.
+                                                Отше́льник Готама предпи́сывает по́лное понима́ние чувств, и мы то́же
+                                                де́лаем так. Так в чём же здесь отли́чие, в чём ра́зница, в чём
+                                                несоотве́тствие ме́жду уче́нием отше́льника Готамы и на́шим [уче́нием],
+                                                ме́жду его́ наставле́ниями и на́шими?»<sup><a href="#link1">1</a></sup>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                    "Friends, the recluse Gotama describes the full understanding of
+                                                    sensual pleasures, and we do so too; the recluse Gotama describes
+                                                    the full understanding of material form, and we do so too; the
+                                                    recluse Gotama describes the full understanding of feelings, and we
+                                                    do so too. What then is the distinction here, friends, what is the
+                                                    variance, what is the difference between the recluse Gotama's
+                                                    teaching of the Dhamma and ours, between his instructions and
+                                                    ours?"</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">И тогда́ те мона́хи ни
+                                                одо́брили, ни опрове́ргли сло́ва|слова́ стра́нников. Не сде́лав так,
+                                                они́ вста́ли со свои́х сиде́ний и ушли́, ду́мая: «Поймём значе́ние э́тих
+                                                слов в прису́тствии Благослове́нного». </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Then
+                                                    those bhikkhus neither approved nor disapproved of the wanderers’
+                                                    words. Without doing either they rose from their seats and went
+                                                    away, thinking: "We shall come to understand the meaning of these
+                                                    words in the Blessed One's presence."</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Когда́ они́ походи́ли по
+                                                Саваттхи в по́исках подая́ний, верну́лись с хожде́ния за подая́ниями,
+                                                по́сле приня́тия пи́щи они́ отпра́вились к Благослове́нному и,
+                                                поклони́вшись ему́, се́ли ря́дом и рассказа́ли обо всём, что
+                                                произошло́.<br /> [Благослове́нный сказа́л]:</font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> When
+                                                    they had wandered for alms in Sāvatthī and had returned from their
+                                                    almsround, after the meal they went to the Blessed One, and after
+                                                    paying homage to him, they sat down at one side and told him what
+                                                    had taken place. The Blessed One said: </i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">«Мона́хи, стра́нников –
+                                                приве́рженцев ины́х уче́ний, кото́рые говоря́т так, – – сле́дует
+                                                спроси́ть: «Но, друзья́, в чём заключа́ется привлека́тельность, в чём
+                                                заключа́ется опа́сность, в чём заключа́ется спасе́ние в отноше́нии
+                                                чу́вственных удово́льствий? В чём заключа́ется привлека́тельность, в чём
+                                                заключа́ется опа́сность, в чём заключа́ется спасе́ние в отноше́нии
+                                                материа́льной фо́рмы? В чём заключа́ется привлека́тельность, в чём
+                                                заключа́ется опа́сность, в чём заключа́ется спасе́ние в отноше́нии
+                                                чувств?» Бу́дучи спро́шенными так, стра́нники – приве́рженцы ины́х
+                                                уче́ний не смо́гут дать объясне́ний, и бо́лее того́, попаду́т впроса́к.
+                                                И почему́? Потому́ что э́то вне их о́бласти [зна́ния]. Мона́хи, я не
+                                                ви́жу никого́ в э́том ми́ре с его́ бога́ми, с его́ Ма́рами, с его́
+                                                Бра́хмами, в э́том поколе́нии с его́ жреца́ми и отше́льниками, с его́
+                                                князья́ми и [просты́ми] людьми́, кто мог бы удовлетвори́ть ум отве́том
+                                                на э́ти вопро́сы, кро́ме Татхагаты и́ли его́ ученика́, и́ли того́, кто
+                                                узна́л об э́том от них. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                    "Bhikkhus, wanderers of other sects who speak thus should be
+                                                    questioned thus: ‘But, friends, what is the gratification, what is
+                                                    the danger, and what is the escape in the case of sensual pleasures?
+                                                    What is the gratification, what is the danger, and what is the
+                                                    escape in the case of material form? What is the gratification, what
+                                                    is the danger, and what is the escape in the case of feelings?’
+                                                    Being questioned thus, wanderers of other sects will fail to account
+                                                    for the matter, and what is more, they will get into difficulties.
+                                                    Why is that? Because it is not their province. Bhikkhus, I see no
+                                                    one in the world with its gods, its Māras, and its Brahmās, in this
+                                                    generation with its recluses and brahmins, with its princes and its
+                                                    people, who could satisfy the mind with a reply to these questions,
+                                                    except for the Tathāgata or his disciple or one who has learned it
+                                                    from them.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                    <font face="Georgia, Times New Roman, Times, serif"><br />
+                                                        Чу́вственные удово́льствия</font>
+                                                </b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br />
+                                                    Привлека́тельность</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что тако́е,
+                                                мона́хи, привлека́тельность в отноше́нии чу́вственных удово́льствий?
+                                                Мона́хи, есть э́ти пять ни́тей чу́вственных удово́льствий. Каки́е пять?
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Times New Roman, Times, serif" size="4"><br /> *
+                                                            </font>
+                                                        </font>
+                                                    </font>
+                                                </font> Фо́рмы, познава́емые гла́зом…<br />
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                        </font>
+                                                    </font>
+                                                </font> Зву́ки, познава́емые у́хом…<br />
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                        </font>
+                                                    </font>
+                                                </font> За́пахи, познава́емые но́сом…<br />
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                        </font>
+                                                    </font>
+                                                </font> Вку́сы, познава́емые языко́м…<br />
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                                        </font>
+                                                    </font>
+                                                </font> <br />Осяза́емые объе́кты, познава́емые те́лом, жела́нные, прия́тные,
+                                                очарова́тельные, свя́занные с чу́вственным жела́нием, вызыва́ющие
+                                                вожде́ление.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> i
+                                                    "And what, bhikkhus, is the gratification in the case of sensual
+                                                    pleasures? Bhikkhus, there are these five cords of sensual pleasure.
+                                                    What are the five? Forms cognizable by the eye that are wished for,
+                                                    desired, agreeable and likeable, connected with sensual desire, and
+                                                    provocative of lust. Sounds cognizable by the ear … Odours
+                                                    cognizable by the nose … Flavours cognizable by the tongue …
+                                                    Tangibles cognizable by the body that are wished for, desired,
+                                                    agreeable and likeable, connected with sensual desire, and
+                                                    provocative of lust.</i></font>
+                                        </div> 
+                                                    
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Э́то пять ни́тей
+                                                чу́вственных удово́льствий. Удово́льствие и ра́дость, кото́рые
+                                                возни́кают в за́висимости от э́тих пяти́ ни́тей чу́вственных
+                                                удово́льствий – э́то явля́ется привлека́тельностью в отноше́нии
+                                                чу́вственных удово́льствий. </font>
+                                        </div>
+
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>            
+                                                    These are the five cords of sensual pleasure.
+                                                    Now the pleasure and joy that arise dependent on these five cords of
+                                                    sensual pleasure are the gratification in the case of sensual
+                                                    pleasures.</i></font>
+                                        </div>
+                                        
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br /> Опа́сность</i>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что тако́е,
+                                                мона́хи, опа́сность в отноше́нии чу́вственных удово́льствий? Вот,
+                                                мона́хи, в зави́симости от того́ реме́сла, кото́рым член ро́да добыва́ет
+                                                себе́ на жи́знь – будь то подсчёт, бухгалте́рия, расчёты, земледе́лие,
+                                                торго́вля, скотово́дство, стрельба́ из лука́, служе́ние царю́ и́ли
+                                                како́е-ли́бо друго́е реме́сло – он подве́ржен хо́лоду, подве́ржен жа́ре,
+                                                страда́ет от конта́кта с ово́дами, москита́ми, ве́тром, со́лнцем и
+                                                ползу́чими тва́рями, умира́ет от го́лода и жа́жды. Э́то явля́ется
+                                                опа́сностью в отноше́нии чу́вственных удово́льствий, ма́ссой страда́ния
+                                                здесь и сейча́с, име́ющей причи́ной чу́вственные удово́льствия,
+                                                источником чу́вственные удово́льствия, осно́вой чу́вственные
+                                                удово́льствия, где причи́на – про́сто чу́вственные удово́льствия.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> ii
+                                                    "And what, bhikkhus, is the danger in the case of sensual pleasures?
+                                                    Here, bhikkhus, on account of the craft by which a clansman makes a
+                                                    living—whether checking or accounting or calculating or farming or
+                                                    trading or husbandry or archery or the royal service, or whatever
+                                                    craft it may be—he has to face cold, he has to face heat, he is
+                                                    injured by contact with gadflies, mosquitoes, wind, sun, and
+                                                    creeping things; he risks death by hunger and thirst. Now this is a
+                                                    danger in the case of sensual pleasures, a mass of suffering visible
+                                                    here and now, having sensual pleasures as its cause, sensual
+                                                    pleasures as its source, sensual pleasures as its basis, the cause
+                                                    being simply sensual pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Е́сли член ро́да не
+                                                получа́ет никако́го имущества́, рабо́тая, ста́раясь и прилага́я уси́лия
+                                                так, то он печалится, тоску́ет, пла́чет, бьёт себя́ в грудь и впада́ет в
+                                                замеша́тельство: «Мои́ уси́лия напра́сны, моя́ рабо́та бесплодна!» Э́то
+                                                та́кже явля́ется опа́сностью в отноше́нии чу́вственных удово́льствий,
+                                                ма́ссой страда́ния здесь и сейча́с, име́ющей причи́ной чу́вственные
+                                                удово́льствия… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "If
+                                                    no property comes to the clansman while he works and strives and
+                                                    makes an effort thus, he sorrows, grieves, and laments, he weeps
+                                                    beating his breast and becomes distraught, crying: ‘My work is in
+                                                    vain, my effort is fruitless!’ Now this too is a danger in the case
+                                                    of sensual pleasures, a mass of suffering visible here and now … the
+                                                    cause being simply sensual pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Е́сли член ро́да
+                                                получа́ет иму́щество, рабо́тая, ста́раясь и прилага́я уси́лия так, то он
+                                                испытыва́ет боль и горе́, охраня́я его́: «Как бы ни цари́, ни во́ры не
+                                                отобра́ли моё иму́щество, ни огонь не сожра́л его́, ни вода́ не унесла́
+                                                его́, ни нена́вистные насле́дники не забра́ли его́!» И пока́ он
+                                                охраня́ет и защища́ет своё иму́щество, цари́ и́ли во́ры отбира́ют его́,
+                                                и́ли огонь сожига́ет его́, и́ли вода́ уно́сит его́, и́ли нена́вистные
+                                                насле́дники забира́ют его́. И он печалится, тоску́ет, пла́чет, бьёт
+                                                себя́ в грудь и впада́ет в замеша́тельство: «То, что у меня́ бы́ло, я
+                                                бо́лее не име́ю!» Э́то та́кже явля́ется опа́сностью в отноше́нии
+                                                чу́вственных удово́льствий, ма́ссой страда́ния здесь и сейча́с, име́ющей
+                                                причи́ной чу́вственные удово́льствия… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "If
+                                                    property comes to the clansman while he works and strives and makes
+                                                    an effort thus, he experiences pain and grief in protecting it: ‘How
+                                                    shall neither kings nor thieves make off with my property, nor fire
+                                                    burn it, nor water sweep it away, nor hateful heirs make off with
+                                                    it?’ And as he guards and protects his property, kings or thieves
+                                                    make off with it, or fire burns it, or water sweeps it away, or
+                                                    hateful heirs make off with it. And he sorrows, grieves, and
+                                                    laments, he weeps beating his breast and becomes distraught, crying:
+                                                    ‘What I had I have no longer!’ Now this too is a danger in the case
+                                                    of sensual pleasures, a mass of suffering visible here and now … the
+                                                    cause being simply sensual pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, име́я причи́ной
+                                                чу́вственные удово́льствия, име́я источником чу́вственные удово́льствия,
+                                                име́я осно́вой чу́вственные удово́льствия, име́я причи́ну про́сто в
+                                                чу́вственных удово́льствиях, цари́ ссо́рятся с царя́ми, благородные
+                                                во́ины с благородными во́инами, жрецы́ с жреца́ми, домохозя́ева с
+                                                домохозя́евами; мать ссорится с сы́ном, сын с ма́терью, оте́ц с сы́ном,
+                                                сын с отцо́м; брат ссорится с бра́том, брат с сестро́й, сестра́ с
+                                                бра́том, друг с дру́гом. И здесь, в свои́х спо́рах, дра́ках и раздо́рах
+                                                они́ напада́ют друг на дру́га кулака́ми, комья́ми, па́лками и́ли
+                                                но́жами, в результа́те чего́ получа́ют смерть и́ли смертепо́добную боль.
+                                                Э́то та́кже явля́ется опа́сностью в отноше́нии чу́вственных
+                                                удово́льствий, ма́ссой страда́ния здесь и сейча́с, име́ющей причи́ной
+                                                чу́вственные удово́льствия… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                    "Again, with sensual pleasures as the cause, sensual pleasures as
+                                                    the source, sensual pleasures as the basis, the cause being simply
+                                                    sensual pleasures, kings quarrel with kings, nobles with nobles,
+                                                    brahmins with brahmins, householders with householders; mother
+                                                    quarrels with son, son with mother, father with son, son with
+                                                    father; brother quarrels with brother, brother with sister, sister
+                                                    with brother, friend with friend. And here in their quarrels,
+                                                    brawls, and disputes they attack each other with fists, clods,
+                                                    sticks, or knives, whereby they incur death or deadly suffering. Now
+                                                    this too is a danger in the case of sensual pleasures, a mass of
+                                                    suffering here and now … the cause being simply sensual
+                                                    pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, име́я причи́ной
+                                                чу́вственные удово́льствия… лю́ди берут мечи́ и щиты́, надева́ют лу́ки и
+                                                колча́ны, и атаку́ют в сраже́нии в два стро́я с ле́тающими стрела́ми и
+                                                копья́ми, с блиста́ющими меча́ми; и там они́ получа́ют ра́ны от стрел и
+                                                копий, и их го́ловы отсека́ют меча́ми, в результа́те чего́ получа́ют
+                                                смерть и́ли смертепо́добную боль. Э́то та́кже явля́ется опа́сностью в
+                                                отноше́нии чу́вственных удово́льствий… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                    "Again, with sensual pleasures as the cause … men take swords and
+                                                    shields and buckle on bows and quivers, and they charge into battle
+                                                    massed in double array with arrows and spears flying and swords
+                                                    flashing; and there they are wounded by arrows and spears, and their
+                                                    heads are cut off by swords, whereby they incur death or deadly
+                                                    suffering. Now this too is a danger in the case of sensual
+                                                    pleasures, a mass of suffering here and now … the cause being simply
+                                                    sensual pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, име́я причи́ной
+                                                чу́вственные удово́льствия… лю́ди берут мечи́ и щиты́, надева́ют лу́ки и
+                                                колча́ны, и атаку́ют скользкие бастио́ны с ле́тающими стрела́ми и
+                                                копья́ми, с блиста́ющими меча́ми; и там они́ получа́ют ра́ны от стрел и
+                                                копий, их́ облива́ют кипя́щими жидкостя́ми, давя́т тя́жёлым гру́зом, и
+                                                их го́ловы отсека́ют меча́ми, в результа́те чего́ получа́ют смерть и́ли
+                                                смертепо́добную боль. Э́то та́кже явля́ется опа́сностью в отноше́нии
+                                                чу́вственных удово́льствий… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>"Again, with sensual pleasures as the cause … men take swords and
+                                                    shields and buckle on bows and quivers, and they charge slippery
+                                                    bastions, with arrows and spears flying and swords flashing; and
+                                                    there they are wounded by arrows and spears and splashed with
+                                                    boiling liquids and crushed under heavy weights, and their heads are
+                                                    cut off by swords, whereby they incur death or deadly suffering. Now
+                                                    this too is a danger in the case of sensual pleasures, a mass of
+                                                    suffering here and now … the cause being simply sensual
+                                                    pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, име́я причи́ной
+                                                чу́вственные удово́льствия… лю́ди взла́мывают до́мы, гра́бят, соверша́ют
+                                                кра́жи со взло́мом, устра́ивают заса́ды на доро́гах, соблазня́ют чужи́х
+                                                жён, и когда́ их ловя́т, цари́ подверга́ют их мно́гим ви́дам наказа́ний:
+                                                они́ прика́зывают бичева́ть их плетьми́, бить па́лками, бить дуби́нами;
+                                                они́ прика́зывают отсека́ть им ру́ки, но́ги, ру́ки и но́ги; у́ши, но́сы,
+                                                у́ши и но́сы; они́ прика́зывают подверга́ть их «сло́ньему го́ловнику»,
+                                                «ванне из ще́лочи», «ра́кушке», «па́сти Ра́ху», «огне́нному венку́»,
+                                                «пла́менной руке́», «травяно́й гиря́нде», «оде́жде из ко́ры»,
+                                                «антило́пе», «крю́чьям для мя́са», «монета́м», «щелочно́му
+                                                нама́зыванию», «вертя́щемуся замо́ку», «соломе́нному ма́трусу»; они́
+                                                прика́зывают облива́ть их кипя́щим ма́слом, отдава́ть на растерза́ние
+                                                соба́кам, сажа́ть жи́выми на кол, отсека́ть го́лову меча́ми. И в
+                                                результа́те э́того они́ получа́ют смерть и́ли смертепо́добную боль. Э́то
+                                                та́кже явля́ется опа́сностью в отноше́нии чу́вственных удово́льствий,
+                                                ма́ссой страда́ния здесь и сейча́с, име́ющей причи́ной чу́вственные
+                                                удово́льствия… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>"Again, with sensual pleasures as the cause … men break into houses,
+                                                    plunder wealth, commit burglary, ambush highways, seduce others’
+                                                    wives, and when they are caught, kings have many kinds of torture
+                                                    inflicted on them. The kings have them flogged with whips, beaten
+                                                    with canes, beaten with clubs; they have their hands cut off, their
+                                                    feet cut off, their hands and feet cut off; their ears cut off,
+                                                    their noses cut off, their ears and noses cut off; they have them
+                                                    subjected to the ‘porridge pot,’ to the ‘polished-shell shave,’ to
+                                                    the ‘Rāhu's mouth,’ to the ‘fiery wreath,’ to the ‘flaming hand,’ to
+                                                    the ‘blades of grass,’ to the ‘bark dress,’ to the ‘antelope,’ to
+                                                    the ‘meat hooks,’ to the ‘coins,’ to the ‘lye pickling,’ to the
+                                                    ‘pivoting pin,’ to the ‘rolled-up palliasse’; and they have them
+                                                    splashed with boiling oil, and they have them devoured by dogs,
+                                                    impaled alive, or beheaded with a sword. And thereby they incur
+                                                    death or deadly suffering. Now this too is a danger in the case of
+                                                    sensual pleasures, a mass of suffering visible here and now, having
+                                                    sensual pleasures as its cause, sensual pleasures as its source,
+                                                    sensual pleasures as its basis, the cause being simply sensual
+                                                    pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, име́я причи́ной
+                                                чу́вственные удово́льствия… лю́ди занима́ются непра́вильным пове́дением
+                                                те́лом, сло́вом, умо́м. Занима́ясь так, по распа́де те́ла, по́сле
+                                                сме́рти, они́ перерожда́ются в состоя́нии лише́ния, в несча́стном
+                                                уде́ле, в поги́бели, да́же в аду́. Э́то та́кже явля́ется опа́сностью в
+                                                отноше́нии чу́вственных удово́льствий, ма́ссой страда́ния в бу́дущей
+                                                жи́зни, име́ющей причи́ной чу́вственные удово́льствия, источником
+                                                чу́вственные удово́льствия, осно́вой чу́вственные удово́льствия, где
+                                                причи́на – про́сто чу́вственные удово́льствия. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>"Again, with sensual pleasures as the cause … men engage in
+                                                    misconduct of body, speech, and mind. Having done so, on the
+                                                    dissolution of the body, after death, they reappear in states of
+                                                    deprivation, in an unhappy destination, in perdition, even in hell.
+                                                    Now this is a danger in the case of sensual pleasures, a mass of
+                                                    suffering in the life to come, having sensual pleasures as its
+                                                    cause, sensual pleasures as its source, sensual pleasures as its
+                                                    basis, the cause being simply sensual pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br /> Спасе́ние</i>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что тако́е,
+                                                мона́хи, спасе́ние в отноше́нии чу́вственных удово́льствий? Э́то
+                                                устране́ние жела́ния и жа́жды, оставле́ние жела́ния и жа́жды к
+                                                чу́вственным удово́льствиям. Э́то явля́ется спасе́нием в отноше́нии
+                                                чу́вственных удово́льствий. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>iii
+                                                    "And what, bhikkhus, is the escape in the case of sensual pleasures?
+                                                    It is the removal of desire and lust, the abandonment of desire and
+                                                    lust for sensual pleasures. This is the escape in the case of
+                                                    sensual pleasures.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Не мо́жет быть тако́го,
+                                                что́бы те жрецы́ и отше́льники, кото́рые не понима́ют в соотве́тствии с
+                                                действи́тельностью привлека́тельность как привлека́тельность, опа́сность
+                                                как опа́сность, спасе́ние как спасе́ние в отноше́нии чу́вственных
+                                                удово́льствий, могли́ бы ли́бо са́ми по́лностью понима́ть чу́вственные
+                                                удово́льствия, ли́бо наставля́ть друго́го так, что́бы он смог по́лностью
+                                                поня́ть чу́вственные удово́льствия. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"That
+                                                    those recluses and brahmins who do not understand as it actually is
+                                                    the gratification as gratification, the danger as danger, and the
+                                                    escape as escape in the case of sensual pleasures, can either
+                                                    themselves fully understand sensual pleasures or instruct another so
+                                                    that he can fully understand sensual pleasures—that is impossible.</i>
+                                            </font>
+                                        </div>
+                                            
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Мо́жет быть так, что те
+                                                жрецы́ и отше́льники, кото́рые понима́ют в соотве́тствии с
+                                                действи́тельностью привлека́тельность как привлека́тельность, опа́сность
+                                                как опа́сность, спасе́ние как спасе́ние в отноше́нии чу́вственных
+                                                удово́льствий, могли́ бы ли́бо са́ми по́лностью понима́ть чу́вственные
+                                                удово́льствия, ли́бо наставля́ть друго́го так, что́бы он смог по́лностью
+                                                поня́ть чу́вственные удово́льствия. </font>
+                                        </div>
+
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>            
+                                                    That those recluses and brahmins who understand as it actually is
+                                                    the gratification as gratification, the danger as danger, and the
+                                                    escape as escape in the case of sensual pleasures, can either
+                                                    themselves fully understand sensual pleasures or instruct another so
+                                                    that he can fully understand sensual pleasures—that is possible.</i>
+                                            </font>
+                                        </div>
+                                        
+                                        <div class="a">
+                                            <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                    Материа́льная фо́рма</b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br />
+                                                    Привлека́тельность</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> <a name="2"></a>И
+                                                что тако́е, мона́хи, привлека́тельность в отноше́нии материа́льной
+                                                фо́рмы? Предполо́жим, есть де́вушка из благородного ро́да и́ли жреца́
+                                                и́ли домохозя́ина в свои́ пятна́дцать и́ли шестна́дцать лет, ни сли́шком
+                                                высо́кая, ни сли́шком ни́зкая, ни сли́шком худа́я, ни сли́шком то́лстая,
+                                                ни сли́шком те́мная, ни сли́шком све́тлая. Достига́ет ли она́ пи́ка
+                                                свое́й красоты́ и преле́сти в то вре́мя? – Да, уважа́емый. –
+                                                Удово́льствие и ра́дость, кото́рые возни́кают в зави́симости от э́той
+                                                красоты́ и преле́сти – э́то привлека́тельность в отноше́нии
+                                                материа́льной фо́рмы. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>i "And
+                                                    what, bhikkhus, is the gratification in the case of material form?
+                                                    Suppose there were a girl of the noble class or the brahmin class or
+                                                    of householder stock, in her fifteenth or sixteenth year, neither
+                                                    too tall nor too short, neither too thin nor too fat, neither too
+                                                    dark nor too fair. Is her beauty and loveliness then at its
+                                                    height?"—"Yes, venerable sir."—"Now the pleasure and joy that arise
+                                                    in dependence on that beauty and loveliness are the gratification in
+                                                    the case of material form.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br /> Опа́сность</i>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что тако́е,
+                                                мона́хи, опа́сность в отноше́нии материа́льной фо́рмы? По́зже мо́жно
+                                                уви́деть ту же са́мую же́нщину здесь в во́семьдесят, девяно́сто и́ли сто
+                                                лет, ста́рую, скрю́ченную, как стропи́ло кры́ши, согну́тую, опира́ющуюся
+                                                на по́сох, дрожа́щую, немощну́ю, беззубу́ю, седу́ю, с редки́ми
+                                                во́лосами, лы́сую, смо́рщенную, с пятни́стыми ко́нечностями. Что вы
+                                                ду́маете, мона́хи? Исче́зла ли её пре́жняя красота́ и преле́сть, и
+                                                появи́лась ли опа́сность? – Да, уважа́емый. – Э́то явля́ется опа́сностью
+                                                в отноше́нии материа́льной фо́рмы. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>ii
+                                                    "And what, bhikkhus, is the danger in the case of material form?
+                                                    Later on one might see that same woman here at eighty, ninety, or a
+                                                    hundred years, aged, as crooked as a roof bracket, doubled up,
+                                                    supported by a walking stick, tottering, frail, her youth gone, her
+                                                    teeth broken, grey-haired, scanty-haired, bald, wrinkled, with limbs
+                                                    all blotchy. What do you think, bhikkhus? Has her former beauty and
+                                                    loveliness vanished and the danger become evident?"—"Yes, venerable
+                                                    sir."—"Bhikkhus, this is a danger in the case of material form.</i>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, мо́жно уви́деть
+                                                ту же са́мую же́нщину страда́ющей, му́чающейся, тяжко́ боле́ющей,
+                                                лежа́щей в свои́х со́бственных экскреме́нтах, поднима́емой одни́ми,
+                                                укладыва́емой други́ми. Что вы ду́маете, мона́хи? Исче́зла ли её
+                                                пре́жняя красота́ и преле́сть, и появи́лась ли опа́сность? – Да,
+                                                уважа́емый. – Э́то та́кже явля́ется опа́сностью в отноше́нии
+                                                материа́льной фо́рмы. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>"Again, one might see that same woman afflicted, suffering, and
+                                                    gravely ill, lying fouled in her own urine and excrement, lifted up
+                                                    by some and set down by others. What do you think, bhikkhus? Has her
+                                                    former beauty and loveliness vanished and the danger become
+                                                    evident?"—"Yes, venerable sir."—"Bhikkhus, this too is a danger in
+                                                    the case of material form.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, мо́жно уви́деть
+                                                ту же са́мую же́нщину как труп, отбро́шенный на кла́дбище, уме́ршую
+                                                оди́н, два и́ли три дня наза́д, взду́вшуюся, посине́вшую, полну́ю гно́я.
+                                                Что вы ду́маете, мона́хи? Исче́зла ли её пре́жняя красота́ и преле́сть,
+                                                и появи́лась ли опа́сность? – Да, уважа́емый. – Э́то та́кже явля́ется
+                                                опа́сностью в отноше́нии материа́льной фо́рмы. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>"Again, one might see that same woman as a corpse thrown aside in a
+                                                    charnel ground, one, two, or three days dead, bloated, livid, and
+                                                    oozing matter. What do you think, bhikkhus? Has her former beauty
+                                                    and loveliness vanished and the danger become evident?"—"Yes,
+                                                    venerable sir."—"Bhikkhus, this too is a danger in the case of
+                                                    material form.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, мо́жно уви́деть
+                                                ту же са́мую же́нщину как труп, отбро́шенный на кла́дбище, пожира́емый
+                                                во́ронами, я́стребами, гри́фами, соба́ками, шака́лами и́ли различны́ми
+                                                ви́дами черве́й… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>"Again, one might see that same woman as a corpse thrown aside in a
+                                                    charnel ground, being devoured by crows, hawks, vultures, dogs,
+                                                    jackals, or various kinds of worms … </i></font>
+                                        </div>
+                                               
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">…скеле́т с мя́сом и
+                                                кро́вью, соединённый сухожи́лиями… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">…скеле́т без мя́са,
+                                                обма́занный кро́вью, соединённый сухожи́лиями… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">…скеле́т без мя́са и
+                                                кро́ви, соединённый сухожи́лиями… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">…разъединённые ко́сти,
+                                                разбро́санные во все сто́роны: здесь ко́сть руки́, там ко́сть ноги́,
+                                                здесь бедро́вая ко́сть, там ребе́рная ко́сть, здесь тазо́вая ко́сть, там
+                                                позвоно́чная ко́сть, здесь че́реп… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">…ко́сти, побеле́вшие,
+                                                цвета́ ра́кушек… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">…ко́сти, нагро́моженные,
+                                                бо́лее го́да… </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">…ко́сти, сгни́вшие и
+                                                преврати́вшиеся в пыль. Что вы ду́маете, мона́хи? Исче́зла ли её
+                                                пре́жняя красота́ и преле́сть, и появи́лась ли опа́сность? – Да,
+                                                уважа́емый. – Э́то та́кже явля́ется опа́сностью в отноше́нии
+                                                материа́льной фо́рмы. </font>
+                                        </div>
+
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>            
+                                                    … a skeleton with flesh and
+                                                    blood, held together with sinews…a fleshless skeleton smeared with
+                                                    blood, held together with sinews … a skeleton without flesh and
+                                                    blood, held together with sinews … disconnected bones scattered in
+                                                    all directions—here a hand-bone, there a foot-bone, here a
+                                                    thigh-bone, there a rib-bone, here a hip-bone, there a back-bone,
+                                                    here the skull … bones bleached white, the colour of shells … bones
+                                                    heaped up … bones more than a year old, rotted and crumbled to dust.
+                                                    What do you think, bhikkhus? Has her former beauty and loveliness
+                                                    vanished and the danger become evident?"—"Yes, venerable
+                                                    sir."—"Bhikkhus, this too is a danger in the case of material
+                                                    form.</i></font>
+                                        </div>
+                                        
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br /> Спасе́ние</i>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что тако́е,
+                                                мона́хи, спасе́ние в отноше́нии материа́льной фо́рмы? Э́то устране́ние
+                                                жела́ния и жа́жды, оставле́ние жела́ния и жа́жды к материа́льной фо́рме.
+                                                Э́то явля́ется спасе́нием в отноше́нии материа́льной фо́рмы. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>iii
+                                                    "And what, bhikkhus, is the escape in the case of material form? It
+                                                    is the removal of desire and lust, the abandonment of desire and
+                                                    lust for material form. This is the escape in the case of material
+                                                    form.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Не мо́жет быть тако́го,
+                                                что́бы те жрецы́ и отше́льники, кото́рые не понима́ют в соотве́тствии с
+                                                действи́тельностью привлека́тельность как привлека́тельность, опа́сность
+                                                как опа́сность, спасе́ние как спасе́ние в отноше́нии материа́льной
+                                                фо́рмы, могли́ бы ли́бо са́ми по́лностью понима́ть материа́льную фо́рму,
+                                                ли́бо наставля́ть друго́го так, что́бы он смог по́лностью поня́ть
+                                                материа́льную фо́рму. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"That
+                                                    those recluses and brahmins who do not understand as it actually is
+                                                    the gratification as gratification, the danger as danger, and the
+                                                    escape as escape in the case of material form, can either themselves
+                                                    fully understand material form or instruct another so that he can
+                                                    fully understand material form—that is impossible.</i></font>
+                                        </div>
+                                                    
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Мо́жет быть так, что те
+                                                жрецы́ и отше́льники, кото́рые понима́ют… могли́ бы ли́бо са́ми
+                                                по́лностью понима́ть материа́льную фо́рму, ли́бо наставля́ть друго́го
+                                                так, что́бы он смог по́лностью поня́ть материа́льную фо́рму. </font>
+                                        </div>
+
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>            
+                                                    That those
+                                                    recluses and brahmins who understand as it actually is the
+                                                    gratification as gratification, the danger as danger, and the escape
+                                                    as escape in the case of material form, can either themselves fully
+                                                    understand material form or instruct another so that he can fully
+                                                    understand material form—that is possible.</i></font>
+                                        </div>
+                                        
+                                        <div class="a">
+                                            <font face="Georgia, Times New Roman, Times, serif" size="2"><b><br />
+                                                    Чу́вства</b></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br />
+                                                    Привлека́тельность</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> <a name="3"></a>И
+                                                что тако́е, мона́хи, привлека́тельность в отноше́нии чувств? Вот,
+                                                мона́хи, бу́дучи отстранённым от чу́вственных удово́льствий,
+                                                отстранённым от неблагих состоя́ний [ума́], мона́х вхо́дит [в пе́рвую
+                                                джхану] и пребыва́ет в пе́рвой джхане, кото́рая сопровожда́ется
+                                                направле́нием [ума́ на объе́кт медита́ции] и удержа́нием [на нём], с
+                                                восто́ргом и удово́льствием, что возни́кли и́з-за [э́той] отстранённости
+                                               <sup><a href="#link3">3</a></sup>. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"And
+                                                    what, bhikkhus, is the gratification in the case of feelings? Here,
+                                                    bhikkhus, quite secluded from sensual pleasures, secluded from
+                                                    unwholesome states, a bhikkhu enters upon and abides in the first
+                                                    jhāna, which is accompanied by applied and sustained thought, with
+                                                    rapture and pleasure born of seclusion.</i></font>
+                                        </div> 
+                                        
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">В э́том слу́чае он не
+                                                намерева́ется [сде́лать что-ли́бо] ра́ди со́бственной боле́зненности,
+                                                и́ли боле́зненности други́х, и́ли ра́ди боле́зненности обо́их. В э́том
+                                                слу́чае он чу́вствует то́лько чу́вство, кото́рое свобо́дно от
+                                                боле́зненности. Вы́сшая привлека́тельность в отноше́нии чувств – э́то
+                                                свобо́да от боле́зненности, я говорю́ вам.</font>
+                                        </div>
+
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                    On such an occasion he does
+                                                    not choose for his own affliction, or for another's affliction, or
+                                                    for the affliction of both. On that occasion he feels only feeling
+                                                    that is free from affliction. The highest gratification in the case
+                                                    of feelings is freedom from affliction, I say.</i></font>
+                                        </div>
+                                        
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Да́лее, с угаса́нием
+                                                направле́ния и удержа́ния мона́х вхо́дит [во втору́ю джхану] и
+                                                пребыва́ет во второ́й джхане, в кото́рой нали́чествуют уве́ренность в
+                                                себе́ и едине́ние ума́, в кото́рой нет направле́ния и удержа́ния, но
+                                                есть восто́рг и удово́льствие, что возни́кли посре́дством
+                                                сосредото́чения. </font>
+                                        </div>
+                                       
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">В э́том слу́чае он не
+                                                намерева́ется… свобо́да от боле́зненности, я говорю́ вам.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">С угаса́нием восто́рга
+                                                мона́х пребыва́ет невозмути́мым, осо́знанным, бди́тельным, всё ещё
+                                                ощуща́я прия́тное те́лом. Он вхо́дит [в тре́тью джхану] и пребыва́ет в
+                                                тре́тьей джхане, о кото́рой Благоро́дные говоря́т так: «Он невозмути́м,
+                                                осо́знан, нахо́дится в прия́тном пребыва́нии». </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">В э́том слу́чае он не
+                                                намерева́ется… свободая от боле́зненности, я говорю́ вам.</font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">С оставле́нием
+                                                удово́льствия и бо́ли, равно́ как и с предыду́щим угаса́нием ра́дости и
+                                                гру́сти|грусти́, мона́х вхо́дит [в четвёртую джхану] и пребыва́ет в
+                                                четвёртой джхане, кото́рая явля́ется ни-прия́тной-ни-боле́зненной,
+                                                характеризу́ется чисте́йшей осо́знанностью и́з-за невозмути́мости.
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">В э́том слу́чае он не
+                                                намерева́ется [сде́лать что-ли́бо] ра́ди со́бственной боле́зненности,
+                                                и́ли боле́зненности други́х, и́ли ра́ди боле́зненности обо́их. В э́том
+                                                слу́чае он чу́вствует то́лько чу́вство, кото́рое свобо́дно от
+                                                боле́зненности. Вы́сшая привлека́тельность в отноше́нии чувств – э́то
+                                                свобо́да от боле́зненности, я говорю́ вам.</font>
+                                        </div>
+
+                                         <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2">
+                                                <i>"Again, with the stilling of applied and sustained thought, a bhikkhu
+                                                    enters upon and abides in the second jhāna … With the fading away as
+                                                    well of rapture … he enters upon and abides in the third jhāna …
+                                                    With the abandoning of pleasure and pain he enters upon and abides
+                                                    in the fourth jhāna … On such an occasion he does not choose for his
+                                                    own affliction, or for another's affliction, or for the affliction
+                                                    of both. On that occasion he feels only feeling that is free from
+                                                    affliction. The highest gratification in the case of feelings is
+                                                    freedom from affliction, I say.</i></font>
+                                        </div>
+
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br /> Опа́сность</i>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что тако́е,
+                                                мона́хи, опа́сность в отноше́нии чувств? Чу́вства непостоя́нны,
+                                                [явля́ются] страда́нием, подве́ржены измене́нию. Э́то явля́ется
+                                                опа́сностью в отноше́нии чувств. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>ii
+                                                    "And what, bhikkhus, is the danger in the case of feelings? Feelings
+                                                    are impermanent, suffering, and subject to change. This is the
+                                                    danger in the case of feelings.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><i><br /> Спасе́ние</i>
+                                            </font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что тако́е,
+                                                мона́хи, спасе́ние в отноше́нии чувств? Э́то устране́ние жела́ния и
+                                                жа́жды, оставле́ние жела́ния и жа́жды к чу́вствам. Э́то явля́ется
+                                                спасе́нием в отноше́нии чувств. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>iii
+                                                    "And what, bhikkhus, is the escape in the case of feelings? It is
+                                                    the removal of desire and lust, the abandonment of desire and lust
+                                                    for feelings. This is the escape in the case of feelings.</i></font>
+                                        </div>
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Не мо́жет быть тако́го,
+                                                что́бы те жрецы́ и отше́льники, кото́рые не понима́ют в соотве́тствии с
+                                                действи́тельностью привлека́тельность как привлека́тельность, опа́сность
+                                                как опа́сность, спасе́ние как спасе́ние в отноше́нии чувств, могли́ бы
+                                                ли́бо са́ми по́лностью понима́ть чу́вства, ли́бо наставля́ть друго́го
+                                                так, что́бы он смог по́лностью поня́ть чу́вства. </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"That
+                                                    those recluses and brahmins who do not understand as it actually is
+                                                    the gratification as gratification, the danger as danger, and the
+                                                    escape as escape in the case of feelings, can either themselves
+                                                    fully understand feelings or instruct another so that he can fully
+                                                    understand feelings—that is impossible.</i></font>
+                                        </div>
+                                              
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Мо́жет быть так, что те
+                                                жрецы́ и отше́льники, кото́рые понима́ют… могли́ бы ли́бо са́ми
+                                                по́лностью понима́ть чу́вства, ли́бо наставля́ть друго́го так, что́бы он
+                                                смог по́лностью поня́ть чу́вства».<br /> <br /> </font>
+                                        </div>
+
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                    That those recluses and
+                                                    brahmins who understand as it actually is the gratification as
+                                                    gratification, the danger as danger, and the escape as escape in the
+                                                    case of feelings, can either themselves fully understand feelings or
+                                                    instruct another so that he can fully understand feelings—that is
+                                                    possible."</i></font>
+                                        </div>
+                                        
+                                        <div class="a">
+                                            <font face="Arial, Helvetica, sans-serif" size="2">Так сказа́л
+                                                Благослове́нный. Мона́хи бы́ли дово́льны и восхи́тились|восхити́лись
+                                                слова́ми Благослове́нного.<br /> </font>
+                                        </div>
+                                        <div class="a">
+                                            <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>That
+                                                    is what the Blessed One said. The bhikkhus were satisfied and
+                                                    delighted in the Blessed One's words.</i></font>
+                                        </div>
+                                    </body>
+
+                                    </html>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <font face="Arial, Helvetica, sans-serif" size="2">
+                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                        <font size="4"></font>
+                                    </font>
+                                </font>
+                            </font>
+                        </font><br />
+                        <div align="center">
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a
+                                            href="#1" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="14" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+                                                style='font-size:18pt;font-family:"Wingdings 3";'>
+                                                <font color="#C7B683"></font>
+                                            </span></font>
+                                    </td>
+                                    <td height="14" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link1"></a>
+                                                </font>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                        <font color="#999966">Комментарий:
+                                                            Полное понимание (париння) здесь означает преодоление
+                                                            (саматиккама)
+                                                            или оставление (пахана). Странники – приверженцы иных учений
+                                                            обозначали полным пониманием чувственных удовольствий первую
+                                                            джхану; полным пониманием материальной формы нематериальные
+                                                            миры существования; полным пониманием чувств мир
+                                                            не-воспринимающих
+                                                            существ. Будда же, напротив, описывает полное понимание
+                                                            чувственных
+                                                            удовольствий как путь не-возвращающегося, а полное понимание
+                                                            материальной формы и чувств как путь арахантства. <br />
+                                                            <br />
+                                                            SV: См. также <a
+                                                                href="an3_126-bharandukalama-sutta-sv.htm">АН
+                                                                3.126</a>, где содержится беседа на схожую тему между
+                                                            Буддой
+                                                            и учеником Алара Каламы, бывшего учителя бодхисатты.
+                                                        </font>
+                                                    </i></font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#2" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link2"></a>
+                                                </font>
+                                                <font color="#999966">Бодхи:
+                                                    Стоит отметить, что в предыдущих примерах опасности чувственных
+                                                    удовольствий идёт другая фраза – "масса страданий, видимая
+                                                    здесь и сейчас" (то есть в этой самой жизни).</font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#3" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link3"></a>
+                                                </font>
+                                                <font color="#999966">Бодхи:
+                                                    Для демонстрации опасности чувств Будда специально выбрал наиболее
+                                                    возвышенные виды мирского удовольствия, чтобы показать, что
+                                                    даже эти состояния непостоянны и неудовлетворительны.</font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <br />
+                        <br />
+                        <br />
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr bgcolor="#F4EFBD">
+                                <td class="bottom" colspan="4" height="2">
+                                    <div align="center">
+                                        <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                            style="cursor:default;font-size:1pt;">.
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                            <tr>
+                                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm#7"
+                                        style="border:0px;" title="вернуться к разделу">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                    </a></td>
+                                <td class="bottom" height="2" valign="middle" width="1%"> <a href="#"
+                                        style="border:0px;" title="вернуться наверх">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                                    </a></td>
+                                <td height="2" valign="top" width="32%">
+                                    <div align="center">
+                                        <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                            <noindex><!--LiveInternet counter-->
+                                                <script type="text/javascript">
+                                                    new Image().src = "//counter.yadro.ru/hit?r" +
+                                                        escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                                                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                        ";h" + escape(document.title.substring(0, 150)) +
+                                                        ";" + Math.random();</script>
+                                                <!--/LiveInternet--><!--LiveInternet logo--><a
+                                                    href="//www.liveinternet.ru/click" target="_blank"><img alt=""
+                                                        border="0" height="1" src="//counter.yadro.ru/logo?42.6"
+                                                        title="LiveInternet"
+                                                        width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                                                <span id="spylog2031418"></span>
+                                                <script
+                                                    type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                                                            (("https:" == document.location.protocol) ? "s" : "") +
+                                                            "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                                                <!--SpyLOG-->
+                                            </noindex>
+                                        </font>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="19%">
+                                    <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="37%">
+                                    <div align="right">
+                                        <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                                            style="font-size:7pt; font-family: Arial;">©
+                                            theravada.ru – при копировании материалов<br />
+                                            просьба ставить прямую ссылку на наш сайт.<br />
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window, a = 'inner';
+            if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+            return { width: e[a + 'Width'], height: e[a + 'Height'] }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+            document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+                document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+            }
+        }
+
+    </script>
+</body>
+
+</html>

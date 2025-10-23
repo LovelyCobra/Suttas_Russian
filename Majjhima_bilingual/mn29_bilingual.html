@@ -1,0 +1,760 @@
+<html>
+
+<head>
+  <title>Махасаропама-сутта: Большое наставление с примером о сердцевине :: Мадджхима Никая 29</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+  <meta
+    content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+    name="keywords" />
+  <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript">
+    //Пути к директориям
+    var pathToScript = '/Index/Scripts/';
+    var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+    //-----------------------------------
+    var request = false;
+    try {
+      request = new XMLHttpRequest();
+    }
+    catch (trymicrosoft) {
+      try {
+        request = new ActiveXObject("Msxml2.XMLHTTP");
+      }
+      catch (othermicrosoft) {
+        try {
+          request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        catch (failed) {
+          request = false;
+        }
+      }
+    }
+
+    if (!request) {
+      alert("Ошибка в работе");
+    }
+
+    function sendRequest() {
+      var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+      request.open("GET", url, true);
+      request.onreadystatechange = getResponse;
+      request.send(null);
+    }
+
+    function getResponse() {
+      if (request.readyState == 4) {
+        if (request.status == 200) {
+          var response = request.responseText;
+          var articles = request.responseText.split(' ');
+          var random = Math.round((Math.random() * (articles.length - 2)));
+          window.open("http://" + document.domain + articles[random], "_self");
+        }
+      }
+    }
+  </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+  text="#333300" topmargin="1" vlink="#996633">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+    <tr>
+      <td>
+        <div align="center">
+          <style>
+            a {
+              border: 0px solid #FFFFCC;
+              text-decoration: none
+            }
+
+            a:hover {
+              font-family: Arial;
+              border: 0px solid #996633;
+              color: #000000;
+              text-decoration: none;
+              background-color: #D8D68B;
+              padding: 0;
+            }
+
+            a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            div {
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            .a {
+              TEXT-INDENT: 2em;
+              margin-bottom: 15px;
+            }
+
+            .bottom a:hover {
+              color: #000000;
+              font-family: Arial;
+              text-decoration: none;
+              background: none;
+            }
+
+            .bottom a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none;
+            }
+
+            body {
+              background: #FFFFCC;
+              overflow-y: scroll
+            }
+
+            p {
+              TEXT-INDENT: 0em
+            }
+          </style>
+          <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td colspan="2"> </td>
+              <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                  <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                     
+                      Учение Старцев </b></font>
+                </i></td>
+              <td width="5%"> </td>
+            </tr>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                  <tr>
+                    <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                        <div style='font-size:24.0pt;font-family:"Arial"'>
+                          <div align="center">«</div>
+                        </div>
+                      </a></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+              </td>
+              <td bgcolor="#CBB079" width="3%"> </td>
+              <td width="5%"> </td>
+            </tr>
+            <tr>
+              <td bgcolor="#CBB079"> </td>
+              <td rowspan="2"> </td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </table>
+          <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+            <tr>
+              <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm" style="border:0px;"
+                  title="вернуться к разделу">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная сутта">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>
+                    <font size="-4"> </font>₪
+                  </div>
+                </a> </td>
+              <td height="2" width="44%">  </td>
+              <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span>
+              </td>
+              <td class="bottom" height="2" width="19%">
+                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+              </td>
+            </tr>
+            <tr bgcolor="#F4EFBD">
+              <td colspan="4" height="3">
+                <div align="center">
+                  <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                  </font>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div align="center"><br />
+            <table border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr>
+                <td>
+                  <div align="center">
+                    <font face="Times New Roman, Times, serif" size="5">Махасаропама-сутта:
+                      Большое наставление с примером о сердцевине<br />
+                      <font size="3">МН 29</font>
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="0" cellspacing="5" width="70%">
+              <tr>
+                <td height="2" width="61%"> </td>
+                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                    <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                        <div align="right"><i>
+                            <font color="#996633"><span style="font-size:8pt;font-family:Arial;"><span
+                                  style="font-size:8pt;font-family:Arial;"><span
+                                    style="font-size:8pt;font-family:Arial;"><span
+                                      style="font-size:8pt;font-family:Arial;"><span
+                                        style="font-size:8pt;font-family:Arial;">редакция
+                                        перевода: 17.02.2024</span></span></span><br />
+                                  Перевод с английского: SV<br />
+                                  <br />
+                                  источник: <br />
+                                  "Majjhima Nikaya by Nyanamoli &amp; Bodhi, p. 286"</span></span></font>
+                          </i></div>
+                      </span></div>
+                  </span></td>
+                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+              </tr>
+            </table>
+            <br />
+            <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+              <tr>
+                <td height="2105" style="text-align: justify" valign="top">
+                  <html>
+
+                  <body>
+                    <font color="#996633" face="Times New Roman, Times, serif" size="5"><b><a name="1"></a>Т</b></font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал. Одна́жды Благослове́нный прожива́л
+                      в Раджагахе на го́ре|горе́ Пик Гри́фов. Э́то бы́ло вско́ре по́сле того́, как ушёл Девадатта<font
+                        face="Arial, Helvetica, sans-serif" size="2">
+                        <font face="Arial, Helvetica, sans-serif" size="2"><sup><a href="#link1">1</a></sup></font>
+                      </font>. И там, име́я в виду́ Девадатту, Благослове́нный обрати́лся к мона́хам так:</font>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Thus have I heard. On one
+                          occasion the Blessed One was living at Rājagaha on the mountain Vulture Peak; it was soon
+                          after Devadatta had left. There, referring to Devadatta, the Blessed One addressed the
+                          bhikkhus thus:</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                          <font face="Georgia, Times New Roman, Times, serif"><br /> Обрете́ния, сла́ва, изве́стность
+                          </font>
+                        </b></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Мона́хи, быва́ет так, что представи́тель
+                        кла́на благодаря́ ве́ре покида́ет жизнь домохозяйскую ра́ди жи́зни бездо́мной и размышля́ет: «Я
+                        – же́ртва рожде́ния, старе́ния и сме́рти, печа́ли, стена́ния, бо́ли, гру́сти|грусти́ и
+                        отча́яния. Я – же́ртва страда́ния, добы́ча страда́ния. Вне сомне́ний, мо́жно [ведь ка́к-нибудь]
+                        позна́ть оконча́ние всей э́той гру́ды страда́ний». Когда́ он подо́бным о́бразом ушёл в жизнь
+                        бездо́мную, он [да́лее] получа́ет обрете́ния, сла́ву, изве́стность. Он дово́лен э́тими
+                        обрете́ниями, сла́вой, изве́стностью, и его́ наме́рение [за счёт э́того] испо́лнено. И́з-за
+                        э́того он возвыша́ет себя́ и унижа́ет други́х так: «Я тот, кто получа́ет обрете́ния и
+                        изве́стность, но те други́е мона́хи неизве́стны, никто́ их не це́нит». Он стано́вится опьянённым
+                        э́тими обрете́ниями, сла́вой, изве́стностью, возраста́ет в беспе́чности, впада́ет в
+                        беспе́чность, и, бу́дучи беспе́чным, он живёт в страда́нии.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Bhikkhus, here some
+                          clansman goes forth out of faith from the home life into homelessness, considering: ‘I am a
+                          victim of birth, ageing, and death, of sorrow, lamentation, pain, grief, and despair; I am a
+                          victim of suffering, a prey to suffering. Surely an ending of this whole mass of suffering can
+                          be known.’ When he has gone forth thus, he acquires gain, honour, and renown. He is pleased
+                          with that gain, honour, and renown, and his intention is fulfilled. On account of it he lauds
+                          himself and disparages others thus: ‘I am one who gets gain and renown, but these other
+                          bhikkhus are unknown, of no account.’ He becomes intoxicated with that gain, honour, and
+                          renown, grows negligent, falls into negligence, and being negligent, he lives in
+                          suffering.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Предста́вьте, как е́сли бы челове́ку
+                        пона́добилась сердцеви́на де́рева, он бы иска́л сердцеви́ну де́рева, броди́л в по́исках
+                        сердцеви́ны де́рева, и подошёл к вели́кому де́реву с сердцеви́ной. Пройдя́ ми́мо его́
+                        сердцеви́ны, его́ за́болони, его́ вну́тренней коры́, его́ вне́шней коры́, он бы
+                        отре́зал|отреза́л ве́тви и ли́стья и унёс их, ду́мая, что э́то и есть сердцеви́на. И тогда́
+                        челове́к с хоро́шим зре́нием, ви́дя его́, сказа́л бы: «Э́тот почте́нный|почтённый не знал
+                        сердцеви́ны де́рева, за́болони, вну́тренней коры́, вне́шней коры́, и́ли ветве́й и ли́стьев.
+                        Поэ́тому, хотя́ ему́ нужна́ была́ сердцеви́на де́рева, он иска́л сердцеви́ну де́рева…
+                        отре́зал|отреза́л ве́тви и ли́стья и унёс их, ду́мая, что э́то и есть сердцеви́на. Что бы ни
+                        хоте́л э́тот почте́нный|почтённый сде́лать с сердцеви́ной де́рева, э́то не послу́жит его́
+                        це́ли». То́чно так же, мона́хи, не́кий представи́тель кла́на благодаря́ ве́ре покида́ет жизнь
+                        домохозяйскую… и, бу́дучи беспе́чным, он живёт в страда́нии. Тако́й мона́х зовётся тем, кто взял
+                        ве́тви и ли́стья свято́й жи́зни и останови́лся на э́том. </font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Suppose a man needing
+                          heartwood, seeking heartwood, wandering in search of heartwood, came to a great tree standing
+                          possessed of heartwood. Passing over its heartwood, its sapwood, its inner bark, and its outer
+                          bark, he would cut off its twigs and leaves and take them away thinking they were heartwood.
+                          Then a man with good sight, seeing him, might say: ‘This good man did not know the heartwood,
+                          the sapwood, the inner bark, the outer bark, or the twigs and leaves. Thus, while needing
+                          heartwood, seeking heartwood, wandering in search of heartwood, he came to a great tree
+                          standing possessed of heartwood, and passing over its heartwood, its sapwood, its inner bark,
+                          and its outer bark, he cut off its twigs and leaves and took them away thinking they were
+                          heartwood. Whatever it was this good man had to make with heartwood, his purpose will not be
+                          served.’ So too, bhikkhus, here some clansman goes forth out of faith … … he lives in
+                          suffering. This bhikkhu is called one who has taken the twigs and leaves of the holy life and
+                          stopped short with that.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                          <font face="Georgia, Times New Roman, Times, serif"> Нра́вственность</font>
+                        </b></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Мона́хи, быва́ет так, что представи́тель
+                        кла́на благодаря́ ве́ре покида́ет жизнь домохозяйскую ра́ди жи́зни бездо́мной и размышля́ет: «Я
+                        – же́ртва рожде́ния, старе́ния и сме́рти, печа́ли, стена́ния, бо́ли, гру́сти|грусти́ и
+                        отча́яния. Я – же́ртва страда́ния, добы́ча страда́ния. Вне сомне́ний, мо́жно [ведь ка́к-нибудь]
+                        позна́ть оконча́ние всей э́той гру́ды страда́ний». Когда́ он подо́бным о́бразом ухо́дит в жизнь
+                        бездо́мную, он [да́лее] получа́ет обрете́ния, сла́ву, изве́стность. Он не дово́лен э́тими
+                        обрете́ниями, сла́вой, изве́стностью, и его́ наме́рение [за счёт э́того] не испо́лнено. И́з-за
+                        э́того он не возвыша́ет себя́ и не унижа́ет други́х. Он не стано́вится опьянённым обрете́ниями,
+                        сла́вой, изве́стностью, не возраста́ет в беспе́чности, не впада́ет в беспе́чность. Бу́дучи
+                        приле́жным, он обрета́ет достиже́ние нра́вственности. Он дово́лен э́тим достиже́нием
+                        нра́вственности, и его́ наме́рение [за счёт э́того] испо́лнено. И́з-за э́того он возвыша́ет
+                        себя́ и унижа́ет други́х так: «Я тот, кто облада́ет нра́вственностью, хоро́шим хара́ктером, но
+                        те други́е мона́хи безнра́вственны, облада́ют поро́чным хара́ктером». Он стано́вится опьянённым
+                        э́тим достиже́нием нра́вственности, возраста́ет в беспе́чности, впада́ет в беспе́чность, и,
+                        бу́дучи беспе́чным, он живёт в страда́нии.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Here, bhikkhus, some
+                          clansman goes forth out of faith from the home life into homelessness, considering: ‘I am a
+                          victim of birth, ageing, and death, of sorrow, lamentation, pain, grief, and despair; I am a
+                          victim of suffering, a prey to suffering. Surely an ending of this whole mass of suffering can
+                          be known.’ When he has gone forth thus, he acquires gain, honour, and renown. He is not
+                          pleased with that gain, honour, and renown, and his intention is not fulfilled. He does not,
+                          on account of it, laud himself and disparage others. He does not become intoxicated with that
+                          gain, honour, and renown; he does not grow negligent and fall into negligence. Being diligent,
+                          he achieves the attainment of virtue. He is pleased with that attainment of virtue and his
+                          intention is fulfilled. On account of it he lauds himself and disparages others thus: ‘I am
+                          virtuous, of good character, but these other bhikkhus are immoral, of evil character.’ He
+                          becomes intoxicated with that attainment of virtue, grows negligent, falls into negligence,
+                          and being negligent, he lives in suffering.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Предста́вьте, как е́сли бы челове́ку
+                        пона́добилась сердцеви́на де́рева, он бы иска́л сердцеви́ну де́рева, броди́л в по́исках
+                        сердцеви́ны де́рева, и подошёл к вели́кому де́реву с сердцеви́ной. Пройдя́ ми́мо его́
+                        сердцеви́ны, его́ за́болони, его́ вну́тренней коры́, он бы сре́зал|среза́л вне́шнюю кору́, и
+                        унёс её, ду́мая, что э́то и есть сердцеви́на. И тогда́ челове́к с хоро́шим зре́нием, ви́дя его́,
+                        сказа́л бы: «Э́тот почте́нный|почтённый не знал сердцеви́ны де́рева, за́болони, вну́тренней
+                        коры́, вне́шней коры́, и́ли ветве́й и ли́стьев. Поэ́тому, хотя́ ему́ нужна́ была́ сердцеви́на
+                        де́рева, он иска́л сердцеви́ну де́рева… сре́зал|среза́л вне́шнюю кору́ и унёс её, ду́мая, что
+                        э́то и есть сердцеви́на. Что бы ни хоте́л э́тот почте́нный|почтённый сде́лать с сердцеви́ной
+                        де́рева, э́то не послу́жит его́ це́ли». То́чно так же, мона́хи, не́кий представи́тель кла́на
+                        благодаря́ ве́ре покида́ет жизнь домохозяйскую… и, бу́дучи беспе́чным, он живёт в страда́нии.
+                        Тако́й мона́х зовётся тем, кто взял вне́шнюю кору́ свято́й жи́зни и останови́лся на э́том.
+                      </font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Suppose a man needing
+                          heartwood, seeking heartwood, wandering in search of heartwood, came to a great tree standing
+                          possessed of heartwood. Passing over its heartwood, its sapwood, and its inner bark, he would
+                          cut off its outer bark and take it away thinking it was heartwood. Then a man with good sight,
+                          seeing him, might say: ‘This good man did not know the heartwood … or the twigs and leaves.
+                          Thus, while needing heartwood … he cut off its outer bark and took it away thinking it was
+                          heartwood. Whatever it was this good man had to make with heartwood, his purpose will not be
+                          served.’ So too, bhikkhus, here some clansman goes forth out of faith … he lives in suffering.
+                          This bhikkhu is called one who has taken the outer bark of the holy life and stopped short
+                          with that.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                          <font face="Georgia, Times New Roman, Times, serif"> Сосредото́чение</font>
+                        </b></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Мона́хи, быва́ет так, что представи́тель
+                        кла́на благодаря́ ве́ре покида́ет жизнь домохозяйскую ра́ди жи́зни бездо́мной и размышля́ет: «Я
+                        – же́ртва рожде́ния… мо́жно [ведь ка́к-нибудь] позна́ть оконча́ние всей э́той гру́ды
+                        страда́ний». Когда́ он подо́бным о́бразом ухо́дит в жизнь бездо́мную, он [да́лее] получа́ет
+                        обрете́ния, сла́ву, изве́стность. Он не дово́лен э́тими обрете́ниями, сла́вой, изве́стностью, и
+                        его́ наме́рение [за счёт э́того] не испо́лнено. И́з-за э́того он не возвыша́ет себя́ и не
+                        унижа́ет други́х. Он не стано́вится опьянённым обрете́ниями, сла́вой, изве́стностью, не
+                        возраста́ет в беспе́чности, не впада́ет в беспе́чность. Бу́дучи приле́жным, он обрета́ет
+                        достиже́ние нра́вственности. Он дово́лен э́тим достиже́нием нра́вственности, но его́ наме́рение
+                        [за счёт э́того] не испо́лнено. И́з-за э́того он не возвыша́ет себя́ и не унижа́ет други́х. Он
+                        не стано́вится опьянённым достиже́нием нра́вственности. Он не возраста́ет в беспе́чности, не
+                        впада́ет в беспе́чность. Бу́дучи приле́жным, он обрета́ет достиже́ние сосредото́чения. Он
+                        дово́лен э́тим достиже́нием сосредото́чения, и его́ наме́рение [за счёт э́того] испо́лнено.
+                        И́з-за э́того он возвыша́ет себя́ и унижа́ет други́х так: «Я сосредото́чен, мой ум объединён, но
+                        те други́е мона́хи не сосредото́чены, их умы́ блужда́ют». Он стано́вится опьянённым э́тим
+                        достиже́нием сосредото́чения, возраста́ет в беспе́чности, впада́ет в беспе́чность, и, бу́дучи
+                        беспе́чным, он живёт в страда́нии.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Here, bhikkhus, some
+                          clansman goes forth out of faith from the home life into homelessness, considering: ‘I am a
+                          victim of birth, ageing, and death, of sorrow, lamentation, pain, grief, and despair; I am a
+                          victim of suffering, a prey to suffering. Surely an ending of this whole mass of suffering can
+                          be known.’ When he has gone forth thus, he acquires gain, honour, and renown. He is not
+                          pleased with that gain, honour, and renown, and his intention is not fulfilled … Being
+                          diligent, he achieves the attainment of virtue. He is pleased with that attainment of virtue,
+                          but his intention is not fulfilled. He does not, on account of it, laud himself and disparage
+                          others. He does not become intoxicated with that attainment of virtue; he does not grow
+                          negligent and fall into negligence. Being diligent, he achieves the attainment of
+                          concentration. He is pleased with that attainment of concentration and his intention is
+                          fulfilled. On account of it he lauds himself and disparages others thus: ‘I am concentrated,
+                          my mind is unified, but these other bhikkhus are unconcentrated, with their minds astray.’ He
+                          becomes intoxicated with that attainment of concentration, grows negligent, falls into
+                          negligence, and being negligent, he lives in suffering.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Предста́вьте, как е́сли бы челове́ку
+                        пона́добилась сердцеви́на де́рева, он бы иска́л сердцеви́ну де́рева, броди́л в по́исках
+                        сердцеви́ны де́рева, и подошёл к вели́кому де́реву с сердцеви́ной. Пройдя́ ми́мо его́
+                        сердцеви́ны и его́ за́болони, он бы сре́зал|среза́л вну́треннюю кору́, и унёс её, ду́мая, что
+                        э́то и есть сердцеви́на. И тогда́ челове́к с хоро́шим зре́нием, ви́дя его́, сказа́л бы: «Э́тот
+                        почте́нный|почтённый не знал сердцеви́ны… ветве́й и ли́стьев. Поэ́тому, хотя́ ему́ нужна́ была́
+                        сердцеви́на де́рева… сре́зал|среза́л вну́треннюю кору́ и унёс её, ду́мая, что э́то и есть
+                        сердцеви́на. Что бы ни хоте́л э́тот почте́нный|почтённый сде́лать с сердцеви́ной де́рева, э́то
+                        не послу́жит его́ це́ли». То́чно так же, мона́хи, не́кий представи́тель кла́на благодаря́ ве́ре
+                        покида́ет жизнь домохозяйскую… и, бу́дучи беспе́чным, он живёт в страда́нии. Тако́й мона́х
+                        зовётся тем, кто взял вну́треннюю кору́ свято́й жи́зни и останови́лся на э́том.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Suppose a man needing
+                          heartwood, seeking heartwood, wandering in search of heartwood, came to a great tree standing
+                          possessed of heartwood. Passing over its heartwood and its sapwood, he would cut off its inner
+                          bark and take it away thinking it was heartwood. Then a man with good sight, seeing him, might
+                          say: ‘This good man did not know the heartwood … or the twigs and leaves. Thus, while needing
+                          heartwood … he cut off its inner bark and took it away thinking it was hear twood. Whatever it
+                          was this good man had to make with heartwood, his purpose will not be served.’ So too,
+                          bhikkhus, here some clansman goes forth out of faith … he lives in suffering. This bhikkhu is
+                          called one who has taken the inner bark of the holy life and stopped short with that.</i>
+                      </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                          <font face="Georgia, Times New Roman, Times, serif"> Зна́ние и ви́дение|виде́ние</font>
+                        </b></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> <a name="2"></a>Мона́хи, быва́ет так, что
+                        представи́тель кла́на благодаря́ ве́ре покида́ет жизнь домохозяйскую ра́ди жи́зни бездо́мной и
+                        размышля́ет: «Я – же́ртва рожде́ния… мо́жно [ведь ка́к-нибудь] позна́ть оконча́ние всей э́той
+                        гру́ды страда́ний». Когда́ он подо́бным о́бразом ухо́дит в жизнь бездо́мную, он [да́лее]
+                        получа́ет обрете́ния, сла́ву, изве́стность… его́ наме́рение [за счёт э́того] не испо́лнено…
+                        обрета́ет достиже́ние нра́вственности… его́ наме́рение [за счёт э́того] не испо́лнено… обрета́ет
+                        достиже́ние сосредото́чения… его́ наме́рение [за счёт э́того] не испо́лнено… Бу́дучи приле́жным,
+                        он обрета́ет зна́ние и ви́дение|виде́ние<font face="Arial, Helvetica, sans-serif" size="2">
+                          <font face="Arial, Helvetica, sans-serif" size="2">
+                            <font face="Arial, Helvetica, sans-serif" size="2">
+                              <font face="Arial, Helvetica, sans-serif" size="2"><sup><a href="#link2">2</a></sup>
+                              </font>
+                            </font>
+                          </font>
+                        </font>. Он дово́лен э́тим зна́нием и ви́дением|виде́нием, и его́ наме́рение [за счёт э́того]
+                        испо́лнено. И́з-за э́того он возвыша́ет себя́ и унижа́ет други́х так: «Я живу́, зна́я и ви́дя,
+                        но те други́е мона́хи живу́т, не зна́я и не ви́дя». Он стано́вится опьянённым э́тим зна́нием и
+                        ви́дением|виде́нием, возраста́ет в беспе́чности, впада́ет в беспе́чность, и, бу́дучи беспе́чным,
+                        он живёт в страда́нии. </font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Here, bhikkhus, some
+                          clansman goes forth out of faith from the home life into homelessness, considering: ‘I am a
+                          victim of birth, ageing, and death, of sorrow, lamentation, pain, grief, and despair; I am a
+                          victim of suffering, a prey to suffering. Surely an ending of this whole mass of suffering can
+                          be known.’ When he has gone forth thus, he acquires gain, honour, and renown. He is not
+                          pleased with that gain, honour, and renown, and his intention is not fulfilled … Being
+                          diligent, he achieves the attainment of virtue. He is pleased with that attainment of virtue,
+                          but his intention is not fulfilled … Being diligent, he achieves the attainment of
+                          concentration. He is pleased with that attainment of concentration, but his intention is not
+                          fulfilled. He does not, on account of it, laud himself and disparage others. He does not
+                          become intoxicated with that attainment of concentration; he does not grow negligent and fall
+                          into negligence. Being diligent, he achieves knowledge and vision. He is pleased with that
+                          knowledge and vision and his intention is fulfilled. On account of it he lauds himself and
+                          disparages others thus: ‘I live knowing and seeing, but these other bhikkhus live unknowing
+                          and unseeing.’ He becomes intoxicated with that knowledge and vision, grows negligent, falls
+                          into negligence, and being negligent, he lives in suffering.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Предста́вьте, как е́сли бы челове́ку
+                        пона́добилась сердцеви́на де́рева, он бы иска́л сердцеви́ну де́рева, броди́л в по́исках
+                        сердцеви́ны де́рева, и подошёл к вели́кому де́реву с сердцеви́ной. Пройдя́ ми́мо его́
+                        сердцеви́ны, он бы сре́зал|среза́л за́болонь, и унёс её, ду́мая, что э́то и есть сердцеви́на. И
+                        тогда́ челове́к с хоро́шим зре́нием, ви́дя его́, сказа́л бы: «Э́тот почте́нный|почтённый не знал
+                        сердцеви́ны… ветве́й и ли́стьев. Поэ́тому, хотя́ ему́ нужна́ была́ сердцеви́на де́рева…
+                        сре́зал|среза́л за́болонь и унёс её, ду́мая, что э́то и есть сердцеви́на. Что бы ни хоте́л э́тот
+                        почте́нный|почтённый сде́лать с сердцеви́ной де́рева, э́то не послу́жит его́ це́ли». То́чно так
+                        же, мона́хи, не́кий представи́тель кла́на благодаря́ ве́ре покида́ет жизнь бездо́мную… и,
+                        бу́дучи беспе́чным, он живёт в страда́нии. Тако́й мона́х зовётся тем, кто взял за́болонь свято́й
+                        жи́зни и останови́лся на э́том.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Suppose a man needing
+                          heartwood, seeking heartwood, wandering in search of heartwood, came to a great tree standing
+                          possessed of heartwood. Passing over its heartwood, he would cut off its sapwood and take it
+                          away thinking it was heartwood. Then a man with good sight, seeing him, might say: ‘This good
+                          man did not know the heartwood … or the twigs and leaves. Thus, while needing heartwood … he
+                          cut off its sapwood and took it away thinking it was heartwood. Whatever it was this good man
+                          had to make with heartwood, his purpose will not be served.’ So too, bhikkhus, here some
+                          clansman goes forth out of faith … he lives in suffering. This bhikkhu is called one who has
+                          taken the sapwood of the holy life and stopped short with that.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                          <font face="Georgia, Times New Roman, Times, serif"> Постоя́нное освобожде́ние</font>
+                        </b></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Мона́хи, быва́ет так, что представи́тель
+                        кла́на благодаря́ ве́ре покида́ет жизнь домохозяйскую ра́ди жи́зни бездо́мной и размышля́ет: «Я
+                        – же́ртва рожде́ния… мо́жно [ведь ка́к-нибудь] позна́ть оконча́ние всей э́той гру́ды
+                        страда́ний». Когда́ он подо́бным о́бразом ухо́дит в жизнь бездо́мную, он [да́лее] получа́ет
+                        обрете́ния, сла́ву, изве́стность… его́ наме́рение [за счёт э́того] не испо́лнено… обрета́ет
+                        достиже́ние нра́вственности… его́ наме́рение [за счёт э́того] не испо́лнено… обрета́ет
+                        достиже́ние сосредото́чения… его́ наме́рение [за счёт э́того] не испо́лнено… обрета́ет зна́ние и
+                        ви́дение|виде́ние. Он дово́лен э́тим зна́нием и ви́дением|виде́нием, но его́ наме́рение не
+                        испо́лнено. И́з-за э́того он не возвыша́ет себя́ и не унижа́ет други́х. Он не стано́вится
+                        опьянённым э́тим зна́нием и ви́дением|виде́нием, не возраста́ет в беспе́чности, не впада́ет в
+                        беспе́чность. Бу́дучи приле́жным, он достига́ет постоя́нного освобожде́ния. И не мо́жет быть
+                        тако́го, что́бы э́тот мона́х отпа́л от э́того постоя́нного освобожде́ния.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Here, bhikkhus, some
+                          clansman goes forth out of faith from the home life into homelessness, considering: ‘I am a
+                          victim of birth, ageing, and death, of sorrow, lamentation, pain, grief, and despair; I am a
+                          victim of suffering, a prey to suffering. Surely an ending of this whole mass of suffering can
+                          be known.’ When he has gone forth thus, he acquires gain, honour, and renown. He is not
+                          pleased with that gain, honour, and renown, and his intention is not fulfilled … When he is
+                          diligent, he achieves the attainment of virtue. He is pleased with that attainment of virtue,
+                          but his intention is not fulfilled … When he is diligent, he achieves the attainment of
+                          concentration. He is pleased with that attainment of concentration, but his intention is not
+                          fulfilled … When he is diligent, he achieves knowledge and vision. He is pleased with that
+                          knowledge and vision, but his intention is not fulfilled. He does not, on account of it, laud
+                          himself and disparage others. He does not become intoxicated with that knowledge and vision;
+                          he does not grow negligent and fall into negligence. Being diligent, he attains perpetual
+                          liberation. And it is impossible for that bhikkhu to fall away from that perpetual
+                          deliverance.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Предста́вьте, как е́сли бы челове́ку
+                        пона́добилась сердцеви́на де́рева, он бы иска́л сердцеви́ну де́рева, броди́л в по́исках
+                        сердцеви́ны де́рева, и подошёл к вели́кому де́реву с сердцеви́ной. Сре́зав то́лько его́
+                        сердцеви́ну, он унёс её, зна́я, что э́то была́ сердцеви́на. И тогда́ челове́к с хоро́шим
+                        зре́нием, ви́дя его́, сказа́л бы: «Э́тот почте́нный|почтённый знал сердцеви́ну, за́болонь,
+                        вну́треннюю кору́, вне́шнюю кору́, ве́тви и ли́стья. Поэ́тому, когда́ ему́ нужна́ была́
+                        сердцеви́на де́рева… сре́зал|среза́л то́лько сердцеви́ну и унёс её, зна́я, что э́то и есть
+                        сердцеви́на. Что бы ни хоте́л э́тот почте́нный|почтённый сде́лать с сердцеви́ной де́рева, э́то
+                        послу́жит его́ це́ли». То́чно так же, мона́хи, не́кий представи́тель кла́на благодаря́ ве́ре
+                        покида́ет жизнь домохозяйскую… и, бу́дучи приле́жным, он достига́ет постоя́нного освобожде́ния.
+                        И не мо́жет быть тако́го, что́бы э́тот мона́х отпа́л от э́того постоя́нного освобожде́ния.
+                      </font>
+                    </div>
+                    
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Suppose a man needing
+                          heartwood, seeking heartwood, wandering in search of heartwood, came to a great tree standing
+                          possessed of heartwood, and cutting off only its heartwood, he would take it away knowing it
+                          was heartwood. Then a man with good sight, seeing him, might say: ‘This good man knew the
+                          heartwood, the sapwood, the inner bark, the outer bark, and the twigs and leaves. Thus, while
+                          needing heartwood, seeking heartwood, wandering in search of heartwood, he came to a great
+                          tree standing possessed of heartwood, and cutting off only its heartwood, he took it away
+                          knowing it was heartwood. Whatever it was this good man had to make with heartwood, his
+                          purpose will be served.’ </i></font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>So too, bhikkhus, here some
+                          clansman goes forth out of faith … When he is diligent, he attains perpetual liberation. And
+                          it is impossible for that bhikkhu to fall away from that perpetual deliverance.</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Так, мона́хи, э́та свята́я жизнь не име́ет
+                        свои́м [наивы́сшим] бла́гом|благо́м обрете́ния, сла́ву, изве́стность; [не име́ет свои́м
+                        наивы́сшим] бла́гом|благо́м достиже́ние нра́вственности; [не име́ет свои́м наивы́сшим]
+                        бла́гом|благо́м достиже́ние сосредото́чения; [не име́ет свои́м наивы́сшим] бла́гом|благо́м
+                        зна́ние и ви́дение|виде́ние. Но и́менно э́то непоколеби́мое освобожде́ние ума́ явля́ется це́лью
+                        э́той свято́й жи́зни, её сердцеви́ной, её оконча́нием. </font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"So this holy life,
+                          bhikkhus, does not have gain, honour, and renown for its benefit, or the attainment of virtue
+                          for its benefit, or the attainment of concentration for its benefit, or knowledge and vision
+                          for its benefit. But it is this unshakeable deliverance of mind that is the goal of this holy
+                          life, its heartwood, and its end."</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Так сказа́л Благослове́нный. Мона́хи бы́ли
+                        дово́льны и восхи́тились|восхити́лись слова́ми Благослове́нного.</font>
+                      <font face="Arial, Helvetica, sans-serif" size="2"><br /> </font>
+                      <font size="2"> </font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>That is what the Blessed One
+                          said. The bhikkhus were satisfied and delighted in the Blessed One's words.</i></font>
+                    </div>
+                  </body>
+
+                  </html>
+                </td>
+              </tr>
+            </table>
+            <font face="Arial, Helvetica, sans-serif" size="2">
+              <font face="Arial, Helvetica, sans-serif" size="2">
+                <font face="Arial, Helvetica, sans-serif" size="2">
+                  <font face="Arial, Helvetica, sans-serif" size="2">
+                    <font size="4"></font>
+                  </font>
+                </font>
+              </font>
+            </font><br />
+            <br />
+            <div align="center">
+              <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                <tr>
+                  <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a href="#1"
+                      style="border:0px;" title="вернуться к сноске в тексте">
+                      <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                    </a></td>
+                  <td height="14" valign="top" width="3%">
+                    <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+                        style='font-size:18pt;font-family:"Wingdings 3";'>
+                        <font color="#C7B683"></font>
+                      </span></font>
+                  </td>
+                  <td height="14" width="94%">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="link1"></a><i>
+                            <font color="#999966">Бодхи:
+                              После неудачной попытки убить Будду, Девадатта ушёл, чтобы расколоть
+                              Сангху Будды и встать во главе своей собственной общины монахов.
+                            </font>
+                          </i></font>
+                      </i></font><span style="font-size:16.0pt">
+                      <o:p></o:p>
+                    </span>
+                  </td>
+                </tr>
+              </table>
+              <br />
+              <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                <tr>
+                  <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a href="#2"
+                      style="border:0px;" title="вернуться к сноске в тексте">
+                      <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                    </a></td>
+                  <td height="2" valign="top" width="1%">
+                    <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                  </td>
+                  <td height="2" width="96%">
+                    <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="link2"></a></font>
+                        <font color="#999966">Бодхи:
+                          Нянадассана. Согласно Комментарию, речь идёт о сверхспособности
+                          божественного глаза, за счёт которого можно видеть невидимые
+                          обычному глазу формы. </font>
+                      </i></font><span style="font-size:16.0pt">
+                      <o:p></o:p>
+                    </span>
+                  </td>
+                </tr>
+              </table>
+              <br />
+            </div>
+            <br />
+            <br />
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr bgcolor="#F4EFBD">
+                <td class="bottom" colspan="4" height="2">
+                  <div align="center">
+                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="4" cellspacing="0" width="70%">
+              <tr>
+                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm" style="border:0px;"
+                    title="вернуться к разделу">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                  </a></td>
+                <td class="bottom" height="2" valign="middle" width="1%"> <a href="#" style="border:0px;"
+                    title="вернуться наверх">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                  </a></td>
+                <td height="2" valign="top" width="32%">
+                  <div align="center">
+                    <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                      <noindex><!--LiveInternet counter-->
+                        <script type="text/javascript">
+                          new Image().src = "//counter.yadro.ru/hit?r" +
+                            escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                              ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                            ";h" + escape(document.title.substring(0, 150)) +
+                            ";" + Math.random();</script><!--/LiveInternet--><!--LiveInternet logo--><a
+                          href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1"
+                            src="//counter.yadro.ru/logo?42.6" title="LiveInternet"
+                            width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                        <span id="spylog2031418"></span>
+                        <script type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                            (("https:" == document.location.protocol) ? "s" : "") +
+                            "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                        <!--SpyLOG-->
+                      </noindex>
+                    </font>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="19%">
+                  <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                      <font color="C7B683">٭</font>
+                    </span>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="37%">
+                  <div align="right">
+                    <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                      style="font-size:7pt; font-family: Arial;">©
+                      theravada.ru – при копировании материалов<br />
+                      просьба ставить прямую ссылку на наш сайт.<br />
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <script type="text/javascript">
+    function viewport() {
+      var e = window, a = 'inner';
+      if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+      return { width: e[a + 'Width'], height: e[a + 'Height'] }
+    }
+    var screen = viewport();
+
+    if (screen.width < 1002) {
+      // Content
+      document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+      // Comments
+      document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+      // Title
+      document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+      document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+      // Text
+      document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+    } else {
+      if (screen.width < 1280) {
+        // Content
+        document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Comments
+        document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Title
+        document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+        document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+        // Text
+        document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+      }
+    }
+
+  </script>
+</body>
+
+</html>

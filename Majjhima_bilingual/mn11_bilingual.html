@@ -1,0 +1,1148 @@
+<html>
+
+<head>
+    <title>Чуласиханада-сутта: Малая лекция о львином рыке :: Мадджхима Никая 11</title>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+    <meta
+        content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+        name="keywords" />
+    <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script type="text/javascript">
+        //Пути к директориям
+        var pathToScript = '/Index/Scripts/';
+        var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+        //-----------------------------------
+        var request = false;
+        try {
+            request = new XMLHttpRequest();
+        }
+        catch (trymicrosoft) {
+            try {
+                request = new ActiveXObject("Msxml2.XMLHTTP");
+            }
+            catch (othermicrosoft) {
+                try {
+                    request = new ActiveXObject("Microsoft.XMLHTTP");
+                }
+                catch (failed) {
+                    request = false;
+                }
+            }
+        }
+
+        if (!request) {
+            alert("Ошибка в работе");
+        }
+
+        function sendRequest() {
+            var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+            request.open("GET", url, true);
+            request.onreadystatechange = getResponse;
+            request.send(null);
+        }
+
+        function getResponse() {
+            if (request.readyState == 4) {
+                if (request.status == 200) {
+                    var response = request.responseText;
+                    var articles = request.responseText.split(' ');
+                    var random = Math.round((Math.random() * (articles.length - 2)));
+                    window.open("http://" + document.domain + articles[random], "_self");
+                }
+            }
+        }
+    </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+    text="#333300" topmargin="1" vlink="#996633">
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+        <tr>
+            <td>
+                <div align="center">
+                    <style>
+                        a {
+                            border: 0px solid #FFFFCC;
+                            text-decoration: none
+                        }
+
+                        a:hover {
+                            font-family: Arial;
+                            border: 0px solid #996633;
+                            color: #000000;
+                            text-decoration: none;
+                            background-color: #D8D68B;
+                            padding: 0;
+                        }
+
+                        a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        div {
+                            font-family: Arial;
+                            text-decoration: none
+                        }
+
+                        .a {
+                            TEXT-INDENT: 2em;
+                            margin-bottom: 10px;
+                        }
+
+                        .bottom a:hover {
+                            color: #000000;
+                            font-family: Arial;
+                            text-decoration: none;
+                            background: none;
+                        }
+
+                        .bottom a:link {
+                            color: #996633;
+                            font-family: Arial;
+                            text-decoration: none;
+                        }
+
+                        body {
+                            background: #FFFFCC;
+                            overflow-y: scroll
+                        }
+
+                        p {
+                            TEXT-INDENT: 0em
+                        }
+                    </style>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td colspan="2"> </td>
+                            <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                                    <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                                           
+                                            Учение Старцев </b></font>
+                                </i></td>
+                            <td width="5%"> </td>
+                        </tr>
+                    </table>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+                        <tr>
+                            <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                                    <tr>
+                                        <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                                                <div style='font-size:24.0pt;font-family:"Arial"'>
+                                                    <div align="center">«</div>
+                                                </div>
+                                            </a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+                            </td>
+                            <td bgcolor="#CBB079" width="3%"> </td>
+                            <td width="5%"> </td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="#CBB079"> </td>
+                            <td rowspan="2"> </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                        </tr>
+                    </table>
+                    <br />
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                        <tr>
+                            <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm#7" style="border:0px;"
+                                    title="вернуться к разделу">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;"
+                                    title="случайная сутта">
+                                    <div style='font-size:16.0pt;font-family:"Arial"'>
+                                        <font size="-4"> </font>₪
+                                    </div>
+                                </a> </td>
+                            <td height="2" width="44%">  </td>
+                            <td height="2" width="36%"><span
+                                    style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span></td>
+                            <td class="bottom" height="2" width="19%">
+                                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+                            </td>
+                        </tr>
+                        <tr bgcolor="#F4EFBD">
+                            <td colspan="4" height="3">
+                                <div align="center">
+                                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                        style="cursor:default;font-size:1pt;">.</font>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div align="center"><br />
+                        <table border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr>
+                                <td>
+                                    <div align="center">
+                                        <font face="Times New Roman, Times, serif" size="5">Чуласиханада-сутта:
+                                            Малое наставление о львином рыке<br />
+                                            <font size="3">МН 11</font>
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="5" width="70%">
+                            <tr>
+                                <td height="2" width="61%"> </td>
+                                <td height="2" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                                        <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                                                <div align="right"><i>
+                                                        <font color="#996633"><span
+                                                                style="font-size:8pt;font-family:Arial;"><span
+                                                                    style="font-size:8pt;font-family:Arial;"><span
+                                                                        style="font-size:8pt;font-family:Arial;"><span
+                                                                            style="font-size:8pt;font-family:Arial;"><span
+                                                                                style="font-size:8pt;font-family:Arial;">редакция
+                                                                                перевода:
+                                                                                05.02.2024</span></span></span><br />
+                                                                    Перевод с английского: SV<br />
+                                                                    <br />
+                                                                    источник: <br />
+                                                                    "Majjhima Nikaya by Nyanamoli &amp; Bodhi, p.
+                                                                    159"</span></span></font>
+                                                    </i></div>
+                                            </span></div>
+                                    </span></td>
+                                <td bgcolor="#F4EFBD" height="2" width="1%"></td>
+                            </tr>
+                        </table>
+                        <br />
+                        <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+                            <tr>
+                                <td height="2105" style="text-align: justify" valign="top">
+                                    <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>Т</b> </font>
+
+                                    <font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал. Одна́жды
+                                        Благослове́нный прожива́л в Саваттхи, в ро́ще Джеты́, в па́рке Анатхапиндики.
+                                        Там он обрати́лся к мона́хам так: <br /> «Мона́хи!» </font>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">«Уважа́емый», – отве́тили
+                                            они́. <br /> Благослове́нный сказа́л сле́дующее:</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Thus have
+                                                I heard. On one occasion the Blessed One was living at Sāvatthī in
+                                                Jeta's Grove, Anāthapiṇḍika's Park. There he addressed the bhikkhus
+                                                thus: "Bhikkhus."—"Venerable sir," they replied. The Blessed One said
+                                                this:</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                <font face="Georgia, Times New Roman, Times, serif"><br /> Льви́ный рык
+                                                </font>
+                                            </b></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br /> <a
+                                                name="1"></a>«Мона́хи, то́лько здесь есть отше́льник, то́лько здесь –
+                                            второ́й отше́льник, то́лько здесь – тре́тий отше́льник, то́лько здесь –
+                                            четвёртый отше́льник. Доктри́ны други́х лишены́ отше́льников. Вот как вам
+                                            сле́дует пра́вильно рыча́ть свои́м льви́ным ры́ком<font
+                                                face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                            href="#link1">1</a></sup></font>
+                                            </font>. </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                "Bhikkhus, only here is there a recluse, only here a second recluse,
+                                                only here a third recluse, only here a fourth recluse. The doctrines of
+                                                others are devoid of recluses: that is how you should rightly roar your
+                                                lion's roar.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Быть мо́жет, мона́хи,
+                                            стра́нники – приве́рженцы ины́х уче́ний спро́сят: «Но и́з-за си́лы како́го
+                                            [аргуме́нта], и́ли опира́ясь на како́й авторите́т, достопочте́нные говоря́т
+                                            так?» Стра́нникам – приве́рженцам ины́х уче́ний, кото́рые спро́сят так,
+                                            сле́дует отве́тить вот как: «Друзья́, четы́ре ве́щи бы́ли провозглашены́ нам
+                                            Благослове́нным, кото́рый зна́ет и ви́дит, кото́рый явля́ется
+                                            соверше́нным|совершённым и по́лностью просветлённым. Ви́дя их в себе́, мы
+                                            говори́м так: «То́лько здесь есть отше́льник, то́лько здесь – второ́й
+                                            отше́льник, то́лько здесь – тре́тий отше́льник, то́лько здесь – четвёртый
+                                            отше́льник. Доктри́ны други́х лишены́ отше́льников». Каки́е четы́ре?</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "It is
+                                                possible, bhikkhus, that wanderers of other sects might ask: ‘But on the
+                                                strength of what argument or with the support of what authority do the
+                                                venerable ones say thus?’ Wanderers of other sects who ask thus may be
+                                                answered in this way: ‘Friends, four things have been declared to us by
+                                                the Blessed One who knows and sees, accomplished and fully enlightened;
+                                                on seeing these in ourselves we say thus: "Only here is there a recluse,
+                                                only here a second recluse, only here a third recluse, only here a
+                                                fourth recluse. The doctrines of others are devoid of recluses." What
+                                                are the four?</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+                                            <font face="Times New Roman, Times, serif" size="4"> *
+                                            </font>
+                                            У нас есть уве́ренность в Учи́теле.<br />
+
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            У нас есть уве́ренность в Дха́мме.<br />
+
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            Мы испо́лнили пра́вила поведе́ния.<br />
+
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            На́ши това́рищи по Дха́мме ми́лы и прия́тны нам, будь они́ миря́нами
+                                            и́ли те́ми, кто оста́вил жизнь домохозяйскую ра́ди жи́зни бездо́мной.
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>We have
+                                                confidence in the Teacher, we have confidence in the Dhamma, we have
+                                                fulfilled the precepts, and our companions in the Dhamma are dear and
+                                                agreeable to us whether they are laymen or those gone forth.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Таковы́ четы́ре ве́щи,
+                                            что бы́ли провозглашены́ нам Благослове́нным, кото́рый зна́ет и ви́дит,
+                                            кото́рый явля́ется соверше́нным|совершённым и по́лностью просветлённым.
+                                            Ви́дя их в себе́, мы говори́м так, как мы говори́м.</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>These are
+                                                the four things declared to us by the Blessed One who knows and sees,
+                                                accomplished and fully enlightened, on seeing which in ourselves we say
+                                                as we do.’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Быть мо́жет, мона́хи, те
+                                            стра́нники – приве́рженцы ины́х уче́ний ска́жут так: «Друзья́, у нас то́же
+                                            есть уве́ренность в Учи́теле, то́ есть, в на́шем Учи́теле. У нас то́же есть
+                                            уве́ренность в Дха́мме, то́ есть, в на́шей Дха́мме. Мы то́же испо́лнили
+                                            пра́вила поведе́ния, то́ есть, на́ши пра́вила поведе́ния. На́ши това́рищи по
+                                            Дха́мме то́же ми́лы и прия́тны нам, будь они́ миря́нами и́ли те́ми, кто
+                                            оста́вил жизнь домохозяйскую ра́ди жи́зни бездо́мной. Так в чём же здесь
+                                            отли́чие, друзья́, в чём несоотве́тствие, в чём ра́зница ме́жду ва́ми и
+                                            на́ми?»</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "It is
+                                                possible, bhikkhus, that wanderers of other sects might say thus:
+                                                ‘Friends, we too have confidence in the Teacher, that is, in our
+                                                Teacher; we too have confidence in the Dhamma, that is, in our Dhamma;
+                                                we too have fulfilled the precepts, that is, our precepts; and our
+                                                companions in the Dhamma are dear and agreeable to us too whether they
+                                                are laymen or those gone forth. What is the distinction here, friends,
+                                                what is the variance, what is the difference between you and us?’</i>
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="2"></a>Стра́нникам –
+                                            приве́рженцам ины́х уче́ний, кото́рые спро́сят так, сле́дует отве́тить вот
+                                            как: «Так как же, друзья́, цель одна́ и́ли мно́го [ра́зных]?» Отвеча́я
+                                            пра́вильно, стра́нники – приве́рженцы ины́х уче́ний отве́тят так: «Друзья́,
+                                            цель одна́, а не мно́го [ра́зных]»<sup><a href="#link2">2</a></sup>. [Да́лее
+                                            их сле́дует спроси́ть]: «Но, друзья́, нахо́дится э́та цель
+                                            под влия́нием стра́сти, и́ли же [она́] лишена́ стра́сти?» Отвеча́я
+                                            пра́вильно, стра́нники – приве́рженцы ины́х уче́ний отве́тят так: «Друзья́,
+                                            э́та цель лишена́ стра́сти, она́ не та, что нахо́дится под влия́нием
+                                            стра́сти». [Да́лее их сле́дует спроси́ть]: «Но, друзья́, нахо́дится ли э́та
+                                            цель под влия́нием зло́бы… заблужде́ния… жа́жды… цепля́ния и́ли же [она́]
+                                            лишена́ цепля́ния?» Отвеча́я пра́вильно, стра́нники – приве́рженцы ины́х
+                                            уче́ний отве́тят так: «Друзья́, э́та цель лишена́ цепля́ния, она́ не та, что
+                                            нахо́дится под влия́нием цепля́ния».</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                "Wanderers of other sects who ask thus may be answered in this way: ‘How
+                                                then, friends, is the goal one or many?’ Answering rightly, the
+                                                wanderers of other sects would answer thus: ‘Friends, the goal is one,
+                                                not many.’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> ‘But,
+                                                friends, is that goal for one affected by lust or free from lust?’
+                                                Answering rightly, the wanderers of other sects would answer thus:
+                                                ‘Friends, that goal is for one free from lust, not for one affected by
+                                                lust.’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> ‘But,
+                                                friends, is that goal for one affected by hate or free from hate?’
+                                                Answering rightly, they would answer: ‘Friends, that goal is for one
+                                                free from hate, not for one affected by hate.’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> ‘But,
+                                                friends, is that goal for one affected by delusion or free from
+                                                delusion?’ Answering rightly, they would answer: ‘Friends, that goal is
+                                                for one free from delusion, not for one affected by delusion.’</i>
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> ‘But,
+                                                friends, is that goal for one affected by craving or free from craving?
+                                                ’ Answering rightly, they would answer: ‘Friends, that goal is for one
+                                                free from craving, not for one affected by craving. ’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>‘But,
+                                                friends, is that goal for one affected by clinging or free from
+                                                clinging?’ Answering rightly, they would answer: ‘Friends, that goal is
+                                                for one free from clinging, not for one affected by clinging.’</i>
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="3"></a><a
+                                                name="4"></a>[Да́лее их сле́дует спроси́ть]: «Но, друзья́, э́та цель для
+                                            того́, кто облада́ет ви́дением|виде́нием, и́ли для того́, кто не облада́ет
+                                            ви́дением|виде́нием?» Отвеча́я пра́вильно, стра́нники – приве́рженцы ины́х
+                                            уче́ний отве́тят так: «Друзья́, э́та цель для того́, кто облада́ет
+                                            ви́дением|виде́нием, а не для того́, кто не облада́ет ви́дением|виде́нием».
+                                            [Да́лее их сле́дует спроси́ть]: «Но, друзья́, э́та цель для того́, кто
+                                            благоволи́т и проти́вится, и́ли же для того́, кто не благоволи́т и не
+                                            проти́вится?» <sup><a href="#link3">3</a></sup> Отвеча́я пра́вильно,
+                                            стра́нники – приве́рженцы ины́х уче́ний
+                                            отве́тят так: «Друзья́, э́та цель для того́, кто не благоволи́т и не
+                                            проти́вится, а не для того́, кто благоволи́т и проти́вится». [Да́лее их
+                                            сле́дует спроси́ть]: «Но, друзья́, э́та цель для того́, кто наслажда́ется и
+                                            ра́дуется разраста́нию, и́ли же для того́, кто не наслажда́ется и не
+                                            ра́дуется разраста́нию?» Отвеча́я пра́вильно, стра́нники – приве́рженцы
+                                            ины́х уче́ний отве́тят так: «Друзья́, э́та цель для того́, кто не
+                                            наслажда́ется и не ра́дуется разраста́нию, а не для того́, кто наслажда́ется
+                                            и ра́дуется разраста́нию <sup><a href="#link4">4</a></sup>.</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>‘But,
+                                                friends, is that goal for one who has vision or for one without vision?’
+                                                Answering rightly, they would answer: ‘Friends, that goal is for one
+                                                with vision, not for one without vision.’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>‘But,
+                                                friends, is that goal for one who favours and opposes, or for one who
+                                                does not favour and oppose?’ Answering rightly, they would answer:
+                                                ‘Friends, that goal is for one who does not favour and oppose, not for
+                                                one who favours and opposes.’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>‘But,
+                                                friends, is that goal for one who delights in and enjoys proliferation,
+                                                or for one who does not delight in and enjoy proliferation?’ Answering
+                                                rightly, they would answer: ‘Friends, that goal is for one who does not
+                                                delight in and enjoy proliferation, not for one who delights in and
+                                                enjoys proliferation.’</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                <font face="Georgia, Times New Roman, Times, serif"><br /> Два
+                                                    воззре́ния</font>
+                                            </b></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br /> Мона́хи, есть э́ти два
+                                            воззре́ния: </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+
+                                            <font face="Times New Roman, Times, serif" size="4"> *
+                                            </font>
+                                            воззре́ние о существова́нии и<br />
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            воззре́ние о несуществова́нии.
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br /> Любы́е жрецы́ и
+                                            отше́льники, кото́рые полага́ются на воззре́ние о существова́нии, принима́ют
+                                            воззре́ние о существова́нии, соглаша́ются с воззре́нием о существова́нии,
+                                            выступа́ют про́тив воззре́ния о не-существова́нии. Любы́е жрецы́ и
+                                            отше́льники, кото́рые полага́ются на воззре́ние о не-существова́нии,
+                                            принима́ют воззре́ние о не-существова́нии, соглаша́ются с воззре́нием о
+                                            не-существова́нии, выступа́ют про́тив воззре́ния о существова́нии. </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Bhikkhus,
+                                                there are these two views: the view of being and the view of non-being.
+                                                Any recluses or brahmins who rely on the view of being, adopt the view
+                                                of being, accept the view of being, are opposed to the view of
+                                                non-being. Any recluses or brahmins who rely on the view of non-being,
+                                                adopt the view of non-being, accept the view of non-being, are opposed
+                                                to the view of being.</i></font>
+                                    </div>
+
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="5"></a>Любы́е жрецы́
+                                            и отше́льники, кото́рые не понима́ют в соотве́тствии с действи́тельностью
+                                            происхожде́ния, исчезнове́ния, привлека́тельности, опа́сности и спасе́ния
+                                            <sup><a href="#link5">5</a></sup> в отноше́нии э́тих двух воззре́ний –
+                                            подве́ржены стра́сти,
+                                            подве́ржены зло́бе, подве́ржены заблужде́нию, подве́ржены жа́жде,
+                                            подве́ржены цепля́нию, не облада́ют ви́дением|виде́нием, благоволя́т и
+                                            проти́вятся, наслажда́ются и ра́дуются разраста́нию. Они́ не освобождены́ от
+                                            рожде́ния, старе́ния, и сме́рти; от печа́ли, стена́ния, бо́ли,
+                                            гру́сти|грусти́ и отча́яния. Они́ не освобождены́ от страда́ний, я говорю́
+                                            вам.
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Any
+                                                recluses or brahmins who do not understand as they actually are the
+                                                origin, the disappearance, the gratification, the danger, and the escape
+                                                in the case of these two views are affected by lust, affected by hate,
+                                                affected by delusion, affected by craving, affected by clinging, without
+                                                vision, given to favouring and opposing, and they delight in and enjoy
+                                                proliferation. They are not freed from birth, ageing, and death; from
+                                                sorrow, lamentation, pain, grief, and despair; they are not freed from
+                                                suffering, I say.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Любы́е жрецы́ и отше́льники,
+                                            кото́рые понима́ют в соотве́тствии с действи́тельностью происхожде́ние,
+                                            исчезнове́ние, привлека́тельность, опа́сность и спасе́ние в отноше́нии э́тих
+                                            двух воззре́ний – не име́ют стра́сти, не име́ют зло́бы, не име́ют
+                                            заблужде́ния, не име́ют жа́жды, не име́ют цепля́ния, облада́ют
+                                            ви́дением|виде́нием, не благоволя́т и не проти́вятся, не наслажда́ются и не
+                                            ра́дуются разраста́нию. Они́ освобождены́ от рожде́ния, старе́ния и сме́рти;
+                                            от печа́ли, стена́ния, бо́ли, гру́сти|грусти́ и отча́яния. Они́ освобождены́
+                                            от страда́ний, я говорю́ вам.</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Any
+                                                recluses or brahmins who understand as they actually are the origin, the
+                                                disappearance, the gratification, the danger, and the escape in the case
+                                                of these two views are without lust, without hate, without delusion,
+                                                without craving, without clinging, with vision, not given to favouring
+                                                and opposing, and they do not delight in and enjoy proliferation. They
+                                                are freed from birth, ageing, and death; from sorrow, lamentation, pain,
+                                                grief, and despair; they are freed from suffering, I say.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                <font face="Georgia, Times New Roman, Times, serif"><br /> Четы́ре ви́да
+                                                    цепля́ния</font>
+                                            </b></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br /> Мона́хи, есть э́ти
+                                            четы́ре ви́да цепля́ния. Каки́е четы́ре?</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">
+
+                                            <font face="Times New Roman, Times, serif" size="4"><br /> *
+                                            </font>
+                                            цепля́ние к чу́вственным удово́льствиям;<br />
+
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            цепля́ние к воззре́ниям;<br />
+
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            цепля́ние к пра́вилам и предписа́ниям;<br />
+
+                                            <font face="Times New Roman, Times, serif" size="4">*</font>
+                                            цепля́ние к доктри́не [о существова́нии] «я».
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                "Bhikkhus, there are these four kinds of clinging. What four? Clinging
+                                                to sensual pleasures, clinging to views, clinging to rules and
+                                                observances, and clinging to a doctrine of self.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br /> Хотя́ не́которые
+                                            жрецы́ и отше́льники заявля́ют об утвержде́нии по́лного понима́ния всех
+                                            ви́дов цепля́ния, [всё же] они́ не целико́м опи́сывают по́лное понима́ние
+                                            всех ви́дов цепля́ния. Они́ опи́сывают по́лное понима́ние цепля́ния к
+                                            чу́вственным удово́льствиям без описа́ния по́лного понима́ния цепля́ния к
+                                            воззре́ниям, цепля́ния к пра́вилам и предписа́ниям, цепля́ния к доктри́не о
+                                            «я». И почему́ же? Э́ти почте́нные|почтённые жрецы́ и отше́льники не
+                                            понима́ют э́тих трёх слу́чаев цепля́ния в соотве́тствии с
+                                            действи́тельностью. Поэ́тому, несмотря́ на то, что они́ заявля́ют об
+                                            утвержде́нии по́лного понима́ния всех ви́дов цепля́ния, [в
+                                            действи́тельности] они́ опи́сывают то́лько по́лное понима́ние цепля́ния к
+                                            чу́вственным удово́льствиям без описа́ния по́лного понима́ния цепля́ния к
+                                            воззре́ниям, цепля́ния к пра́вилам и предписа́ниям, цепля́ния к доктри́не о
+                                            «я».</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Though
+                                                certain recluses and brahmins claim to propound the full understanding
+                                                of all kinds of clinging, they do not completely describe the full
+                                                understanding of all kinds of clinging. They describe the full
+                                                understanding of clinging to sensual pleasures without describing the
+                                                full understanding of clinging to views, clinging to rules and
+                                                observances, and clinging to a doctrine of self. Why is that? Those good
+                                                recluses and brahmins do not understand these three instances of
+                                                clinging as they actually are. Therefore, though they claim to propound
+                                                the full understanding of all kinds of clinging, they describe only the
+                                                full understanding of clinging to sensual pleasures without describing
+                                                the full understanding of clinging to views, clinging to rules and
+                                                observances, and clinging to a doctrine of self.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Хотя́ не́которые жрецы́ и
+                                            отше́льники заявля́ют об утвержде́нии по́лного понима́ния всех ви́дов
+                                            цепля́ния, [всё же] они́ не по́лностью опи́сывают по́лное понима́ние всех
+                                            ви́дов цепля́ния. Они́ опи́сывают по́лное понима́ние цепля́ния к
+                                            чу́вственным удово́льствиям и по́лное понима́ние цепля́ния к воззре́ниям,
+                                            без описа́ния по́лного понима́ния цепля́ния к пра́вилам и предписа́ниям,
+                                            цепля́ния к доктри́не о «я». И почему́ же? Э́ти почте́нные|почтённые жрецы́
+                                            и отше́льники не понима́ют э́тих двух слу́чаев цепля́ния в соотве́тствии с
+                                            действи́тельностью. Поэ́тому, несмотря́ на то что… без описа́ния по́лного
+                                            понима́ния цепля́ния к пра́вилам и предписа́ниям, цепля́ния к доктри́не о
+                                            «я».</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Though
+                                                certain recluses and brahmins claim to propound the full understanding
+                                                of all kinds of clinging … they describe the full understanding of
+                                                clinging to sensual pleasures and clinging to views without describing
+                                                the full understanding of clinging to rules and observances and clinging
+                                                to a doctrine of self. Why is that? They do not understand two instances
+                                                … therefore they describe only the full understanding of clinging to
+                                                sensual pleasures and clinging to views without describing the full
+                                                understanding of clinging to rules and observances and clinging to a
+                                                doctrine of self.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><a name="6"></a>Хотя́
+                                            не́которые жрецы́ и отше́льники заявля́ют об утвержде́нии по́лного
+                                            понима́ния всех ви́дов цепля́ния, [всё же] они́ не по́лностью опи́сывают
+                                            по́лное понима́ние всех ви́дов цепля́ния. Они́ опи́сывают по́лное понима́ние
+                                            цепля́ния к чу́вственным удово́льствиям, по́лное понима́ние цепля́ния к
+                                            воззре́ниям, по́лное понима́ние цепля́ния к пра́вилам и предписа́ниям, без
+                                            описа́ния по́лного понима́ния цепля́ния к доктри́не о «я». И почему́ же?
+                                            Э́ти почте́нные|почтённые жрецы́ и отше́льники не понима́ют э́того одного́
+                                            слу́чая цепля́ния в соотве́тствии с действи́тельностью. Поэ́тому, несмотря́
+                                            на то что… без описа́ния по́лного понима́ния цепля́ния к доктри́не о «я»
+                                            <font face="Arial, Helvetica, sans-serif" size="2">
+                                                <font face="Arial, Helvetica, sans-serif" size="2">
+                                                    <font face="Arial, Helvetica, sans-serif" size="2">
+                                                        <font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                                                                    href="#link6">6</a></sup></font>
+                                                    </font>
+                                                </font>
+                                            </font>.
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Though
+                                                certain recluses and brahmins claim to propound the full understanding
+                                                of all kinds of clinging … they describe the full understanding of
+                                                clinging to sensual pleasures, clinging to views, and clinging to rules
+                                                and observances without describing the full understanding of clinging to
+                                                a doctrine of self. They do not understand one instance … therefore they
+                                                describe only the full understanding of clinging to sensual pleasures,
+                                                clinging to views, and clinging to rules and observances without
+                                                describing the full understanding of clinging to a doctrine of self.</i>
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи, и очеви́дно, что в
+                                            тако́й [их] Дха́мме и Винае уве́ренность в Учи́теле не напра́влена до́лжным
+                                            о́бразом, уве́ренность в Дха́мме не напра́влена до́лжным о́бразом,
+                                            исполне́ние пра́вил поведе́ния не напра́влена до́лжным о́бразом, и прия́знь
+                                            среди́ това́рищей по Дха́мме не напра́влена до́лжным о́бразом. И почему́ же?
+                                            Потому́ что так оно́ быва́ет, когда́ Дха́мма и Виная пло́хо провозглашены́ и
+                                            пло́хо разъяснены́, не явля́ются освобожда́ющими, не веду́т к поко́ю,
+                                            излага́ются тем, кто не по́лностью просветлён. </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Bhikkhus,
+                                                in such a Dhamma and Discipline as that, it is plain that confidence in
+                                                the Teacher is not rightly directed, that confidence in the Dhamma is
+                                                not rightly directed, that fulfilment of the precepts is not rightly
+                                                directed, and that the affection among companions in the Dhamma is not
+                                                rightly directed. Why is that? Because that is how it is when the Dhamma
+                                                and Discipline is badly proclaimed and badly expounded, unemancipating,
+                                                unconducive to peace, expounded by one who is not fully enlightened.</i>
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи, когда́ Татхагата,
+                                            соверше́нный|совершённый и по́лностью просветлённый, заявля́ет об
+                                            утвержде́нии по́лного понима́ния всех ви́дов цепля́ния, то по́лностью
+                                            опи́сывает по́лное понима́ние всех ви́дов цепля́ния. Он опи́сывает по́лное
+                                            понима́ние цепля́ния к чу́вственным удово́льствиям, цепля́ния к воззре́ниям,
+                                            цепля́ния к пра́вилам и предписа́ниям, цепля́ния к доктри́не
+                                            [оуществова́нии] «я». </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Bhikkhus,
+                                                when a Tathāgata, accomplished and fully enlightened, claims to propound
+                                                the full understanding of all kinds of clinging, he completely describes
+                                                the full understanding of all kinds of clinging: he describes the full
+                                                understanding of clinging to sensual pleasures, clinging to views,
+                                                clinging to rules and observances, and clinging to a doctrine of
+                                                self.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи, и очеви́дно, что в
+                                            тако́й Дха́мме и Винае как э́та, уве́ренность в Учи́теле напра́влена
+                                            до́лжным о́бразом, уве́ренность в Дха́мме напра́влена до́лжным о́бразом,
+                                            исполне́ние пра́вил поведе́ния напра́влено до́лжным о́бразом, и прия́знь
+                                            среди́ това́рищей по Дха́мме напра́влена до́лжным о́бразом. И почему́ же?
+                                            Потому́ что так оно́ быва́ет, когда́ Дха́мма и Виная хорошо́ провозглашены́
+                                            и хорошо́ разъяснены́, явля́ются освобожда́ющими, веду́т к поко́ю,
+                                            излага́ются тем, кто по́лностью просветлён.</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                "Bhikkhus, in such a Dhamma and Discipline as that, it is plain that
+                                                confidence in the Teacher is rightly directed, that confidence in the
+                                                Dhamma is rightly directed, that fulfilment of the precepts is rightly
+                                                directed, and that the affection among companions in the Dhamma is
+                                                rightly directed. Why is that? Because that is how it is when the Dhamma
+                                                and Discipline is well proclaimed and well expounded, emancipating,
+                                                conducive to peace, expounded by one who is fully enlightened.</i>
+                                        </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><b>
+                                                <font face="Georgia, Times New Roman, Times, serif"><br /> Исто́чник
+                                                    цепля́ний</font>
+                                            </b></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><br /> И что э́ти четы́ре
+                                            ви́да цепля́ний име́ют свои́м исто́чником, каково́ их происхожде́ние,
+                                            отку́да они́ появи́лись и произвели́сь? Э́ти четы́ре ви́да цепля́ния име́ют
+                                            жа́жду свои́м исто́чником, жа́жду свои́м происхожде́нием, они́ появи́лись и
+                                            произвели́сь из жа́жды. </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Now these
+                                                four kinds of clinging have what as their source, what as their origin,
+                                                from what are they born and produced? These four kinds of clinging have
+                                                craving as their source, craving as their origin, they are born and
+                                                produced from craving.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">И что жа́жда име́ет свои́м
+                                            исто́чником?... Жа́жда име́ет чу́вство свои́м исто́чником… И что чу́вство
+                                            име́ет свои́м исто́чником?... Чу́вство име́ет конта́кт свои́м исто́чником… И
+                                            что конта́кт име́ет свои́м исто́чником?... Конта́кт име́ет шесть сфер свои́м
+                                            исто́чником… И что шесть сфер име́ют свои́м исто́чником?... Шесть сфер
+                                            име́ют и́мя-и-фо́рму свои́м исто́чником… И что и́мя-и-фо́рма име́ет свои́м
+                                            исто́чником?... И́мя-и-фо́рма име́ет созна́ние свои́м исто́чником… И что
+                                            созна́ние име́ет свои́м исто́чником?... Созна́ние име́ет формирова́тели
+                                            свои́м исто́чником… И что формирова́тели име́ют свои́м исто́чником?...
+                                            Формирова́тели име́ют неве́дение свои́м исто́чником, неве́дение свои́м
+                                            происхожде́нием, они́ появи́лись и произвели́сь из неве́дения.</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>Craving
+                                                has what as its source … ? Craving has feeling as its source … Feeling
+                                                has what as its source … ? Feeling has contact as its source … Contact
+                                                has what as its source … ? Contact has the sixfold base as its source …
+                                                The sixfold base has what as its source … ? The sixfold base has
+                                                mentality-materiality as its source … Mentality-materiality has what as
+                                                its source … ? Mentality-materiality has consciousness as its source …
+                                                Consciousness has what as its source … ? Consciousness has formations as
+                                                its source … Formations have what as their source … ? Formations have
+                                                ignorance as their source, ignorance as their origin, they are born and
+                                                produced from ignorance.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи, когда́ неве́дение
+                                            бы́ло отбро́шено и и́стинное зна́ние возни́кло в мона́хе, то тогда́ с
+                                            угаса́нием неве́дения и возникнове́нием и́стинного зна́ния он бо́лее не
+                                            цепля́ется к чу́вственным удово́льствиям, бо́лее не цепля́ется к
+                                            воззре́ниям, бо́лее не цепля́ется к пра́вилам и предписа́ниям, бо́лее не
+                                            цепля́ется к доктри́не о «я». </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>"Bhikkhus,
+                                                when ignorance is abandoned and true knowledge has arisen in a bhikkhu,
+                                                then with the fading away of ignorance and the arising of true knowledge
+                                                he no longer clings to sensual pleasures, no longer clings to views, no
+                                                longer clings to rules and observances, no longer clings to a doctrine
+                                                of self.</i></font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Когда́ он не цепля́ется, он
+                                            не взволно́ван. Когда́ он не взволно́ван, он ли́чно достига́ет ниббаны. Он
+                                            понима́ет «Рожде́ние уничто́жено, свята́я жизнь прожита́, сде́лано то, что
+                                            сле́довало сде́лать, не бу́дет бо́лее появле́ния в како́м-ли́бо состоя́нии
+                                            существова́ния». <br /> <br /> </font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>When he
+                                                does not cling, he is not agitated. When he is not agitated, he
+                                                personally attains Nibbāna. He understands: ‘Birth is destroyed, the
+                                                holy life has been lived, what had to be done has been done, there is no
+                                                more coming to any state of being.’" </i></font>
+                                    </div>
+
+
+                                    <div class="a">
+                                        <font face="Arial, Helvetica, sans-serif" size="2">Так сказа́л Благослове́нный.
+                                            Мона́хи бы́ли дово́льны и восхи́тились|восхити́лись слова́ми
+                                            Благослове́нного.</font>
+                                    </div>
+
+                                    <div class="a">
+                                        <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i>That is
+                                                what the Blessed One said. The bhikkhus were satisfied and delighted in
+                                                the Blessed One's words.</i></font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+                        <br />
+                        <div align="center">
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a
+                                            href="#1" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="14" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+                                                style='font-size:18pt;font-family:"Wingdings 3";'>
+                                                <font color="#C7B683"></font>
+                                            </span></font>
+                                    </td>
+                                    <td height="14" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link1"></a>
+                                                </font>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                        <font color="#999966">Бодхи:
+                                                            Фраза "только здесь" означает "только в учении
+                                                            Будды". Четыре отшельника (самана) обозначают человека
+                                                            одной из четырёх степеней пробуждения: вступившего в поток,
+                                                            однажды-возвращающегося, не-возвращающегося, араханта.
+                                                            Львиный
+                                                            рык (сиханада), согласно Комментарию, – это рык величия и
+                                                            бесстрашия,
+                                                            который не может быть опровергнут.<br />
+                                                            <br />
+                                                            SV: Львиный рык может показаться со стороны проявлением
+                                                            тщеславия
+                                                            и раздутого самомнения, однако на самом деле он является
+                                                            прямолинейным
+                                                            утверждением о реальном положении вещей. Так как львиным
+                                                            рыком
+                                                            "рычат" в том числе будды и араханты, он не содержит
+                                                            в себе ни малейшего тщеславия и самомнения.
+                                                        </font>
+                                                    </i></font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#2" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">2</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link2"></a>
+                                                </font>
+                                                <font color="#999966">SV:
+                                                    Комментарий поясняет, что, отвечая так, они тоже имеют в виду
+                                                    просветление, но каждый из них подразумевает под этим что-то
+                                                    своё. </font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#3" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">3</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link3"></a>
+                                                </font>
+                                                <font color="#999966">Бодхи:
+                                                    Речь идёт о реакциях, основанных на жажде или злобе. </font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#4" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">4</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link4"></a>
+                                                </font>
+                                                <font color="#999966">SV:
+                                                    Разрастание (папаньча). Это умственная деятельность, управляемая
+                                                    жаждой и воззрениями, – умственные формации, навязчивые умственные
+                                                    конструкции, концептуальные идеи, основанные на заблуждении.
+                                                    Комментарии поясняют, что всё это происходит из-за жажды, самомнения
+                                                    и неправильных воззрений (танха, мана, диттхи).</font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#5" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">5</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link5"></a>
+                                                </font>
+                                                <font color="#999966">Бодхи:
+                                                    Комментарий поясняет, что происхождение (самудая) этих воззрений
+                                                    – это пять совокупностей, неведение, контакт, восприятие, мысль,
+                                                    немудрое внимание, плохие друзья, голос другого. Исчезновение
+                                                    (аттхангама) – это путь вступления в поток, который уничтожает
+                                                    неправильные воззрения. Привлекательность (ассада) можно понимать
+                                                    как психологическую удовлетворённость, которую они обеспечивают.
+                                                    Опасность (адинава) – это продолжение сансары, которое происходит
+                                                    из-за цепляния к этим воззрениям. Спасение (ниссарана) от них
+                                                    – это ниббана. </font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br />
+                            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+                                <tr>
+                                    <td bgcolor="#F4EFBD" class="bottom" height="2" valign="middle" width="3%"><a
+                                            href="#6" style="border:0px;" title="вернуться к сноске в тексте">
+                                            <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                                        </a></td>
+                                    <td height="2" valign="top" width="1%">
+                                        <font color="#996600" face="Times New Roman, Times, serif" size="2">6</font>
+                                    </td>
+                                    <td height="2" width="96%">
+                                        <font face="Arial, Helvetica, sans-serif" size="2"><i>
+                                                <font face="Arial, Helvetica, sans-serif" size="2"><a name="link6"></a>
+                                                </font>
+                                                <font color="#999966">Бодхи:
+                                                    Этот фрагмент чётко показывает исключительно важный фактор,
+                                                    отличающий учение Будды от других религиозных и философских
+                                                    учений, то есть "полное понимание цепляния к доктрине о
+                                                    [существовании] "я". Фактически это означает, что
+                                                    только один Будда может показать то, как преодолеть все воззрения
+                                                    о "я" за счёт развития проницательности в истину безличностности.
+                                                    Поскольку у других духовных учителей нет такого понимания
+                                                    безличностности,
+                                                    их заявления о полном понимании остальных трёх видов цепляния
+                                                    также сомнительны. </font>
+                                            </i></font><span style="font-size:16.0pt">
+                                            <o:p></o:p>
+                                        </span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <br />
+                        <br />
+                        <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+                            <tr bgcolor="#F4EFBD">
+                                <td class="bottom" colspan="4" height="2">
+                                    <div align="center">
+                                        <font color="#FFFFCC" face="Arial, Helvetica, sans-serif"
+                                            style="cursor:default;font-size:1pt;">.</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="4" cellspacing="0" width="70%">
+                            <tr>
+                                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm#7"
+                                        style="border:0px;" title="вернуться к разделу">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                                    </a></td>
+                                <td class="bottom" height="2" valign="middle" width="1%"> <a href="#"
+                                        style="border:0px;" title="вернуться наверх">
+                                        <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                                    </a></td>
+                                <td height="2" valign="top" width="32%">
+                                    <div align="center">
+                                        <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                                            <noindex><!--LiveInternet counter-->
+                                                <script type="text/javascript">
+                                                    new Image().src = "//counter.yadro.ru/hit?r" +
+                                                        escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                                                            ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                                                        ";h" + escape(document.title.substring(0, 150)) +
+                                                        ";" + Math.random();</script>
+                                                <!--/LiveInternet--><!--LiveInternet logo--><a
+                                                    href="//www.liveinternet.ru/click" target="_blank"><img alt=""
+                                                        border="0" height="1" src="//counter.yadro.ru/logo?42.6"
+                                                        title="LiveInternet"
+                                                        width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                                                <span id="spylog2031418"></span>
+                                                <script
+                                                    type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                                                            (("https:" == document.location.protocol) ? "s" : "") +
+                                                            "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                                                <!--SpyLOG-->
+                                            </noindex>
+                                        </font>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="19%">
+                                    <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                                            <font color="C7B683">٭</font>
+                                        </span>
+                                    </div>
+                                </td>
+                                <td height="2" valign="top" width="37%">
+                                    <div align="right">
+                                        <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                                            style="font-size:7pt; font-family: Arial;">©
+                                            theravada.ru – при копировании материалов<br />
+                                            просьба ставить прямую ссылку на наш сайт.<br />
+                                        </font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript">
+        function viewport() {
+            var e = window, a = 'inner';
+            if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+            return { width: e[a + 'Width'], height: e[a + 'Height'] }
+        }
+        var screen = viewport();
+
+        if (screen.width < 1002) {
+            // Content
+            document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+            // Comments
+            document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+            // Title
+            document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+            document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+            // Text
+            document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+        } else {
+            if (screen.width < 1280) {
+                // Content
+                document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Comments
+                document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+                // Title
+                document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+                document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+                // Text
+                document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+            }
+        }
+
+    </script>
+</body>
+
+</html>

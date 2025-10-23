@@ -1,0 +1,629 @@
+<html>
+
+<head>
+  <title>Витаккасантхана-сутта: Устранение отвлекающих мыслей :: МН 20</title>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+  <meta content="Всероссийский сайт о буддизме - Тхеравада.ру" name="description" />
+  <meta
+    content="будда, буддизм, буддийский храм, тхеравада, тэравада, учение старейшин, учение старцев, путь старцев, стхавиравада, theravada, теравада, сутта, палийский канон, типитака, трипитака, абхидхамма, сиддхартха готама, гаутама, Шакьямуни, архат, монах, дхарма, дхамма, сангха, восьмеричный путь, четыре благородные истины, виная, просветленный, просветление, сансара, бхикку, бхиккху"
+    name="keywords" />
+  <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+  <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript">
+    //Пути к директориям
+    var pathToScript = '/Index/Scripts/';
+    var pathToArticles = '/Teaching/Canon/Suttanta/Texts/';
+    //-----------------------------------
+    var request = false;
+    try {
+      request = new XMLHttpRequest();
+    }
+    catch (trymicrosoft) {
+      try {
+        request = new ActiveXObject("Msxml2.XMLHTTP");
+      }
+      catch (othermicrosoft) {
+        try {
+          request = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        catch (failed) {
+          request = false;
+        }
+      }
+    }
+
+    if (!request) {
+      alert("Ошибка в работе");
+    }
+
+    function sendRequest() {
+      var url = "/Index/Scripts/build_array.php?scr=" + pathToScript + "&art=" + pathToArticles;
+      request.open("GET", url, true);
+      request.onreadystatechange = getResponse;
+      request.send(null);
+    }
+
+    function getResponse() {
+      if (request.readyState == 4) {
+        if (request.status == 200) {
+          var response = request.responseText;
+          var articles = request.responseText.split(' ');
+          var random = Math.round((Math.random() * (articles.length - 2)));
+          window.open("http://" + document.domain + articles[random], "_self");
+        }
+      }
+    }
+  </script>
+</head>
+
+<body alink="#996633" bgcolor="#FFFFCC" leftmargin="1" link="#996633" marginheight="1" marginwidth="1" no-repeat=""
+  text="#333300" topmargin="1" vlink="#996633">
+  <table align="center" border="0" cellpadding="0" cellspacing="0" style="background:#FFFFCC;" width="1000">
+    <tr>
+      <td>
+        <div align="center">
+          <style>
+            a {
+              border: 0px solid #FFFFCC;
+              text-decoration: none
+            }
+
+            a:hover {
+              font-family: Arial;
+              border: 0px solid #996633;
+              color: #000000;
+              text-decoration: none;
+              background-color: #D8D68B;
+              padding: 0;
+            }
+
+            a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            div {
+              font-family: Arial;
+              text-decoration: none
+            }
+
+            .a {
+              TEXT-INDENT: 2em;
+              margin-bottom: 15px;
+            }
+
+            .bottom a:hover {
+              color: #000000;
+              font-family: Arial;
+              text-decoration: none;
+              background: none;
+            }
+
+            .bottom a:link {
+              color: #996633;
+              font-family: Arial;
+              text-decoration: none;
+            }
+
+            body {
+              background: #FFFFCC;
+              overflow-y: scroll
+            }
+
+            p {
+              TEXT-INDENT: 0em
+            }
+          </style> <br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td colspan="2"> </td>
+              <td bgcolor="#CBB079" height="45" width="84%">   <i>
+                  <font face="Georgia, Times New Roman, Times, serif" size="2"><b>Буддизм<br />
+                                   <i>
+                        <font face="Georgia, Times New Roman, Times, serif" size="2"><b>  
+                            Учение Старцев</b></font>
+                      </i> </b></font>
+                </i></td>
+              <td width="5%"> </td>
+            </tr>
+          </table>
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="97%">
+            <tr>
+              <td bgcolor="#EFE699" height="64" rowspan="3" width="9%">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="50%">
+                  <tr>
+                    <td><a href="/index.htm" style="border:0px;" title="вернуться к разделу">
+                        <div style='font-size:24.0pt;font-family:"Arial"'>
+                          <div align="center">«</div>
+                        </div>
+                      </a></td>
+                  </tr>
+                </table>
+              </td>
+              <td bgcolor="#EFE699" colspan="2" rowspan="3">
+                <font face="Times New Roman, Times, serif" size="7">Тхеравада.ру</font>
+              </td>
+              <td bgcolor="#CBB079" width="3%"> </td>
+              <td width="5%"> </td>
+            </tr>
+            <tr>
+              <td bgcolor="#CBB079"> </td>
+              <td rowspan="2"> </td>
+            </tr>
+            <tr>
+              <td> </td>
+            </tr>
+          </table><br />
+          <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+            <tr>
+              <td class="bottom" height="2" width="1%"> <a href="../majjhima.htm#20" style="border:0px;"
+                  title="вернуться к разделу">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                </a><a href="javascript: void(0)" onclick="sendRequest()" style="border:0px;" title="случайная сутта">
+                  <div style='font-size:16.0pt;font-family:"Arial"'>
+                    <font size="-4"> </font>₪
+                  </div>
+                </a>
+              </td>
+              <td height="2" width="44%">  </td>
+              <td height="2" width="36%"><span style='font-size:32.0pt;font-family:"Times New Roman"'>٭</span>
+              </td>
+              <td class="bottom" height="2" width="19%">
+                <div style='font-size:22.0pt;font-family:"Arial"'></div>
+              </td>
+            </tr>
+            <tr bgcolor="#F4EFBD">
+              <td colspan="4" height="3">
+                <div align="center">
+                  <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                  </font>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <div align="center"><br />
+            <table border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr>
+                <td>
+                  <div align="center">
+                    <font face="Times New Roman, Times, serif" size="5">Витаккасантхана-сутта:
+                      Устранение отвлекающих мыслей<br />
+                      <font size="3">МН 20</font>
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table><br />
+            <table border="0" cellpadding="0" cellspacing="5" width="70%">
+              <tr>
+                <td height="25" width="61%"> </td>
+                <td height="25" width="38%"><span style="font-size:8pt;font-family:Arial;">
+                    <div align="right"><span style="font-size:8pt;font-family:Arial;">
+                        <div align="right"><i>
+                            <font color="#996633"><span style="font-size:8pt;font-family:Arial;">
+                                <font color="#996633"><span style="font-size:8pt;font-family:Arial;"><span
+                                      style="font-size:8pt;font-family:Arial;">
+                                      <font color="#996633"><span style="font-size:8pt;font-family:Arial;">
+                                          <font color="#996633"><span style="font-size:8pt;font-family:Arial;">редакция
+                                              перевода: <span style="font-size:8pt;font-family:Arial;"><i>
+                                                  <font color="#996633"><span style="font-size:8pt;font-family:Arial;">
+                                                      <font color="#996633"><span
+                                                          style="font-size:8pt;font-family:Arial;"><span
+                                                            style="font-size:8pt;font-family:Arial;">
+                                                            <font color="#996633"><span
+                                                                style="font-size:8pt;font-family:Arial;">
+                                                                <font color="#996633"><span
+                                                                    style="font-size:8pt;font-family:Arial;">06.02.2024</span>
+                                                                </font>
+                                                              </span></font>
+                                                          </span></span></font>
+                                                    </span></font>
+                                                </i></span></span></font>
+                                        </span></font>
+                                    </span><br />
+                                    Перевод с английского: SV<br />
+                                    <br />
+                                    <span style="font-size:8pt;font-family:Arial;"><i>
+                                        <font color="#996633"><span style="font-size:8pt;font-family:Arial;">
+                                            <font color="#996633"><span style="font-size:8pt;font-family:Arial;"><span
+                                                  style="font-size:8pt;font-family:Arial;"><i>
+                                                    <font color="#996633"><span
+                                                        style="font-size:8pt;font-family:Arial;">
+                                                        <font color="#996633"><span
+                                                            style="font-size:8pt;font-family:Arial;">источник:
+                                                            <br />
+                                                            "Majjhima Nikaya by Bodhi &amp; Nyanamoli"</span>
+                                                        </font>
+                                                      </span></font>
+                                                  </i></span></span></font>
+                                          </span></font>
+                                      </i></span>
+                                  </span></font>
+                              </span></font>
+                          </i></div>
+                      </span></div>
+                  </span></td>
+                <td bgcolor="#F4EFBD" height="25" width="1%"></td>
+              </tr>
+            </table><br />
+            <table border="0" cellpadding="0" cellspacing="0" height="400" width="60%">
+              <tr>
+                <td height="1322" style="text-align: justify" valign="top">
+                  <html>
+
+                  <body>
+                    <font color="#996633" face="Times New Roman, Times, serif" size="5"><b>Т</b></font>
+                    <font face="Arial, Helvetica, sans-serif" size="2">ак я слы́шал. Одна́жды Благослове́нный прожива́л
+                      в Саваттхи, в ро́ще Джеты́, в па́рке Анатхапиндики. Там он обрати́лся к мона́хам так: <br />
+                      «Мона́хи!» – «Уважа́емый» отвеча́ли мона́хи. Благослове́нный сказа́л:</font>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> Thus have I heard. On one
+                          occasion the Blessed One was living at Sāvatthī in Jeta's Grove, Anāthapiṇḍika's Park. There
+                          he addressed the bhikkhus thus: "Bhikkhus."—"Venerable sir," they replied. The Blessed One
+                          said this:</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Мона́хи, когда́ мона́х занима́ется
+                        [трениро́вкой] вы́сшего ума́, то́ есть пять о́бразов|образо́в, кото́рым он до́лжен уделя́ть
+                        внима́ние вре́мя от вре́мени. Каки́е пять? </font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Bhikkhus, when a bhikkhu
+                          is pursuing the higher mind, from time to time he should give attention to five signs. What
+                          are the five?</i></font>
+                    </div>
+                    <div clas="a">
+                      <font face="Georgia, Times New Roman, Times, serif"><b>Переключе́ние на бла́гие|благи́е мы́сли</b>
+                      </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Мона́хи, вот, мона́х уделя́ет внима́ние
+                        некоему о́бразу, и и́з-за э́того о́браза в нём возника́ют плохи́е, неблагие мы́сли, свя́занные с
+                        жа́ждой, зло́бой, заблужде́нием. Ему́ сле́дует уделя́ть внима́ние некоему ино́му о́бразу,
+                        свя́занному с тем, что явля́ется бла́гим|благи́м. Когда́ он уделя́ет внима́ние некоему ино́му
+                        о́бразу, свя́занному с тем, что явля́ется бла́гим|благи́м, то тогда́ любы́е плохи́е, неблагие
+                        мы́сли, свя́занные с жа́ждой, зло́бой, заблужде́нием, отбра́сываются в нём и затиха́ют. С их
+                        оставле́нием его́ ум стано́вится вну́тренне утверждённым, успоко́енным, приведённым к едине́нию,
+                        сосредото́ченным. </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Подо́бно тому́ как уме́лый пло́тник и́ли его́
+                        учени́к испо́льзовал бы небольшо́й ко́лышек, что́бы вы́бить, вы́тащить, извле́чь большо́й
+                        колы́шек, – то́чно так же, когда́ мона́х уделя́ет внима́ние некоему о́бразу, и́з-за э́того
+                        о́браза в нём возника́ют плохи́е, неблагие мы́сли... он уделя́ет внима́ние некоему ино́му
+                        о́бразу... ум стано́вится вну́тренне утверждённым, успоко́енным, приведённым к едине́нию,
+                        сосредото́ченным.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Here, bhikkhus, when a
+                          bhikkhu is giving attention to some sign, and owing to that sign there arise in him evil
+                          unwholesome thoughts connected with desire, with hate, and with delusion, then he should give
+                          attention to some other sign connected with what is wholesome. When he gives attention to some
+                          other sign connected with what is wholesome, then any evil unwholesome thoughts connected with
+                          desire, with hate, and with delusion are abandoned in him and subside. With the abandoning of
+                          them his mind becomes steadied internally, quieted, brought to singleness, and concentrated.
+                          Just as a skilled carpenter or his apprentice might knock out, remove, and extract a coarse
+                          peg by means of a fine one, so too … when a bhikkhu gives attention to some other sign
+                          connected with what is wholesome … his mind becomes steadied internally, quieted, brought to
+                          singleness, and concentrated. 1</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Е́сли, когда́ он уделя́ет внима́ние некоему
+                        ино́му о́бразу, свя́занному с тем, что явля́ется бла́гим|благи́м, в нём всё ещё возника́ют
+                        плохи́е, неблагие мы́сли, свя́занные с жа́ждой, зло́бой, заблужде́нием, то ему́ сле́дует
+                        изучи́ть опа́сность э́тих мы́слей так: «Э́ти мы́сли – неблагие, они́ досто́йны порица́ния, они́
+                        приво́дят к страда́нию». Когда́ он изуча́ет опа́сность э́тих мы́слей, тогда́ любы́е плохи́е,
+                        неблагие мы́сли, свя́занные с жа́ждой, зло́бой, заблужде́нием, отбра́сываются в нём и затиха́ют.
+                        С их оставле́нием его́ ум стано́вится вну́тренне утверждённым, успоко́енным, приведённым к
+                        едине́нию, сосредото́ченным. </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Подо́бно тому́ как ю́ная, молода́я де́вушка
+                        и́ли молодо́й челове́к, дово́льствующийся украше́ниями, был бы шоки́рован, оскорблён, испыта́л
+                        бы омерзе́ние, е́сли бы труп зме́и|змеи́, соба́ки и́ли челове́ка пове́сили бы ему́ на ше́ю –
+                        то́чно так же... ему́ сле́дует изучи́ть опа́сность э́тих мы́слей... его́ ум стано́вится
+                        вну́тренне утверждённым, успоко́енным, приведённым к едине́нию, сосредото́ченным.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "If, while he is giving
+                          attention to some other sign connected with what is wholesome, there still arise in him evil
+                          unwholesome thoughts connected with desire, with hate, and with delusion, then he should
+                          examine the danger in those thoughts thus: ‘These thoughts are unwholesome, they are
+                          reprehensible, they result in suffering.′ When he examines the danger in those thoughts, then
+                          any evil unwholesome thoughts connected with desire, with hate, and with delusion are
+                          abandoned in him and subside. With the abandoning of them his mind becomes steadied
+                          internally, quieted, brought to singleness, and concentrated. Just as a man or a woman, young,
+                          youthful, and fond of ornaments, would be horrified, humiliated, and disgusted if the carcass
+                          of a snake or a dog or a human being were hung around his or her neck, so too … when a bhikkhu
+                          examines the danger in those thoughts … his mind becomes steadied internally, quieted, brought
+                          to singleness, and concentrated. 2</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><br /> Е́сли, когда́ он изуча́ет опа́сность
+                        э́тих мы́слей, в нём всё ещё возника́ют плохи́е, неблагие мы́сли, свя́занные с жа́ждой, зло́бой,
+                        заблужде́нием, то ему́ сле́дует постара́ться забы́ть э́ти мы́сли и не уделя́ть им внима́ния.
+                        Когда́ он стара́ется забы́ть э́ти мы́сли и не уделя́ет им внима́ния, тогда́ любы́е плохи́е,
+                        неблагие мы́сли, свя́занные с жа́ждой, зло́бой, заблужде́нием, отбра́сываются в нём и затиха́ют.
+                        С их оставле́нием его́ ум стано́вится вну́тренне утверждённым, успоко́енным, приведённым к
+                        едине́нию, сосредото́ченным. </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Подо́бно тому́ как челове́к с хоро́шим
+                        зре́нием, кото́рый не жела́л бы ви́деть фо́рмы, кото́рые попа́ли в по́ле его́ зре́ния, то ли
+                        закры́л бы гла́за, то ли отверну́лся, – то́чно так же... ему́ сле́дует постара́ться забы́ть э́ти
+                        мы́сли... его́ ум стано́вится вну́тренне утверждённым, успоко́енным, приведённым к едине́нию,
+                        сосредото́ченным.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "If, while he is examining
+                          the danger in those thoughts, there still arise in him evil unwholesome thoughts connected
+                          with desire, with hate, and with delusion, then he should try to forget those thoughts and
+                          should not give attention to them. When he tries to forget those thoughts and does not give
+                          attention to them, then any evil unwholesome thoughts connected with desire, with hate, and
+                          with delusion are abandoned in him and subside. With the abandoning of them his mind becomes
+                          steadied internally, quieted, brought to singleness, and concentrated. Just as a man with good
+                          eyes who did not want to see forms that had come within range of sight would either shut his
+                          eyes or look away, so too … when a bhikkhu tries to forget those thoughts and does not give
+                          attention to them … his mind becomes steadied internally, quieted, brought to singleness, and
+                          concentrated. 3</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><br /> Е́сли, когда́ он стара́ется забы́ть э́ти
+                        мы́сли и не уделя́ет им внима́ния, в нём всё ещё возника́ют плохи́е, неблагие мы́сли, свя́занные
+                        с жа́ждой, зло́бой, заблужде́нием, то ему́ сле́дует уделя́ть внима́ние успокое́нию мы́сленного
+                        формирова́теля<font face="Arial, Helvetica, sans-serif" size="2"><sup><a
+                              href="#link1">1</a></sup></font> э́тих мы́слей. Когда́ он уделя́ет внима́ние успокое́нию
+                        мы́сленного формирова́теля э́тих мы́слей, тогда́ любы́е плохи́е, неблагие мы́сли, свя́занные с
+                        жа́ждой, зло́бой, заблужде́нием, отбра́сываются в нём и затиха́ют. С их оставле́нием его́ ум
+                        стано́вится вну́тренне утверждённым, успоко́енным, приведённым к едине́нию,
+                        сосредото́ченным.<br /> </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2">Подо́бно тому́ как е́сли бы бы́стро иду́щий
+                        челове́к поду́мал: «Заче́м я иду́ бы́стро? Почему́ бы мне не пойти́ ме́дленно?» – и вот он бы
+                        пошёл ме́дленно. Зате́м он бы поду́мал: «Заче́м я иду́ ме́дленно? Почему́ бы мне не
+                        останови́ться?» И вот он бы останови́лся. Зате́м он бы поду́мал: «Заче́м я сто́ю|стою́? Почему́
+                        бы мне не сесть?» И вот он бы сел. Зате́м он бы поду́мал: «Заче́м я сижу́? Почему́ бы мне не
+                        лечь?» И вот он бы лёг. Де́лая так, он бы замени́л гру́бую по́зу бо́лее утончённой. То́чно так
+                        же... стано́вится вну́тренне утверждённым, успоко́енным, приведённым к едине́нию,
+                        сосредото́ченным.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "If, while he is trying to
+                          forget those thoughts and is not giving attention to them, there still arise in him evil
+                          unwholesome thoughts connected with desire, with hate, and with delusion, then he should give
+                          attention to stilling the thought-formation of those thoughts. When he gives attention to
+                          stilling the thought-formation of those thoughts, then any evil unwholesome thoughts connected
+                          with desire, with hate, and with delusion are abandoned in him and subside. With the
+                          abandoning of them his mind becomes steadied internally, quieted, brought to singleness, and
+                          concentrated. Just as a man walking fast might consider: ‘Why am I walking fast? What if I
+                          walk slowly?’ and he would walk slowly; then he might consider: ‘Why am I walking slowly? What
+                          if I stand?’ and he would stand; then he might consider: ‘Why am I standing? What if I sit?’
+                          and he would sit; then he might consider: ‘Why am I sitting? What if I lie down?’ and he would
+                          lie down. By doing so he would substitute for each grosser posture one that was subtler. So
+                          too … when a bhikkhu gives attention to stilling the thought-formation of those thoughts … his
+                          mind becomes steadied internally, quieted, brought to singleness, and concentrated. 4</i>
+                      </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"><br /> Е́сли, когда́ он уделя́ет внима́ние
+                        успокое́нию мы́сленного формирова́теля э́тих мы́слей, в нём всё ещё возника́ют плохи́е, неблагие
+                        мы́сли, свя́занные с жа́ждой, зло́бой, заблужде́нием, тогда́, со сти́снутыми зуба́ми и поджа́тым
+                        к нёбу языко́м ему́ сле́дует сбить, сдержа́ть, сокруши́ть ум свои́м умо́м. Когда́ он со
+                        сти́снутыми зуба́ми и поджа́тым к нёбу языко́м сбива́ет, сде́рживает, сокруша́ет ум свои́м
+                        умо́м, тогда́ любы́е плохи́е, неблагие мы́сли, свя́занные с жа́ждой, зло́бой, заблужде́нием,
+                        отбра́сываются в нём и затиха́ют. С их оставле́нием его́ ум стано́вится вну́тренне утверждённым,
+                        успоко́енным, приведённым к едине́нию, сосредото́ченным. </font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Подо́бно тому́ как е́сли бы си́льный челове́к
+                        схвати́л сла́бого за го́лову и́ли пле́чи, сбил бы его́, сдержа́л, сокруши́л его́, то́чно так
+                        же... ум стано́вится вну́тренне утверждённым, успоко́енным, приведённым к едине́нию,
+                        сосредото́ченным.</font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "If, while he is giving
+                          attention to stilling the thought-formation of those thoughts, there still arise in him evil
+                          unwholesome thoughts connected with desire, with hate, and with delusion, then, with his teeth
+                          clenched and his tongue pressed against the roof of his mouth, he should beat down, constrain,
+                          and crush mind with mind. When, with his teeth clenched and his tongue pressed against the
+                          roof of his mouth, he beats down, constrains, and crushes mind with mind, then any evil
+                          unwholesome thoughts connected with desire, with hate, and with delusion are abandoned in him
+                          and subside. With the abandoning of them his mind becomes steadied internally, quieted,
+                          brought to singleness, and concentrated. Just as a strong man might seize a weaker man by the
+                          head or shoulders and beat him down, constrain him, and crush him, so too … when, with his
+                          teeth clenched and his tongue pressed against the roof of his mouth, a bhikkhu beats down,
+                          constrains, and crushes mind with mind … his mind becomes steadied internally, quieted,
+                          brought to singleness, and concentrated. 5</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Мона́хи, когда́ мона́х уделя́ет внима́ние
+                        некоему о́бразу... изуча́ет опа́сность э́тих мы́слей... стара́ется забы́ть э́ти мы́сли...
+                        уделя́ет внима́ние успокое́нию мы́сленного формирова́теля... сбива́ет, сде́рживает, сокруша́ет
+                        ум свои́м умо́м, тогда́ любы́е плохи́е, неблагие мы́сли, свя́занные с жа́ждой, зло́бой,
+                        заблужде́нием, отбра́сываются в нём и затиха́ют. С их оставле́нием его́ ум стано́вится
+                        вну́тренне утверждённым, успоко́енным, приведённым к едине́нию, сосредото́ченным.</font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> И тогда́ э́тот мона́х зовётся хозя́ином путе́й
+                        мы́слей. Он бу́дет ду́мать таку́ю мысль, каку́ю пожела́ет ду́мать, и не бу́дет ду́мать
+                        како́й-ли́бо мы́сли, кото́рой не пожела́ет ду́мать. Он разруби́л жа́жду, отбро́сил пу́ты, и с
+                        по́лным проникнове́нием в самомне́ние он положи́л коне́ц страда́ниям» </font>.
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> "Bhikkhus, when a bhikkhu
+                          is giving attention to some sign, and owing to that sign there arise in him evil unwholesome
+                          thoughts connected with desire, with hate, and with delusion, then when he gives attention to
+                          some other sign connected with what is wholesome, any such evil unwholesome thoughts are
+                          abandoned in him and subside, and with the abandoning of them his mind becomes steadied
+                          internally, quieted, brought to singleness, and concentrated. When he examines the danger in
+                          those thoughts … When he tries to forget those thoughts and does not give attention to them …
+                          When he gives attention to stilling the thought-formation of those thoughts … When, with his
+                          teeth clenched and his tongue pressed against the roof of his mouth, he beats down,
+                          constrains, and crushes mind with mind, any such evil unwholesome thoughts are abandoned in
+                          him … and his mind becomes steadied internally, quieted, brought to singleness, and
+                          concentrated. This bhikkhu is then called a master of the courses of thought. He will think
+                          whatever thought he wishes to think and he will not think any thought that he does not wish to
+                          think. He has severed craving, flung off the fetters, and with the complete penetration of
+                          conceit he has made an end of suffering."</i></font>
+                    </div>
+                    <div class="a">
+                      <font face="Arial, Helvetica, sans-serif" size="2"> Так сказа́л Благослове́нный. Мона́хи бы́ли
+                        дово́льны и восхи́тились|восхити́лись слова́ми Благослове́нного. </font>
+                    </div>
+                    <div class="a">
+                      <font color="#996633" face="Arial, Helvetica, sans-serif" size="2"><i> That is what the Blessed
+                          One said. The bhikkhus were satisfied and delighted in the Blessed One's words.</i></font>
+                    </div>
+                  </body>
+
+                  </html>
+                </td>
+              </tr>
+            </table><br />
+            <br />
+            <br />
+            <table border="0" cellpadding="4" cellspacing="0" width="55%">
+              <tr>
+                <td bgcolor="#F4EFBD" class="bottom" height="14" valign="middle" width="3%"><a href="#1"
+                    style="border:0px;" title="вернуться к сноске в тексте">
+                    <div style='font-size:20.0pt;font-family:"Arial"'>↑</div>
+                  </a></td>
+                <td height="14" valign="top" width="1%">
+                  <font color="#996600" face="Times New Roman, Times, serif" size="2">1<span
+                      style='font-size:18pt;font-family:"Wingdings 3";'>
+                      <font color="#C7B683"></font>
+                    </span></font>
+                </td>
+                <td height="14" width="96%">
+                  <font face="Arial, Helvetica, sans-serif" size="2"><a name="link1"></a>
+                    <i>
+                      <font color="#999966">SV:
+                        Витакка-санкхара. Комментарий утверждает, что под словом санкхара,
+                        которое обычно означает формацию или формирователь (то есть нечто
+                        сформированное или то, что формирует), здесь подразумевается источник
+                        или причина, и таким образом вся фраза витакка-санкхара-сантханан
+                        будет означать "прекращение причины мысли". Делается
+                        это вопрошанием: "В чём причина этой мысли? Каков её источник?"
+                        Однако, на наш взгляд, здесь речь идёт о самом умственном импульсе,
+                        определённом усилии, которое порождает и поддерживает цепочку
+                        мыслей. Если ослабить сам этот импульс, прекратить поддержание
+                        конструирования мысленной цепочки за счёт умственного расслабления,
+                        то и сами эти мысли сойдут на нет. Эта идея также подтверждается
+                        метафорой с человеком, который принимает всё более расслабленную
+                        позу.</font>
+
+                    </i>
+                  </font><span style="font-size:16.0pt">
+                    <o:p></o:p>
+                  </span>
+                </td>
+              </tr>
+            </table>
+            <br />
+            <br />
+            <br />
+            <table align="center" border="0" cellpadding="0" cellspacing="0" width="70%">
+              <tr bgcolor="#F4EFBD">
+                <td class="bottom" colspan="4" height="2">
+                  <div align="center">
+                    <font color="#FFFFCC" face="Arial, Helvetica, sans-serif" style="cursor:default;font-size:1pt;">.
+                    </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="4" cellspacing="0" width="70%">
+              <tr>
+                <td class="bottom" height="2" valign="middle" width="1%"><a href="../majjhima.htm#20"
+                    style="border:0px;" title="вернуться к разделу">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>◄</div>
+                  </a></td>
+                <td class="bottom" height="2" valign="middle" width="1%">
+                  <a href="#" style="border:0px;" title="вернуться наверх">
+                    <div style='font-size:16.0pt;font-family:"Arial"'>▲</div>
+                  </a>
+                </td>
+                <td height="2" valign="top" width="32%">
+                  <div align="center">
+                    <font color="#C7B683" face="Wingdings" style="cursor:default;font-size:24pt;">
+                      <noindex>
+                        <!--LiveInternet counter-->
+                        <script type="text/javascript">
+                          new Image().src = "//counter.yadro.ru/hit?r" +
+                            escape(document.referrer) + ((typeof (screen) == "undefined") ? "" :
+                              ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                                screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+                            ";h" + escape(document.title.substring(0, 150)) +
+                            ";" + Math.random();</script><!--/LiveInternet--><!--LiveInternet logo--><a
+                          href="//www.liveinternet.ru/click" target="_blank"><img alt="" border="0" height="1"
+                            src="//counter.yadro.ru/logo?42.6" title="LiveInternet"
+                            width="1" /></a><!--/LiveInternet--><!--SpyLOG-->
+                        <span id="spylog2031418"></span>
+                        <script type="text/javascript"> var spylog = { counter: 2031418, image: undefined, next: spylog }; document.write(unescape("%3Cscript src=%22http" +
+                            (("https:" == document.location.protocol) ? "s" : "") +
+                            "://counter.spylog.com/cnt.js%22 defer=%22defer%22%3E%3C/script%3E")); </script>
+                        <!--SpyLOG-->
+                      </noindex>
+                    </font>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="19%">
+                  <div align="center"><span style='font-size:32.0pt;font-family:"Times New Roman"'>
+                      <font color="C7B683">٭</font>
+                    </span>
+                  </div>
+                </td>
+                <td height="2" valign="top" width="37%">
+                  <div align="right">
+                    <font color="#C8C16C" face="Arial, Helvetica, sans-serif"
+                      style="font-size:7pt; font-family: Arial;">©
+                      theravada.ru – при копировании материалов<br /> просьба ставить прямую ссылку на
+                      наш сайт.<br /> </font>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </table>
+  <div align="center"></div>
+  <script type="text/javascript">
+    function viewport() {
+      var e = window, a = 'inner';
+      if (!('innerWidth' in window)) { a = 'client'; e = document.documentElement || document.body; }
+      return { width: e[a + 'Width'], height: e[a + 'Height'] }
+    }
+    var screen = viewport();
+
+    if (screen.width < 1002) {
+      // Content
+      document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "95%"); });
+      // Comments
+      document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+      // Title
+      document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "8"); });
+      document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "8"); });
+      // Text
+      document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "6"); });
+    } else {
+      if (screen.width < 1280) {
+        // Content
+        document.querySelectorAll("table[width='60%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Comments
+        document.querySelectorAll("table[width='55%']").forEach(function (item) { item.setAttribute("width", "85%"); });
+        // Title
+        document.querySelectorAll("font[size='5']").forEach(function (item) { item.setAttribute("size", "6"); });
+        document.querySelectorAll("font[size='3']").forEach(function (item) { item.setAttribute("size", "6"); });
+        // Text
+        document.querySelectorAll("font[size='2']").forEach(function (item) { item.setAttribute("size", "4"); });
+      }
+    }
+
+  </script>
+</body>
+
+</html>
